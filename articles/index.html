@@ -1,0 +1,24 @@
+---
+layout: default
+title: Articles
+---
+
+<section>
+  <aside>
+    <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+  </aside>
+  <article>
+    <h3 class="top">Articles</h3>
+  	  {% for post in site.posts %}
+  		  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
+  		  <h4>{{ post.date | date_to_string }}</h4>
+  		{% endfor %}
+  	  <h3>Essays</h3>
+      <h2><a href="chandler.html">The White Knight</a></h2>
+      <h4>14 February 2011</h4>
+      <h2><a href="girls.html">Girls, Violence and Dragon Tattoos</a></h2>
+      <h4>17 January 2011</h4>
+      <h2><a href="kerouac.html">So in America When the Sun Goes Down</a></h2>
+      <h4>26 August 2010</h4>
+  </article>
+</section>

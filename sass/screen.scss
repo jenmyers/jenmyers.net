@@ -1,0 +1,267 @@
+/* IMPORTS ********************************************************************************************/
+
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/layout";
+@import "susy";
+
+/* INCLUDES ********************************************************************************************/
+
+@include font-face("SocialicoRegular", font-files("socialico-webfont.eot", "socialico-webfont.woff", "socialico-webfont.ttf", "socialico-webfont.svg"));
+@include sticky-footer(30px, ".page", ".page-footer", "footer");
+
+/* GRID ********************************************************************************************/
+
+$total-columns: 12;
+$column-width: 4em;
+$gutter-width: 1em;
+$grid-padding: $gutter-width;
+
+/* LAYOUT ********************************************************************************************/
+
+html, body { height: 100%; }
+
+body {
+  background-color: #fff6e6;
+  color: #312530;
+  font-family: "rooney-web", serif;
+  font-weight: 300;
+  line-height: 170%;
+}
+
+.nav-wrapper, .footer-wrapper {
+  background-color: #312530;
+  width: 100%;
+}
+
+nav {
+  @include container;
+  padding: 14px 0;
+  li {
+    color: #676267;
+    font-family: "proxima-nova-extra-condensed";
+    font-size: 1.4em;
+    text-transform: uppercase;
+  }
+  .title {
+    @include span-columns(5 alpha,12);
+    .name {
+      margin-right: 10px;
+      a {
+        @include transition-property(color);
+        @include transition-duration(0.6s);
+        color: #289aaf;
+      }
+      a:hover {
+        color: #ffce65;
+      }
+    }
+  }
+  .contents {
+    @include span-columns(4 omega,12);
+    text-align: right;
+    li {
+      margin-left: 10px;
+      a {
+        @include transition-property(color);
+        @include transition-duration(0.6s);
+        color: #676267;
+      }
+      a:hover {
+        color: #289aaf;
+      }
+      a.current {
+        @include transition-property(border-bottom);
+        @include transition-duration(0.4s);
+        border-bottom: 2px solid #289aaf;
+      }
+      a.current:hover {
+        border-bottom: 2px solid #ffce65;
+        color: #676267;
+      }
+    }
+  }
+}
+
+.page { 
+  @include container;
+  section { clear: both; padding-top: 400px; }
+  article {
+    @include span-columns(7 omega,12);
+    margin-bottom: 100px;
+  }
+  aside { @include span-columns(5 alpha,12); }
+  background: url(../images/robot.png) top right no-repeat;
+}
+
+footer {
+  @include container;
+  height: 30px;
+  padding: 30px 0;
+  ul.social {
+    @include span-columns(4 alpha,12);
+    li {
+      display: inline;
+      font-family: "SocialicoRegular";
+      font-size: 60px;
+      a {
+        @include transition-property(color);
+        @include transition-duration(0.6s);
+        color: #676267;
+      }
+      a:hover {
+        color: #289aaf;
+      }
+    }
+  }
+  .logo {
+    @include span-columns(2 omega,12);
+    color: #676267;
+    font-family: "proxima-nova-extra-condensed";
+    font-size: 1.4em;
+    margin-top: 3px;
+    text-align: right;
+    text-transform: uppercase;
+    img {
+      float: right;
+      margin-left: 10px;
+      margin-top: -9px;
+      @include opacity(0.4);
+    }
+    a {
+      @include transition-property(color);
+      @include transition-duration(0.6s);
+      color: #676267;
+    }
+    a:hover {
+      color: #ffce65;
+    }
+  }
+}
+
+/* TYPOGRAPHY ********************************************************************************************/
+
+// BODY TYPE
+
+p { margin-bottom: 20px; }
+
+article { font-size: 120%; }
+
+nav li { display: inline; }
+
+// HEADINGS
+
+h1 {
+  font-family: "proxima-nova-extra-condensed";
+  font-size: 3.2em;
+  line-height: 90%;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 1.4em;
+  line-height: 100%;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #ffce65;
+  font-family: "proxima-nova-extra-condensed";
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  line-height: 90%;
+  text-transform: uppercase;
+}
+
+h3.top { margin-top: 0; }
+
+h4 {
+  color: #676267;
+  font-family: "proxima-nova-extra-condensed";
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+
+aside h4 {
+  font-size: 1.4em;
+}
+
+h5 {
+  font-family: "proxima-nova-extra-condensed";
+  font-size: 1.2em;
+  margin-top: 60px;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+h6 { text-transform: uppercase; }
+
+// LIST ELEMENTS
+
+li { margin-bottom: 10px; }
+
+// MISC
+
+strong { font-weight: bold; }
+
+em { font-style: italic; }
+
+blockquote {
+  background-color: #f7edd8;
+  margin: 20px;
+  padding: 20px;
+}
+
+article li span {
+  color: #676267;
+  font-family: "proxima-nova-extra-condensed";
+  font-size: 90%;
+  margin-left: 10px;
+  text-transform: uppercase;
+}
+
+/* IMAGES ********************************************************************************************/
+
+.inline {
+  border: 8px solid #f7edd8;
+  float: left;
+  margin-right: 15px;
+}
+
+/* ANCHORS ********************************************************************************************/
+
+a {
+  border-bottom: 1px solid #d9d0d8;
+  color: #5a375d;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid #aea5ae;
+  color: #000;
+}
+
+h1 a, h2 a, nav a, footer a {
+  border-bottom: none;
+  color: #3a2d38;
+}
+
+h1 a:hover, h2 a:hover, nav a:hover, footer a:hover {
+  border-bottom: none;
+  color: #289aaf;
+}
+
+h5 a {
+  @include transition-property(color);
+  @include transition-duration(0.4s);
+  border-bottom: none;
+  color: #ffce65;
+}
+
+h5 a:hover {
+  border-bottom: none;
+  color: #312530;
+}
