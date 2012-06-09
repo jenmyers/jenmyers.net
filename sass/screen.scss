@@ -245,6 +245,8 @@ a:hover {
 }
 
 h1 a, h2 a, nav a, footer a {
+  @include transition-property(color);
+  @include transition-duration(0.4s);
   border-bottom: none;
   color: #3a2d38;
 }
