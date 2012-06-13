@@ -348,17 +348,22 @@ h3.top {
   margin-top: 0; }
 
 /* line 181, ../sass/screen.scss */
+h3.post {
+  color: #676267;
+  margin-top: 20px; }
+
+/* line 183, ../sass/screen.scss */
 h4 {
   color: #676267;
   font-family: "proxima-nova-extra-condensed";
   margin-top: 10px;
   text-transform: uppercase; }
 
-/* line 188, ../sass/screen.scss */
+/* line 190, ../sass/screen.scss */
 aside h4 {
   font-size: 1.4em; }
 
-/* line 192, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 h5 {
   font-family: "proxima-nova-extra-condensed";
   font-size: 1.2em;
@@ -366,29 +371,29 @@ h5 {
   text-align: right;
   text-transform: uppercase; }
 
-/* line 200, ../sass/screen.scss */
+/* line 202, ../sass/screen.scss */
 h6 {
   text-transform: uppercase; }
 
-/* line 204, ../sass/screen.scss */
+/* line 206, ../sass/screen.scss */
 li {
   margin-bottom: 10px; }
 
-/* line 208, ../sass/screen.scss */
+/* line 210, ../sass/screen.scss */
 strong {
   font-weight: bold; }
 
-/* line 210, ../sass/screen.scss */
+/* line 212, ../sass/screen.scss */
 em {
   font-style: italic; }
 
-/* line 212, ../sass/screen.scss */
+/* line 214, ../sass/screen.scss */
 blockquote {
   background-color: #f7edd8;
   margin: 20px;
   padding: 20px; }
 
-/* line 218, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 article li span {
   color: #676267;
   font-family: "proxima-nova-extra-condensed";
@@ -397,25 +402,25 @@ article li span {
   text-transform: uppercase; }
 
 /* IMAGES ********************************************************************************************/
-/* line 228, ../sass/screen.scss */
+/* line 230, ../sass/screen.scss */
 .inline {
   border: 8px solid #f7edd8;
   float: left;
   margin-right: 15px; }
 
 /* ANCHORS ********************************************************************************************/
-/* line 236, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 a {
   border-bottom: 1px solid #d9d0d8;
   color: #5a375d;
   text-decoration: none; }
 
-/* line 242, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 a:hover {
   border-bottom: 1px solid #aea5ae;
   color: #000; }
 
-/* line 247, ../sass/screen.scss */
+/* line 249, ../sass/screen.scss */
 h1 a, h2 a, nav a, footer a {
   -webkit-transition-property: color;
   -moz-transition-property: color;
@@ -430,12 +435,12 @@ h1 a, h2 a, nav a, footer a {
   border-bottom: none;
   color: #3a2d38; }
 
-/* line 254, ../sass/screen.scss */
+/* line 256, ../sass/screen.scss */
 h1 a:hover, h2 a:hover, nav a:hover, footer a:hover {
   border-bottom: none;
   color: #289aaf; }
 
-/* line 259, ../sass/screen.scss */
+/* line 261, ../sass/screen.scss */
 h5 a {
   -webkit-transition-property: color;
   -moz-transition-property: color;
@@ -450,7 +455,7 @@ h5 a {
   border-bottom: none;
   color: #ffce65; }
 
-/* line 266, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 h5 a:hover {
   border-bottom: none;
   color: #312530; }
