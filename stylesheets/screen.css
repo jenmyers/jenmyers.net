@@ -1,71 +1,461 @@
-/*
-Syntax error: Undefined mixin 'span-columns'.
-        on line 47 of /Users/jenmyers/websites/jenmyers.net/sass/screen.scss, in `span-columns'
-        from line 47 of /Users/jenmyers/websites/jenmyers.net/sass/screen.scss
+/* IMPORTS ********************************************************************************************/
+/* line 17, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
 
-Backtrace:
-/Users/jenmyers/websites/jenmyers.net/sass/screen.scss:47:in `span-columns'
-/Users/jenmyers/websites/jenmyers.net/sass/screen.scss:47
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:170:in `visit_mixin'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:238:in `visit_rule'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:238:in `visit_rule'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:27:in `block in visit_children'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:39:in `with_environment'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:26:in `visit_children'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:47:in `visit_root'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:18:in `visit'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/tree/root_node.rb:20:in `render'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/engine.rb:300:in `_render'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/sass-3.1.19/lib/sass/engine.rb:247:in `render'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:126:in `timed'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:139:in `block in compile'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/logger.rb:45:in `red'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:138:in `compile'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:101:in `each'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:101:in `block in run'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:126:in `timed'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/compiler.rb:100:in `run'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/commands/update_project.rb:45:in `perform'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/commands/base.rb:18:in `execute'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/bin/compass:29:in `block in <top (required)>'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/bin/compass:43:in `call'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/gems/compass-0.12.1/bin/compass:43:in `<top (required)>'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/bin/compass:19:in `load'
-/Users/jenmyers/.rvm/gems/ruby-1.9.2-p290/bin/compass:19:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: Undefined mixin 'span-columns'.\A         on line 47 of /Users/jenmyers/websites/jenmyers.net/sass/screen.scss, in `span-columns'\A         from line 47 of /Users/jenmyers/websites/jenmyers.net/sass/screen.scss"; }
+/* line 22, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1; }
+
+/* line 24, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 26, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 28, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+/* line 30, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none; }
+  /* line 103, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+  q:before, q:after, blockquote:before, blockquote:after {
+    content: "";
+    content: none; }
+
+/* line 32, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none; }
+
+/* line 116, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block; }
+
+/* INCLUDES ********************************************************************************************/
+@font-face {
+  font-family: "SocialicoRegular";
+  src: url('/stylesheets/fonts/socialico-webfont.eot') format('embedded-opentype'), url('/stylesheets/fonts/socialico-webfont.woff') format('woff'), url('/stylesheets/fonts/socialico-webfont.ttf') format('truetype'), url('/stylesheets/fonts/socialico-webfont.svg') format('svg'); }
+
+/* line 10, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+html, body {
+  height: 100%; }
+
+/* line 12, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+.page {
+  clear: both;
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin-bottom: -30px; }
+  /* line 18, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+  .page .page-footer {
+    height: 30px; }
+
+/* line 20, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/layout/_sticky-footer.scss */
+footer {
+  clear: both;
+  position: relative;
+  height: 30px; }
+
+/* GRID ********************************************************************************************/
+/* LAYOUT ********************************************************************************************/
+/* line 22, ../sass/screen.scss */
+html, body {
+  height: 100%; }
+
+/* line 24, ../sass/screen.scss */
+body {
+  background-color: #fff6e6;
+  color: #312530;
+  font-family: "rooney-web", serif;
+  font-weight: 300;
+  line-height: 170%; }
+
+/* line 32, ../sass/screen.scss */
+.nav-wrapper, .footer-wrapper {
+  background-color: #312530;
+  width: 100%; }
+
+/* line 37, ../sass/screen.scss */
+nav {
+  *zoom: 1;
+  max-width: 59em;
+  _width: 59em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  padding: 14px 0; }
+  /* line 38, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  nav:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 40, ../sass/screen.scss */
+  nav li {
+    color: #676267;
+    font-family: "proxima-nova-extra-condensed";
+    font-size: 1.4em;
+    text-transform: uppercase; }
+  /* line 46, ../sass/screen.scss */
+  nav .title {
+    width: 40.678%;
+    float: left;
+    margin-right: 1.695%;
+    display: inline; }
+    /* line 48, ../sass/screen.scss */
+    nav .title .name {
+      margin-right: 10px; }
+      /* line 50, ../sass/screen.scss */
+      nav .title .name a {
+        -webkit-transition-property: color;
+        -moz-transition-property: color;
+        -ms-transition-property: color;
+        -o-transition-property: color;
+        transition-property: color;
+        -webkit-transition-duration: 0.6s;
+        -moz-transition-duration: 0.6s;
+        -ms-transition-duration: 0.6s;
+        -o-transition-duration: 0.6s;
+        transition-duration: 0.6s;
+        color: #289aaf; }
+      /* line 55, ../sass/screen.scss */
+      nav .title .name a:hover {
+        color: #ffce65; }
+  /* line 60, ../sass/screen.scss */
+  nav .contents {
+    width: 32.203%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+    text-align: right; }
+    /* line 63, ../sass/screen.scss */
+    nav .contents li {
+      margin-left: 10px; }
+      /* line 65, ../sass/screen.scss */
+      nav .contents li a {
+        -webkit-transition-property: color;
+        -moz-transition-property: color;
+        -ms-transition-property: color;
+        -o-transition-property: color;
+        transition-property: color;
+        -webkit-transition-duration: 0.6s;
+        -moz-transition-duration: 0.6s;
+        -ms-transition-duration: 0.6s;
+        -o-transition-duration: 0.6s;
+        transition-duration: 0.6s;
+        color: #676267; }
+      /* line 70, ../sass/screen.scss */
+      nav .contents li a:hover {
+        color: #289aaf; }
+      /* line 73, ../sass/screen.scss */
+      nav .contents li a.current {
+        -webkit-transition-property: border-bottom;
+        -moz-transition-property: border-bottom;
+        -ms-transition-property: border-bottom;
+        -o-transition-property: border-bottom;
+        transition-property: border-bottom;
+        -webkit-transition-duration: 0.4s;
+        -moz-transition-duration: 0.4s;
+        -ms-transition-duration: 0.4s;
+        -o-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        border-bottom: 2px solid #289aaf; }
+      /* line 78, ../sass/screen.scss */
+      nav .contents li a.current:hover {
+        border-bottom: 2px solid #ffce65;
+        color: #676267; }
+
+/* line 86, ../sass/screen.scss */
+.page {
+  *zoom: 1;
+  max-width: 59em;
+  _width: 59em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  background: url(../images/robot.png) top right no-repeat; }
+  /* line 38, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  .page:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 88, ../sass/screen.scss */
+  .page section {
+    clear: both;
+    padding-top: 400px; }
+  /* line 89, ../sass/screen.scss */
+  .page article {
+    width: 57.627%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+    margin-bottom: 100px; }
+  /* line 93, ../sass/screen.scss */
+  .page aside {
+    width: 40.678%;
+    float: left;
+    margin-right: 1.695%;
+    display: inline; }
+
+/* line 97, ../sass/screen.scss */
+footer {
+  *zoom: 1;
+  max-width: 59em;
+  _width: 59em;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1em;
+  padding-right: 1em;
+  height: 30px;
+  padding: 30px 0; }
+  /* line 38, ../../../.rvm/gems/ruby-1.9.2-p320/gems/compass-0.13.alpha.0/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+  footer:after {
+    content: "";
+    display: table;
+    clear: both; }
+  /* line 101, ../sass/screen.scss */
+  footer ul.social {
+    width: 32.203%;
+    float: left;
+    margin-right: 1.695%;
+    display: inline; }
+    /* line 103, ../sass/screen.scss */
+    footer ul.social li {
+      display: inline;
+      font-family: "SocialicoRegular";
+      font-size: 60px; }
+      /* line 107, ../sass/screen.scss */
+      footer ul.social li a {
+        -webkit-transition-property: color;
+        -moz-transition-property: color;
+        -ms-transition-property: color;
+        -o-transition-property: color;
+        transition-property: color;
+        -webkit-transition-duration: 0.6s;
+        -moz-transition-duration: 0.6s;
+        -ms-transition-duration: 0.6s;
+        -o-transition-duration: 0.6s;
+        transition-duration: 0.6s;
+        color: #676267; }
+      /* line 112, ../sass/screen.scss */
+      footer ul.social li a:hover {
+        color: #289aaf; }
+  /* line 117, ../sass/screen.scss */
+  footer .logo {
+    width: 15.254%;
+    float: right;
+    margin-right: 0;
+    #margin-left: -1em;
+    display: inline;
+    color: #676267;
+    font-family: "proxima-nova-extra-condensed";
+    font-size: 1.4em;
+    margin-top: 3px;
+    text-align: right;
+    text-transform: uppercase; }
+    /* line 125, ../sass/screen.scss */
+    footer .logo img {
+      float: right;
+      margin-left: 10px;
+      margin-top: -9px;
+      filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+      opacity: 0.4; }
+    /* line 131, ../sass/screen.scss */
+    footer .logo a {
+      -webkit-transition-property: color;
+      -moz-transition-property: color;
+      -ms-transition-property: color;
+      -o-transition-property: color;
+      transition-property: color;
+      -webkit-transition-duration: 0.6s;
+      -moz-transition-duration: 0.6s;
+      -ms-transition-duration: 0.6s;
+      -o-transition-duration: 0.6s;
+      transition-duration: 0.6s;
+      color: #676267; }
+    /* line 136, ../sass/screen.scss */
+    footer .logo a:hover {
+      color: #ffce65; }
+
+/* TYPOGRAPHY ********************************************************************************************/
+/* line 146, ../sass/screen.scss */
+p {
+  margin-bottom: 20px; }
+
+/* line 148, ../sass/screen.scss */
+article {
+  font-size: 120%; }
+
+/* line 150, ../sass/screen.scss */
+nav li {
+  display: inline; }
+
+/* line 154, ../sass/screen.scss */
+h1 {
+  font-family: "proxima-nova-extra-condensed";
+  font-size: 3.2em;
+  line-height: 90%;
+  font-weight: 700;
+  letter-spacing: -1px;
+  text-transform: uppercase; }
+
+/* line 163, ../sass/screen.scss */
+h2 {
+  font-size: 1.4em;
+  line-height: 100%;
+  margin-top: 20px; }
+
+/* line 169, ../sass/screen.scss */
+h3 {
+  color: #ffce65;
+  font-family: "proxima-nova-extra-condensed";
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  line-height: 90%;
+  text-transform: uppercase; }
+
+/* line 179, ../sass/screen.scss */
+h3.top {
+  margin-top: 0; }
+
+/* line 181, ../sass/screen.scss */
+h3.post {
+  color: #676267;
+  margin-top: 30px; }
+
+/* line 183, ../sass/screen.scss */
+h4 {
+  color: #676267;
+  font-family: "proxima-nova-extra-condensed";
+  margin-top: 10px;
+  text-transform: uppercase; }
+
+/* line 190, ../sass/screen.scss */
+aside h4 {
+  font-size: 1.4em; }
+
+/* line 194, ../sass/screen.scss */
+h5 {
+  font-family: "proxima-nova-extra-condensed";
+  font-size: 1.2em;
+  margin-top: 60px;
+  text-align: right;
+  text-transform: uppercase; }
+
+/* line 202, ../sass/screen.scss */
+h6 {
+  text-transform: uppercase; }
+
+/* line 206, ../sass/screen.scss */
+li {
+  margin-bottom: 10px; }
+
+/* line 210, ../sass/screen.scss */
+strong {
+  font-weight: bold; }
+
+/* line 212, ../sass/screen.scss */
+em {
+  font-style: italic; }
+
+/* line 214, ../sass/screen.scss */
+blockquote {
+  background-color: #f7edd8;
+  margin: 20px;
+  padding: 20px; }
+
+/* line 220, ../sass/screen.scss */
+article li span {
+  color: #676267;
+  font-family: "proxima-nova-extra-condensed";
+  font-size: 90%;
+  margin-left: 10px;
+  text-transform: uppercase; }
+
+/* IMAGES ********************************************************************************************/
+/* line 230, ../sass/screen.scss */
+.inline {
+  border: 8px solid #f7edd8;
+  float: left;
+  margin-right: 15px; }
+
+/* ANCHORS ********************************************************************************************/
+/* line 238, ../sass/screen.scss */
+a {
+  border-bottom: 1px solid #d9d0d8;
+  color: #5a375d;
+  text-decoration: none; }
+
+/* line 244, ../sass/screen.scss */
+a:hover {
+  border-bottom: 1px solid #aea5ae;
+  color: #000; }
+
+/* line 249, ../sass/screen.scss */
+h1 a, h2 a, nav a, footer a {
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-bottom: none;
+  color: #3a2d38; }
+
+/* line 256, ../sass/screen.scss */
+h1 a:hover, h2 a:hover, nav a:hover, footer a:hover {
+  border-bottom: none;
+  color: #289aaf; }
+
+/* line 261, ../sass/screen.scss */
+h5 a {
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -ms-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
+  -webkit-transition-duration: 0.4s;
+  -moz-transition-duration: 0.4s;
+  -ms-transition-duration: 0.4s;
+  -o-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  border-bottom: none;
+  color: #ffce65; }
+
+/* line 268, ../sass/screen.scss */
+h5 a:hover {
+  border-bottom: none;
+  color: #312530; }
