@@ -4,10 +4,12 @@
 @import "compass/css3";
 @import "compass/layout";
 @import "susy";
+@import "font-icons";
 
 /* INCLUDES ********************************************************************************************/
 
 @include font-face("SocialicoRegular", font-files("socialico-webfont.eot", "socialico-webfont.woff", "socialico-webfont.ttf", "socialico-webfont.svg"));
+@include font-icon-family(entypo);
 @include sticky-footer(30px, ".page", ".page-footer", "footer");
 
 /* GRID ********************************************************************************************/
