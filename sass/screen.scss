@@ -51,7 +51,7 @@ nav {
       margin-right: 10px;
       a {
         @include transition-property(color);
-        @include transition-duration(0.6s);
+        @include transition-duration(0.4s);
         color: #289aaf;
       }
       a:hover {
@@ -66,7 +66,7 @@ nav {
       margin-left: 10px;
       a {
         @include transition-property(color);
-        @include transition-duration(0.6s);
+        @include transition-duration(0.4s);
         color: #676267;
       }
       a:hover {
@@ -87,10 +87,22 @@ nav {
 
 .page { 
   @include container;
-  section { clear: both; padding-top: 400px; }
+  section { clear: both; padding-top: 180px; }
   article {
     @include span-columns(7 omega,12);
     margin-bottom: 100px;
+    .block {
+      border: 3px solid #f7edda;
+      display: block;
+      margin: 30px auto;
+      padding: 7px;
+    }
+    .inline {
+      border: 3px solid #f7edda;
+      float: left;
+      margin: 0 15px 0 0;
+      padding: 7px;
+    }
   }
   aside { @include span-columns(5 alpha,12); }
   background: url(../images/robot.png) top right no-repeat;
@@ -108,7 +120,7 @@ footer {
       font-size: 60px;
       a {
         @include transition-property(color);
-        @include transition-duration(0.6s);
+        @include transition-duration(0.4s);
         color: #676267;
       }
       a:hover {
@@ -132,7 +144,7 @@ footer {
     }
     a {
       @include transition-property(color);
-      @include transition-duration(0.6s);
+      @include transition-duration(0.4s);
       color: #676267;
     }
     a:hover {
@@ -155,7 +167,7 @@ nav li { display: inline; }
 
 h1 {
   font-family: "proxima-nova-extra-condensed";
-  font-size: 3.2em;
+  font-size: 3.6em;
   line-height: 90%;
   font-weight: 700;
   letter-spacing: -1px;
@@ -190,7 +202,7 @@ h4 {
 }
 
 aside h4 {
-  font-size: 1.4em;
+  font-size: 1.6em;
 }
 
 h5 {
@@ -206,6 +218,20 @@ h6 { text-transform: uppercase; }
 // LIST ELEMENTS
 
 li { margin-bottom: 10px; }
+
+ul.links {
+  li {
+    @include font-icon-base(entypo); 
+    @extend .entypo-right-circle2;
+    color: #d1c7b4;
+    a {
+      border-bottom: none;
+    }
+    a:hover {
+      border-bottom: none;
+    }
+  }
+}
 
 // MISC
 
@@ -227,19 +253,20 @@ article li span {
   text-transform: uppercase;
 }
 
+span.end {
+  @include font-icon-base(entypo); 
+  @extend .entypo-stop;
+  font-size: 85%;
+}
+
 /* IMAGES ********************************************************************************************/
 
-.inline {
-  border: 8px solid #f7edd8;
-  float: left;
-  margin-right: 15px;
-}
 
 /* ANCHORS ********************************************************************************************/
 
 a {
   border-bottom: 1px solid #d9d0d8;
-  color: #5a375d;
+  color: #289aaf;
   text-decoration: none;
 }
 
@@ -248,14 +275,14 @@ a:hover {
   color: #000;
 }
 
-h1 a, h2 a, nav a, footer a {
+h1 a, h2 a, h4 a, nav a, footer a {
   @include transition-property(color);
   @include transition-duration(0.4s);
   border-bottom: none;
   color: #3a2d38;
 }
 
-h1 a:hover, h2 a:hover, nav a:hover, footer a:hover {
+h1 a:hover, h2 a:hover, h4 a:hover, nav a:hover, footer a:hover {
   border-bottom: none;
   color: #289aaf;
 }

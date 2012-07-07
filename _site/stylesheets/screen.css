@@ -1045,7 +1045,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   content: ""; }
 
 /* line 98, ../../../.rvm/gems/ruby-1.9.2-p320/gems/font-icons-1.0.1.beta/stylesheets/base/_entypo-vars.scss */
-.entypo-right-circle2:before {
+.entypo-right-circle2:before, ul.links li:before {
   content: ""; }
 
 /* line 99, ../../../.rvm/gems/ruby-1.9.2-p320/gems/font-icons-1.0.1.beta/stylesheets/base/_entypo-vars.scss */
@@ -1153,7 +1153,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   content: "▶"; }
 
 /* line 125, ../../../.rvm/gems/ruby-1.9.2-p320/gems/font-icons-1.0.1.beta/stylesheets/base/_entypo-vars.scss */
-.entypo-stop:before {
+.entypo-stop:before, span.end:before {
   content: "▪"; }
 
 /* line 126, ../../../.rvm/gems/ruby-1.9.2-p320/gems/font-icons-1.0.1.beta/stylesheets/base/_entypo-vars.scss */
@@ -1405,11 +1405,11 @@ nav {
         -ms-transition-property: color;
         -o-transition-property: color;
         transition-property: color;
-        -webkit-transition-duration: 0.6s;
-        -moz-transition-duration: 0.6s;
-        -ms-transition-duration: 0.6s;
-        -o-transition-duration: 0.6s;
-        transition-duration: 0.6s;
+        -webkit-transition-duration: 0.4s;
+        -moz-transition-duration: 0.4s;
+        -ms-transition-duration: 0.4s;
+        -o-transition-duration: 0.4s;
+        transition-duration: 0.4s;
         color: #289aaf; }
       /* line 57, ../sass/screen.scss */
       nav .title .name a:hover {
@@ -1432,11 +1432,11 @@ nav {
         -ms-transition-property: color;
         -o-transition-property: color;
         transition-property: color;
-        -webkit-transition-duration: 0.6s;
-        -moz-transition-duration: 0.6s;
-        -ms-transition-duration: 0.6s;
-        -o-transition-duration: 0.6s;
-        transition-duration: 0.6s;
+        -webkit-transition-duration: 0.4s;
+        -moz-transition-duration: 0.4s;
+        -ms-transition-duration: 0.4s;
+        -o-transition-duration: 0.4s;
+        transition-duration: 0.4s;
         color: #676267; }
       /* line 72, ../sass/screen.scss */
       nav .contents li a:hover {
@@ -1477,7 +1477,7 @@ nav {
   /* line 90, ../sass/screen.scss */
   .page section {
     clear: both;
-    padding-top: 400px; }
+    padding-top: 180px; }
   /* line 91, ../sass/screen.scss */
   .page article {
     width: 57.627%;
@@ -1486,14 +1486,26 @@ nav {
     #margin-left: -1em;
     display: inline;
     margin-bottom: 100px; }
-  /* line 95, ../sass/screen.scss */
+    /* line 94, ../sass/screen.scss */
+    .page article .block {
+      border: 3px solid #f7edda;
+      display: block;
+      margin: 30px auto;
+      padding: 7px; }
+    /* line 100, ../sass/screen.scss */
+    .page article .inline {
+      border: 3px solid #f7edda;
+      float: left;
+      margin: 0 15px 0 0;
+      padding: 7px; }
+  /* line 107, ../sass/screen.scss */
   .page aside {
     width: 40.678%;
     float: left;
     margin-right: 1.695%;
     display: inline; }
 
-/* line 99, ../sass/screen.scss */
+/* line 111, ../sass/screen.scss */
 footer {
   *zoom: 1;
   max-width: 59em;
@@ -1509,34 +1521,34 @@ footer {
     content: "";
     display: table;
     clear: both; }
-  /* line 103, ../sass/screen.scss */
+  /* line 115, ../sass/screen.scss */
   footer ul.social {
     width: 32.203%;
     float: left;
     margin-right: 1.695%;
     display: inline; }
-    /* line 105, ../sass/screen.scss */
+    /* line 117, ../sass/screen.scss */
     footer ul.social li {
       display: inline;
       font-family: "SocialicoRegular";
       font-size: 60px; }
-      /* line 109, ../sass/screen.scss */
+      /* line 121, ../sass/screen.scss */
       footer ul.social li a {
         -webkit-transition-property: color;
         -moz-transition-property: color;
         -ms-transition-property: color;
         -o-transition-property: color;
         transition-property: color;
-        -webkit-transition-duration: 0.6s;
-        -moz-transition-duration: 0.6s;
-        -ms-transition-duration: 0.6s;
-        -o-transition-duration: 0.6s;
-        transition-duration: 0.6s;
+        -webkit-transition-duration: 0.4s;
+        -moz-transition-duration: 0.4s;
+        -ms-transition-duration: 0.4s;
+        -o-transition-duration: 0.4s;
+        transition-duration: 0.4s;
         color: #676267; }
-      /* line 114, ../sass/screen.scss */
+      /* line 126, ../sass/screen.scss */
       footer ul.social li a:hover {
         color: #289aaf; }
-  /* line 119, ../sass/screen.scss */
+  /* line 131, ../sass/screen.scss */
   footer .logo {
     width: 15.254%;
     float: right;
@@ -1549,59 +1561,59 @@ footer {
     margin-top: 3px;
     text-align: right;
     text-transform: uppercase; }
-    /* line 127, ../sass/screen.scss */
+    /* line 139, ../sass/screen.scss */
     footer .logo img {
       float: right;
       margin-left: 10px;
       margin-top: -9px;
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
       opacity: 0.4; }
-    /* line 133, ../sass/screen.scss */
+    /* line 145, ../sass/screen.scss */
     footer .logo a {
       -webkit-transition-property: color;
       -moz-transition-property: color;
       -ms-transition-property: color;
       -o-transition-property: color;
       transition-property: color;
-      -webkit-transition-duration: 0.6s;
-      -moz-transition-duration: 0.6s;
-      -ms-transition-duration: 0.6s;
-      -o-transition-duration: 0.6s;
-      transition-duration: 0.6s;
+      -webkit-transition-duration: 0.4s;
+      -moz-transition-duration: 0.4s;
+      -ms-transition-duration: 0.4s;
+      -o-transition-duration: 0.4s;
+      transition-duration: 0.4s;
       color: #676267; }
-    /* line 138, ../sass/screen.scss */
+    /* line 150, ../sass/screen.scss */
     footer .logo a:hover {
       color: #ffce65; }
 
 /* TYPOGRAPHY ********************************************************************************************/
-/* line 148, ../sass/screen.scss */
+/* line 160, ../sass/screen.scss */
 p {
   margin-bottom: 20px; }
 
-/* line 150, ../sass/screen.scss */
+/* line 162, ../sass/screen.scss */
 article {
   font-size: 120%; }
 
-/* line 152, ../sass/screen.scss */
+/* line 164, ../sass/screen.scss */
 nav li {
   display: inline; }
 
-/* line 156, ../sass/screen.scss */
+/* line 168, ../sass/screen.scss */
 h1 {
   font-family: "proxima-nova-extra-condensed";
-  font-size: 3.2em;
+  font-size: 3.6em;
   line-height: 90%;
   font-weight: 700;
   letter-spacing: -1px;
   text-transform: uppercase; }
 
-/* line 165, ../sass/screen.scss */
+/* line 177, ../sass/screen.scss */
 h2 {
   font-size: 1.4em;
   line-height: 100%;
   margin-top: 20px; }
 
-/* line 171, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 h3 {
   color: #ffce65;
   font-family: "proxima-nova-extra-condensed";
@@ -1611,27 +1623,27 @@ h3 {
   line-height: 90%;
   text-transform: uppercase; }
 
-/* line 181, ../sass/screen.scss */
+/* line 193, ../sass/screen.scss */
 h3.top {
   margin-top: 0; }
 
-/* line 183, ../sass/screen.scss */
+/* line 195, ../sass/screen.scss */
 h3.post {
   color: #676267;
   margin-top: 30px; }
 
-/* line 185, ../sass/screen.scss */
+/* line 197, ../sass/screen.scss */
 h4 {
   color: #676267;
   font-family: "proxima-nova-extra-condensed";
   margin-top: 10px;
   text-transform: uppercase; }
 
-/* line 192, ../sass/screen.scss */
+/* line 204, ../sass/screen.scss */
 aside h4 {
-  font-size: 1.4em; }
+  font-size: 1.6em; }
 
-/* line 196, ../sass/screen.scss */
+/* line 208, ../sass/screen.scss */
 h5 {
   font-family: "proxima-nova-extra-condensed";
   font-size: 1.2em;
@@ -1639,29 +1651,48 @@ h5 {
   text-align: right;
   text-transform: uppercase; }
 
-/* line 204, ../sass/screen.scss */
+/* line 216, ../sass/screen.scss */
 h6 {
   text-transform: uppercase; }
 
-/* line 208, ../sass/screen.scss */
+/* line 220, ../sass/screen.scss */
 li {
   margin-bottom: 10px; }
 
-/* line 212, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
+ul.links li {
+  color: #d1c7b4; }
+  /* line 32, ../../../.rvm/gems/ruby-1.9.2-p320/gems/font-icons-1.0.1.beta/stylesheets/base/_font-mixins.scss */
+  ul.links li:before {
+    font-family: "entypo";
+    font-style: normal;
+    font-size: 1em;
+    margin-right: 0.8em;
+    text-align: center;
+    display: inline-block;
+    width: 1em; }
+  /* line 227, ../sass/screen.scss */
+  ul.links li a {
+    border-bottom: none; }
+  /* line 230, ../sass/screen.scss */
+  ul.links li a:hover {
+    border-bottom: none; }
+
+/* line 238, ../sass/screen.scss */
 strong {
   font-weight: bold; }
 
-/* line 214, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 em {
   font-style: italic; }
 
-/* line 216, ../sass/screen.scss */
+/* line 242, ../sass/screen.scss */
 blockquote {
   background-color: #f7edd8;
   margin: 20px;
   padding: 20px; }
 
-/* line 222, ../sass/screen.scss */
+/* line 248, ../sass/screen.scss */
 article li span {
   color: #676267;
   font-family: "proxima-nova-extra-condensed";
@@ -1669,27 +1700,34 @@ article li span {
   margin-left: 10px;
   text-transform: uppercase; }
 
-/* IMAGES ********************************************************************************************/
-/* line 232, ../sass/screen.scss */
-.inline {
-  border: 8px solid #f7edd8;
-  float: left;
-  margin-right: 15px; }
+/* line 256, ../sass/screen.scss */
+span.end {
+  font-size: 85%; }
+  /* line 32, ../../../.rvm/gems/ruby-1.9.2-p320/gems/font-icons-1.0.1.beta/stylesheets/base/_font-mixins.scss */
+  span.end:before {
+    font-family: "entypo";
+    font-style: normal;
+    font-size: 1em;
+    margin-right: 0.8em;
+    text-align: center;
+    display: inline-block;
+    width: 1em; }
 
+/* IMAGES ********************************************************************************************/
 /* ANCHORS ********************************************************************************************/
-/* line 240, ../sass/screen.scss */
+/* line 267, ../sass/screen.scss */
 a {
   border-bottom: 1px solid #d9d0d8;
-  color: #5a375d;
+  color: #289aaf;
   text-decoration: none; }
 
-/* line 246, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 a:hover {
   border-bottom: 1px solid #aea5ae;
   color: #000; }
 
-/* line 251, ../sass/screen.scss */
-h1 a, h2 a, nav a, footer a {
+/* line 278, ../sass/screen.scss */
+h1 a, h2 a, h4 a, nav a, footer a {
   -webkit-transition-property: color;
   -moz-transition-property: color;
   -ms-transition-property: color;
@@ -1703,12 +1741,12 @@ h1 a, h2 a, nav a, footer a {
   border-bottom: none;
   color: #3a2d38; }
 
-/* line 258, ../sass/screen.scss */
-h1 a:hover, h2 a:hover, nav a:hover, footer a:hover {
+/* line 285, ../sass/screen.scss */
+h1 a:hover, h2 a:hover, h4 a:hover, nav a:hover, footer a:hover {
   border-bottom: none;
   color: #289aaf; }
 
-/* line 263, ../sass/screen.scss */
+/* line 290, ../sass/screen.scss */
 h5 a {
   -webkit-transition-property: color;
   -moz-transition-property: color;
@@ -1723,7 +1761,7 @@ h5 a {
   border-bottom: none;
   color: #ffce65; }
 
-/* line 270, ../sass/screen.scss */
+/* line 297, ../sass/screen.scss */
 h5 a:hover {
   border-bottom: none;
   color: #312530; }
