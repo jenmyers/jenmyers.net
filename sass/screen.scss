@@ -26,9 +26,8 @@ html, body { height: 100%; }
 
 body {
   background-color: #fff6e6;
-  color: #312530;
-  font-family: "rooney-web", serif;
-  font-weight: 300;
+  color: #453342;
+  font-family: "ff-meta-serif-web-pro", serif;
   line-height: 170%;
 }
 
@@ -91,6 +90,7 @@ nav {
   section { clear: both; padding-top: 180px; }
   article {
     @include span-columns(7 omega,12);
+    font-size: 1.2em;
     margin-bottom: 100px;
     .block {
       border: 3px solid #f7edda;
@@ -104,8 +104,22 @@ nav {
       margin: 0 15px 0 0;
       padding: 7px;
     }
+    .license {
+      text-align: right;
+      a.cc-icon {
+        @include font-icon-base(entypo, 2em, 1em, 0em); 
+        @extend .entypo-cc;
+        @include transition-property(color);
+        @include transition-duration(0.4s);
+        border-bottom: 1px solid #fff6e6;
+        color: #978f96;
+      }
+      a:hover.cc-icon {
+        color: #31242f;
+      }
+    }
   }
-  aside { @include span-columns(5 alpha,12); }
+  aside { @include span-columns(4 alpha,12); }
   background: url(../images/robot.png) top right no-repeat;
 }
 
@@ -164,11 +178,18 @@ article { font-size: 120%; }
 
 nav li { display: inline; }
 
+p.caption {
+  color: #744970;
+  font-family: "proxima-nova-extra-condensed";
+  font-size: 80%;
+  text-transform: uppercase;
+}
+
 // HEADINGS
 
 h1 {
   font-family: "proxima-nova-extra-condensed";
-  font-size: 3.6em;
+  font-size: 3em;
   line-height: 90%;
   font-weight: 700;
   letter-spacing: -1px;
@@ -193,7 +214,7 @@ h3 {
 
 h3.top { margin-top: 0; }
 
-h3.post { color: #676267; margin-top: 30px; }
+h3.post { color: #676267; margin-top: 40px; }
 
 h4 {
   color: #676267;
@@ -203,13 +224,13 @@ h4 {
 }
 
 aside h4 {
-  font-size: 1.6em;
+  font-size: 1.4em;
 }
 
 h5 {
   font-family: "proxima-nova-extra-condensed";
   font-size: 1.2em;
-  margin-top: 60px;
+  margin-top: 40px;
   text-align: right;
   text-transform: uppercase;
 }
@@ -242,6 +263,7 @@ em { font-style: italic; }
 
 blockquote {
   background-color: #f7edd8;
+  color: #744970;
   margin: 20px;
   padding: 20px;
 }
