@@ -1620,9 +1620,11 @@ p.caption {
   color: #744970;
   font-family: "proxima-nova-extra-condensed";
   font-size: 80%;
+  line-height: 110%;
+  margin-top: 10px;
   text-transform: uppercase; }
 
-/* line 190, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 h1 {
   font-family: "proxima-nova-extra-condensed";
   font-size: 3em;
@@ -1631,13 +1633,13 @@ h1 {
   letter-spacing: -1px;
   text-transform: uppercase; }
 
-/* line 199, ../sass/screen.scss */
+/* line 201, ../sass/screen.scss */
 h2 {
   font-size: 1.4em;
   line-height: 100%;
   margin-top: 20px; }
 
-/* line 205, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 h3 {
   color: #ffce65;
   font-family: "proxima-nova-extra-condensed";
@@ -1647,27 +1649,27 @@ h3 {
   line-height: 90%;
   text-transform: uppercase; }
 
-/* line 215, ../sass/screen.scss */
+/* line 217, ../sass/screen.scss */
 h3.top {
   margin-top: 0; }
 
-/* line 217, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 h3.post {
   color: #676267;
   margin-top: 40px; }
 
-/* line 219, ../sass/screen.scss */
+/* line 221, ../sass/screen.scss */
 h4 {
   color: #676267;
   font-family: "proxima-nova-extra-condensed";
   margin-top: 10px;
   text-transform: uppercase; }
 
-/* line 226, ../sass/screen.scss */
+/* line 228, ../sass/screen.scss */
 aside h4 {
   font-size: 1.4em; }
 
-/* line 230, ../sass/screen.scss */
+/* line 232, ../sass/screen.scss */
 h5 {
   font-family: "proxima-nova-extra-condensed";
   font-size: 1.2em;
@@ -1675,15 +1677,15 @@ h5 {
   text-align: right;
   text-transform: uppercase; }
 
-/* line 238, ../sass/screen.scss */
+/* line 240, ../sass/screen.scss */
 h6 {
   text-transform: uppercase; }
 
-/* line 242, ../sass/screen.scss */
+/* line 244, ../sass/screen.scss */
 li {
   margin-bottom: 10px; }
 
-/* line 245, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 ul.links li {
   color: #EDE1C7; }
   /* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/font-icons-1.0.2.beta/stylesheets/base/_font-mixins.scss */
@@ -1695,29 +1697,29 @@ ul.links li {
     text-align: center;
     display: inline-block;
     width: 1em; }
-  /* line 249, ../sass/screen.scss */
+  /* line 251, ../sass/screen.scss */
   ul.links li a {
     border-bottom: none; }
-  /* line 252, ../sass/screen.scss */
+  /* line 254, ../sass/screen.scss */
   ul.links li a:hover {
     border-bottom: none; }
 
-/* line 260, ../sass/screen.scss */
+/* line 262, ../sass/screen.scss */
 strong {
   font-weight: bold; }
 
-/* line 262, ../sass/screen.scss */
+/* line 264, ../sass/screen.scss */
 em {
   font-style: italic; }
 
-/* line 264, ../sass/screen.scss */
+/* line 266, ../sass/screen.scss */
 blockquote {
   background-color: #f7edd8;
   color: #744970;
   margin: 20px;
   padding: 20px; }
 
-/* line 271, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 article li span {
   color: #676267;
   font-family: "proxima-nova-extra-condensed";
@@ -1725,7 +1727,7 @@ article li span {
   margin-left: 10px;
   text-transform: uppercase; }
 
-/* line 279, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 span.end {
   font-size: 85%; }
   /* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/font-icons-1.0.2.beta/stylesheets/base/_font-mixins.scss */
@@ -1740,18 +1742,18 @@ span.end {
 
 /* IMAGES ********************************************************************************************/
 /* ANCHORS ********************************************************************************************/
-/* line 290, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 a {
   border-bottom: 1px solid #d9d0d8;
   color: #289aaf;
   text-decoration: none; }
 
-/* line 296, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 a:hover {
   border-bottom: 1px solid #aea5ae;
   color: #000; }
 
-/* line 301, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 h1 a, h2 a, h4 a, nav a, footer a {
   -webkit-transition-property: color;
   -moz-transition-property: color;
@@ -1764,12 +1766,12 @@ h1 a, h2 a, h4 a, nav a, footer a {
   border-bottom: none;
   color: #3a2d38; }
 
-/* line 308, ../sass/screen.scss */
+/* line 310, ../sass/screen.scss */
 h1 a:hover, h2 a:hover, h4 a:hover, nav a:hover, footer a:hover {
   border-bottom: none;
   color: #289aaf; }
 
-/* line 313, ../sass/screen.scss */
+/* line 315, ../sass/screen.scss */
 h5 a {
   -webkit-transition-property: color;
   -moz-transition-property: color;
@@ -1782,7 +1784,7 @@ h5 a {
   border-bottom: none;
   color: #ffce65; }
 
-/* line 320, ../sass/screen.scss */
+/* line 322, ../sass/screen.scss */
 h5 a:hover {
   border-bottom: none;
   color: #312530; }
