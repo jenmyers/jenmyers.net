@@ -87,6 +87,11 @@ nav {
 
 .page { 
   @include container;
+  background-attachment: fixed;
+  background-image: url(../images/robot.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 30px;
   section { clear: both; padding-top: 180px; }
   article {
     @include span-columns(7 omega,12);
@@ -120,7 +125,6 @@ nav {
     }
   }
   aside { @include span-columns(4 alpha,12); }
-  background: url(../images/robot.png) top right no-repeat;
 }
 
 footer {
@@ -190,12 +194,14 @@ p.caption {
 // HEADINGS
 
 h1 {
+  display: block;
   font-family: "proxima-nova-extra-condensed";
   font-size: 3em;
   line-height: 90%;
   font-weight: 700;
   letter-spacing: -1px;
   text-transform: uppercase;
+  width: 100%;
 }
 
 h2 {

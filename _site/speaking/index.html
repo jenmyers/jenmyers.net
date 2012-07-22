@@ -116,14 +116,16 @@
     </footer>
   </div>
 
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline-->
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
   <script>window.jQuery || document.write('<script src="javascripts/vendor/jquery-1.7.2.min.js"><\/script>')</script>
 
-  <!-- scripts concatenated and minified via build script -->
   <script src="javascripts/jquery.fitvids.js"></script>
   <script src="javascripts/plugins.js"></script>
   <script src="javascripts/main.js"></script>
+  
+  <script>
+    $("h1").fitText(1, { minFontSize: '20px', maxFontSize: '40px' });
+  </script>
   
   <script>
     $(document).ready(function(){

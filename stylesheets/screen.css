@@ -1461,17 +1461,21 @@ nav {
   margin-right: auto;
   padding-left: 1em;
   padding-right: 1em;
-  background: url(../images/robot.png) top right no-repeat; }
+  background-attachment: fixed;
+  background-image: url(../images/robot.png);
+  background-position: top center;
+  background-repeat: no-repeat;
+  padding-top: 30px; }
   /* line 38, ../../../.rvm/gems/ruby-1.9.3-p194/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
   .page:after {
     content: "";
     display: table;
     clear: both; }
-  /* line 90, ../sass/screen.scss */
+  /* line 95, ../sass/screen.scss */
   .page section {
     clear: both;
     padding-top: 180px; }
-  /* line 91, ../sass/screen.scss */
+  /* line 96, ../sass/screen.scss */
   .page article {
     width: 57.627%;
     float: right;
@@ -1480,22 +1484,22 @@ nav {
     display: inline;
     font-size: 1.2em;
     margin-bottom: 100px; }
-    /* line 95, ../sass/screen.scss */
+    /* line 100, ../sass/screen.scss */
     .page article .block {
       border: 3px solid #f7edda;
       display: block;
       margin: 30px auto;
       padding: 7px; }
-    /* line 101, ../sass/screen.scss */
+    /* line 106, ../sass/screen.scss */
     .page article .inline {
       border: 3px solid #f7edda;
       float: left;
       margin: 0 15px 0 0;
       padding: 7px; }
-    /* line 107, ../sass/screen.scss */
+    /* line 112, ../sass/screen.scss */
     .page article .license {
       text-align: right; }
-      /* line 109, ../sass/screen.scss */
+      /* line 114, ../sass/screen.scss */
       .page article .license a.cc-icon {
         -webkit-transition-property: color;
         -moz-transition-property: color;
@@ -1516,17 +1520,17 @@ nav {
           text-align: center;
           display: inline-block;
           width: 1em; }
-      /* line 117, ../sass/screen.scss */
+      /* line 122, ../sass/screen.scss */
       .page article .license a:hover.cc-icon {
         color: #31242f; }
-  /* line 122, ../sass/screen.scss */
+  /* line 127, ../sass/screen.scss */
   .page aside {
     width: 32.203%;
     float: left;
     margin-right: 1.695%;
     display: inline; }
 
-/* line 126, ../sass/screen.scss */
+/* line 130, ../sass/screen.scss */
 footer {
   *zoom: 1;
   max-width: 59em;
@@ -1542,18 +1546,18 @@ footer {
     content: "";
     display: table;
     clear: both; }
-  /* line 130, ../sass/screen.scss */
+  /* line 134, ../sass/screen.scss */
   footer ul.social {
     width: 49.153%;
     float: left;
     margin-right: 1.695%;
     display: inline; }
-    /* line 132, ../sass/screen.scss */
+    /* line 136, ../sass/screen.scss */
     footer ul.social li {
       display: inline;
       font-family: "SocialicoRegular";
       font-size: 52px; }
-      /* line 136, ../sass/screen.scss */
+      /* line 140, ../sass/screen.scss */
       footer ul.social li a {
         -webkit-transition-property: color;
         -moz-transition-property: color;
@@ -1564,10 +1568,10 @@ footer {
         -o-transition-duration: 0.4s;
         transition-duration: 0.4s;
         color: #676267; }
-      /* line 141, ../sass/screen.scss */
+      /* line 145, ../sass/screen.scss */
       footer ul.social li a:hover {
         color: #289aaf; }
-  /* line 146, ../sass/screen.scss */
+  /* line 150, ../sass/screen.scss */
   footer .logo {
     width: 15.254%;
     float: right;
@@ -1580,14 +1584,14 @@ footer {
     margin-top: 3px;
     text-align: right;
     text-transform: uppercase; }
-    /* line 154, ../sass/screen.scss */
+    /* line 158, ../sass/screen.scss */
     footer .logo img {
       float: right;
       margin-left: 10px;
       margin-top: -9px;
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
       opacity: 0.4; }
-    /* line 160, ../sass/screen.scss */
+    /* line 164, ../sass/screen.scss */
     footer .logo a {
       -webkit-transition-property: color;
       -moz-transition-property: color;
@@ -1598,24 +1602,24 @@ footer {
       -o-transition-duration: 0.4s;
       transition-duration: 0.4s;
       color: #676267; }
-    /* line 165, ../sass/screen.scss */
+    /* line 169, ../sass/screen.scss */
     footer .logo a:hover {
       color: #ffce65; }
 
 /* TYPOGRAPHY ********************************************************************************************/
-/* line 175, ../sass/screen.scss */
+/* line 179, ../sass/screen.scss */
 p {
   margin-bottom: 20px; }
 
-/* line 177, ../sass/screen.scss */
+/* line 181, ../sass/screen.scss */
 article {
   font-size: 120%; }
 
-/* line 179, ../sass/screen.scss */
+/* line 183, ../sass/screen.scss */
 nav li {
   display: inline; }
 
-/* line 181, ../sass/screen.scss */
+/* line 185, ../sass/screen.scss */
 p.caption {
   color: #744970;
   font-family: "proxima-nova-extra-condensed";
@@ -1624,22 +1628,24 @@ p.caption {
   margin-top: 10px;
   text-transform: uppercase; }
 
-/* line 192, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 h1 {
+  display: block;
   font-family: "proxima-nova-extra-condensed";
   font-size: 3em;
   line-height: 90%;
   font-weight: 700;
   letter-spacing: -1px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  width: 100%; }
 
-/* line 201, ../sass/screen.scss */
+/* line 207, ../sass/screen.scss */
 h2 {
   font-size: 1.4em;
   line-height: 100%;
   margin-top: 20px; }
 
-/* line 207, ../sass/screen.scss */
+/* line 213, ../sass/screen.scss */
 h3 {
   color: #ffce65;
   font-family: "proxima-nova-extra-condensed";
@@ -1649,27 +1655,27 @@ h3 {
   line-height: 90%;
   text-transform: uppercase; }
 
-/* line 217, ../sass/screen.scss */
+/* line 223, ../sass/screen.scss */
 h3.top {
   margin-top: 0; }
 
-/* line 219, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 h3.post {
   color: #676267;
   margin-top: 40px; }
 
-/* line 221, ../sass/screen.scss */
+/* line 227, ../sass/screen.scss */
 h4 {
   color: #676267;
   font-family: "proxima-nova-extra-condensed";
   margin-top: 10px;
   text-transform: uppercase; }
 
-/* line 228, ../sass/screen.scss */
+/* line 234, ../sass/screen.scss */
 aside h4 {
   font-size: 1.4em; }
 
-/* line 232, ../sass/screen.scss */
+/* line 238, ../sass/screen.scss */
 h5 {
   font-family: "proxima-nova-extra-condensed";
   font-size: 1.2em;
@@ -1677,15 +1683,15 @@ h5 {
   text-align: right;
   text-transform: uppercase; }
 
-/* line 240, ../sass/screen.scss */
+/* line 246, ../sass/screen.scss */
 h6 {
   text-transform: uppercase; }
 
-/* line 244, ../sass/screen.scss */
+/* line 250, ../sass/screen.scss */
 li {
   margin-bottom: 10px; }
 
-/* line 247, ../sass/screen.scss */
+/* line 253, ../sass/screen.scss */
 ul.links li {
   color: #EDE1C7; }
   /* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/font-icons-1.0.2.beta/stylesheets/base/_font-mixins.scss */
@@ -1697,29 +1703,29 @@ ul.links li {
     text-align: center;
     display: inline-block;
     width: 1em; }
-  /* line 251, ../sass/screen.scss */
+  /* line 257, ../sass/screen.scss */
   ul.links li a {
     border-bottom: none; }
-  /* line 254, ../sass/screen.scss */
+  /* line 260, ../sass/screen.scss */
   ul.links li a:hover {
     border-bottom: none; }
 
-/* line 262, ../sass/screen.scss */
+/* line 268, ../sass/screen.scss */
 strong {
   font-weight: bold; }
 
-/* line 264, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 em {
   font-style: italic; }
 
-/* line 266, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 blockquote {
   background-color: #f7edd8;
   color: #744970;
   margin: 20px;
   padding: 20px; }
 
-/* line 273, ../sass/screen.scss */
+/* line 279, ../sass/screen.scss */
 article li span {
   color: #676267;
   font-family: "proxima-nova-extra-condensed";
@@ -1727,7 +1733,7 @@ article li span {
   margin-left: 10px;
   text-transform: uppercase; }
 
-/* line 281, ../sass/screen.scss */
+/* line 287, ../sass/screen.scss */
 span.end {
   font-size: 85%; }
   /* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/font-icons-1.0.2.beta/stylesheets/base/_font-mixins.scss */
@@ -1742,18 +1748,18 @@ span.end {
 
 /* IMAGES ********************************************************************************************/
 /* ANCHORS ********************************************************************************************/
-/* line 292, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 a {
   border-bottom: 1px solid #d9d0d8;
   color: #289aaf;
   text-decoration: none; }
 
-/* line 298, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 a:hover {
   border-bottom: 1px solid #aea5ae;
   color: #000; }
 
-/* line 303, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 h1 a, h2 a, h4 a, nav a, footer a {
   -webkit-transition-property: color;
   -moz-transition-property: color;
@@ -1766,12 +1772,12 @@ h1 a, h2 a, h4 a, nav a, footer a {
   border-bottom: none;
   color: #3a2d38; }
 
-/* line 310, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 h1 a:hover, h2 a:hover, h4 a:hover, nav a:hover, footer a:hover {
   border-bottom: none;
   color: #289aaf; }
 
-/* line 315, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 h5 a {
   -webkit-transition-property: color;
   -moz-transition-property: color;
@@ -1784,7 +1790,7 @@ h5 a {
   border-bottom: none;
   color: #ffce65; }
 
-/* line 322, ../sass/screen.scss */
+/* line 328, ../sass/screen.scss */
 h5 a:hover {
   border-bottom: none;
   color: #312530; }
