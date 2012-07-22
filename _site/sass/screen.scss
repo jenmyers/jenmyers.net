@@ -270,8 +270,9 @@ strong { font-weight: bold; }
 em { font-style: italic; }
 
 blockquote {
-  background-color: #f7edd8;
-  color: #744970;
+  border: 3px solid #f5ead7;
+  font-size: 90%;
+  font-style: italic;
   margin: 20px;
   padding: 20px;
 }
