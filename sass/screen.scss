@@ -98,13 +98,13 @@ nav {
     font-size: 1.2em;
     margin-bottom: 100px;
     .block {
-      border: 3px solid #f7edda;
+      border: 3px solid #f5ead7;
       display: block;
       margin: 30px auto;
       padding: 7px;
     }
     .inline {
-      border: 3px solid #f7edda;
+      border: 3px solid #f5ead7;
       float: left;
       margin: 0 15px 0 0;
       padding: 7px;
@@ -270,6 +270,7 @@ strong { font-weight: bold; }
 em { font-style: italic; }
 
 blockquote {
+  @include border-radius(3px);
   border: 3px solid #f5ead7;
   font-size: 90%;
   font-style: italic;
