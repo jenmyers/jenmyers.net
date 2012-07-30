@@ -1386,7 +1386,7 @@ nav {
   nav li {
     color: #676267;
     font-family: "proxima-nova-extra-condensed";
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-transform: uppercase; }
   /* line 48, ../sass/screen.scss */
   nav .title {
@@ -1477,7 +1477,7 @@ nav {
     padding-top: 180px; }
   /* line 96, ../sass/screen.scss */
   .page article {
-    width: 57.627%;
+    width: 66.102%;
     float: right;
     margin-right: 0;
     #margin-left: -1em;
@@ -1486,13 +1486,13 @@ nav {
     margin-bottom: 100px; }
     /* line 100, ../sass/screen.scss */
     .page article .block {
-      border: 3px solid #f7edda;
+      border: 3px solid #f5ead7;
       display: block;
       margin: 30px auto;
       padding: 7px; }
     /* line 106, ../sass/screen.scss */
     .page article .inline {
-      border: 3px solid #f7edda;
+      border: 3px solid #f5ead7;
       float: left;
       margin: 0 15px 0 0;
       padding: 7px; }
@@ -1623,7 +1623,7 @@ nav li {
 p.caption {
   color: #744970;
   font-family: "proxima-nova-extra-condensed";
-  font-size: 80%;
+  font-size: 90%;
   line-height: 110%;
   margin-top: 10px;
   text-transform: uppercase; }
@@ -1632,7 +1632,7 @@ p.caption {
 h1 {
   display: block;
   font-family: "proxima-nova-extra-condensed";
-  font-size: 3em;
+  font-size: 2.8em;
   line-height: 90%;
   font-weight: 700;
   letter-spacing: -1px;
@@ -1720,13 +1720,18 @@ em {
 
 /* line 272, ../sass/screen.scss */
 blockquote {
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
   border: 3px solid #f5ead7;
   font-size: 90%;
   font-style: italic;
   margin: 20px;
   padding: 20px; }
 
-/* line 280, ../sass/screen.scss */
+/* line 281, ../sass/screen.scss */
 article li span {
   color: #676267;
   font-family: "proxima-nova-extra-condensed";
@@ -1734,7 +1739,7 @@ article li span {
   margin-left: 10px;
   text-transform: uppercase; }
 
-/* line 288, ../sass/screen.scss */
+/* line 289, ../sass/screen.scss */
 span.end {
   font-size: 85%; }
   /* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/font-icons-1.0.2.beta/stylesheets/base/_font-mixins.scss */
@@ -1749,18 +1754,18 @@ span.end {
 
 /* IMAGES ********************************************************************************************/
 /* ANCHORS ********************************************************************************************/
-/* line 299, ../sass/screen.scss */
+/* line 300, ../sass/screen.scss */
 a {
   border-bottom: 1px solid #d9d0d8;
   color: #289aaf;
   text-decoration: none; }
 
-/* line 305, ../sass/screen.scss */
+/* line 306, ../sass/screen.scss */
 a:hover {
   border-bottom: 1px solid #aea5ae;
   color: #000; }
 
-/* line 310, ../sass/screen.scss */
+/* line 311, ../sass/screen.scss */
 h1 a, h2 a, h4 a, nav a, footer a {
   -webkit-transition-property: color;
   -moz-transition-property: color;
@@ -1773,12 +1778,12 @@ h1 a, h2 a, h4 a, nav a, footer a {
   border-bottom: none;
   color: #3a2d38; }
 
-/* line 317, ../sass/screen.scss */
+/* line 318, ../sass/screen.scss */
 h1 a:hover, h2 a:hover, h4 a:hover, nav a:hover, footer a:hover {
   border-bottom: none;
   color: #289aaf; }
 
-/* line 322, ../sass/screen.scss */
+/* line 323, ../sass/screen.scss */
 h5 a {
   -webkit-transition-property: color;
   -moz-transition-property: color;
@@ -1791,7 +1796,7 @@ h5 a {
   border-bottom: none;
   color: #ffce65; }
 
-/* line 329, ../sass/screen.scss */
+/* line 330, ../sass/screen.scss */
 h5 a:hover {
   border-bottom: none;
   color: #312530; }

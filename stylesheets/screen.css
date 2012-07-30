@@ -1386,7 +1386,7 @@ nav {
   nav li {
     color: #676267;
     font-family: "proxima-nova-extra-condensed";
-    font-size: 1.4em;
+    font-size: 1.2em;
     text-transform: uppercase; }
   /* line 48, ../sass/screen.scss */
   nav .title {
@@ -1477,7 +1477,7 @@ nav {
     padding-top: 180px; }
   /* line 96, ../sass/screen.scss */
   .page article {
-    width: 57.627%;
+    width: 66.102%;
     float: right;
     margin-right: 0;
     #margin-left: -1em;
@@ -1623,7 +1623,7 @@ nav li {
 p.caption {
   color: #744970;
   font-family: "proxima-nova-extra-condensed";
-  font-size: 80%;
+  font-size: 90%;
   line-height: 110%;
   margin-top: 10px;
   text-transform: uppercase; }
@@ -1632,7 +1632,7 @@ p.caption {
 h1 {
   display: block;
   font-family: "proxima-nova-extra-condensed";
-  font-size: 3em;
+  font-size: 2.8em;
   line-height: 90%;
   font-weight: 700;
   letter-spacing: -1px;
