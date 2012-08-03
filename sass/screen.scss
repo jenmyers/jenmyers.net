@@ -67,7 +67,7 @@ nav {
     @include span-columns(6 omega,12);
     text-align: right;
     li {
-      margin-left: 10px;
+      margin-left: 0.6em;
       a {
         @include transition-duration(0.4s);
         @include transition-property(color);
@@ -100,11 +100,11 @@ nav {
   article {
     @include span-columns(8 omega,12);
     font-size: 1.2em;
-    margin-bottom: 100px;
+    margin-bottom: 4em;
     .block {
       border: 2px solid #eee;
       display: block;
-      margin: 30px auto;
+      margin: 2em auto;
       padding: 7px;
     }
     .inline {
@@ -141,7 +141,7 @@ footer {
     li {
       display: inline;
       font-family: "SocialicoRegular";
-      font-size: 62px;
+      font-size: 56px;
       a {
         @include transition-duration(0.4s);
         @include transition-property(color);
@@ -157,14 +157,14 @@ footer {
     color: #666;
     font-family: "proxima-nova-extra-condensed";
     font-size: 1.4em;
-    margin-top: 3px;
+    margin-top: 0.2em;
     text-align: right;
     text-transform: uppercase;
     img {
-      float: right;
-      margin-left: 10px;
-      margin-top: -9px;
       @include opacity(0.4);
+      float: right;
+      margin-left: 0.5em;
+      margin-top: -0.45em;
     }
     a {
       @include transition-duration(0.4s);
@@ -200,7 +200,7 @@ p.caption {
   font-family: "proxima-nova-extra-condensed";
   font-size: 95%;
   line-height: 110%;
-  margin-top: 5px;
+  margin-top: 0.5em;
   text-transform: uppercase;
 }
 
@@ -226,8 +226,8 @@ h3 {
   color: #9AAF28;
   font-family: "proxima-nova-extra-condensed";
   font-size: 1.7em;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 0.6em;
+  margin-top: 1.4em;
   line-height: 100%;
   text-transform: uppercase;
 }
@@ -256,9 +256,10 @@ h6 { text-transform: uppercase; }
 
 // LIST ELEMENTS
 
-li { margin-bottom: 10px; }
+li { margin-bottom: 0.6em; }
 
 ul.links {
+  margin-bottom: 1em;
   li {
     @include font-icon-base(entypo);
     @extend .entypo-right-circle2;
@@ -282,17 +283,11 @@ blockquote {
 }
 
 article li span {
-  color: #676267;
+  color: #666;
   font-family: "proxima-nova-extra-condensed";
   font-size: 95%;
   margin-left: 10px;
   text-transform: uppercase;
-}
-
-span.end {
-  @include font-icon-base(entypo); 
-  @extend .entypo-stop;
-  font-size: 85%;
 }
 
 /* IMAGES ********************************************************************************************/

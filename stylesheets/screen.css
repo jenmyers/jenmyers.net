@@ -1153,7 +1153,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   content: "▶"; }
 
 /* line 125, ../../../.rvm/gems/ruby-1.9.3-p194/gems/font-icons-1.0.2.beta/stylesheets/base/_entypo-vars.scss */
-.entypo-stop:before, span.end:before {
+.entypo-stop:before {
   content: "▪"; }
 
 /* line 126, ../../../.rvm/gems/ruby-1.9.3-p194/gems/font-icons-1.0.2.beta/stylesheets/base/_entypo-vars.scss */
@@ -1425,7 +1425,7 @@ nav {
     text-align: right; }
     /* line 69, ../sass/screen.scss */
     nav .contents li {
-      margin-left: 10px; }
+      margin-left: 0.6em; }
       /* line 71, ../sass/screen.scss */
       nav .contents li a {
         -webkit-transition-duration: 0.4s;
@@ -1484,12 +1484,12 @@ nav {
     #margin-left: -1em;
     display: inline;
     font-size: 1.2em;
-    margin-bottom: 100px; }
+    margin-bottom: 4em; }
     /* line 104, ../sass/screen.scss */
     .page article .block {
       border: 2px solid #eee;
       display: block;
-      margin: 30px auto;
+      margin: 2em auto;
       padding: 7px; }
     /* line 110, ../sass/screen.scss */
     .page article .inline {
@@ -1558,7 +1558,7 @@ footer {
     footer ul.social li {
       display: inline;
       font-family: "SocialicoRegular";
-      font-size: 62px; }
+      font-size: 56px; }
       /* line 145, ../sass/screen.scss */
       footer ul.social li a {
         -webkit-transition-duration: 0.4s;
@@ -1583,16 +1583,16 @@ footer {
     color: #666;
     font-family: "proxima-nova-extra-condensed";
     font-size: 1.4em;
-    margin-top: 3px;
+    margin-top: 0.2em;
     text-align: right;
     text-transform: uppercase; }
     /* line 163, ../sass/screen.scss */
     footer .logo img {
-      float: right;
-      margin-left: 10px;
-      margin-top: -9px;
       filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
-      opacity: 0.4; }
+      opacity: 0.4;
+      float: right;
+      margin-left: 0.5em;
+      margin-top: -0.45em; }
     /* line 169, ../sass/screen.scss */
     footer .logo a {
       -webkit-transition-duration: 0.4s;
@@ -1643,7 +1643,7 @@ p.caption {
   font-family: "proxima-nova-extra-condensed";
   font-size: 95%;
   line-height: 110%;
-  margin-top: 5px;
+  margin-top: 0.5em;
   text-transform: uppercase; }
 
 /* line 209, ../sass/screen.scss */
@@ -1667,8 +1667,8 @@ h3 {
   color: #9AAF28;
   font-family: "proxima-nova-extra-condensed";
   font-size: 1.7em;
-  margin-bottom: 20px;
-  margin-top: 40px;
+  margin-bottom: 0.6em;
+  margin-top: 1.4em;
   line-height: 100%;
   text-transform: uppercase; }
 
@@ -1700,27 +1700,30 @@ h6 {
 
 /* line 259, ../sass/screen.scss */
 li {
-  margin-bottom: 10px; }
+  margin-bottom: 0.6em; }
 
-/* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/font-icons-1.0.2.beta/stylesheets/base/_font-mixins.scss */
-ul.links li:before {
-  font-family: "entypo";
-  font-style: normal;
-  font-size: 1em;
-  margin-right: 0.8em;
-  text-align: center;
-  display: inline-block;
-  width: 1em; }
+/* line 261, ../sass/screen.scss */
+ul.links {
+  margin-bottom: 1em; }
+  /* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/font-icons-1.0.2.beta/stylesheets/base/_font-mixins.scss */
+  ul.links li:before {
+    font-family: "entypo";
+    font-style: normal;
+    font-size: 1em;
+    margin-right: 0.8em;
+    text-align: center;
+    display: inline-block;
+    width: 1em; }
 
-/* line 270, ../sass/screen.scss */
+/* line 271, ../sass/screen.scss */
 strong {
   font-weight: bold; }
 
-/* line 272, ../sass/screen.scss */
+/* line 273, ../sass/screen.scss */
 em {
   font-style: italic; }
 
-/* line 274, ../sass/screen.scss */
+/* line 275, ../sass/screen.scss */
 blockquote {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1734,41 +1737,28 @@ blockquote {
   margin: 20px;
   padding: 20px; }
 
-/* line 284, ../sass/screen.scss */
+/* line 285, ../sass/screen.scss */
 article li span {
-  color: #676267;
+  color: #666;
   font-family: "proxima-nova-extra-condensed";
   font-size: 95%;
   margin-left: 10px;
   text-transform: uppercase; }
 
-/* line 292, ../sass/screen.scss */
-span.end {
-  font-size: 85%; }
-  /* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/font-icons-1.0.2.beta/stylesheets/base/_font-mixins.scss */
-  span.end:before {
-    font-family: "entypo";
-    font-style: normal;
-    font-size: 1em;
-    margin-right: 0.8em;
-    text-align: center;
-    display: inline-block;
-    width: 1em; }
-
 /* IMAGES ********************************************************************************************/
 /* ANCHORS ********************************************************************************************/
-/* line 303, ../sass/screen.scss */
+/* line 298, ../sass/screen.scss */
 a {
   border-bottom: 1px dashed #aaa;
   color: #289aaf;
   text-decoration: none; }
 
-/* line 309, ../sass/screen.scss */
+/* line 304, ../sass/screen.scss */
 a:hover {
   border-bottom: 1px solid #ddd;
   color: #000; }
 
-/* line 314, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 h1 a, h2 a, h4 a, nav a, footer a {
   -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
@@ -1781,12 +1771,12 @@ h1 a, h2 a, h4 a, nav a, footer a {
   border-bottom: none;
   color: #333; }
 
-/* line 321, ../sass/screen.scss */
+/* line 316, ../sass/screen.scss */
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, nav a:hover, footer a:hover {
   border-bottom: none;
   color: #289aaf; }
 
-/* line 326, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 h3 a {
   -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
@@ -1799,21 +1789,21 @@ h3 a {
   border-bottom: none;
   color: #289aaf; }
 
-/* line 333, ../sass/screen.scss */
+/* line 328, ../sass/screen.scss */
 h3 a:hover {
   color: #333; }
 
-/* line 337, ../sass/screen.scss */
+/* line 332, ../sass/screen.scss */
 h3 a:after {
   color: #ccc;
   content: "→";
   margin-left: 0.2em; }
 
-/* line 343, ../sass/screen.scss */
+/* line 338, ../sass/screen.scss */
 h3 a:hover:after {
   color: #289aaf; }
 
-/* line 347, ../sass/screen.scss */
+/* line 342, ../sass/screen.scss */
 h5 a {
   -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
@@ -1826,7 +1816,7 @@ h5 a {
   border-bottom: none;
   color: #9AAF28; }
 
-/* line 354, ../sass/screen.scss */
+/* line 349, ../sass/screen.scss */
 h5 a:hover {
   border-bottom: none;
   color: #333; }
