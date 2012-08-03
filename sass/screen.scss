@@ -54,8 +54,8 @@ nav {
     .name {
       margin-right: 1em;
       a {
-        @include transition-property(color);
         @include transition-duration(0.4s);
+        @include transition-property(color);
         color: #289aaf;
       }
       a:hover {
@@ -69,8 +69,8 @@ nav {
     li {
       margin-left: 10px;
       a {
-        @include transition-property(color);
         @include transition-duration(0.4s);
+        @include transition-property(color);
         color: #666;
       }
       a:hover {
@@ -119,8 +119,8 @@ nav {
       a.cc-icon {
         @include font-icon-base(entypo, 2em, 1em, 0em); 
         @extend .entypo-cc;
-        @include transition-property(color);
         @include transition-duration(0.4s);
+        @include transition-property(color);
         border-bottom: 1px solid #fff;
         color: #999;
       }
@@ -143,8 +143,8 @@ footer {
       font-family: "SocialicoRegular";
       font-size: 62px;
       a {
-        @include transition-property(color);
         @include transition-duration(0.4s);
+        @include transition-property(color);
         color: #666;
       }
       a:hover {
@@ -167,12 +167,20 @@ footer {
       @include opacity(0.4);
     }
     a {
-      @include transition-property(color);
       @include transition-duration(0.4s);
+      @include transition-property(color);
       color: #666;
+      img {
+        @include opacity(0.4);
+        @include transition-duration(0.4s);
+        @include transition-property(opacity);
+      }
     }
     a:hover {
       color: #fff;
+      img {
+        @include opacity(0.8);
+      }
     }
   }
 }
@@ -304,8 +312,8 @@ a:hover {
 }
 
 h1 a, h2 a, h4 a, nav a, footer a {
-  @include transition-property(color);
   @include transition-duration(0.4s);
+  @include transition-property(color);
   border-bottom: none;
   color: #333;
 }
@@ -316,8 +324,8 @@ h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, nav a:hover, footer a:hover {
 }
 
 h3 a {
-  @include transition-property(color);
   @include transition-duration(0.4s);
+  @include transition-property(color);
   border-bottom: none;
   color: #289aaf;
 }
@@ -337,8 +345,8 @@ h3 a:hover:after {
 }
 
 h5 a {
-  @include transition-property(color);
   @include transition-duration(0.4s);
+  @include transition-property(color);
   border-bottom: none;
   color: #9AAF28;
 }

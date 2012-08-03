@@ -1403,14 +1403,14 @@ nav {
       margin-right: 1em; }
       /* line 56, ../sass/screen.scss */
       nav .title .name a {
-        -webkit-transition-property: color;
-        -moz-transition-property: color;
-        -o-transition-property: color;
-        transition-property: color;
         -webkit-transition-duration: 0.4s;
         -moz-transition-duration: 0.4s;
         -o-transition-duration: 0.4s;
         transition-duration: 0.4s;
+        -webkit-transition-property: color;
+        -moz-transition-property: color;
+        -o-transition-property: color;
+        transition-property: color;
         color: #289aaf; }
       /* line 61, ../sass/screen.scss */
       nav .title .name a:hover {
@@ -1428,14 +1428,14 @@ nav {
       margin-left: 10px; }
       /* line 71, ../sass/screen.scss */
       nav .contents li a {
-        -webkit-transition-property: color;
-        -moz-transition-property: color;
-        -o-transition-property: color;
-        transition-property: color;
         -webkit-transition-duration: 0.4s;
         -moz-transition-duration: 0.4s;
         -o-transition-duration: 0.4s;
         transition-duration: 0.4s;
+        -webkit-transition-property: color;
+        -moz-transition-property: color;
+        -o-transition-property: color;
+        transition-property: color;
         color: #666; }
       /* line 76, ../sass/screen.scss */
       nav .contents li a:hover {
@@ -1503,14 +1503,14 @@ nav {
       text-align: right; }
       /* line 119, ../sass/screen.scss */
       .page article .license a.cc-icon {
-        -webkit-transition-property: color;
-        -moz-transition-property: color;
-        -o-transition-property: color;
-        transition-property: color;
         -webkit-transition-duration: 0.4s;
         -moz-transition-duration: 0.4s;
         -o-transition-duration: 0.4s;
         transition-duration: 0.4s;
+        -webkit-transition-property: color;
+        -moz-transition-property: color;
+        -o-transition-property: color;
+        transition-property: color;
         border-bottom: 1px solid #fff;
         color: #999; }
         /* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/font-icons-1.0.2.beta/stylesheets/base/_font-mixins.scss */
@@ -1561,14 +1561,14 @@ footer {
       font-size: 62px; }
       /* line 145, ../sass/screen.scss */
       footer ul.social li a {
-        -webkit-transition-property: color;
-        -moz-transition-property: color;
-        -o-transition-property: color;
-        transition-property: color;
         -webkit-transition-duration: 0.4s;
         -moz-transition-duration: 0.4s;
         -o-transition-duration: 0.4s;
         transition-duration: 0.4s;
+        -webkit-transition-property: color;
+        -moz-transition-property: color;
+        -o-transition-property: color;
+        transition-property: color;
         color: #666; }
       /* line 150, ../sass/screen.scss */
       footer ul.social li a:hover {
@@ -1595,33 +1595,49 @@ footer {
       opacity: 0.4; }
     /* line 169, ../sass/screen.scss */
     footer .logo a {
-      -webkit-transition-property: color;
-      -moz-transition-property: color;
-      -o-transition-property: color;
-      transition-property: color;
       -webkit-transition-duration: 0.4s;
       -moz-transition-duration: 0.4s;
       -o-transition-duration: 0.4s;
       transition-duration: 0.4s;
+      -webkit-transition-property: color;
+      -moz-transition-property: color;
+      -o-transition-property: color;
+      transition-property: color;
       color: #666; }
-    /* line 174, ../sass/screen.scss */
+      /* line 173, ../sass/screen.scss */
+      footer .logo a img {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=40);
+        opacity: 0.4;
+        -webkit-transition-duration: 0.4s;
+        -moz-transition-duration: 0.4s;
+        -o-transition-duration: 0.4s;
+        transition-duration: 0.4s;
+        -webkit-transition-property: opacity;
+        -moz-transition-property: opacity;
+        -o-transition-property: opacity;
+        transition-property: opacity; }
+    /* line 179, ../sass/screen.scss */
     footer .logo a:hover {
       color: #fff; }
+      /* line 181, ../sass/screen.scss */
+      footer .logo a:hover img {
+        filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80);
+        opacity: 0.8; }
 
 /* TYPOGRAPHY ********************************************************************************************/
-/* line 184, ../sass/screen.scss */
+/* line 192, ../sass/screen.scss */
 p {
   margin-bottom: 1em; }
 
-/* line 186, ../sass/screen.scss */
+/* line 194, ../sass/screen.scss */
 article {
   font-size: 120%; }
 
-/* line 188, ../sass/screen.scss */
+/* line 196, ../sass/screen.scss */
 nav li {
   display: inline; }
 
-/* line 190, ../sass/screen.scss */
+/* line 198, ../sass/screen.scss */
 p.caption {
   color: #888;
   font-family: "proxima-nova-extra-condensed";
@@ -1630,7 +1646,7 @@ p.caption {
   margin-top: 5px;
   text-transform: uppercase; }
 
-/* line 201, ../sass/screen.scss */
+/* line 209, ../sass/screen.scss */
 h1 {
   display: block;
   font-family: "proxima-nova-extra-condensed";
@@ -1640,13 +1656,13 @@ h1 {
   text-transform: uppercase;
   width: 100%; }
 
-/* line 211, ../sass/screen.scss */
+/* line 219, ../sass/screen.scss */
 h2 {
   font-size: 1.4em;
   line-height: 100%;
   margin-top: 20px; }
 
-/* line 217, ../sass/screen.scss */
+/* line 225, ../sass/screen.scss */
 h3 {
   color: #9AAF28;
   font-family: "proxima-nova-extra-condensed";
@@ -1656,21 +1672,21 @@ h3 {
   line-height: 100%;
   text-transform: uppercase; }
 
-/* line 227, ../sass/screen.scss */
+/* line 235, ../sass/screen.scss */
 h3.top {
   margin-top: 0; }
 
-/* line 229, ../sass/screen.scss */
+/* line 237, ../sass/screen.scss */
 h4 {
   color: #888;
   font-family: "proxima-nova-extra-condensed";
   text-transform: uppercase; }
 
-/* line 235, ../sass/screen.scss */
+/* line 243, ../sass/screen.scss */
 aside h4 {
   font-size: 1.4em; }
 
-/* line 239, ../sass/screen.scss */
+/* line 247, ../sass/screen.scss */
 h5 {
   font-family: "proxima-nova-extra-condensed";
   font-size: 1.2em;
@@ -1678,11 +1694,11 @@ h5 {
   text-align: right;
   text-transform: uppercase; }
 
-/* line 247, ../sass/screen.scss */
+/* line 255, ../sass/screen.scss */
 h6 {
   text-transform: uppercase; }
 
-/* line 251, ../sass/screen.scss */
+/* line 259, ../sass/screen.scss */
 li {
   margin-bottom: 10px; }
 
@@ -1696,15 +1712,15 @@ ul.links li:before {
   display: inline-block;
   width: 1em; }
 
-/* line 262, ../sass/screen.scss */
+/* line 270, ../sass/screen.scss */
 strong {
   font-weight: bold; }
 
-/* line 264, ../sass/screen.scss */
+/* line 272, ../sass/screen.scss */
 em {
   font-style: italic; }
 
-/* line 266, ../sass/screen.scss */
+/* line 274, ../sass/screen.scss */
 blockquote {
   -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
@@ -1718,7 +1734,7 @@ blockquote {
   margin: 20px;
   padding: 20px; }
 
-/* line 276, ../sass/screen.scss */
+/* line 284, ../sass/screen.scss */
 article li span {
   color: #676267;
   font-family: "proxima-nova-extra-condensed";
@@ -1726,7 +1742,7 @@ article li span {
   margin-left: 10px;
   text-transform: uppercase; }
 
-/* line 284, ../sass/screen.scss */
+/* line 292, ../sass/screen.scss */
 span.end {
   font-size: 85%; }
   /* line 32, ../../../.rvm/gems/ruby-1.9.3-p194/gems/font-icons-1.0.2.beta/stylesheets/base/_font-mixins.scss */
@@ -1741,76 +1757,76 @@ span.end {
 
 /* IMAGES ********************************************************************************************/
 /* ANCHORS ********************************************************************************************/
-/* line 295, ../sass/screen.scss */
+/* line 303, ../sass/screen.scss */
 a {
   border-bottom: 1px dashed #aaa;
   color: #289aaf;
   text-decoration: none; }
 
-/* line 301, ../sass/screen.scss */
+/* line 309, ../sass/screen.scss */
 a:hover {
   border-bottom: 1px solid #ddd;
   color: #000; }
 
-/* line 306, ../sass/screen.scss */
+/* line 314, ../sass/screen.scss */
 h1 a, h2 a, h4 a, nav a, footer a {
-  -webkit-transition-property: color;
-  -moz-transition-property: color;
-  -o-transition-property: color;
-  transition-property: color;
   -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
   border-bottom: none;
   color: #333; }
 
-/* line 313, ../sass/screen.scss */
+/* line 321, ../sass/screen.scss */
 h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, nav a:hover, footer a:hover {
   border-bottom: none;
   color: #289aaf; }
 
-/* line 318, ../sass/screen.scss */
+/* line 326, ../sass/screen.scss */
 h3 a {
-  -webkit-transition-property: color;
-  -moz-transition-property: color;
-  -o-transition-property: color;
-  transition-property: color;
   -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
   border-bottom: none;
   color: #289aaf; }
 
-/* line 325, ../sass/screen.scss */
+/* line 333, ../sass/screen.scss */
 h3 a:hover {
   color: #333; }
 
-/* line 329, ../sass/screen.scss */
+/* line 337, ../sass/screen.scss */
 h3 a:after {
   color: #ccc;
   content: "→";
   margin-left: 0.2em; }
 
-/* line 335, ../sass/screen.scss */
+/* line 343, ../sass/screen.scss */
 h3 a:hover:after {
   color: #289aaf; }
 
-/* line 339, ../sass/screen.scss */
+/* line 347, ../sass/screen.scss */
 h5 a {
-  -webkit-transition-property: color;
-  -moz-transition-property: color;
-  -o-transition-property: color;
-  transition-property: color;
   -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
   -o-transition-duration: 0.4s;
   transition-duration: 0.4s;
+  -webkit-transition-property: color;
+  -moz-transition-property: color;
+  -o-transition-property: color;
+  transition-property: color;
   border-bottom: none;
   color: #9AAF28; }
 
-/* line 346, ../sass/screen.scss */
+/* line 354, ../sass/screen.scss */
 h5 a:hover {
   border-bottom: none;
   color: #333; }
