@@ -7,11 +7,11 @@ title: The Chuck Jones School of Creativity
 
 <p>I am not an animator now. I didn't even come close. I decided not to go to art school, with the help of stunningly nonsensical logic along the lines of "I'm not good enough" (isn't that what you go to school to fix?), and thus began an almost comical progression of educational and professional missteps, false starts, backtracks and strange, unforeseen successes. I managed to stumble into a job I love but which is very unlike the one I first anticipated.</p>
 
-<p>At least, it is superficially. As a web and interface designer, I'm not drawing cartoons. But I am creating things, and creativity draws both inspiration and instruction from a variety of sources. There are still lessons I learned from cartoons that I apply to my life and work now - especially as it concerns the creator who me want to make them in the first place.</p>
+<p>At least, it is superficially. As a web and interface designer, I'm not drawing cartoons. But I am creating things, and creativity draws both inspiration and instruction from a variety of sources. There are still lessons I learned from cartoons that I apply to my life and work now - especially as it concerns the creator who made me want to make them in the first place.</p>
 
 <object width="480" height="360"><param name="movie" value="http://www.youtube.com/v/XlpRoyjX-mQ?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/XlpRoyjX-mQ?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="480" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
-<p class="caption">Clip from <em>Chuck Jones - Extremes and In-Betweens, a Life in Animation</em>, directed by Margaret Selby, 2000</p>
+<p class="caption">From <em>Chuck Jones - Extremes and In-Betweens, a Life in Animation</em>, directed by Margaret Selby, 2000</p>
 
 <p>I have a theory that Chuck Jones is the most well-known and yet most overlooked creator of the twentieth century. Everyone knows what he made, but not many people know he made it. Which is a shame, because beyond his legacy as the artist/director who made some of Warner Brothers' most famous characters and short films during the 1930s-60s, he was also an astute observer of human character, a learned storyteller and one hell of a writer. Most notably, he knew how describe and explain his process of creation. This is very rare, and equally valuable to someone else learning the process. His two autobiographies/drawing manuals are treasure troves of stories, advice and guidance on how to be creative. Which, as I've discovered, you can be no matter what you do.</p>
 
