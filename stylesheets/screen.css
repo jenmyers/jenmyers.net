@@ -2012,7 +2012,7 @@ h5 a:hover {
 @media (min-width: 20em) and (max-width: 29em) {
   /* line 458, ../sass/screen.scss */
   nav {
-    font-size: 0.6em;
+    font-size: 0.7em;
     line-height: 130%;
     padding: 2em 0; }
     /* line 462, ../sass/screen.scss */
@@ -2074,7 +2074,7 @@ h5 a:hover {
         margin-bottom: 1em; }
     /* line 503, ../sass/screen.scss */
     .page h1 {
-      font-size: 1.4em; }
+      font-size: 1.8em; }
     /* line 504, ../sass/screen.scss */
     .page h2 {
       font-size: 1.2em; }
@@ -2199,7 +2199,7 @@ h5 a:hover {
         margin-bottom: 1em; }
     /* line 596, ../sass/screen.scss */
     .page h1 {
-      font-size: 1.4em; }
+      font-size: 1.8em; }
     /* line 597, ../sass/screen.scss */
     .page h2 {
       font-size: 1.2em; }
@@ -2324,7 +2324,7 @@ h5 a:hover {
         margin-bottom: 1em; }
     /* line 689, ../sass/screen.scss */
     .page h1 {
-      font-size: 2em; }
+      font-size: 2.2em; }
     /* line 690, ../sass/screen.scss */
     .page h2 {
       font-size: 1.2em; }
