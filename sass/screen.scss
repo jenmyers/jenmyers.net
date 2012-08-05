@@ -458,7 +458,7 @@ h5 a:hover {
     nav {
     font-size: 0.7em;
     line-height: 130%;
-    padding: 2em 0;
+    padding: 2em 0 2em 2em;
     .title {
       margin-bottom: 0.5em;
       @include span-columns(6,6);
