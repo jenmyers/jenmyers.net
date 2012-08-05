@@ -364,6 +364,7 @@ h5 a:hover {
   nav {
     font-size: 0.6em;
     line-height: 130%;
+    padding: 2em 0;
     .title {
       margin-bottom: 1em;
       .name {
@@ -388,7 +389,15 @@ h5 a:hover {
     section { padding-top: 1.5em; }
     article {
       @include span-columns(4,4);
-      margin-bottom: 2em;
+      margin-bottom: 3em;
+      .block {
+        margin: 1em auto;
+        width: 90%;
+      }
+      .inline {
+        margin: 0 0.5em 0.2em 0;
+        width: 30%;
+      }
       .license {
         margin-top: 1em;
         text-align: right;
@@ -401,7 +410,9 @@ h5 a:hover {
       }
     }
     h1 { font-size: 1.4em; }
+    h2 { font-size: 1.2em; }
     h3 { font-size: 1em; }
+    h3.top { margin-top: 1em; }
     h5 { font-size: 0.8em; }
     p {
       font-size: 0.7em;
@@ -435,17 +446,21 @@ h5 a:hover {
       }
     }
   }
+  blockquote {
+    font-size: 0.7em;
+    line-height: 140%;
+    margin: 1em;
+    padding: 1em;
+  }
 }
 
 @include at-breakpoint($break-02) {
     nav {
     font-size: 0.6em;
     line-height: 130%;
+    padding: 2em 0;
     .title {
-      margin-bottom: 1em;
-      .name {
-        display: block;
-      }
+      margin-bottom: 0.5em;
       @include span-columns(6,6);
       display: block;
     }
@@ -465,10 +480,18 @@ h5 a:hover {
     section { padding-top: 1.5em; }
     article {
       @include span-columns(6,6);
-      margin-bottom: 2em;
+      margin-bottom: 3em;
       .license {
         margin-top: 1em;
         text-align: right;
+      }
+      .block {
+        margin: 1em auto;
+        width: 90%;
+      }
+      .inline {
+        margin: 0 0.5em 0.2em 0;
+        width: 30%;
       }
     }
     aside { @include span-columns(6,6);
@@ -478,7 +501,9 @@ h5 a:hover {
       }
     }
     h1 { font-size: 1.4em; }
+    h2 { font-size: 1.2em; }
     h3 { font-size: 1em; }
+    h3.top { margin-top: 1em; }
     h5 { font-size: 0.8em; }
     p {
       font-size: 0.7em;
@@ -512,6 +537,12 @@ h5 a:hover {
       }
     }
   }
+  blockquote {
+    font-size: 0.7em;
+    line-height: 140%;
+    margin: 1em;
+    padding: 1em;
+  }
 }
 
 @include at-breakpoint($break-03) {
@@ -520,13 +551,11 @@ h5 a:hover {
     line-height: 130%;
     margin-left: 2em;
     margin-right: 0;
+    padding: 2em 0;
     .title {
-      margin-bottom: 1em;
-      .name {
-        display: block;
-      }
       @include span-columns(8,8);
       display: block;
+      margin-bottom: 0.5em;
     }
     .contents {
       @include span-columns(8,8);
@@ -544,7 +573,15 @@ h5 a:hover {
     section { padding-top: 1.5em; }
     article {
       @include span-columns(8,8);
-      margin-bottom: 2em;
+      margin-bottom: 3em;
+      .block {
+        margin: 1em auto;
+        width: 90%;
+      }
+      .inline {
+        margin: 0 0.5em 0.2em 0;
+        width: 30%;
+      }
       .license {
         margin-top: 1em;
         text-align: right;
@@ -557,7 +594,9 @@ h5 a:hover {
       }
     }
     h1 { font-size: 1.4em; }
+    h2 { font-size: 1.2em; }
     h3 { font-size: 1em; }
+    h3.top { margin-top: 1em; }
     h5 { font-size: 0.8em; }
     p {
       font-size: 0.7em;
@@ -591,6 +630,12 @@ h5 a:hover {
       }
     }
   }
+  blockquote {
+    font-size: 0.7em;
+    line-height: 140%;
+    margin: 1em;
+    padding: 1em;
+  }
 }
 
 @include at-breakpoint($break-04) {
@@ -599,13 +644,11 @@ h5 a:hover {
     line-height: 130%;
     margin-left: 2em;
     margin-right: 0;
+    padding: 2em 0;
     .title {
-      @include span-columns(10,10);
+      @include span-columns(8,8);
       display: block;
-      margin-bottom: 1em;
-      .name {
-        display: block;
-      }
+      margin-bottom: 0.5em;
     }
     .contents {
       @include span-columns(10,10);
@@ -623,7 +666,15 @@ h5 a:hover {
     section { padding-top: 1.5em; }
     article {
       @include span-columns(10,10);
-      margin-bottom: 2em;
+      margin-bottom: 3em;
+      .block {
+        margin: 1em auto;
+        width: 90%;
+      }
+      .inline {
+        margin: 0 0.5em 0.2em 0;
+        width: 30%;
+      }
       .license {
         margin-top: 1em;
         text-align: right;
@@ -636,7 +687,9 @@ h5 a:hover {
       }
     }
     h1 { font-size: 2em; }
-    h3 { font-size: 1.2em; }
+    h2 { font-size: 1.2em; }
+    h3 { font-size: 1em; }
+    h3.top { margin-top: 1em; }
     h5 { font-size: 1em; }
     p {
       font-size: 0.8em;
@@ -669,5 +722,11 @@ h5 a:hover {
         margin-right: 0.5em;
       }
     }
+  }
+  blockquote {
+    font-size: 0.8em;
+    line-height: 140%;
+    margin: 1em;
+    padding: 1em;
   }
 }
