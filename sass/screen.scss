@@ -20,6 +20,13 @@ $column-width: 4em;
 $gutter-width: 1em;
 $grid-padding: $gutter-width;
 
+/* BREAKPOINTS ********************************************************************************************/
+
+$break-01: 4 19em;            // < 320px
+$break-02: 20em 6 29em;       // 320px-480px
+$break-03: 30em 8 40em;       // 480px-640px
+$break-04: 48em 10 63em;      // 768px-1024px
+
 /* LAYOUT ********************************************************************************************/
 
 html, body { height: 100%; }
@@ -41,7 +48,7 @@ body {
 }
 
 nav {
-  @include container;
+  @include container($total-columns, $break-01, $break-02, $break-03, $break-04);
   padding: 1em 0;
   li {
     color: #666;
@@ -71,7 +78,7 @@ nav {
       a {
         @include transition-duration(0.4s);
         @include transition-property(color);
-        color: #666;
+        color: #888;
       }
       a:hover {
         color: #289aaf;
@@ -90,7 +97,7 @@ nav {
 }
 
 .page { 
-  @include container;
+  @include container($total-columns, $break-01, $break-02, $break-03, $break-04);
   padding-bottom: 40px;
   padding-top: 100px;
   section {
@@ -133,7 +140,7 @@ nav {
 }
 
 footer {
-  @include container;
+  @include container($total-columns, $break-01, $break-02, $break-03, $break-04);
   height: 30px;
   padding: 30px 0;
   ul.social {
@@ -349,4 +356,318 @@ h5 a {
 h5 a:hover {
   border-bottom: none;
   color: #333;
+}
+
+/* MEDIA QUERIES ********************************************************************************************/
+
+@include at-breakpoint($break-01) {
+  nav {
+    font-size: 0.6em;
+    line-height: 130%;
+    .title {
+      margin-bottom: 1em;
+      .name {
+        display: block;
+      }
+      @include span-columns(4,4);
+      display: block;
+    }
+    .contents {
+      @include span-columns(4,4);
+      display: block;
+      text-align: left;
+      li {
+        margin-left: 0;
+        margin-right: 0.6em;
+      }
+    }
+  }
+  .page { 
+    padding-bottom: 0px;
+    padding-top: 0px;
+    section { padding-top: 1.5em; }
+    article {
+      @include span-columns(4,4);
+      margin-bottom: 2em;
+      .license {
+        margin-top: 1em;
+        text-align: right;
+      }
+    }
+    aside { @include span-columns(4,4);
+      h4 {
+        font-size: 0.8em;
+        margin-bottom: 1em;
+      }
+    }
+    h1 { font-size: 1.4em; }
+    h3 { font-size: 1em; }
+    h5 { font-size: 0.8em; }
+    p {
+      font-size: 0.7em;
+      line-height: 125%;
+    }
+    ul.links {
+      li {
+        font-size: 0.7em;
+        line-height: 125%;
+      }
+    }
+  }
+  footer {
+    padding-bottom: 70px;
+    ul.social {
+      @include span-columns(4,4);
+      display: block;
+      margin-bottom: 0.8em;
+      margin-right: 0;
+      text-align: center;
+      li { font-size: 42px; }
+    }
+    .logo {
+      @include span-columns(4,4);
+      display: block;
+      font-size: 1em;
+      text-align: right;
+      img {
+        float: right;
+        margin-right: 0.5em;
+      }
+    }
+  }
+}
+
+@include at-breakpoint($break-02) {
+    nav {
+    font-size: 0.6em;
+    line-height: 130%;
+    .title {
+      margin-bottom: 1em;
+      .name {
+        display: block;
+      }
+      @include span-columns(6,6);
+      display: block;
+    }
+    .contents {
+      @include span-columns(6,6);
+      display: block;
+      text-align: left;
+      li {
+        margin-left: 0;
+        margin-right: 0.6em;
+      }
+    }
+  }
+  .page {
+    padding-bottom: 0px;
+    padding-top: 0px;
+    section { padding-top: 1.5em; }
+    article {
+      @include span-columns(6,6);
+      margin-bottom: 2em;
+      .license {
+        margin-top: 1em;
+        text-align: right;
+      }
+    }
+    aside { @include span-columns(6,6);
+      h4 {
+        font-size: 0.8em;
+        margin-bottom: 1em;
+      }
+    }
+    h1 { font-size: 1.4em; }
+    h3 { font-size: 1em; }
+    h5 { font-size: 0.8em; }
+    p {
+      font-size: 0.7em;
+      line-height: 125%;
+    }
+    ul.links {
+      li {
+        font-size: 0.7em;
+        line-height: 125%;
+      }
+    }
+  }
+  footer {
+    padding-bottom: 70px;
+    ul.social {
+      @include span-columns(6,6);
+      display: block;
+      margin-bottom: 0.8em;
+      margin-right: 0;
+      text-align: center;
+      li { font-size: 52px; }
+    }
+    .logo {
+      @include span-columns(6,6);
+      display: block;
+      font-size: 1em;
+      text-align: right;
+      img {
+        float: right;
+        margin-right: 0.5em;
+      }
+    }
+  }
+}
+
+@include at-breakpoint($break-03) {
+  nav {
+    font-size: 0.6em;
+    line-height: 130%;
+    margin-left: 2em;
+    margin-right: 0;
+    .title {
+      margin-bottom: 1em;
+      .name {
+        display: block;
+      }
+      @include span-columns(8,8);
+      display: block;
+    }
+    .contents {
+      @include span-columns(8,8);
+      display: block;
+      text-align: left;
+      li {
+        margin-left: 0;
+        margin-right: 0.6em;
+      }
+    }
+  }
+  .page {
+    padding-bottom: 0px;
+    padding-top: 20px;
+    section { padding-top: 1.5em; }
+    article {
+      @include span-columns(8,8);
+      margin-bottom: 2em;
+      .license {
+        margin-top: 1em;
+        text-align: right;
+      }
+    }
+    aside { @include span-columns(8,8);
+      h4 {
+        font-size: 1em;
+        margin-bottom: 1em;
+      }
+    }
+    h1 { font-size: 1.4em; }
+    h3 { font-size: 1em; }
+    h5 { font-size: 0.8em; }
+    p {
+      font-size: 0.7em;
+      line-height: 125%;
+    }
+    ul.links {
+      li {
+        font-size: 0.7em;
+        line-height: 125%;
+      }
+    }
+  }
+  footer {
+    padding-bottom: 70px;
+    ul.social {
+      @include span-columns(8,8);
+      display: block;
+      margin-bottom: 0.8em;
+      margin-left: 1em;
+      margin-right: 0;
+      li { font-size: 52px; }
+    }
+    .logo {
+      @include span-columns(8,8);
+      display: block;
+      font-size: 1em;
+      text-align: right;
+      img {
+        float: right;
+        margin-right: 0.5em;
+      }
+    }
+  }
+}
+
+@include at-breakpoint($break-04) {
+  nav {
+    font-size: 0.8em;
+    line-height: 130%;
+    margin-left: 2em;
+    margin-right: 0;
+    .title {
+      @include span-columns(10,10);
+      display: block;
+      margin-bottom: 1em;
+      .name {
+        display: block;
+      }
+    }
+    .contents {
+      @include span-columns(10,10);
+      display: block;
+      text-align: left;
+      li {
+        margin-left: 0;
+        margin-right: 0.6em;
+      }
+    }
+  }
+  .page { 
+    padding-bottom: 0px;
+    padding-top: 20px;
+    section { padding-top: 1.5em; }
+    article {
+      @include span-columns(10,10);
+      margin-bottom: 2em;
+      .license {
+        margin-top: 1em;
+        text-align: right;
+      }
+    }
+    aside { @include span-columns(10,10);
+      h4 {
+        font-size: 1em;
+        margin-bottom: 1em;
+      }
+    }
+    h1 { font-size: 2em; }
+    h3 { font-size: 1.2em; }
+    h5 { font-size: 1em; }
+    p {
+      font-size: 0.8em;
+      line-height: 135%;
+    }
+    ul.links {
+      li {
+        font-size: 0.8em;
+        line-height: 135%;
+      }
+    }
+  }
+  footer {
+    padding-bottom: 70px;
+    ul.social {
+      @include span-columns(10,10);
+      display: block;
+      margin-bottom: 0.8em;
+      margin-left: 1em;
+      margin-right: 0;
+      li { font-size: 62px; }
+    }
+    .logo {
+      @include span-columns(10,10);
+      display: block;
+      font-size: 1em;
+      text-align: right;
+      img {
+        float: right;
+        margin-right: 0.5em;
+      }
+    }
+  }
 }
