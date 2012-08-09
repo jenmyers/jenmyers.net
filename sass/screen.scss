@@ -11,6 +11,7 @@
 
 @include font-face("SocialicoRegular", font-files("socialico-webfont.eot", "socialico-webfont.woff", "socialico-webfont.ttf", "socialico-webfont.svg"));
 @include font-icon-family(entypo);
+@include font-face("EntypoRegular", font-files("entypo-webfont.eot", "entypo-webfont.woff", "entypo-webfont.ttf", "entypo-webfont.svg"));
 @include sticky-footer(30px, ".page", ".page-footer", "footer");
 
 /* GRID ********************************************************************************************/
@@ -22,8 +23,8 @@ $grid-padding: $gutter-width;
 
 /* BREAKPOINTS ********************************************************************************************/
 
-$break-01: 4 19em;            // < 320px
-$break-02: 20em 6 30em;       // 320px-480px
+$break-01: 4 19em;              // < 320px
+$break-02: 20em 6 30em;         // 320px-480px
 $break-03: 30.1em 8 40em;       // 480px-640px
 $break-04: 40.1em 10 63em;      // 768px-1024px
 
@@ -64,9 +65,9 @@ nav {
         @include transition-duration(0.4s);
         @include transition-property(color);
         color: #289aaf;
-      }
-      a:hover {
-        color: #fff;
+        &:hover {
+          color: #fff;
+        }
       }
     }
   }
@@ -79,18 +80,18 @@ nav {
         @include transition-duration(0.4s);
         @include transition-property(color);
         color: #888;
-      }
-      a:hover {
-        color: #289aaf;
-      }
-      a.current {
-        @include transition-property(border-bottom);
-        @include transition-duration(0.4s);
-        border-bottom: 2px solid #289aaf;
-      }
-      a.current:hover {
-        border-bottom: 2px solid #9AAF28;
-        color: #666;
+        &:hover {
+          color: #289aaf;
+        }
+        &.current {
+          @include transition-property(border-bottom);
+          @include transition-duration(0.4s);
+          border-bottom: 2px solid #289aaf;
+        }
+        &.current:hover {
+          border-bottom: 2px solid #9AAF28;
+          color: #666;
+        }
       }
     }
   }
@@ -125,14 +126,15 @@ nav {
       text-align: right;
       a.cc-icon {
         @include font-icon-base(entypo, 2em, 1em, 0em); 
-        @extend .entypo-cc;
+        @extend .entypo-cc !optional;
+        font-family: "EntypoRegular";
         @include transition-duration(0.4s);
         @include transition-property(color);
         border-bottom: 1px solid #fff;
         color: #999;
-      }
-      a:hover.cc-icon {
-        color: #333;
+        &:hover.cc-icon {
+          color: #333;
+        }
       }
     }
   }
@@ -153,9 +155,9 @@ footer {
         @include transition-duration(0.4s);
         @include transition-property(color);
         color: #666;
-      }
-      a:hover {
-        color: #289aaf;
+        &:hover {
+          color: #289aaf;
+        }
       }
     }
   }
@@ -177,16 +179,16 @@ footer {
       @include transition-duration(0.4s);
       @include transition-property(color);
       color: #666;
+      &:hover {
+        color: #fff;
+        img {
+          @include opacity(0.8);
+        }
+      }
       img {
         @include opacity(0.4);
         @include transition-duration(0.4s);
         @include transition-property(opacity);
-      }
-    }
-    a:hover {
-      color: #fff;
-      img {
-        @include opacity(0.8);
       }
     }
   }
@@ -269,7 +271,7 @@ ul.links {
   margin-bottom: 1em;
   li {
     @include font-icon-base(entypo);
-    @extend .entypo-right-circle2;
+    @extend .entypo-right-circle2 !optional;
   }
 }
 
@@ -297,20 +299,16 @@ article li span {
   text-transform: uppercase;
 }
 
-/* IMAGES ********************************************************************************************/
-
-
 /* ANCHORS ********************************************************************************************/
 
 a {
   border-bottom: 1px dashed #aaa;
   color: #289aaf;
   text-decoration: none;
-}
-
-a:hover {
-  border-bottom: 1px solid #ddd;
-  color: #000;
+  &:hover {
+    border-bottom: 1px solid #ddd;
+    color: #000;
+  }
 }
 
 h1 a, h2 a, h4 a, nav a, footer a {
@@ -318,11 +316,10 @@ h1 a, h2 a, h4 a, nav a, footer a {
   @include transition-property(color);
   border-bottom: none;
   color: #333;
-}
-
-h1 a:hover, h2 a:hover, h3 a:hover, h4 a:hover, nav a:hover, footer a:hover {
-  border-bottom: none;
-  color: #289aaf;
+  &:hover {
+    border-bottom: none;
+    color: #289aaf;
+  }
 }
 
 h3 a {
@@ -330,20 +327,18 @@ h3 a {
   @include transition-property(color);
   border-bottom: none;
   color: #289aaf;
-}
-
-h3 a:hover {
-  color: #333;
-}
-
-h3 a:after {
-  color: #ccc;
-  content: "→";
-  margin-left: 0.2em;
-}
-  
-h3 a:hover:after {
-  color: #289aaf;
+  &:hover {
+    border-bottom: none;
+    color: #333;
+  }
+  &:after {
+    color: #ccc;
+    content: "→";
+    margin-left: 0.2em;
+  }
+  &:hover:after {
+    color: #289aaf;
+  }
 }
 
 h5 a {
@@ -351,11 +346,10 @@ h5 a {
   @include transition-property(color);
   border-bottom: none;
   color: #9AAF28;
-}
-
-h5 a:hover {
-  border-bottom: none;
-  color: #333;
+  &:hover {
+    border-bottom: none;
+    color: #333;
+  }
 }
 
 /* MEDIA QUERIES ********************************************************************************************/
@@ -502,7 +496,7 @@ h5 a:hover {
     }
     h1 { font-size: 2.2em; }
     h2 { font-size: 1.2em; }
-    h3 { font-size: 1.6em; }
+    h3 { font-size: 1.5em; }
     h3.top { margin-top: 1em; }
     h5 { font-size: 1.2em; }
     p {
@@ -682,9 +676,9 @@ h5 a:hover {
         margin-bottom: 1em;
       }
     }
-    h1 { font-size: 3em; }
+    h1 { font-size: 2.8em; }
     h2 { font-size: 1.2em; }
-    h3 { font-size: 2em; }
+    h3 { font-size: 1.7em; }
     h3.top { margin-top: 1em; }
     h5 { font-size: 1.3em; }
   }
