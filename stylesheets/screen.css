@@ -102,9 +102,9 @@ html, body {
 
 /* line 35, ../sass/screen.scss */
 body {
-  background-color: #fff;
+  background-color: #f2f2f3;
   background-attachment: fixed;
-  background-image: url(../images/robot.png);
+  background-image: url("../images/robot.png");
   background-position: top center;
   background-repeat: no-repeat;
   color: #333;

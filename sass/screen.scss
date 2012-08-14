@@ -33,9 +33,9 @@ $break-04: 40.1em 10 63em;      // 768px-1024px
 html, body { height: 100%; }
 
 body {
-  background-color: #fff;
+  background-color: #f2f2f3;
   background-attachment: fixed;
-  background-image: url(../images/robot.png);
+  background-image: url("../images/robot.png");
   background-position: top center;
   background-repeat: no-repeat;
   color: #333;
