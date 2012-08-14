@@ -264,13 +264,13 @@ nav {
     margin-bottom: 4em; }
     /* line 112, ../sass/screen.scss */
     .page article .block {
-      border: 2px solid #eee;
+      border: 2px solid #e7e7ee;
       display: block;
       margin: 2em auto;
       padding: 7px; }
     /* line 118, ../sass/screen.scss */
     .page article .inline {
-      border: 2px solid #eee;
+      border: 2px solid #e7e7ee;
       float: left;
       margin: 0 1em 1em 0;
       padding: 7px; }
@@ -524,7 +524,7 @@ blockquote {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  border: 2px solid #eee;
+  border: 2px solid #e7e7ee;
   font-size: 90%;
   font-style: italic;
   line-height: 150%;
