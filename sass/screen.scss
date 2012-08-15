@@ -283,6 +283,7 @@ em { font-style: italic; }
 
 blockquote {
   @include border-radius(3px);
+  background: #fff;
   border: 2px solid #e7e7ee;
   font-size: 90%;
   font-style: italic;
