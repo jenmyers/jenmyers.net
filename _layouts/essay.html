@@ -1,8 +1,10 @@
 {% include header.html %}
 
   <section>
+    <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
     <aside>
-      <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
+      <p class="summary">{{ page.summary }}</p>
+      <h4>{{ page.date }}</h4>
     </aside>
     <article>
       {{ page.content }}

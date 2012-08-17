@@ -1,6 +1,7 @@
 ---
 layout: single
 title: The Chuck Jones School of Creativity
+summary: Inspiration sometimes comes from unlikely sources. Mine comes from a guy who drew talking animals.
 ---
 
 <p>When I was a teenager, after I had completed the mandatory girl career aspiration phase of marine biologist, I determined I wanted to grow up to be an animated cartoonist. It seemed to be the natural fruition of my interest in sketching, my attraction to the bright and frenetic and my affinity for philosophical anarchy. I studied the limited number of films I had access to, planned to go to art school and thought that, since Disney was likely out of my reach, I would shoot for a job at one of the smaller network studios.</p>
