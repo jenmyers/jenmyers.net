@@ -11,7 +11,7 @@
 
 @include font-face("SocialicoRegular", font-files("socialico-webfont.eot", "socialico-webfont.woff", "socialico-webfont.ttf", "socialico-webfont.svg"));
 @include font-icon-family(entypo);
-@include font-face("EntypoRegular", font-files("entypo-webfont.eot", "entypo-webfont.woff", "entypo-webfont.ttf", "entypo-webfont.svg"));
+@include font-face("entypo", font-files("entypo.eot", "entypo.woff", "entypo.ttf", "entypo.svg"));
 @include sticky-footer(30px, ".page", ".page-footer", "footer");
 
 /* GRID ********************************************************************************************/
@@ -726,5 +726,24 @@ h5 a {
     line-height: 140%;
     margin: 1em;
     padding: 1em;
+  }
+}
+
+// Temporary Entypo icon
+
+[class^="icon-"]:before, [class*=" icon-"]:before {
+	font-family: 'entypo';
+	font-style: normal;
+	speak: none;
+}
+.icon-creative-commons:before {
+	color: #999;
+	content: "\e000";
+	font-size: 1.6em;
+}
+.icon-creative-commons {
+  border-bottom: 1px dashed #f2f2f3;
+  &:hover {
+    border-bottom: 1px dashed #f2f2f3;
   }
 }
