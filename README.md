@@ -15,5 +15,5 @@ The personal website of millionaire playgirl Jen Myers and her official reposito
 
 ## Tasks
 
-- fix font-icons gem issue/create font-face icon fallback
+- create better markup for use of font icons
 - test more fully cross-browser
