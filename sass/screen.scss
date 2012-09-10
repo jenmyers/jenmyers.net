@@ -28,45 +28,59 @@ $break-02: 20em 6 30em;         // 320px-480px
 $break-03: 30.1em 8 40em;       // 480px-640px
 $break-04: 40.1em 10 63em;      // 768px-1024px
 
+/* COLORS ********************************************************************************************/
+
+$pink: #F20F62;
+$turquoise: #37BFBF;
+$lightgrey: #ccc;
+$medgrey: #999;
+$darkgrey: #666;
+$softblack: #333;
+$border: #eee;
+
 /* LAYOUT ********************************************************************************************/
 
 html, body { height: 100%; }
 
 body {
-  background-color: #f2f2f3;
+  background-color: #fff;
   background-attachment: fixed;
   background-image: url("../images/robot.png");
   background-position: top center;
   background-repeat: no-repeat;
-  color: #333;
+  color: #2a2537;
   font-family: "proxima-nova", sans-serif;
   line-height: 170%;
 }
 
 .nav-wrapper, .footer-wrapper {
-  background-color: #333;
   width: 100%;
+}
+
+.footer-wrapper {
+  background-color: $softblack;
 }
 
 nav {
   @include container($total-columns, $break-01, $break-02, $break-03, $break-04);
-  padding: 1em 0;
+  //border-bottom: 2px solid $border;
+  padding: 1.2em 0 0.6em 0;
   li {
-    color: #666;
-    font-family: "proxima-nova-extra-condensed";
-    font-size: 1.4em;
+    color: $lightgrey;
+    font-size: 1em;
+    font-weight: 700;
     text-transform: uppercase;
   }
   .title {
     @include span-columns(6 alpha,12);
     .name {
-      margin-right: 1em;
+      margin-right: 0.5em;
       a {
         @include transition-duration(0.4s);
         @include transition-property(color);
-        color: #289aaf;
+        color: $softblack;
         &:hover {
-          color: #fff;
+          color: $pink;
         }
       }
     }
@@ -79,18 +93,18 @@ nav {
       a {
         @include transition-duration(0.4s);
         @include transition-property(color);
-        color: #888;
+        color: $medgrey;
         &:hover {
-          color: #289aaf;
+          color: $softblack;
         }
         &.current {
           @include transition-property(border-bottom);
           @include transition-duration(0.4s);
-          border-bottom: 2px solid #289aaf;
+          border-bottom: 2px solid $pink;
         }
         &.current:hover {
-          border-bottom: 2px solid #9AAF28;
-          color: #666;
+          border-bottom: 2px solid $pink;
+          color: $softblack;
         }
       }
     }
@@ -110,13 +124,13 @@ nav {
     font-size: 1.2em;
     margin-bottom: 4em;
     .block {
-      border: 2px solid #e7e7ee;
+      border: 2px solid $border;
       display: block;
       margin: 2em auto;
       padding: 7px;
     }
     .inline {
-      border: 2px solid #e7e7ee;
+      border: 2px solid $border;
       float: left;
       margin: 0 1em 1em 0;
       padding: 7px;
@@ -130,26 +144,24 @@ nav {
         font-family: "EntypoRegular";
         @include transition-duration(0.4s);
         @include transition-property(color);
-        border-bottom: 1px solid #fff;
-        color: #999;
+        border-bottom: 1px solid #f2f2f3;
+        color: $medgrey;
         &:hover.cc-icon {
-          color: #333;
+          color: $softblack;
         }
       }
     }
   }
   aside {
     @include span-columns(4 alpha,12);
-    border-top: 5px solid #e7e7ee;
-    padding-top: 0.5em;
     .summary {
-      color: #999;
-      font-family: "kulturista-web";
-      font-size: 1.2em;
-      font-style: italic;
+      border-top: 2px solid $border;
+      color: $darkgrey;
+      font-size: 1em;
       font-weight: 300;
       line-height: 125%;
-      margin-bottom: 0.5em;
+      margin-top: 0.5em;
+      padding-top: 0.5em;
     }
   }
 }
@@ -161,37 +173,35 @@ footer {
   ul.social {
     @include span-columns(6 alpha,12);
     li {
-      display: inline;
-      font-family: "SocialicoRegular";
-      font-size: 56px;
+      display: inline;      
       a {
-        @include transition-duration(0.4s);
+        @include transition-duration(0.8s);
         @include transition-property(color);
-        color: #666;
+        color: $darkgrey;
         &:hover {
-          color: #289aaf;
+          color: #fff;
         }
       }
     }
   }
   .logo {
     @include span-columns(2 omega,12);
-    color: #666;
-    font-family: "proxima-nova-extra-condensed";
-    font-size: 1.4em;
+    color: $darkgrey;
+    font-size: 1em;
+    font-weight: 700;
     margin-top: 0.2em;
     text-align: right;
     text-transform: uppercase;
     img {
-      @include opacity(0.4);
+      @include opacity(0.8);
       float: right;
       margin-left: 0.5em;
       margin-top: -0.45em;
     }
     a {
-      @include transition-duration(0.4s);
+      @include transition-duration(0.8s);
       @include transition-property(color);
-      color: #666;
+      color: $darkgrey;
       &:hover {
         color: #fff;
         img {
@@ -200,7 +210,7 @@ footer {
       }
       img {
         @include opacity(0.4);
-        @include transition-duration(0.4s);
+        @include transition-duration(0.8s);
         @include transition-property(opacity);
       }
     }
@@ -218,9 +228,9 @@ article { font-size: 120%; }
 nav li { display: inline; }
 
 p.caption {
-  color: #888;
-  font-family: "proxima-nova-extra-condensed";
-  font-size: 95%;
+  color: $medgrey;
+  font-size: 80%;
+  font-weight: 700;
   line-height: 110%;
   margin-top: 0.5em;
   text-transform: uppercase;
@@ -234,41 +244,43 @@ h1 {
   font-size: 5em;
   line-height: 100%;
   font-weight: 600;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
   width: 100%;
 }
 
 h2 {
   font-size: 1.4em;
   line-height: 100%;
-  margin-top: 20px;
+  margin-top: 1.2em;
 }
 
 h3 {
-  color: #9AAF28;
-  font-family: "proxima-nova-extra-condensed";
-  font-size: 1.7em;
+  color: #333;
+  font-size: 1.2em;
+  font-weight: 700;
   margin-bottom: 0.6em;
-  margin-top: 1.4em;
+  margin-top: 2.5em;
   line-height: 100%;
   text-transform: uppercase;
   &.top { margin-top: 0; }
 }
 
 h4 {
-  color: #999;
-  font-family: "proxima-nova-extra-condensed";
+  color: $medgrey;
+  font-size: 0.9em;
+  font-weight: 700;
+  margin-top: 0.4em;
   text-transform: uppercase;
 }
 
 aside h4 {
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 h5 {
-  font-family: "proxima-nova-extra-condensed";
-  font-size: 1.2em;
-  margin-top: 1em;
+  font-size: 0.9em;
+  font-weight: 700;
+  margin-top: 8em;
   text-align: right;
   text-transform: uppercase;
 }
@@ -277,7 +289,7 @@ h6 { text-transform: uppercase; }
 
 // LIST ELEMENTS
 
-li { margin-bottom: 0.6em; }
+li { margin-bottom: 0.4em; }
 
 ul.links {
   margin-bottom: 1em;
@@ -300,28 +312,52 @@ small {
 
 blockquote {
   @include border-radius(3px);
-  background: #fff;
-  border: 2px solid #e7e7ee;
-  font-size: 90%;
+  background: #f9f9f9;
+  border: 2px solid $border;
   font-style: italic;
-  line-height: 145%;
   margin: 20px;
   padding: 20px;
 }
 
 article li span {
-  color: #666;
-  font-family: "proxima-nova-extra-condensed";
-  font-size: 95%;
+  color: $darkgrey;
+  font-size: 90%;
+  font-weight: 700;
   margin-left: 10px;
   text-transform: uppercase;
+}
+
+// SOCIAL ICONS
+
+.social-icon {
+  display: inline-block;
+  font-family: "SocialicoRegular";
+  font-size: 56px;
+  &.twitter:before {
+    content: 'l';
+  }
+  &.tumblr:before {
+    content: 'o';
+  }
+  &.github:before {
+    content: 'g';
+  }
+  &.dribbble:before {
+    content: 'd';
+  }
+  &.pinterest:before {
+    content: '&';
+  }
+  &.rss:before {
+    content: 'r';
+  }
 }
 
 /* ANCHORS ********************************************************************************************/
 
 a {
   border-bottom: 1px dashed #aaa;
-  color: #289aaf;
+  color: $pink;
   text-decoration: none;
   &:hover {
     border-bottom: 1px solid #ddd;
@@ -329,14 +365,27 @@ a {
   }
 }
 
-h1 a, h2 a, h4 a, nav a, footer a {
+h1 a {
   @include transition-duration(0.4s);
   @include transition-property(color);
   border-bottom: none;
-  color: #333;
+  color: $pink;
+  text-shadow: 1px 1px 1px #999;
   &:hover {
     border-bottom: none;
-    color: #289aaf;
+    color: $softblack;
+    text-shadow: 1px 1px 1px $pink;
+  }
+}
+
+h2 a, h4 a, nav a, footer a {
+  @include transition-duration(0.4s);
+  @include transition-property(color);
+  border-bottom: none;
+  color: $softblack;
+  &:hover {
+    border-bottom: none;
+    color: $pink;
   }
 }
 
@@ -344,18 +393,18 @@ h3 a {
   @include transition-duration(0.4s);
   @include transition-property(color);
   border-bottom: none;
-  color: #289aaf;
+  color: $pink;
   &:hover {
     border-bottom: none;
-    color: #333;
+    color: $softblack;
   }
   &:after {
-    color: #ccc;
+    color: $lightgrey;
     content: "→";
     margin-left: 0.2em;
   }
   &:hover:after {
-    color: #289aaf;
+    color: $pink;
   }
 }
 
@@ -363,10 +412,10 @@ h5 a {
   @include transition-duration(0.4s);
   @include transition-property(color);
   border-bottom: none;
-  color: #9AAF28;
+  color: $medgrey;
   &:hover {
     border-bottom: none;
-    color: #333;
+    color: $softblack;
   }
 }
 
@@ -454,7 +503,7 @@ h5 a {
       text-align: right;
       img {
         float: right;
-        margin-right: 0.5em;
+        margin-right: 0.6em;
       }
     }
   }
@@ -737,12 +786,13 @@ h5 a {
 	speak: none;
 }
 .icon-creative-commons:before {
-	color: #999;
+	color: $medgrey;
 	content: "\e000";
 	font-size: 1.6em;
 }
 .icon-creative-commons {
   border-bottom: 1px dashed #f2f2f3;
+  float: right;
   &:hover {
     border-bottom: 1px dashed #f2f2f3;
   }
