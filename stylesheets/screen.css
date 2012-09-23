@@ -103,12 +103,12 @@ html, body {
 
 /* line 45, ../sass/screen.scss */
 body {
-  background-color: #fff;
+  background-color: #f6f6f6;
   background-attachment: fixed;
   background-image: url("../images/robot.png");
   background-position: top center;
   background-repeat: no-repeat;
-  color: #2a2537;
+  color: #333;
   font-family: "proxima-nova", sans-serif;
   line-height: 170%; }
 
@@ -179,7 +179,7 @@ nav {
         color: #333333; }
         /* line 82, ../sass/screen.scss */
         nav .title .name a:hover {
-          color: #f20f62; }
+          color: #cc3366; }
   /* line 88, ../sass/screen.scss */
   nav .contents {
     width: 49.15254%;
@@ -215,10 +215,10 @@ nav {
           -moz-transition-duration: 0.4s;
           -o-transition-duration: 0.4s;
           transition-duration: 0.4s;
-          border-bottom: 2px solid #f20f62; }
+          border-bottom: 2px solid #cc3366; }
         /* line 105, ../sass/screen.scss */
         nav .contents li a.current:hover {
-          border-bottom: 2px solid #f20f62;
+          border-bottom: 2px solid #cc3366;
           color: #333333; }
 
 /* line 114, ../sass/screen.scss */
@@ -377,7 +377,7 @@ footer {
         color: #666666; }
         /* line 181, ../sass/screen.scss */
         footer ul.social li a:hover {
-          color: #fff; }
+          color: #cc3366; }
   /* line 187, ../sass/screen.scss */
   footer .logo {
     width: 15.25424%;
@@ -458,7 +458,7 @@ h1 {
   font-size: 5em;
   line-height: 100%;
   font-weight: 600;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.6em;
   width: 100%; }
 
 /* line 251, ../sass/screen.scss */
@@ -490,7 +490,7 @@ h4 {
 
 /* line 276, ../sass/screen.scss */
 aside h4 {
-  font-size: 1em; }
+  font-size: 1.2em; }
 
 /* line 280, ../sass/screen.scss */
 h5 {
@@ -541,8 +541,8 @@ blockquote {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  background: #f9f9f9;
-  border: 2px solid #eeeeee;
+  background: #fff;
+  font-family: "kulturista-web";
   font-style: italic;
   margin: 20px;
   padding: 20px; }
@@ -583,7 +583,7 @@ article li span {
 /* line 358, ../sass/screen.scss */
 a {
   border-bottom: 1px dashed #aaa;
-  color: #f20f62;
+  color: #cc3366;
   text-decoration: none; }
   /* line 362, ../sass/screen.scss */
   a:hover {
@@ -601,15 +601,13 @@ h1 a {
   -o-transition-property: color;
   transition-property: color;
   border-bottom: none;
-  color: #f20f62;
-  text-shadow: 1px 1px 1px #999; }
-  /* line 374, ../sass/screen.scss */
+  color: #cc3366; }
+  /* line 373, ../sass/screen.scss */
   h1 a:hover {
     border-bottom: none;
-    color: #333333;
-    text-shadow: 1px 1px 1px #f20f62; }
+    color: #333333; }
 
-/* line 381, ../sass/screen.scss */
+/* line 379, ../sass/screen.scss */
 h2 a, h4 a, nav a, footer a {
   -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
@@ -621,12 +619,12 @@ h2 a, h4 a, nav a, footer a {
   transition-property: color;
   border-bottom: none;
   color: #333333; }
-  /* line 386, ../sass/screen.scss */
+  /* line 384, ../sass/screen.scss */
   h2 a:hover, h4 a:hover, nav a:hover, footer a:hover {
     border-bottom: none;
-    color: #f20f62; }
+    color: #cc3366; }
 
-/* line 392, ../sass/screen.scss */
+/* line 390, ../sass/screen.scss */
 h3 a {
   -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
@@ -637,21 +635,21 @@ h3 a {
   -o-transition-property: color;
   transition-property: color;
   border-bottom: none;
-  color: #f20f62; }
-  /* line 397, ../sass/screen.scss */
+  color: #cc3366; }
+  /* line 395, ../sass/screen.scss */
   h3 a:hover {
     border-bottom: none;
     color: #333333; }
-  /* line 401, ../sass/screen.scss */
+  /* line 399, ../sass/screen.scss */
   h3 a:after {
     color: #cccccc;
     content: "→";
     margin-left: 0.2em; }
-  /* line 406, ../sass/screen.scss */
+  /* line 404, ../sass/screen.scss */
   h3 a:hover:after {
-    color: #f20f62; }
+    color: #cc3366; }
 
-/* line 411, ../sass/screen.scss */
+/* line 409, ../sass/screen.scss */
 h5 a {
   -webkit-transition-duration: 0.4s;
   -moz-transition-duration: 0.4s;
@@ -663,102 +661,102 @@ h5 a {
   transition-property: color;
   border-bottom: none;
   color: #999999; }
-  /* line 416, ../sass/screen.scss */
+  /* line 414, ../sass/screen.scss */
   h5 a:hover {
     border-bottom: none;
     color: #333333; }
 
 /* MEDIA QUERIES ********************************************************************************************/
 @media (max-width: 19em) {
-  /* line 425, ../sass/screen.scss */
+  /* line 423, ../sass/screen.scss */
   nav {
     font-size: 0.6em;
     line-height: 130%;
     padding: 2em 0; }
-    /* line 429, ../sass/screen.scss */
+    /* line 427, ../sass/screen.scss */
     nav .title {
       margin-bottom: 1em;
       width: 100%;
       float: left;
       margin-right: 5.26316%;
       display: block; }
-      /* line 431, ../sass/screen.scss */
+      /* line 429, ../sass/screen.scss */
       nav .title .name {
         display: block; }
-    /* line 437, ../sass/screen.scss */
+    /* line 435, ../sass/screen.scss */
     nav .contents {
       width: 100%;
       float: left;
       margin-right: 5.26316%;
       display: block;
       text-align: left; }
-      /* line 441, ../sass/screen.scss */
+      /* line 439, ../sass/screen.scss */
       nav .contents li {
         margin-left: 0;
         margin-right: 0.6em; }
 
-  /* line 447, ../sass/screen.scss */
+  /* line 445, ../sass/screen.scss */
   .page {
     padding-bottom: 0px;
     padding-top: 0px; }
-    /* line 450, ../sass/screen.scss */
+    /* line 448, ../sass/screen.scss */
     .page section {
       padding-top: 1.5em; }
-    /* line 451, ../sass/screen.scss */
+    /* line 449, ../sass/screen.scss */
     .page article {
       width: 100%;
       float: left;
       margin-right: 5.26316%;
       margin-bottom: 3em; }
-      /* line 454, ../sass/screen.scss */
+      /* line 452, ../sass/screen.scss */
       .page article .block {
         margin: 1em auto;
         width: 90%; }
-      /* line 458, ../sass/screen.scss */
+      /* line 456, ../sass/screen.scss */
       .page article .inline {
         margin: 0 0.5em 0.2em 0;
         width: 30%; }
-      /* line 462, ../sass/screen.scss */
+      /* line 460, ../sass/screen.scss */
       .page article .license {
         margin-top: 1em;
         text-align: right; }
-    /* line 467, ../sass/screen.scss */
+    /* line 465, ../sass/screen.scss */
     .page aside {
       width: 100%;
       float: left;
       margin-right: 5.26316%; }
-      /* line 468, ../sass/screen.scss */
+      /* line 466, ../sass/screen.scss */
       .page aside h4 {
         font-size: 0.8em;
         margin-bottom: 1em; }
-    /* line 473, ../sass/screen.scss */
+    /* line 471, ../sass/screen.scss */
     .page h1 {
       font-size: 1.4em; }
-    /* line 474, ../sass/screen.scss */
+    /* line 472, ../sass/screen.scss */
     .page h2 {
       font-size: 1.2em; }
-    /* line 475, ../sass/screen.scss */
+    /* line 473, ../sass/screen.scss */
     .page h3 {
       font-size: 1em; }
-    /* line 476, ../sass/screen.scss */
+    /* line 474, ../sass/screen.scss */
     .page h3.top {
       margin-top: 1em; }
-    /* line 477, ../sass/screen.scss */
+    /* line 475, ../sass/screen.scss */
     .page h5 {
       font-size: 0.8em; }
-    /* line 478, ../sass/screen.scss */
+    /* line 476, ../sass/screen.scss */
     .page p {
       font-size: 0.7em;
       line-height: 125%; }
-    /* line 483, ../sass/screen.scss */
+    /* line 481, ../sass/screen.scss */
     .page ul.links li {
       font-size: 0.7em;
       line-height: 125%; }
 
-  /* line 489, ../sass/screen.scss */
+  /* line 487, ../sass/screen.scss */
   footer {
     padding-bottom: 70px; }
-    /* line 491, ../sass/screen.scss */
+    /* line 489, ../sass/screen.scss */
     footer ul.social {
       width: 100%;
       float: left;
@@ -767,10 +765,10 @@ h5 a {
       margin-bottom: 0.8em;
       margin-right: 0;
       text-align: center; }
-      /* line 497, ../sass/screen.scss */
+      /* line 495, ../sass/screen.scss */
       footer ul.social li {
         font-size: 42px; }
-    /* line 499, ../sass/screen.scss */
+    /* line 497, ../sass/screen.scss */
     footer .logo {
       width: 100%;
       float: left;
@@ -778,104 +776,104 @@ h5 a {
       display: block;
       font-size: 1em;
       text-align: right; }
-      /* line 504, ../sass/screen.scss */
+      /* line 502, ../sass/screen.scss */
       footer .logo img {
         float: right;
         margin-right: 0.6em; }
 
-  /* line 510, ../sass/screen.scss */
+  /* line 508, ../sass/screen.scss */
   blockquote {
     font-size: 0.7em;
     line-height: 140%;
     margin: 1em;
     padding: 1em; } }
 @media (min-width: 20em) and (max-width: 30em) {
-  /* line 519, ../sass/screen.scss */
+  /* line 517, ../sass/screen.scss */
   nav {
     font-size: 0.9em;
     line-height: 130%;
     padding: 2em 0 2em 1em; }
-    /* line 523, ../sass/screen.scss */
+    /* line 521, ../sass/screen.scss */
     nav .title {
       width: 100%;
       float: left;
       margin-right: 3.44828%;
       display: block;
       margin-bottom: 0.2em; }
-    /* line 528, ../sass/screen.scss */
+    /* line 526, ../sass/screen.scss */
     nav .contents {
       width: 100%;
       float: left;
       margin-right: 3.44828%;
       display: block;
       text-align: left; }
-      /* line 532, ../sass/screen.scss */
+      /* line 530, ../sass/screen.scss */
       nav .contents li {
         margin-left: 0;
         margin-right: 0.6em; }
 
-  /* line 538, ../sass/screen.scss */
+  /* line 536, ../sass/screen.scss */
   .page {
     padding-bottom: 0px;
     padding-top: 0px; }
-    /* line 541, ../sass/screen.scss */
+    /* line 539, ../sass/screen.scss */
     .page section {
       padding-top: 1.5em; }
-    /* line 542, ../sass/screen.scss */
+    /* line 540, ../sass/screen.scss */
     .page article {
       width: 100%;
       float: left;
       margin-right: 3.44828%;
       margin-bottom: 3em; }
-      /* line 545, ../sass/screen.scss */
+      /* line 543, ../sass/screen.scss */
       .page article .license {
         margin-top: 1em;
         text-align: right; }
-      /* line 549, ../sass/screen.scss */
+      /* line 547, ../sass/screen.scss */
       .page article .block {
         margin: 1em auto;
         width: 90%; }
-      /* line 553, ../sass/screen.scss */
+      /* line 551, ../sass/screen.scss */
       .page article .inline {
         margin: 0 0.5em 0.2em 0;
         width: 30%; }
-    /* line 558, ../sass/screen.scss */
+    /* line 556, ../sass/screen.scss */
     .page aside {
       width: 100%;
       float: left;
       margin-right: 3.44828%; }
-      /* line 559, ../sass/screen.scss */
+      /* line 557, ../sass/screen.scss */
       .page aside h4 {
         font-size: 1.2em;
         margin-bottom: 1em; }
-    /* line 564, ../sass/screen.scss */
+    /* line 562, ../sass/screen.scss */
     .page h1 {
       font-size: 2.2em; }
-    /* line 565, ../sass/screen.scss */
+    /* line 563, ../sass/screen.scss */
     .page h2 {
       font-size: 1.2em; }
-    /* line 566, ../sass/screen.scss */
+    /* line 564, ../sass/screen.scss */
     .page h3 {
       font-size: 1.5em; }
-    /* line 567, ../sass/screen.scss */
+    /* line 565, ../sass/screen.scss */
     .page h3.top {
       margin-top: 1em; }
-    /* line 568, ../sass/screen.scss */
+    /* line 566, ../sass/screen.scss */
     .page h5 {
       font-size: 1.2em; }
-    /* line 569, ../sass/screen.scss */
+    /* line 567, ../sass/screen.scss */
     .page p {
       font-size: 0.9em;
       line-height: 130%; }
-    /* line 574, ../sass/screen.scss */
+    /* line 572, ../sass/screen.scss */
     .page ul.links li {
       font-size: 0.9em;
       line-height: 130%; }
 
-  /* line 580, ../sass/screen.scss */
+  /* line 578, ../sass/screen.scss */
   footer {
     padding-bottom: 70px; }
-    /* line 582, ../sass/screen.scss */
+    /* line 580, ../sass/screen.scss */
     footer ul.social {
       width: 100%;
       float: left;
@@ -884,10 +882,10 @@ h5 a {
       margin-bottom: 0.8em;
       margin-right: 0;
       text-align: center; }
-      /* line 588, ../sass/screen.scss */
+      /* line 586, ../sass/screen.scss */
       footer ul.social li {
         font-size: 52px; }
-    /* line 590, ../sass/screen.scss */
+    /* line 588, ../sass/screen.scss */
     footer .logo {
       width: 100%;
       float: left;
@@ -895,104 +893,104 @@ h5 a {
       display: block;
       font-size: 1em;
       text-align: right; }
-      /* line 595, ../sass/screen.scss */
+      /* line 593, ../sass/screen.scss */
       footer .logo img {
         float: right;
         margin-right: 0.5em; }
 
-  /* line 601, ../sass/screen.scss */
+  /* line 599, ../sass/screen.scss */
   blockquote {
     font-size: 0.7em;
     line-height: 140%;
     margin: 1em;
     padding: 1em; } }
 @media (min-width: 30.1em) and (max-width: 40em) {
-  /* line 610, ../sass/screen.scss */
+  /* line 608, ../sass/screen.scss */
   nav {
     font-size: 1em;
     line-height: 130%;
     padding: 2em 0 2em 1em; }
-    /* line 614, ../sass/screen.scss */
+    /* line 612, ../sass/screen.scss */
     nav .title {
       width: 100%;
       float: left;
       margin-right: 2.5641%;
       display: block;
       margin-bottom: 0.2em; }
-    /* line 619, ../sass/screen.scss */
+    /* line 617, ../sass/screen.scss */
     nav .contents {
       width: 100%;
       float: left;
       margin-right: 2.5641%;
       display: block;
       text-align: left; }
-      /* line 623, ../sass/screen.scss */
+      /* line 621, ../sass/screen.scss */
       nav .contents li {
         margin-left: 0;
         margin-right: 0.6em; }
 
-  /* line 629, ../sass/screen.scss */
+  /* line 627, ../sass/screen.scss */
   .page {
     padding-bottom: 0px;
     padding-top: 20px; }
-    /* line 632, ../sass/screen.scss */
+    /* line 630, ../sass/screen.scss */
     .page section {
       padding-top: 1.5em; }
-    /* line 633, ../sass/screen.scss */
+    /* line 631, ../sass/screen.scss */
     .page article {
       width: 100%;
       float: left;
       margin-right: 2.5641%;
       margin-bottom: 3em; }
-      /* line 636, ../sass/screen.scss */
+      /* line 634, ../sass/screen.scss */
       .page article .block {
         margin: 1em auto;
         width: 90%; }
-      /* line 640, ../sass/screen.scss */
+      /* line 638, ../sass/screen.scss */
       .page article .inline {
         margin: 0 0.5em 0.2em 0;
         width: 25%; }
-      /* line 644, ../sass/screen.scss */
+      /* line 642, ../sass/screen.scss */
       .page article .license {
         margin-top: 1em;
         text-align: right; }
-    /* line 649, ../sass/screen.scss */
+    /* line 647, ../sass/screen.scss */
     .page aside {
       width: 100%;
       float: left;
       margin-right: 2.5641%; }
-      /* line 650, ../sass/screen.scss */
+      /* line 648, ../sass/screen.scss */
       .page aside h4 {
         font-size: 1.4em;
         margin-bottom: 1em; }
-    /* line 655, ../sass/screen.scss */
+    /* line 653, ../sass/screen.scss */
     .page h1 {
       font-size: 2.6em; }
-    /* line 656, ../sass/screen.scss */
+    /* line 654, ../sass/screen.scss */
     .page h2 {
       font-size: 1.2em; }
-    /* line 657, ../sass/screen.scss */
+    /* line 655, ../sass/screen.scss */
     .page h3 {
       font-size: 1.6em; }
-    /* line 658, ../sass/screen.scss */
+    /* line 656, ../sass/screen.scss */
     .page h3.top {
       margin-top: 1em; }
-    /* line 659, ../sass/screen.scss */
+    /* line 657, ../sass/screen.scss */
     .page h5 {
       font-size: 1.2em; }
-    /* line 660, ../sass/screen.scss */
+    /* line 658, ../sass/screen.scss */
     .page p {
       font-size: 0.9em;
       line-height: 130%; }
-    /* line 665, ../sass/screen.scss */
+    /* line 663, ../sass/screen.scss */
     .page ul.links li {
       font-size: 0.9em;
       line-height: 130%; }
 
-  /* line 671, ../sass/screen.scss */
+  /* line 669, ../sass/screen.scss */
   footer {
     padding-bottom: 70px; }
-    /* line 673, ../sass/screen.scss */
+    /* line 671, ../sass/screen.scss */
     footer ul.social {
       width: 100%;
       float: left;
@@ -1001,10 +999,10 @@ h5 a {
       margin-bottom: 0.8em;
       margin-left: 1em;
       margin-right: 0; }
-      /* line 679, ../sass/screen.scss */
+      /* line 677, ../sass/screen.scss */
       footer ul.social li {
         font-size: 52px; }
-    /* line 681, ../sass/screen.scss */
+    /* line 679, ../sass/screen.scss */
     footer .logo {
       width: 100%;
       float: left;
@@ -1012,96 +1010,96 @@ h5 a {
       display: block;
       font-size: 1em;
       text-align: right; }
-      /* line 686, ../sass/screen.scss */
+      /* line 684, ../sass/screen.scss */
       footer .logo img {
         float: right;
         margin-right: 0.5em; }
 
-  /* line 692, ../sass/screen.scss */
+  /* line 690, ../sass/screen.scss */
   blockquote {
     font-size: 0.7em;
     line-height: 140%;
     margin: 1em;
     padding: 1em; } }
 @media (min-width: 40.1em) and (max-width: 63em) {
-  /* line 701, ../sass/screen.scss */
+  /* line 699, ../sass/screen.scss */
   nav {
     font-size: 1em;
     line-height: 130%;
     padding: 2em 0 2em 1em; }
-    /* line 705, ../sass/screen.scss */
+    /* line 703, ../sass/screen.scss */
     nav .title {
       width: 100%;
       float: left;
       margin-right: 2.5641%;
       display: block;
       margin-bottom: 0.2em; }
-    /* line 710, ../sass/screen.scss */
+    /* line 708, ../sass/screen.scss */
     nav .contents {
       width: 100%;
       float: left;
       margin-right: 2.04082%;
       display: block;
       text-align: left; }
-      /* line 714, ../sass/screen.scss */
+      /* line 712, ../sass/screen.scss */
       nav .contents li {
         margin-left: 0;
         margin-right: 0.6em; }
 
-  /* line 720, ../sass/screen.scss */
+  /* line 718, ../sass/screen.scss */
   .page {
     padding-bottom: 0px;
     padding-top: 20px; }
-    /* line 723, ../sass/screen.scss */
+    /* line 721, ../sass/screen.scss */
     .page section {
       padding-top: 1.5em; }
-    /* line 724, ../sass/screen.scss */
+    /* line 722, ../sass/screen.scss */
     .page article {
       width: 100%;
       float: left;
       margin-right: 2.04082%;
       margin-bottom: 3em; }
-      /* line 727, ../sass/screen.scss */
+      /* line 725, ../sass/screen.scss */
       .page article .block {
         margin: 1em auto;
         width: 90%; }
-      /* line 731, ../sass/screen.scss */
+      /* line 729, ../sass/screen.scss */
       .page article .inline {
         margin: 0 0.5em 0.2em 0;
         width: 20%; }
-      /* line 735, ../sass/screen.scss */
+      /* line 733, ../sass/screen.scss */
       .page article .license {
         margin-top: 1em;
         text-align: right; }
-    /* line 740, ../sass/screen.scss */
+    /* line 738, ../sass/screen.scss */
     .page aside {
       width: 100%;
       float: left;
       margin-right: 2.04082%; }
-      /* line 741, ../sass/screen.scss */
+      /* line 739, ../sass/screen.scss */
       .page aside h4 {
         font-size: 1.4em;
         margin-bottom: 1em; }
-    /* line 746, ../sass/screen.scss */
+    /* line 744, ../sass/screen.scss */
     .page h1 {
       font-size: 2.8em; }
-    /* line 747, ../sass/screen.scss */
+    /* line 745, ../sass/screen.scss */
     .page h2 {
       font-size: 1.2em; }
-    /* line 748, ../sass/screen.scss */
+    /* line 746, ../sass/screen.scss */
     .page h3 {
       font-size: 1.7em; }
-    /* line 749, ../sass/screen.scss */
+    /* line 747, ../sass/screen.scss */
     .page h3.top {
       margin-top: 1em; }
-    /* line 750, ../sass/screen.scss */
+    /* line 748, ../sass/screen.scss */
     .page h5 {
       font-size: 1.3em; }
 
-  /* line 752, ../sass/screen.scss */
+  /* line 750, ../sass/screen.scss */
   footer {
     padding-bottom: 70px; }
-    /* line 754, ../sass/screen.scss */
+    /* line 752, ../sass/screen.scss */
     footer ul.social {
       width: 100%;
       float: left;
@@ -1110,10 +1108,10 @@ h5 a {
       margin-bottom: 0.8em;
       margin-left: 1em;
       margin-right: 0; }
-      /* line 760, ../sass/screen.scss */
+      /* line 758, ../sass/screen.scss */
       footer ul.social li {
         font-size: 62px; }
-    /* line 762, ../sass/screen.scss */
+    /* line 760, ../sass/screen.scss */
     footer .logo {
       width: 100%;
       float: left;
@@ -1121,33 +1119,33 @@ h5 a {
       display: block;
       font-size: 1em;
       text-align: right; }
-      /* line 767, ../sass/screen.scss */
+      /* line 765, ../sass/screen.scss */
       footer .logo img {
         float: right;
         margin-right: 0.5em; }
 
-  /* line 773, ../sass/screen.scss */
+  /* line 771, ../sass/screen.scss */
   blockquote {
     font-size: 0.8em;
     line-height: 140%;
     margin: 1em;
     padding: 1em; } }
-/* line 783, ../sass/screen.scss */
+/* line 781, ../sass/screen.scss */
 [class^="icon-"]:before, [class*=" icon-"]:before {
   font-family: 'entypo';
   font-style: normal;
   speak: none; }
 
-/* line 788, ../sass/screen.scss */
+/* line 786, ../sass/screen.scss */
 .icon-creative-commons:before {
   color: #999999;
   content: "\e000";
   font-size: 1.6em; }
 
-/* line 793, ../sass/screen.scss */
+/* line 791, ../sass/screen.scss */
 .icon-creative-commons {
   border-bottom: 1px dashed #f2f2f3;
   float: right; }
-  /* line 796, ../sass/screen.scss */
+  /* line 794, ../sass/screen.scss */
   .icon-creative-commons:hover {
     border-bottom: 1px dashed #f2f2f3; }

@@ -30,7 +30,7 @@ $break-04: 40.1em 10 63em;      // 768px-1024px
 
 /* COLORS ********************************************************************************************/
 
-$pink: #F20F62;
+$pink: #CC3366;
 $turquoise: #37BFBF;
 $lightgrey: #ccc;
 $medgrey: #999;
@@ -43,12 +43,12 @@ $border: #eee;
 html, body { height: 100%; }
 
 body {
-  background-color: #fff;
+  background-color: #f6f6f6;
   background-attachment: fixed;
   background-image: url("../images/robot.png");
   background-position: top center;
   background-repeat: no-repeat;
-  color: #2a2537;
+  color: #333;
   font-family: "proxima-nova", sans-serif;
   line-height: 170%;
 }
@@ -179,7 +179,7 @@ footer {
         @include transition-property(color);
         color: $darkgrey;
         &:hover {
-          color: #fff;
+          color: $pink;
         }
       }
     }
@@ -244,7 +244,7 @@ h1 {
   font-size: 5em;
   line-height: 100%;
   font-weight: 600;
-  margin-bottom: 0.8em;
+  margin-bottom: 0.6em;
   width: 100%;
 }
 
@@ -274,7 +274,7 @@ h4 {
 }
 
 aside h4 {
-  font-size: 1em;
+  font-size: 1.2em;
 }
 
 h5 {
@@ -312,8 +312,8 @@ small {
 
 blockquote {
   @include border-radius(3px);
-  background: #f9f9f9;
-  border: 2px solid $border;
+  background: #fff;
+  font-family: "kulturista-web";
   font-style: italic;
   margin: 20px;
   padding: 20px;
@@ -370,11 +370,9 @@ h1 a {
   @include transition-property(color);
   border-bottom: none;
   color: $pink;
-  text-shadow: 1px 1px 1px #999;
   &:hover {
     border-bottom: none;
     color: $softblack;
-    text-shadow: 1px 1px 1px $pink;
   }
 }
 

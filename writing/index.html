@@ -1,12 +1,12 @@
 ---
 layout: default
-title: Articles
+title: Writing
 ---
 
 <section>
   <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
   <article>
-    <h3 class="top">Current</h3>
+    <h3 class="top">Articles</h3>
   	  {% for post in site.posts %}
   		  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
   		  <h4>{{ post.date | date_to_string }}</h4>
