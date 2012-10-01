@@ -179,7 +179,7 @@ nav {
         color: #333333; }
         /* line 82, ../sass/screen.scss */
         nav .title .name a:hover {
-          color: #cc3366; }
+          color: #e53b63; }
   /* line 88, ../sass/screen.scss */
   nav .contents {
     width: 49.15254%;
@@ -215,10 +215,10 @@ nav {
           -moz-transition-duration: 0.4s;
           -o-transition-duration: 0.4s;
           transition-duration: 0.4s;
-          border-bottom: 2px solid #cc3366; }
+          border-bottom: 2px solid #e53b63; }
         /* line 105, ../sass/screen.scss */
         nav .contents li a.current:hover {
-          border-bottom: 2px solid #cc3366;
+          border-bottom: 2px solid #e53b63;
           color: #333333; }
 
 /* line 114, ../sass/screen.scss */
@@ -377,7 +377,7 @@ footer {
         color: #666666; }
         /* line 181, ../sass/screen.scss */
         footer ul.social li a:hover {
-          color: #cc3366; }
+          color: #e53b63; }
   /* line 187, ../sass/screen.scss */
   footer .logo {
     width: 15.25424%;
@@ -583,7 +583,7 @@ article li span {
 /* line 358, ../sass/screen.scss */
 a {
   border-bottom: 1px dashed #aaa;
-  color: #cc3366;
+  color: #e53b63;
   text-decoration: none; }
   /* line 362, ../sass/screen.scss */
   a:hover {
@@ -601,7 +601,7 @@ h1 a {
   -o-transition-property: color;
   transition-property: color;
   border-bottom: none;
-  color: #cc3366; }
+  color: #e53b63; }
   /* line 373, ../sass/screen.scss */
   h1 a:hover {
     border-bottom: none;
@@ -622,7 +622,7 @@ h2 a, h4 a, nav a, footer a {
   /* line 384, ../sass/screen.scss */
   h2 a:hover, h4 a:hover, nav a:hover, footer a:hover {
     border-bottom: none;
-    color: #cc3366; }
+    color: #e53b63; }
 
 /* line 390, ../sass/screen.scss */
 h3 a {
@@ -635,7 +635,7 @@ h3 a {
   -o-transition-property: color;
   transition-property: color;
   border-bottom: none;
-  color: #cc3366; }
+  color: #e53b63; }
   /* line 395, ../sass/screen.scss */
   h3 a:hover {
     border-bottom: none;
@@ -647,7 +647,7 @@ h3 a {
     margin-left: 0.2em; }
   /* line 404, ../sass/screen.scss */
   h3 a:hover:after {
-    color: #cc3366; }
+    color: #e53b63; }
 
 /* line 409, ../sass/screen.scss */
 h5 a {
