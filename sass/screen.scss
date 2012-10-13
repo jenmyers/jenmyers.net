@@ -30,12 +30,13 @@ $break-04: 40.1em 10 63em;      // 768px-1024px
 
 /* COLORS ********************************************************************************************/
 
-$pink: #e53b63;
-$turquoise: #37BFBF;
-$lightgrey: #ccc;
-$medgrey: #999;
-$darkgrey: #666;
-$softblack: #333;
+$palered: #e56d59;
+$paleteal: #5cb8ac;
+$lightgrey: #c3c6d5;
+$medgrey: #9c9eab;
+$darkgrey: #636570;
+$softblack: #313236;
+$offwhite: #f6f6f6;
 $border: #eee;
 
 /* LAYOUT ********************************************************************************************/
@@ -48,7 +49,7 @@ body {
   background-image: url("../images/robot.png");
   background-position: top center;
   background-repeat: no-repeat;
-  color: #333;
+  color: #414247;
   font-family: "proxima-nova", sans-serif;
   line-height: 170%;
 }
@@ -68,7 +69,7 @@ nav {
   li {
     color: $lightgrey;
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 600;
     text-transform: uppercase;
   }
   .title {
@@ -80,9 +81,12 @@ nav {
         @include transition-property(color);
         color: $softblack;
         &:hover {
-          color: $pink;
+          color: $palered;
         }
       }
+    }
+    .desc {
+      font-weight: 400;
     }
   }
   .contents {
@@ -100,10 +104,10 @@ nav {
         &.current {
           @include transition-property(border-bottom);
           @include transition-duration(0.4s);
-          border-bottom: 2px solid $pink;
+          border-bottom: 2px solid $palered;
         }
         &.current:hover {
-          border-bottom: 2px solid $pink;
+          border-bottom: 2px solid $palered;
           color: $softblack;
         }
       }
@@ -179,7 +183,7 @@ footer {
         @include transition-property(color);
         color: $darkgrey;
         &:hover {
-          color: $pink;
+          color: $palered;
         }
       }
     }
@@ -188,7 +192,7 @@ footer {
     @include span-columns(2 omega,12);
     color: $darkgrey;
     font-size: 1em;
-    font-weight: 700;
+    font-weight: 600;
     margin-top: 0.2em;
     text-align: right;
     text-transform: uppercase;
@@ -203,7 +207,7 @@ footer {
       @include transition-property(color);
       color: $darkgrey;
       &:hover {
-        color: #fff;
+        color: $offwhite;
         img {
           @include opacity(0.8);
         }
@@ -230,7 +234,7 @@ nav li { display: inline; }
 p.caption {
   color: $medgrey;
   font-size: 80%;
-  font-weight: 700;
+  font-weight: 600;
   line-height: 110%;
   margin-top: 0.5em;
   text-transform: uppercase;
@@ -240,10 +244,9 @@ p.caption {
 
 h1 {
   display: block;
-  font-family: "kulturista-web";
   font-size: 5em;
   line-height: 100%;
-  font-weight: 600;
+  font-weight: 700;
   margin-bottom: 0.6em;
   width: 100%;
 }
@@ -255,11 +258,11 @@ h2 {
 }
 
 h3 {
-  color: #333;
-  font-size: 1.2em;
-  font-weight: 700;
+  color: $paleteal;
+  font-size: 1.4em;
+  font-weight: 600;
   margin-bottom: 0.6em;
-  margin-top: 2.5em;
+  margin-top: 2em;
   line-height: 100%;
   text-transform: uppercase;
   &.top { margin-top: 0; }
@@ -268,7 +271,7 @@ h3 {
 h4 {
   color: $medgrey;
   font-size: 0.9em;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 0.4em;
   text-transform: uppercase;
 }
@@ -279,7 +282,7 @@ aside h4 {
 
 h5 {
   font-size: 0.9em;
-  font-weight: 700;
+  font-weight: 600;
   margin-top: 8em;
   text-align: right;
   text-transform: uppercase;
@@ -312,8 +315,7 @@ small {
 
 blockquote {
   @include border-radius(3px);
-  background: #fff;
-  font-family: "kulturista-web";
+  background: #fefefe;
   font-style: italic;
   margin: 20px;
   padding: 20px;
@@ -357,11 +359,11 @@ article li span {
 
 a {
   border-bottom: 1px dashed #aaa;
-  color: $pink;
+  color: $palered;
   text-decoration: none;
   &:hover {
-    border-bottom: 1px solid #ddd;
-    color: #000;
+    border-bottom: 1px solid $lightgrey;
+    color: $softblack;
   }
 }
 
@@ -369,7 +371,7 @@ h1 a {
   @include transition-duration(0.4s);
   @include transition-property(color);
   border-bottom: none;
-  color: $pink;
+  color: $palered;
   &:hover {
     border-bottom: none;
     color: $softblack;
@@ -380,10 +382,10 @@ h2 a, h4 a, nav a, footer a {
   @include transition-duration(0.4s);
   @include transition-property(color);
   border-bottom: none;
-  color: $softblack;
+  color: #474747;
   &:hover {
     border-bottom: none;
-    color: $pink;
+    color: $palered;
   }
 }
 
@@ -391,7 +393,7 @@ h3 a {
   @include transition-duration(0.4s);
   @include transition-property(color);
   border-bottom: none;
-  color: $pink;
+  color: $palered;
   &:hover {
     border-bottom: none;
     color: $softblack;
@@ -402,7 +404,7 @@ h3 a {
     margin-left: 0.2em;
   }
   &:hover:after {
-    color: $pink;
+    color: $palered;
   }
 }
 
