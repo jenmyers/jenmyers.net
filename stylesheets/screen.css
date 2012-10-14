@@ -179,7 +179,7 @@ nav {
         color: #313236; }
         /* line 83, ../sass/screen.scss */
         nav .title .name a:hover {
-          color: #e56d59; }
+          color: #dd4a38; }
     /* line 88, ../sass/screen.scss */
     nav .title .desc {
       font-weight: 400; }
@@ -218,10 +218,10 @@ nav {
           -moz-transition-duration: 0.4s;
           -o-transition-duration: 0.4s;
           transition-duration: 0.4s;
-          border-bottom: 2px solid #e56d59; }
+          border-bottom: 2px solid #dd4a38; }
         /* line 109, ../sass/screen.scss */
         nav .contents li a.current:hover {
-          border-bottom: 2px solid #e56d59;
+          border-bottom: 2px solid #dd4a38;
           color: #313236; }
 
 /* line 118, ../sass/screen.scss */
@@ -380,7 +380,7 @@ footer {
         color: #636570; }
         /* line 185, ../sass/screen.scss */
         footer ul.social li a:hover {
-          color: #e56d59; }
+          color: #dd4a38; }
   /* line 191, ../sass/screen.scss */
   footer .logo {
     width: 15.25424%;
@@ -471,7 +471,7 @@ h2 {
 
 /* line 260, ../sass/screen.scss */
 h3 {
-  color: #5cb8ac;
+  color: #26ae90;
   font-size: 1.4em;
   font-weight: 600;
   margin-bottom: 0.6em;
@@ -525,7 +525,7 @@ ul.links {
 
 /* line 307, ../sass/screen.scss */
 strong {
-  font-weight: bold; }
+  font-weight: 600; }
 
 /* line 309, ../sass/screen.scss */
 em {
@@ -584,7 +584,7 @@ article li span {
 /* line 360, ../sass/screen.scss */
 a {
   border-bottom: 1px dashed #aaa;
-  color: #e56d59;
+  color: #dd4a38;
   text-decoration: none; }
   /* line 364, ../sass/screen.scss */
   a:hover {
@@ -602,7 +602,7 @@ h1 a {
   -o-transition-property: color;
   transition-property: color;
   border-bottom: none;
-  color: #e56d59; }
+  color: #dd4a38; }
   /* line 375, ../sass/screen.scss */
   h1 a:hover {
     border-bottom: none;
@@ -623,7 +623,7 @@ h2 a, h4 a, nav a, footer a {
   /* line 386, ../sass/screen.scss */
   h2 a:hover, h4 a:hover, nav a:hover, footer a:hover {
     border-bottom: none;
-    color: #e56d59; }
+    color: #dd4a38; }
 
 /* line 392, ../sass/screen.scss */
 h3 a {
@@ -636,7 +636,7 @@ h3 a {
   -o-transition-property: color;
   transition-property: color;
   border-bottom: none;
-  color: #e56d59; }
+  color: #dd4a38; }
   /* line 397, ../sass/screen.scss */
   h3 a:hover {
     border-bottom: none;
@@ -648,7 +648,7 @@ h3 a {
     margin-left: 0.2em; }
   /* line 406, ../sass/screen.scss */
   h3 a:hover:after {
-    color: #e56d59; }
+    color: #dd4a38; }
 
 /* line 411, ../sass/screen.scss */
 h5 a {

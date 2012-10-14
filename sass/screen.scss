@@ -30,8 +30,8 @@ $break-04: 40.1em 10 63em;      // 768px-1024px
 
 /* COLORS ********************************************************************************************/
 
-$palered: #e56d59;
-$paleteal: #5cb8ac;
+$rust: #dd4a38;
+$teal: #26ae90;
 $lightgrey: #c3c6d5;
 $medgrey: #9c9eab;
 $darkgrey: #636570;
@@ -81,7 +81,7 @@ nav {
         @include transition-property(color);
         color: $softblack;
         &:hover {
-          color: $palered;
+          color: $rust;
         }
       }
     }
@@ -104,10 +104,10 @@ nav {
         &.current {
           @include transition-property(border-bottom);
           @include transition-duration(0.4s);
-          border-bottom: 2px solid $palered;
+          border-bottom: 2px solid $rust;
         }
         &.current:hover {
-          border-bottom: 2px solid $palered;
+          border-bottom: 2px solid $rust;
           color: $softblack;
         }
       }
@@ -183,7 +183,7 @@ footer {
         @include transition-property(color);
         color: $darkgrey;
         &:hover {
-          color: $palered;
+          color: $rust;
         }
       }
     }
@@ -258,7 +258,7 @@ h2 {
 }
 
 h3 {
-  color: $paleteal;
+  color: $teal;
   font-size: 1.4em;
   font-weight: 600;
   margin-bottom: 0.6em;
@@ -304,7 +304,7 @@ ul.links {
 
 // MISC
 
-strong { font-weight: bold; }
+strong { font-weight: 600; }
 
 em { font-style: italic; }
 
@@ -359,7 +359,7 @@ article li span {
 
 a {
   border-bottom: 1px dashed #aaa;
-  color: $palered;
+  color: $rust;
   text-decoration: none;
   &:hover {
     border-bottom: 1px solid $lightgrey;
@@ -371,7 +371,7 @@ h1 a {
   @include transition-duration(0.4s);
   @include transition-property(color);
   border-bottom: none;
-  color: $palered;
+  color: $rust;
   &:hover {
     border-bottom: none;
     color: $softblack;
@@ -385,7 +385,7 @@ h2 a, h4 a, nav a, footer a {
   color: #474747;
   &:hover {
     border-bottom: none;
-    color: $palered;
+    color: $rust;
   }
 }
 
@@ -393,7 +393,7 @@ h3 a {
   @include transition-duration(0.4s);
   @include transition-property(color);
   border-bottom: none;
-  color: $palered;
+  color: $rust;
   &:hover {
     border-bottom: none;
     color: $softblack;
@@ -404,7 +404,7 @@ h3 a {
     margin-left: 0.2em;
   }
   &:hover:after {
-    color: $palered;
+    color: $rust;
   }
 }
 
