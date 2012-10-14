@@ -316,7 +316,7 @@ small {
 blockquote {
   @include border-radius(3px);
   background: #fefefe;
-  font-style: italic;
+  color: $rust;
   margin: 20px;
   padding: 20px;
 }
