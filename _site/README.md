@@ -1,6 +1,19 @@
-## TODO
+# Jenmyers.net
 
-- set sticky background image
-- adjust and test responsiveness
-- test fully cross-browser
-- edit README to be much more interesting
+The personal website of millionaire playgirl Jen Myers and her official repository of articles, work portfolio and speaking events. A robot named Alfred is also involved.
+
+## Tools
+
+- Jekyll: http://jekyllrb.com/
+- GitHub Pages: http://pages.github.com/
+- Compass: http://compass-style.org/
+- Susy: http://susy.oddbird.net/
+- Font-icons for Compass: http://krisbulman.github.com/font-icons/
+- Fitvid.js: http://fitvidsjs.com/
+- Typekit: http://typekit.com/
+- Socialico: http://fontfabric.com/social-media-icons-pack/
+
+## Tasks
+
+- create better markup for use of font icons
+- test more fully cross-browser

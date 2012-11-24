@@ -9,9 +9,8 @@
 
 /* INCLUDES ********************************************************************************************/
 
-@include font-face("SocialicoRegular", font-files("socialico-webfont.eot", "socialico-webfont.woff", "socialico-webfont.ttf", "socialico-webfont.svg"));
-@include font-icon-family(entypo);
 @include font-face("entypo", font-files("entypo.eot", "entypo.woff", "entypo.ttf", "entypo.svg"));
+@include font-face("entypo-social", font-files("entypo-social.eot", "entypo-social.woff", "entypo-social.ttf", "entypo-social.svg"));
 @include sticky-footer(30px, ".page", ".page-footer", "footer");
 
 /* GRID ********************************************************************************************/
@@ -102,12 +101,12 @@ nav {
           color: $softblack;
         }
         &.current {
-          @include transition-property(border-bottom);
+          @include transition-property(color);
           @include transition-duration(0.4s);
-          border-bottom: 2px solid $rust;
+          border-bottom: 2px solid $darkgrey;
         }
         &.current:hover {
-          border-bottom: 2px solid $rust;
+          border-bottom: 2px solid $darkgrey;
           color: $softblack;
         }
       }
@@ -139,20 +138,47 @@ nav {
       margin: 0 1em 1em 0;
       padding: 7px;
     }
-    .license {
-      margin-top: 3em;
-      text-align: right;
-      a.cc-icon {
-        @include font-icon-base(entypo, 2em, 1em, 0em); 
-        @extend .entypo-cc !optional;
-        font-family: "EntypoRegular";
-        @include transition-duration(0.4s);
-        @include transition-property(color);
-        border-bottom: 1px solid #f2f2f3;
-        color: $medgrey;
-        &:hover.cc-icon {
-          color: $softblack;
+    .talk {
+      margin-bottom: 2em;
+      padding-bottom: 1em;
+      p {
+        font-size: 0.8em;
+        line-height: 130%;
+        margin: 0.5em 0;
+      }
+      ul {
+        margin-top: 1.2em;
+        li {
+          border-bottom: 1px solid #eee;
+          padding-top: 5px;
+          h4 {
+            display: inline;
+            text-transform: none;
+            vertical-align: top;
+          }
+          a {
+            border-bottom: none;
+            h4.talk-item {
+              color: $darkgrey;
+            }
+            &:hover{
+              h4.talk-item {
+                @include transition-property(color);
+                @include transition-duration(0.4s);
+                color: $rust;
+                .icon {
+                  @include transition-property(color);
+                  @include transition-duration(0.4s);
+                  color: $rust;
+                }
+              }
+            }
+          }
         }
+      }
+      span {
+        font-weight: normal;
+        margin-right: 0.4em;
       }
     }
   }
@@ -173,7 +199,7 @@ nav {
 footer {
   @include container($total-columns, $break-01, $break-02, $break-03, $break-04);
   height: 30px;
-  padding: 30px 0;
+  padding: 30px 0 40px 0;
   ul.social {
     @include span-columns(6 alpha,12);
     li {
@@ -200,7 +226,7 @@ footer {
       @include opacity(0.8);
       float: right;
       margin-left: 0.5em;
-      margin-top: -0.45em;
+      margin-top: -0.4em;
     }
     a {
       @include transition-duration(0.8s);
@@ -283,7 +309,7 @@ aside h4 {
 h5 {
   font-size: 0.9em;
   font-weight: 600;
-  margin-top: 8em;
+  margin-top: 6em;
   text-align: right;
   text-transform: uppercase;
 }
@@ -293,14 +319,6 @@ h6 { text-transform: uppercase; }
 // LIST ELEMENTS
 
 li { margin-bottom: 0.4em; }
-
-ul.links {
-  margin-bottom: 1em;
-  li {
-    @include font-icon-base(entypo);
-    @extend .entypo-right-circle2 !optional;
-  }
-}
 
 // MISC
 
@@ -329,29 +347,44 @@ article li span {
   text-transform: uppercase;
 }
 
-// SOCIAL ICONS
+// ICONS
 
-.social-icon {
-  display: inline-block;
-  font-family: "SocialicoRegular";
-  font-size: 56px;
-  &.twitter:before {
-    content: 'l';
+.icon {
+  margin: 0.5em 0;
+  &:before {
+    font-family: 'entypo';
+    font-size: 58px;
+    content: attr(data-icon);
   }
-  &.tumblr:before {
-    content: 'o';
+}
+
+.cc {
+  border-bottom: none;
+  color: $darkgrey;
+  float: right;
+  &:before {
+    font-size: 72px;
   }
-  &.github:before {
-    content: 'g';
+  &:hover {
+    @include transition-duration(0.8s);
+    @include transition-property(color);
+    border-bottom: none;
+    color: $rust;
   }
-  &.dribbble:before {
-    content: 'd';
-  }
-  &.pinterest:before {
-    content: '&';
-  }
-  &.rss:before {
-    content: 'r';
+}
+
+.social {
+  .icon {
+    font-size: 72px;
+    margin-right: 0.25em;
+    &.twitter:before, &.tumblr:before, &.github:before, &.dribbble:before, &.instagram:before, &.pinterest:before {
+      font-family: 'entypo-social';
+      content: attr(data-icon);
+    }
+    &.rss:before {
+      font-family: 'entypo';
+      content: attr(data-icon);
+    }
   }
 }
 

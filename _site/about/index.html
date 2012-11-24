@@ -24,16 +24,16 @@
         
           <li class="name"><a href="/">Jen Myers</a></li>
         
-        <li>Designer / Writer / Speaker / Teacher</li>
+        <li class="desc">Designer • Writer • Speaker • Teacher</li>
       </ul>
       <ul class="contents">
         
-          <li><a href="../articles/">Articles</a></li>
+          <li><a href="../writing/">Writing</a></li>
         
         
-        
+        <!-- 
           <li><a href="../work/">Work</a></li>
-        
+         -->
       
         
           <li><a href="../speaking/">Speaking</a></li>
@@ -51,15 +51,13 @@
 
 
   <section>
-    <aside>
-      <h1><a href="">About</a></h1>
-    </aside>
+    <h1><a href="">About</a></h1>
     <article>
       <h3 class="top">Author</h3>
 
-<img class="inline" src="../images/jen.jpg" />
+<img alt="Jen Myers, millionaire playgirl" class="inline" src="../images/jen.jpg" />
 <p>I'm a designer and UI developer in Columbus, Ohio. By day, I work at <a href="http://www.thinkrelevance.com">Relevance</a>; by night, I organize the coding education program <a href="http://girldevelopitcbus.com">Girl Develop It Columbus</a>, teach introductory HTML/CSS classes and speak about topics related to design, development and diversity in the technology field.</p>
-<p>I have a <a href="../images/eliza.jpg" rel="lightbox">kid</a> I like a lot. I also like movies, comic books and frequently changing my hair color.</p>
+<p>I have a <a href="../images/eliza.jpg" rel="lightbox">kid</a> I like a lot. I also like good films, comic books and frequently changing my hair color.</p>
 
 <h3>Mentions</h3>
 
@@ -74,7 +72,7 @@
 <ul class="links">
   <li><a href="http://twitter.com/antiheroine">Twitter</a></li>  
   <li><a href="http://jenmyers.tumblr.com">Tumblr</a></li> 
-  <li><a href="https://github.com/jenmyers">Github</a></li> 
+  <li><a href="https://github.com/jenmyers">GitHub</a></li> 
   <li><a href="http://dribbble.com/jenmyers">Dribbble</a></li>
   <li><a href="http://pinterest.com/deliberatepixel/">Pinterest</a></li> 
   <li><a href="https://speakerdeck.com/u/jenmyers">Speakerdeck</a></li> 
@@ -84,7 +82,9 @@
 
 <h3>Site</h3>
 
-<p>Made with <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://pages.github.com/">Github Pages</a>, <a href="http://compass-style.org/">Compass</a>, <a href="http://susy.oddbird.net/">Susy</a>, <a href="http://krisbulman.github.com/font-icons/">Font-icons for Compass</a>, <a href="http://fitvidsjs.com/">FitVids.js</a>, <a href="http://typekit.com/">Typekit</a>, <a href="http://fontfabric.com/social-media-icons-pack/">Socialico</a> and a robot. His name is Alfred.</p>
+<p>Made with <a href="http://jekyllrb.com/">Jekyll</a>, <a href="http://pages.github.com/">GitHub Pages</a>, <a href="http://compass-style.org/">Compass</a>, <a href="http://susy.oddbird.net/">Susy</a>, <a href="http://krisbulman.github.com/font-icons/">Font-icons for Compass</a>, <a href="http://fitvidsjs.com/">FitVids.js</a>, <a href="http://typekit.com/">Typekit</a>, <a href="http://fontfabric.com/social-media-icons-pack/">Socialico</a> and a robot. His name is Alfred.</p>
+
+<p>Source code is available at <a href="https://github.com/jenmyers/jenmyers.net/tree/gh-pages">GitHub</a>.</p>
 
 <h3>Deliberatepixel</h3>
 
@@ -98,16 +98,16 @@
   <div class="footer-wrapper">
     <footer>
       <ul class="social">
-        <li><a href="http://twitter.com/antiheroine" title="Twitter">l</a></li>
-        <li><a href="http://jenmyers.tumblr.com" title="Tumblr">o</a></li>
-        <li><a href="https://github.com/jenmyers" title="Github">g</a></li>
-        <li><a href="http://dribbble.com/jenmyers" title="Dribbble">d</a></li>
-        <li><a href="http://pinterest.com/deliberatepixel/" title="Pinterest">&</a></li>
-        <li><a href="http://feeds.feedburner.com/jenmyers" title="RSS">r</a></li>
+        <li><a class="icon twitter" data-icon="&#62217;" href="http://twitter.com/antiheroine" title="Twitter"></a></li>
+        <li><aclass="icon tumblr" data-icon="&#62229;" href="http://jenmyers.tumblr.com" title="Tumblr"></a></li>
+        <li><a class="icon github" data-icon="&#62208;" href="http://github.com/jenmyers" title="GitHub"></a></li>
+        <li><a class="icon dribbble" data-icon="&#62235;" href="http://dribbble.com/jenmyers" title="Dribbble"></a></li>
+        <li><a class="icon instagram" data-icon="&#62253;" href="http://instagram.com/antiheroine" title="Instagram"></a></li>
+        <li><a class="icon pinterest" data-icon="&#62226;" href="http://pinterest.com/deliberatepixel/" title="Pinterest"></a></li>
+        <li><a class="icon rss" data-icon="&#59194;" href="http://feeds.feedburner.com/jenmyers" title="RSS"></a></li>
       </ul>
       <div class="logo">
-        <a href="mailto:hello@jenmyers.net">Contact</a>
-        <img alt="robothead" height="36" src="../images/alfred.png" title="Alfred " width="43" />
+        <a href="mailto:hello@jenmyers.net">Contact <!--<img alt="robothead" height="36" src="../images/alfred.png" title="Alfred " width="43" />--></a>
       </div>
     </footer>
   </div>
@@ -119,18 +119,18 @@
   <script src="../javascripts/lightbox.js"></script>
   <script src="../javascripts/plugins.js"></script>
   <script src="../javascripts/main.js"></script>
-  
+
   <script>
+    // fitvids.js
     $(document).ready(function(){
       $("article").fitVids();
     });
-  </script>
-
-  <script>
+    // Google Analytics
     var _gaq=[['_setAccount','UA-32547444-1'],['_trackPageview']];
     (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
     g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
     s.parentNode.insertBefore(g,s)}(document,'script'));
   </script>
+
 </body>
 </html>
