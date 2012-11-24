@@ -1,6 +1,6 @@
 # Jenmyers.net
 
-The personal website of millionaire playgirl Jen Myers and her official repository of articles, work portfolio and speaking events. A robot named Alfred is also involved.
+The personal website of Jen Myers and her official repository of articles, talks, speaking events and other associated information. A robot named Alfred is also involved.
 
 ## Tools
 
@@ -11,9 +11,8 @@ The personal website of millionaire playgirl Jen Myers and her official reposito
 - Font-icons for Compass: http://krisbulman.github.com/font-icons/
 - Fitvid.js: http://fitvidsjs.com/
 - Typekit: http://typekit.com/
-- Socialico: http://fontfabric.com/social-media-icons-pack/
+- Entypo: http://entypo.com
 
 ## Tasks
 
-- fix font-icons gem issue/create font-face icon fallback
-- test more fully cross-browser
+- Adjust responsive CSS values.
