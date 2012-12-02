@@ -9,7 +9,7 @@ title: Writing
     <h3 class="top">Articles</h3>
   	  {% for post in site.posts %}
   		  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
-  		  <h4>{{ post.date | date_to_string }}</h4>
+  		  <h4>{{ post.date | date_to_long_string }}</h4>
   		{% endfor %}
   	  <h3>Essays</h3>
       <h2><a href="chandler.html">The White Knight</a></h2>
