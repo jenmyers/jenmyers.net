@@ -38,10 +38,29 @@ Completing a talk is never the end of that particular topic for me. There's alwa
 
 This advice is mostly pretty squishy – it's entirely understandable that if you're trying to get started as a speaker, you need some specific pointers. Fortunately, there have been some great articles on just this topic recently:
 
+___
+
 <ul class="links">
-  <li><a href="http://christianheilmann.com/2012/09/05/de-bricking-yourself-starting-out-as-a-speaker/">De-Bricking Yourself: Starting out as a Speaker</a></li>
-  <li><a href="http://cognition.happycog.com/article/so-why-should-I-speak-publicly">So Why Should I Speak Publicly</a></li>
-  <li><a href="http://the-pastry-box-project.net/rachel-andrew/2012-march-5/">Rachel Andrew at the Pastry Box Project</a></li>
+  <li>
+    <a href="http://christianheilmann.com/2012/09/05/de-bricking-yourself-starting-out-as-a-speaker/">
+      <span aria-hidden="true" class="icon list-link" data-icon="&#128640;"> </span>
+      De-Bricking Yourself: Starting out as a Speaker
+    </a>
+  </li>
+  <li>
+    <a href="http://cognition.happycog.com/article/so-why-should-I-speak-publicly">
+      <span aria-hidden="true" class="icon list-link" data-icon="&#128640;"> </span>
+      So Why Should I Speak Publicly
+    </a>
+  </li>
+  <li>
+    <a href="http://the-pastry-box-project.net/rachel-andrew/2012-march-5/">
+      <span aria-hidden="true" class="icon list-link" data-icon="&#128640;"> </span>
+      Rachel Andrew at the Pastry Box Project
+    </a>
+  </li>
 </ul>
+
+___
 
 Remember what I mentioned earlier – you have experiences and perspectives no one else has. Bring them to conference organizers and tell them what you can offer. Don't try to edit and censor yourself to fit what you think they already want to see, and don't wait for them to ask you to show it. I made that mistake in the beginning, but I don't anymore, because I've seen how well people respond to me by simply being myself. It's a valuable skill, and it will get you a lot farther than trying to be anyone else.

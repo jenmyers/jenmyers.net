@@ -78,9 +78,23 @@ By Cecil Castellucci. Right now, Castellucci is one of my favorite contemporary 
 
 By Robin McKinley. As previously mentioned. If you know a teenage girl leaning towards _Twilight_, please, please, please, put _Sunshine_ in her path instead. It's a vampire tale with romance, but also  with a smart, strong female lead and not a hint of codependency or emotional abuse masquerading as true love in sight. Good for high school girls.
 
+___
+
 <ul class="links">
-  <li>For convenience, I've created an Amazon list with <a href="http://amzn.com/lm/R1F53VJ0U4KNXF">every book for girls mentioned</a>.</li>
-  <li>For even younger girls, as well as other suggestions I'm not as familiar with, I found a series of lists from PBS on <a href="http://www.pbs.org/parents/education/bookfinder/empowering-books-for-girls/">empowering books for girls</a>.</li>
+  <li>
+    <a href="http://amzn.com/lm/R1F53VJ0U4KNXF">
+      <span aria-hidden="true" class="icon list-link" data-icon="&#128640;"> </span>
+      For convenience, I've created an Amazon list with every book for girls mentioned.
+    </a>
+  </li>
+  <li>
+    <a href="http://www.pbs.org/parents/education/bookfinder/empowering-books-for-girls/">
+      <span aria-hidden="true" class="icon list-link" data-icon="&#128640;"> </span>
+      For even younger girls, as well as other suggestions I'm not as familiar with, I found a series of lists from PBS on empowering books for girls.
+    </a>
+  </li>
 </ul>
+
+___
 
 And, just in case it needs to be said, you don't have to be a girl &#8212; in age or gender &#8212; to read and appreciate any of these. But if you know a girl who needs an antidote to the poisonous media more commonly pushed her way, a good selection of books is a fine remedy.

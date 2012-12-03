@@ -9,7 +9,7 @@
 
 /* INCLUDES ********************************************************************************************/
 
-@include font-face("entypo", font-files("entypo.eot", "entypo.woff", "entypo.ttf", "entypo.svg"));
+@include font-face("entypo", font-files("entypo.woff", "entypo.ttf", "entypo.svg"), "entypo.eot");
 @include font-face("entypo-social", font-files("entypo-social.eot", "entypo-social.woff", "entypo-social.ttf", "entypo-social.svg"));
 @include sticky-footer(30px, ".page", ".page-footer", "footer");
 
@@ -30,20 +30,20 @@ $break-04: 40.1em 10 63em;      // 768px-1024px
 /* COLORS ********************************************************************************************/
 
 $rust: #dd4a38;
-$teal: #26ae90;
+$teal: #129baf;
 $lightgrey: #c3c6d5;
 $medgrey: #9c9eab;
 $darkgrey: #636570;
 $softblack: #313236;
 $offwhite: #f6f6f6;
-$border: #eee;
+$border: #dddddd;
 
 /* LAYOUT ********************************************************************************************/
 
 html, body { height: 100%; }
 
 body {
-  background-color: #f6f6f6;
+  background-color: #f4f4ec/*#f6f6f6*/;
   background-attachment: fixed;
   background-image: url("../images/robot.png");
   background-position: top center;
@@ -70,6 +70,9 @@ nav {
     font-size: 1em;
     font-weight: 600;
     text-transform: uppercase;
+    a {
+      padding: 1em;
+    }
   }
   .title {
     @include span-columns(6 alpha,12);
@@ -149,7 +152,7 @@ nav {
       ul {
         margin-top: 1.2em;
         li {
-          border-bottom: 1px solid #eee;
+          border-bottom: 1px solid $border;
           padding-top: 5px;
           h4 {
             display: inline;
@@ -181,6 +184,23 @@ nav {
         margin-right: 0.4em;
       }
     }
+    ul.links {
+      li {
+        a {
+          border-bottom: none;
+          color: $softblack;
+          span {
+            color: $lightgrey;
+          }
+          &:hover {
+            color: $rust;
+            span {
+              color: $darkgrey;
+            }
+          }
+        }
+      }
+    }
   }
   aside {
     @include span-columns(4 alpha,12);
@@ -199,7 +219,7 @@ nav {
 footer {
   @include container($total-columns, $break-01, $break-02, $break-03, $break-04);
   height: 30px;
-  padding: 30px 0 40px 0;
+  padding: 30px 0 43px 0;
   ul.social {
     @include span-columns(6 alpha,12);
     li {
@@ -208,6 +228,7 @@ footer {
         @include transition-duration(0.8s);
         @include transition-property(color);
         color: $darkgrey;
+        padding: 0.1em;
         &:hover {
           color: $rust;
         }
@@ -219,7 +240,7 @@ footer {
     color: $darkgrey;
     font-size: 1em;
     font-weight: 600;
-    margin-top: 0.2em;
+    margin-top: 0.5em;
     text-align: right;
     text-transform: uppercase;
     img {
@@ -232,6 +253,7 @@ footer {
       @include transition-duration(0.8s);
       @include transition-property(color);
       color: $darkgrey;
+      padding: 1em;
       &:hover {
         color: $offwhite;
         img {
@@ -309,7 +331,7 @@ aside h4 {
 h5 {
   font-size: 0.9em;
   font-weight: 600;
-  margin-top: 6em;
+  margin-top: 10em;
   text-align: right;
   text-transform: uppercase;
 }
@@ -331,10 +353,16 @@ small {
   font-style: italic;
 }
 
+hr {
+  border-color: $border;
+  border-style: solid;
+  margin: 2em 0;
+}
+
 blockquote {
   @include border-radius(3px);
   background: #fefefe;
-  color: $rust;
+  font-style: italic;
   margin: 20px;
   padding: 20px;
 }
@@ -351,10 +379,15 @@ article li span {
 
 .icon {
   margin: 0.5em 0;
+  font-weight: normal;
   &:before {
     font-family: 'entypo';
     font-size: 58px;
     content: attr(data-icon);
+    speak: none;
+  }
+  &.list-link:before {
+    font-size: 28px;
   }
 }
 
@@ -362,6 +395,8 @@ article li span {
   border-bottom: none;
   color: $darkgrey;
   float: right;
+  margin-top: 2em;
+  padding: 1em;
   &:before {
     font-size: 72px;
   }
@@ -426,7 +461,7 @@ h3 a {
   @include transition-duration(0.4s);
   @include transition-property(color);
   border-bottom: none;
-  color: $rust;
+  color: $teal;
   &:hover {
     border-bottom: none;
     color: $softblack;
@@ -437,7 +472,7 @@ h3 a {
     margin-left: 0.2em;
   }
   &:hover:after {
-    color: $rust;
+    color: $teal;
   }
 }
 
@@ -446,6 +481,7 @@ h5 a {
   @include transition-property(color);
   border-bottom: none;
   color: $medgrey;
+  padding: 1em;
   &:hover {
     border-bottom: none;
     color: $softblack;
@@ -808,25 +844,5 @@ h5 a {
     line-height: 140%;
     margin: 1em;
     padding: 1em;
-  }
-}
-
-// Temporary Entypo icon
-
-[class^="icon-"]:before, [class*=" icon-"]:before {
-	font-family: 'entypo';
-	font-style: normal;
-	speak: none;
-}
-.icon-creative-commons:before {
-	color: $medgrey;
-	content: "\e000";
-	font-size: 1.6em;
-}
-.icon-creative-commons {
-  border-bottom: 1px dashed #f2f2f3;
-  float: right;
-  &:hover {
-    border-bottom: 1px dashed #f2f2f3;
   }
 }
