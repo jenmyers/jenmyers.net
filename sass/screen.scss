@@ -3,14 +3,13 @@
 @import "compass/reset";
 @import "compass/css3";
 @import "compass/layout";
-@import "compass/typography/vertical_rhythm";
+@import "compass/typography/";
 @import "susy";
-@import "font-icons";
 
 /* INCLUDES ********************************************************************************************/
 
 @include font-face("entypo", font-files("entypo.woff", "entypo.ttf", "entypo.svg"), "entypo.eot");
-@include font-face("entypo-social", font-files("entypo-social.eot", "entypo-social.woff", "entypo-social.ttf", "entypo-social.svg"));
+@include font-face("entypo-social", font-files("entypo-social.woff", "entypo-social.ttf", "entypo-social.svg"), "entypo-social.eot");
 @include sticky-footer(30px, ".page", ".page-footer", "footer");
 
 /* GRID ********************************************************************************************/
