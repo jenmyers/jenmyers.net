@@ -9,7 +9,7 @@
 /* INCLUDES ********************************************************************************************/
 
 @include font-face("entypo", font-files("entypo.woff", "entypo.ttf", "entypo.svg"), "entypo.eot");
-@include font-face("entypo-social", font-files("entypo-social.woff", "entypo-social.ttf", "entypo-social.svg"), "entypo-social.eot");
+@include font-face("entypo-social", font-files("entypo-social.ttf", "entypo-social.woff", "entypo-social.svg"), "entypo-social.eot");
 @include sticky-footer(30px, ".page", ".page-footer", "footer");
 
 /* GRID ********************************************************************************************/
@@ -188,8 +188,10 @@ nav {
         a {
           border-bottom: none;
           color: $softblack;
+          font-weight: bold;
           span {
             color: $lightgrey;
+            font-weight: normal;
           }
           &:hover {
             color: $rust;
