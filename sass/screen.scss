@@ -523,6 +523,9 @@ h5 a {
     article {
       @include span-columns(4,4);
       margin-bottom: 3em;
+      p {
+        font-size: 0.8em;
+      }
       .block {
         margin: 1em auto;
         width: 90%;
@@ -591,16 +594,23 @@ h5 a {
   nav {
     font-size: 0.9em;
     line-height: 130%;
-    padding: 2em 0 2em 1em;
+    padding: 3em 0 2em 1em;
+    li {
+      font-size: 0.8em;
+    }
     .title {
-      @include span-columns(6,6);
       display: block;
-      margin-bottom: 0.2em;
+      float: none;
+      margin-bottom: 1.5em;
+      margin-right: 0;
+      width: auto;
     }
     .contents {
-      @include span-columns(6,6);
       display: block;
+      float: none;
+      margin-right: 0;
       text-align: left;
+      width: auto;
       li {
         margin-left: 0;
         margin-right: 0.6em;
@@ -614,9 +624,12 @@ h5 a {
     article {
       @include span-columns(6,6);
       margin-bottom: 3em;
-      .license {
-        margin-top: 1em;
-        text-align: right;
+      p {
+        font-size: 0.9em;
+        line-height: 150%;
+      }
+      .cc {
+        margin-top: 0;
       }
       .block {
         margin: 1em auto;
@@ -629,15 +642,18 @@ h5 a {
     }
     aside { @include span-columns(6,6);
       h4 {
-        font-size: 1.2em;
-        margin-bottom: 1em;
+        font-size: 1em;
+      }
+      .summary {
+        margin-bottom: 3em;
       }
     }
-    h1 { font-size: 2.2em; }
-    h2 { font-size: 1.2em; }
-    h3 { font-size: 1.5em; }
+    h1 { font-size: 2em; }
+    h2 { font-size: 1.1em; }
+    h3 { font-size: 1.1em; }
     h3.top { margin-top: 1em; }
-    h5 { font-size: 1.2em; }
+    h4 { font-size: 0.8em; }
+    h5 { font-size: 0.9em; }
     p {
       font-size: 0.9em;
       line-height: 130%;
@@ -682,16 +698,20 @@ h5 a {
   nav {
     font-size: 1em;
     line-height: 130%;
-    padding: 2em 0 2em 1em;
+    padding: 3em 0 2em 1em;
     .title {
-      @include span-columns(8,8);
       display: block;
-      margin-bottom: 0.2em;
+      float: none;
+      margin-bottom: 2em;
+      margin-right: 0;
+      width: auto;
     }
     .contents {
-      @include span-columns(8,8);
       display: block;
+      float: none;
+      margin-right: 0;
       text-align: left;
+      width: auto;
       li {
         margin-left: 0;
         margin-right: 0.6em;
@@ -705,6 +725,9 @@ h5 a {
     article {
       @include span-columns(8,8);
       margin-bottom: 3em;
+      p {
+        font-size: 0.9em;
+      }
       .block {
         margin: 1em auto;
         width: 90%;
@@ -713,25 +736,26 @@ h5 a {
         margin: 0 0.5em 0.2em 0;
         width: 25%;
       }
-      .license {
-        margin-top: 1em;
-        text-align: right;
+      .cc {
+        margin-top: 0;
       }
     }
     aside { @include span-columns(8,8);
       h4 {
-        font-size: 1.4em;
-        margin-bottom: 1em;
+        font-size: 1.2em;
+      }
+      .summary {
+        margin-bottom: 3em;
       }
     }
     h1 { font-size: 2.6em; }
     h2 { font-size: 1.2em; }
-    h3 { font-size: 1.6em; }
+    h3 { font-size: 1.4em; }
     h3.top { margin-top: 1em; }
-    h5 { font-size: 1.2em; }
+    h5 { font-size: 1em; }
     p {
-      font-size: 0.9em;
-      line-height: 130%;
+      font-size: 1em;
+      line-height: 150%;
     }
     ul.links {
       li {
@@ -762,7 +786,7 @@ h5 a {
     }
   }
   blockquote {
-    font-size: 0.7em;
+    font-size: 0.9em;
     line-height: 140%;
     margin: 1em;
     padding: 1em;
@@ -773,16 +797,20 @@ h5 a {
   nav {
     font-size: 1em;
     line-height: 130%;
-    padding: 2em 0 2em 1em;
+    padding: 3em 0 2em 1em;
     .title {
-      @include span-columns(8,8);
       display: block;
-      margin-bottom: 0.2em;
+      float: none;
+      margin-bottom: 2em;
+      margin-right: 0;
+      width: auto;
     }
     .contents {
-      @include span-columns(10,10);
       display: block;
+      float: none;
+      margin-right: 0;
       text-align: left;
+      width: auto;
       li {
         margin-left: 0;
         margin-right: 0.6em;
@@ -804,27 +832,31 @@ h5 a {
         margin: 0 0.5em 0.2em 0;
         width: 20%;
       }
-      .license {
-        margin-top: 1em;
-        text-align: right;
+      .cc {
+        margin-top: 0;
       }
     }
     aside { @include span-columns(10,10);
       h4 {
-        font-size: 1.4em;
-        margin-bottom: 1em;
+        font-size: 1.2em;
+      }
+      .summary {
+        margin-bottom: 3em;
       }
     }
-    h1 { font-size: 2.8em; }
+    h1 {
+      font-size: 4em;
+      margin-bottom: 0.2em;
+    }
     h2 { font-size: 1.2em; }
     h3 { font-size: 1.7em; }
     h3.top { margin-top: 1em; }
-    h5 { font-size: 1.3em; }
+    h5 { font-size: 1em; }
   }
   footer {
     padding-bottom: 70px;
     ul.social {
-      @include span-columns(10,10);
+      @include span-columns(7,10);
       display: block;
       margin-bottom: 0.8em;
       margin-left: 1em;
@@ -832,8 +864,9 @@ h5 a {
       li { font-size: 62px; }
     }
     .logo {
-      @include span-columns(10,10);
+      @include span-columns(2,10);
       display: block;
+      float: right;
       font-size: 1em;
       text-align: right;
       img {
@@ -843,8 +876,8 @@ h5 a {
     }
   }
   blockquote {
-    font-size: 0.8em;
-    line-height: 140%;
+    font-size: 1em;
+    line-height: 160%;
     margin: 1em;
     padding: 1em;
   }
