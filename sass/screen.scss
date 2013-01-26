@@ -42,7 +42,7 @@ $border: #dddddd;
 html, body { height: 100%; }
 
 body {
-  background-color: #f6f6f6;//#f4f4ec;
+  background-color: #f6f6f6;
   color: $softblack;
   font-family: "proxima-nova", sans-serif;
   line-height: 200%;
@@ -52,6 +52,10 @@ body {
   width: 100%;
 }
 
+.nav-wrapper {
+  background-color: $lightgrey;
+}
+
 .footer-wrapper {
   background-color: $softblack;
 }
@@ -59,7 +63,7 @@ body {
 nav {
   @include container($total-columns, $break-01, $break-02, $break-03, $break-04);
   //border-bottom: 2px solid $border;
-  padding: 1.2em 0 0.6em 0;
+  padding: 2em 0 1.6em 0;
   li {
     color: $lightgrey;
     font-size: 1em;
@@ -79,11 +83,12 @@ nav {
         color: $softblack;
         font-weight: bold;
         &:hover {
-          color: $rust;
+          color: $teal;
         }
       }
     }
     .desc {
+      color: $medgrey;
       font-weight: 400;
     }
   }
@@ -95,17 +100,18 @@ nav {
       a {
         @include transition-duration(0.4s);
         @include transition-property(color);
-        color: $medgrey;
+        color: #f6f6f6;
         &:hover {
-          color: $softblack;
+          color: $darkgrey;
         }
         &.current {
+          @include border-radius(3px);
           @include transition-property(color);
           @include transition-duration(0.4s);
-          border-bottom: 2px solid $darkgrey;
+          background-color: $medgrey;
         }
         &.current:hover {
-          border-bottom: 2px solid $darkgrey;
+          //border-bottom: 2px solid $darkgrey;
           color: $softblack;
         }
       }
@@ -153,7 +159,7 @@ nav {
       padding-bottom: 1em;
       p {
         font-family: "proxima-nova", sans-serif;
-        font-size: 0.8em;
+        font-size: 0.9em;
         line-height: 130%;
         margin: 0.5em 0;
       }
@@ -194,10 +200,10 @@ nav {
     }
     ul.links {
       li {
+        font-size: 1.2em;
         a {
           border-bottom: none;
           color: $darkgrey;
-          font-weight: bold;
           span {
             color: $lightgrey;
             font-weight: normal;
