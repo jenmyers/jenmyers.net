@@ -6,7 +6,7 @@ summary: What creators and learners (i.e., everyone) can learn from Iranian film
 
 I have been working with a Rails mentor (the very wonderful [Maria Gutierrez](https://twitter.com/mariagutierrez)) to help learn how to build an app from scratch. I’ve had an idea in mind for a couple of years, but never thought I knew quite enough to do it all on my own. I have a ten-year-long habit of downplaying my skills and abilities in this field. First, I was going to find a couple of developers to make it for me. Then I decided I would do all the design and front-end work and find someone to do the rest. Then I decided I would just learn how to do it all myself.
 
-Maria and I set up the working framework of the application and guess what? It _works_. This idea I had for years and which I thought I didn’t have the ability to make reality - it’s a working, existing thing. It’s pretty amazing. It makes me wonder why people who had the ability to do this aren’t doing it all the time, because it’s _so much fun_.
+Maria and I set up the working framework of the application and guess what? It _works_. This idea I had for years and which I thought I didn’t have the ability to make reality - it’s a working, existing thing. It’s pretty amazing. It makes me wonder why people who have the ability to do this aren’t doing it all the time, because it’s _so much fun_.
 
 Which brings me to Iranian cinema. (Stay with me. I know where I’m going.)
 
