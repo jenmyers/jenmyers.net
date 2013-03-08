@@ -100,18 +100,17 @@ nav {
       a {
         @include transition-duration(0.4s);
         @include transition-property(color);
-        color: #f6f6f6;
+        color: $darkgrey;
         &:hover {
-          color: $darkgrey;
+          color: #f6f6f6;
         }
         &.current {
           @include border-radius(3px);
           @include transition-property(color);
           @include transition-duration(0.4s);
-          background-color: $medgrey;
+          background-color: #ced2e1;
         }
         &.current:hover {
-          //border-bottom: 2px solid $darkgrey;
           color: $softblack;
         }
       }
