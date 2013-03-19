@@ -31,6 +31,7 @@ $break-04: 40.1em 10 63em;      // 768px-1024px
 $rust: #dd4a38;
 $teal: #108698;
 $lightgrey: #c3c6d5;
+$lightergrey: #ced2e1;
 $medgrey: #9c9eab;
 $darkgrey: #636570;
 $softblack: #464646;
@@ -43,6 +44,9 @@ html, body { height: 100%; }
 
 body {
   background-color: #f6f6f6;
+  background-image: url("../images/robot.png");
+  background-position: center;
+  background-repeat: no-repeat;
   color: $softblack;
   font-family: "proxima-nova", sans-serif;
   line-height: 200%;
@@ -102,15 +106,16 @@ nav {
         @include transition-property(color);
         color: $darkgrey;
         &:hover {
-          color: #f6f6f6;
+          @include transition-property(color);
+          border-bottom: 5px solid $lightergrey;
+          color: $softblack;
         }
         &.current {
-          @include border-radius(3px);
           @include transition-property(color);
-          @include transition-duration(0.4s);
-          background-color: #ced2e1;
+          border-bottom: 5px solid $medgrey;
         }
         &.current:hover {
+          border-bottom: 5px solid $lightergrey;
           color: $softblack;
         }
       }
@@ -131,7 +136,6 @@ nav {
     margin-bottom: 4em;
     p {
       font-family: "republic-web", serif;
-      font-size: 1.1em;
     }
     p.caption {
       color: $medgrey;
@@ -407,7 +411,7 @@ article li span {
   margin-top: 2em;
   padding: 1em;
   &:before {
-    font-size: 72px;
+    font-size: 4em;
   }
   &:hover {
     @include transition-duration(0.8s);
@@ -419,7 +423,7 @@ article li span {
 
 .social {
   .icon {
-    font-size: 72px;
+    font-size: 5em;
     margin-right: 0.25em;
     &.twitter:before, &.tumblr:before, &.github:before, &.dribbble:before, &.instagram:before, &.pinterest:before {
       font-family: 'entypo-social';
