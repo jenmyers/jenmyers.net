@@ -14,7 +14,7 @@
 
 /* GRID ********************************************************************************************/
 
-$total-columns: 12;
+$total-columns: 8;
 $column-width: 4em;
 $gutter-width: 1em;
 $grid-padding: $gutter-width;
@@ -44,9 +44,6 @@ html, body { height: 100%; }
 
 body {
   background-color: #f6f6f6;
-  background-image: url("../images/robot.png");
-  background-position: center;
-  background-repeat: no-repeat;
   color: $softblack;
   font-family: "proxima-nova", sans-serif;
   line-height: 200%;
@@ -78,7 +75,7 @@ nav {
     }
   }
   .title {
-    @include span-columns(6 alpha,12);
+    //@include span-columns(6 alpha,12);
     .name {
       margin-right: 0.5em;
       a {
@@ -97,7 +94,7 @@ nav {
     }
   }
   .contents {
-    @include span-columns(6 omega,12);
+    //@include span-columns(6 omega,12);
     text-align: right;
     li {
       margin-left: 0.6em;
@@ -129,11 +126,12 @@ nav {
   padding-top: 100px;
   section {
     clear: both;
-    padding-top: 180px;
+    text-align: center;
   }
   article {
-    @include span-columns(8 omega,12);
+    //@include span-columns(8 omega,12);
     margin-bottom: 4em;
+    text-align: left;
     p {
       font-family: "republic-web", serif;
     }
@@ -223,16 +221,17 @@ nav {
     }
   }
   aside {
-    @include span-columns(4 alpha,12);
+    //@include span-columns(4 alpha,12);
     .summary {
-      border-top: 2px solid $border;
+      border-top: 1px solid $border;
       color: $darkgrey;
       font-family: "republic-web", serif;
       font-style: italic;
       font-weight: 300;
       line-height: 150%;
-      margin-top: 0.5em;
+      margin: 0.5em auto 3em auto;
       padding-top: 0.5em;
+      width: 65%;
     }
   }
 }
@@ -242,7 +241,7 @@ footer {
   height: 30px;
   padding: 30px 0 43px 0;
   ul.social {
-    @include span-columns(6 alpha,12);
+    //@include span-columns(6 alpha,12);
     li {
       display: inline;      
       a {
@@ -257,7 +256,7 @@ footer {
     }
   }
   .logo {
-    @include span-columns(2 omega,12);
+    //@include span-columns(2 omega,12);
     color: $darkgrey;
     font-size: 1em;
     font-weight: 600;
@@ -304,10 +303,10 @@ nav li { display: inline; }
 
 h1 {
   display: block;
-  font-size: 5em;
+  font-size: 3em;
   line-height: 100%;
   font-weight: 700;
-  margin-bottom: 0.6em;
+  margin-bottom: 0.3em;
   width: 100%;
 }
 
@@ -337,7 +336,7 @@ h4 {
 }
 
 aside h4 {
-  font-size: 1.2em;
+  font-size: 1em;
 }
 
 h5 {
@@ -452,10 +451,10 @@ h1 a {
   @include transition-duration(0.4s);
   @include transition-property(color);
   border-bottom: none;
-  color: $rust;
+  color: $softblack;
   &:hover {
     border-bottom: none;
-    color: $softblack;
+    color: $rust;
   }
 }
 
