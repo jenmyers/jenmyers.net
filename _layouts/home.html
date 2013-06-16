@@ -1,24 +1,4 @@
-<!doctype html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Jen Myers • Hello</title>
-  <meta name="description" content="">
-  <!-- Mobile viewport optimized: h5bp.com/viewport -->
-  <meta name="viewport" content="width=device-width">
-  <link rel="alternate" type="application/rss+xml" title="RSS Feed for jenmyers.net" href="http://feeds.feedburner.com/jenmyers" /> 
-  <link href="../stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <link href="../stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
-  <!--[if IE]>
-      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <![endif]-->
-  <!-- <script src="js/vendor/modernizr-2.5.3.min.js"></script> -->
-  <script type="text/javascript" src="http://use.typekit.com/omn1lkj.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-</head>
-<body>
-
+{% include header.html %}
 
 <div class="home">
 	<section>
@@ -29,14 +9,10 @@
 			<span aria-hidden="true" class="icon" data-icon="&#10002;"></span>
   		<h4>Latest article</h4>
 	  	<div class="item-title">
-		  	
-			  
-			    <a href="/make-more-things.html">
-	<h2>
-		Make More Things
-	</h2>
-</a>
-			  
+		  	{% assign first_post = site.posts.first %}
+			  {% for post in site.posts limit: 1 %}
+			    {% include post-title.html %}
+			  {% endfor %}
 			</div>
 			<h6><a href="../writing/">See all articles</a></h6>
   	</div>
@@ -79,25 +55,4 @@
 	</section>
 </div>
 
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="../javascripts/vendor/jquery-1.7.2.min.js"><\/script>')</script>
-
-  <script src="../javascripts/jquery.fitvids.js"></script>
-  <script src="../javascripts/lightbox.js"></script>
-  <script src="../javascripts/plugins.js"></script>
-  <script src="../javascripts/main.js"></script>
-
-  <script>
-    // fitvids.js
-    $(document).ready(function(){
-      $("article").fitVids();
-    });
-    // Google Analytics
-    var _gaq=[['_setAccount','UA-32547444-1'],['_trackPageview']];
-    (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
-    g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
-    s.parentNode.insertBefore(g,s)}(document,'script'));
-  </script>
-
-</body>
-</html>
+{% include footer.html %}

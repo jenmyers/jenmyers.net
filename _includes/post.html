@@ -1,10 +1,10 @@
-
+<div class="page">
   <section>
     <img src="../images/rosie.png" />
     <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
     <aside>
       <h4>{{ post.date | date_to_long_string }}</h4>
-      <p class="summary">{{ post.summary }}</p>
+      <!-- <p class="summary">{{ post.summary }}</p> -->
     </aside>
     <article>
       {{ post.content }}

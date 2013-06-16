@@ -40,7 +40,13 @@ summary: Inspiration sometimes comes from unlikely sources. Mine comes from a gu
 
 <p>One of my favorite Chuck Jones cartoons is <em>Feed the Kitty</em>, about a ferocious bulldog who falls in love with a tiny kitten he then adopts and scrupulously protects from harm. It's a six-minute animated film featuring two cartoon animals who don't speak one word. And, yet, as Jones wrote, he saw numerous people shed tears by the end of it. I've seen it, too. It's not cheap sentiment. It's a profound understanding about how people feel and how they connect with the world around them through those feelings.</p>
 
-<object width="480" height="360"><param name="movie" value="http://www.youtube.com/v/pccO1RBJZL8?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/pccO1RBJZL8?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="480" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<object width="420" height="338" id="kickWidget_66470_527000" name="kickWidget_66470_527000" type="application/x-shockwave-flash" data="http://fan.tcm.com/service/getWidgetSwf.kickAction">
+<!-- Firefox uses the 'data' attribute above, IE/Safari uses the param below -->
+   <param name="movie" value="http://fan.tcm.com/service/getWidgetSwf.kickAction"></param>
+   <param name="FlashVars" value="affiliateSiteId=66470&amp;widgetId=527000&amp;width=420&amp;height=338&amp;compiledSWFBase=null&amp;autoPlay=0&amp;mediaType_mediaID=video_779975" ></param>
+   <param name="wmode" value="window" ></param><param name="allowFullScreen" value="true" ></param>
+   <param name="allowScriptAccess" value="always" ></param>
+</object>
 
 <p class="caption"><em>Feed the Kitty</em>, directed by Chuck Jones, 1952</p>
 
@@ -86,7 +92,7 @@ summary: Inspiration sometimes comes from unlikely sources. Mine comes from a gu
 
 <h3 class="post">Recommendations</h3>
 
-<object width="480" height="360"><param name="movie" value="http://www.youtube.com/v/ENxnrine-Jc?version=3&amp;hl=en_US&amp;rel=0"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/ENxnrine-Jc?version=3&amp;hl=en_US&amp;rel=0" type="application/x-shockwave-flash" width="480" height="360" allowscriptaccess="always" allowfullscreen="true"></embed></object>
+<object width="420" height="315"><param name="movie" value="http://www.youtube.com/v/_Pj9W8HH03E?version=3&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/_Pj9W8HH03E?version=3&amp;hl=en_US" type="application/x-shockwave-flash" width="420" height="315" allowscriptaccess="always" allowfullscreen="true"></embed></object>
 
 <p class="caption"><em>From A to Z-Z-Z-Z</em>, directed by Chuck Jones, 1954</p>
 

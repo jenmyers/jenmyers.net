@@ -1,24 +1,50 @@
 ---
 layout: default
 title: Writing
+tagline: I write things on the internet.
 ---
 
-<section>
-  <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
-  <article>
-    <h3 class="top">Articles</h3>
-  	  {% for post in site.posts %}
-  		  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2> 
-  		  <h4>{{ post.date | date_to_long_string }}</h4>
-  		{% endfor %}
+<div class="page">
+  <section>
+    <article>
+      <h3>Articles</h3>
+      <ul>
+    	  {% for post in site.posts %}
+          <a href="{{ post.url }}">
+          <li class="row">
+    		    <h2>{{ post.title }}</h2> 
+    		    <h4>{{ post.date | date_to_long_string }}</h4>
+          </li>
+          </a>
+    		{% endfor %}
+      </ul>
   	  <h3>Essays</h3>
-      <h2><a href="promises.html">Promises</a></h2>
-      <h4>14 March 2013</h4>
-      <h2><a href="chandler.html">The White Knight</a></h2>
-      <h4>14 February 2011</h4>
-      <h2><a href="girls.html">Girls, Violence and Dragon Tattoos</a></h2>
-      <h4>17 January 2011</h4>
-      <h2><a href="kerouac.html">So in America When the Sun Goes Down</a></h2>
-      <h4>26 August 2010</h4>
-  </article>
-</section>
+      <ul>
+        <a href="promises.html">
+          <li class="row">
+            <h2>Promises</h2>
+            <h4>14 March 2013</h4>
+          </li>
+        </a>
+        <a href="chandler.html">
+          <li class="row">
+            <h2>The White Knight</h2>
+            <h4>14 February 2011</h4>
+          </li>
+        </a>
+        <a href="girls.html">
+          <li class="row">
+            <h2>Girls, Violence and Dragon Tattoos</h2>
+            <h4>17 January 2011</h4>
+          </li>
+        </a>
+        <a href="kerouac.html">
+          <li class="row">
+            <h2>So in America When the Sun Goes Down</h2>
+            <h4>26 August 2010</h4>
+          </li>
+        </a>
+      </ul>
+    </article>
+    {% include page-links.html %}
+  </section>

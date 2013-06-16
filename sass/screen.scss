@@ -4,288 +4,386 @@
 @import "compass/css3";
 @import "compass/layout";
 @import "compass/typography/";
+@import "compass/utilities/general/clearfix";
 @import "susy";
 
 /* INCLUDES ********************************************************************************************/
 
 @include font-face("entypo", font-files("entypo.woff", "entypo.ttf", "entypo.svg"), "entypo.eot");
 @include font-face("entypo-social", font-files("entypo-social.ttf", "entypo-social.woff", "entypo-social.svg"), "entypo-social.eot");
-@include sticky-footer(30px, ".page", ".page-footer", "footer");
+@include sticky-footer(50px, ".page", ".page-footer", "footer");
 
 /* GRID ********************************************************************************************/
 
-$total-columns: 8;
+$total-columns: 9;
 $column-width: 4em;
 $gutter-width: 1em;
 $grid-padding: $gutter-width;
 
 /* BREAKPOINTS ********************************************************************************************/
 
-$break-01: 4 19em;              // < 320px
-$break-02: 20em 6 30em;         // 320px-480px
-$break-03: 30.1em 8 40em;       // 480px-640px
-$break-04: 40.1em 10 63em;      // 768px-1024px
+$less-than-tablet: 0px 9 767px;
 
 /* COLORS ********************************************************************************************/
 
-$rust: #dd4a38;
-$teal: #108698;
-$lightgrey: #c3c6d5;
-$lightergrey: #ced2e1;
-$medgrey: #9c9eab;
-$darkgrey: #636570;
-$softblack: #464646;
-$offwhite: #f6f6f6;
-$border: #dddddd;
+$primary: #d16565;
+$secondary: #46aba8;
+$lightmono: #c3c6d5;
+$medmono: #9c9eab;
+$darkmono: #636570;
+$darkestmono: #424242;
+$background: #f6f6f6;
+$border: #e5e5e7;
+$blockquote: #fefefe;
 
 /* LAYOUT ********************************************************************************************/
 
 html, body { height: 100%; }
 
 body {
-  background-color: #f6f6f6;
-  color: $softblack;
-  font-family: "proxima-nova", sans-serif;
+  background-color: $background;
+  color: $darkestmono;
+  font-family: "republic-web", serif;
   line-height: 200%;
 }
 
-.nav-wrapper, .footer-wrapper {
+.footer-wrapper {
+  background-color: $darkestmono;
   width: 100%;
 }
 
-.nav-wrapper {
-  background-color: $lightgrey;
-}
-
-.footer-wrapper {
-  background-color: $softblack;
-}
-
 nav {
-  @include container($total-columns, $break-01, $break-02, $break-03, $break-04);
-  //border-bottom: 2px solid $border;
-  padding: 2em 0 1.6em 0;
-  li {
-    color: $lightgrey;
-    font-size: 1em;
+  @include container;
+  margin: 4em auto;
+  text-align: center;
+  h1 {
+    @include border-radius(1px);
+    border: 3px solid $darkestmono;
+    color: $darkestmono;
+    font-size: 1.2em;
     font-weight: 600;
+    margin: 0.5em auto;
+    padding: 0.5em;
     text-transform: uppercase;
+    width: 6em;
+    &:hover {
+      @include transition-property(all);
+      @include transition-duration(0.5s);
+      border: 3px solid $primary;
+      color: $darkestmono;
+    }
+  }
+  p:nth-child(3) {
+    color: $darkestmono;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0.5em auto;
+    padding: 0.75em;
+    width: 40%;
     a {
-      padding: 1em;
-    }
-  }
-  .title {
-    //@include span-columns(6 alpha,12);
-    .name {
-      margin-right: 0.5em;
-      a {
-        @include transition-duration(0.4s);
-        @include transition-property(color);
-        color: $softblack;
-        font-weight: bold;
-        &:hover {
-          color: $teal;
-        }
+      color: $darkestmono;
+      vertical-align: text-bottom;
+      &:hover {
+        color: $primary;
       }
     }
-    .desc {
-      color: $medgrey;
-      font-weight: 400;
-    }
   }
-  .contents {
-    //@include span-columns(6 omega,12);
-    text-align: right;
-    li {
-      margin-left: 0.6em;
-      a {
-        @include transition-duration(0.4s);
-        @include transition-property(color);
-        color: $darkgrey;
-        &:hover {
-          @include transition-property(color);
-          border-bottom: 5px solid $lightergrey;
-          color: $softblack;
-        }
-        &.current {
-          @include transition-property(color);
-          border-bottom: 5px solid $medgrey;
-        }
-        &.current:hover {
-          border-bottom: 5px solid $lightergrey;
-          color: $softblack;
-        }
-      }
-    }
+  .icon {
+    font-size: 1.4em;
   }
 }
 
 .page { 
-  @include container($total-columns, $break-01, $break-02, $break-03, $break-04);
-  padding-bottom: 40px;
-  padding-top: 100px;
+  @include container;
+  padding-bottom: 1em;
   section {
     clear: both;
+    margin-bottom: 2em;
+    margin-top: 5em;
     text-align: center;
+    .page-links {
+      @include clearfix;
+    }
+    .item {
+      text-align: center;
+      &.article {
+        @include span-columns(2 alpha,8);
+      }
+      &.talk {
+        @include span-columns(2,8);
+      }
+      &.project {
+        @include span-columns(2,8);
+      }
+      &.about {
+        @include span-columns(2 omega,8);
+      }
+      .item-title {
+        display: table;
+        margin: 0 auto;
+        a {
+          border-bottom: none;
+          display: table-cell;
+          font-size: 1.2em;
+          height: 6em;
+          padding: 0 1.5em;
+          vertical-align: middle;
+          h4 {
+            @include transition-duration(0.5s);
+            @include transition-property(all);
+            color: $secondary;
+            font-size: 1.5em;
+            &:hover {
+              color: $darkestmono;
+            }
+          }
+        }
+      }
+    }
   }
   article {
-    //@include span-columns(8 omega,12);
-    margin-bottom: 4em;
+    margin-bottom: 3em;
+    margin-top: 2em;
     text-align: left;
-    p {
-      font-family: "republic-web", serif;
+    p:first-child {
+      font-size: 1.2em;
+      line-height: 160%;
     }
     p.caption {
-      color: $medgrey;
+      color: $medmono;
       font-family: "proxima-nova", sans-serif;
-      font-size: 80%;
-      font-weight: bold;
+      font-size: 0.8em;
       line-height: 120%;
       margin-bottom: 2em;
       margin-top: 0.5em;
+      text-transform: uppercase;
     }
-    .block {
-      border: 2px solid $border;
-      display: block;
-      margin: 2em auto;
-      padding: 7px;
-    }
-    .inline {
-      border: 2px solid $border;
-      float: left;
-      margin: 0 1em 1em 0;
-      padding: 7px;
-    }
-    .talk {
-      margin-bottom: 2em;
-      padding-bottom: 1em;
-      p {
-        font-family: "proxima-nova", sans-serif;
-        font-size: 0.9em;
-        line-height: 130%;
-        margin: 0.5em 0;
-      }
-      ul {
-        margin-top: 1.2em;
-        li {
-          border-bottom: 1px solid $border;
-          padding-top: 5px;
-          h4 {
-            display: inline;
-            text-transform: none;
-            vertical-align: top;
-          }
-          a {
-            border-bottom: none;
-            h4.talk-item {
-              color: $darkgrey;
-            }
-            &:hover{
-              h4.talk-item {
-                @include transition-property(color);
-                @include transition-duration(0.4s);
-                color: $rust;
-                .icon {
-                  @include transition-property(color);
-                  @include transition-duration(0.4s);
-                  color: $rust;
-                }
-              }
-            }
-          }
+    ul {
+      li.row {
+        margin-bottom: 0;
+        padding: 1em 0;
+        h4 {
+          font-size: 0.75em;
+          line-height: 120%;
         }
-      }
-      span {
-        font-weight: normal;
-        margin-right: 0.4em;
-      }
-    }
-    ul.links {
-      li {
-        font-size: 1.2em;
-        a {
+        p {
+          font-size: 0.8em;
+          line-height: 140%;
+          margin-top: 1em;
+        }
+        a.presentation {
           border-bottom: none;
-          color: $softblack;
+          font-family: "proxima-nova", sans-serif;
+          font-size: 0.9em;
+          margin-right: 0.5em;
           span {
-            color: $lightgrey;
-            font-weight: normal;
-          }
-          &:hover {
-            color: $rust;
-            span {
-              color: $darkgrey;
-            }
+            vertical-align: text-top;
           }
         }
+      }
+    }
+    a li.row {
+      @include transition-duration(0.5s);
+      @include transition-property(all);
+      color: $darkestmono;
+      &:hover {
+        color: $primary;
+        h2:after {
+          color: $medmono;
+          content: "→";
+          margin-left: 0.2em;
+        }
+      }
+      p {
+        color: $darkmono;
       }
     }
   }
   aside {
-    //@include span-columns(4 alpha,12);
-    .summary {
-      border-top: 1px solid $border;
-      color: $darkgrey;
-      font-family: "republic-web", serif;
-      font-style: italic;
-      font-weight: 300;
-      line-height: 150%;
-      margin: 0.5em auto 3em auto;
-      padding-top: 0.5em;
-      width: 65%;
+    h4 {
+      border-top: 2px solid $border;
+      font-size: 1em;
+      margin-bottom: 2em;
+      padding-top: 0.4em;
     }
   }
 }
 
 footer {
-  @include container($total-columns, $break-01, $break-02, $break-03, $break-04);
-  height: 30px;
-  padding: 30px 0 43px 0;
-  ul.social {
-    //@include span-columns(6 alpha,12);
+  @include container;
+  height: 50px;
+  padding: 50px 0 35px 0;
+  .social {
+    @include span-columns(6 alpha,8);
     li {
-      display: inline;      
+      display: inline;   
       a {
-        @include transition-duration(0.8s);
-        @include transition-property(color);
-        color: $darkgrey;
-        padding: 0.1em;
+        color: $darkmono;
+        padding: 0; 
         &:hover {
-          color: $rust;
+          color: $primary;
         }
       }
     }
   }
-  .logo {
-    //@include span-columns(2 omega,12);
-    color: $darkgrey;
+  .contact {
+    @include span-columns(2 omega,8);
+    color: $darkmono;
     font-size: 1em;
-    font-weight: 600;
-    margin-top: 0.5em;
     text-align: right;
     text-transform: uppercase;
-    img {
-      @include opacity(0.8);
-      float: right;
-      margin-left: 0.5em;
-      margin-top: -0.4em;
-    }
     a {
-      @include transition-duration(0.8s);
-      @include transition-property(color);
-      color: $darkgrey;
-      padding: 1em;
+      @include border-radius(1px);
+      background-color: $darkmono;
+      color: $medmono;
+      font-family: "proxima-nova", sans-serif;
+      padding: 0.75em 1em;
+      vertical-align: top;
       &:hover {
-        color: $offwhite;
-        img {
-          @include opacity(0.8);
+        background-color: $primary;
+        color: $background;
+      }
+    }
+  }
+}
+
+.home {
+  @include container;
+  margin: 6em auto;
+  padding-bottom: 4%;
+  text-align: center;
+  h1 {
+    @include border-radius(1px);
+    border: 5px solid $darkestmono;
+    color: $darkestmono;
+    font-size: 2em;
+    font-weight: 600;
+    margin: 0.5em auto;
+    padding: 0.5em;
+    text-transform: uppercase;
+    width: 6em;
+    &:hover {
+      @include transition-property(all);
+      @include transition-duration(0.5s);
+      border: 5px solid $primary;
+      color: $darkestmono;
+    }
+  }
+  p:nth-child(3) {
+    color: $darkestmono;
+    font-family: "proxima-nova", sans-serif;
+    font-size: 1.2em;
+    font-weight: 500;
+    line-height: 120%;
+    margin: 0.5em auto;
+    padding: 0.75em;
+    width: 40%;
+    a {
+      color: $darkestmono;
+      vertical-align: text-bottom;
+      &:hover {
+        color: $primary;
+      }
+    }
+  }
+  .item {
+    margin: 3em 0;
+    &.article {
+      @include span-columns(3 alpha,9);
+    }
+    &.talk {
+      @include span-columns(3,9);
+    }
+    &.project {
+      @include span-columns(3 omega,9);
+    }
+    .icon {
+      font-size: 1em;
+    }
+    .item-title {
+      display: table;
+      width: 100%;
+      a {
+        display: table-cell;
+        vertical-align: middle;
+        color: $darkestmono;
+        height: 120px;
+        margin: 0.75em 0;
+        padding: 1em 2em;
+        &:hover {
+          color: $primary;
         }
       }
-      img {
-        @include opacity(0.4);
-        @include transition-duration(0.8s);
-        @include transition-property(opacity);
+    }
+    h2 {
+      font-size: 1.8em;
+    }
+    h4 {
+      border-bottom: 1px solid $border;
+      color: $darkestmono;
+      font-size: 1.1em;
+      font-weight: bold;
+      margin: 0 0.75em;
+    }
+    h5 {
+      font-family: "republic-web", serif;
+      font-size: 1em;
+      font-weight: normal;
+      margin-top: 0.5em;
+      line-height: 120%;
+      text-align: center;
+      text-transform: none;
+    }
+    h6 {
+      border-top: 1px solid $border;
+      font-size: 0.9em;
+      font-weight: bold;
+      margin: 0.5em 0.75em 0 0.75em;
+      a {
+        color: $medmono;
+        &:hover {
+          color: $darkestmono;
+        }
       }
     }
+  }
+  .social {
+    margin: 1em 0 1em 0;
+    li {
+      display: inline;
+      a {
+        color: $darkestmono;
+        &:hover {
+          color: $primary;
+        }
+      }
+    }
+  }
+  a {
+    border-bottom: none;
+    &:hover {
+      border-bottom: none;
+    }
+  }
+  a.contact {
+    @include border-radius(1px);
+    background-color: $darkestmono;
+    color: $background;
+    display: inline-block;
+    font-family: "proxima-nova", sans-serif;
+    font-weight: bold;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    text-transform: uppercase;
+    width: auto;
+    &:hover {
+      background-color: $primary;
+    }
+  }
+  .icon {
+    font-size: 1.8em;
   }
 }
 
@@ -295,54 +393,51 @@ footer {
 
 p { margin-bottom: 1em; }
 
+.page-links p {font-family: "proxima-nova", sans-serif};
+
 article { font-size: 120%; }
 
 nav li { display: inline; }
 
 // HEADINGS
 
+h1, h3, h4, h5, h6 { font-family: "proxima-nova", sans-serif; }
+
 h1 {
   display: block;
-  font-size: 3em;
+  font-size: 3.4em;
   line-height: 100%;
-  font-weight: 700;
-  margin-bottom: 0.3em;
+  margin-bottom: 0.2em;
   width: 100%;
 }
 
 h2 {
-  font-size: 1.4em;
+  font-size: 1.2em;
   line-height: 100%;
-  margin-top: 1.2em;
 }
 
 h3 {
-  color: $teal;
-  font-size: 1.6em;
+  color: $secondary;
+  font-size: 1.1em;
   font-weight: 600;
   margin-bottom: 1em;
   margin-top: 2em;
   line-height: 100%;
   text-transform: uppercase;
-  &.top { margin-top: 0; }
 }
 
 h4 {
-  color: $medgrey;
-  font-size: 0.9em;
+  color: $medmono;
+  font-size: 0.85em;
   font-weight: 600;
-  margin-top: 0.4em;
+  margin-top: 0.2em;
   text-transform: uppercase;
-}
-
-aside h4 {
-  font-size: 1em;
 }
 
 h5 {
   font-size: 0.9em;
   font-weight: 600;
-  margin-top: 10em;
+  margin-top: 8em;
   text-align: right;
   text-transform: uppercase;
 }
@@ -351,7 +446,27 @@ h6 { text-transform: uppercase; }
 
 // LIST ELEMENTS
 
-li { margin-bottom: 0.4em; }
+li { margin-bottom: 0.2em; }
+
+ul.links {
+  li {
+    padding: 0;
+    a {
+      border-bottom: none;
+      color: $darkestmono;
+      span {
+        color: $border;
+        font-weight: normal;
+      }
+      &:hover {
+        color: $primary;
+        span {
+          color: $medmono;
+        }
+      }
+    }
+  }
+}
 
 // MISC
 
@@ -372,15 +487,13 @@ hr {
 
 blockquote {
   @include border-radius(10px);
-  background: #fcfcfc;
-  font-family: "republic-web", serif;
+  background: $blockquote;
   font-style: italic;
   margin: 20px;
   padding: 20px;
 }
 
 article li span {
-  color: $darkgrey;
   font-size: 90%;
   font-weight: 700;
   margin-left: 10px;
@@ -394,36 +507,33 @@ article li span {
   font-weight: normal;
   &:before {
     font-family: 'entypo';
-    font-size: 58px;
+    font-size: 3em;
     content: attr(data-icon);
     speak: none;
   }
   &.list-link:before {
-    font-size: 28px;
+    font-size: 1.75em;
   }
 }
 
 .cc {
   border-bottom: none;
-  color: $darkgrey;
+  color: $darkmono;
   float: right;
-  margin-top: 2em;
   padding: 1em;
   &:before {
     font-size: 4em;
   }
   &:hover {
-    @include transition-duration(0.8s);
-    @include transition-property(color);
     border-bottom: none;
-    color: $rust;
+    color: $primary;
   }
 }
 
 .social {
   .icon {
-    font-size: 5em;
-    margin-right: 0.25em;
+    font-size: 1.2em;
+    padding: 0.8em;
     &.twitter:before, &.tumblr:before, &.github:before, &.dribbble:before, &.instagram:before, &.pinterest:before {
       font-family: 'entypo-social';
       content: attr(data-icon);
@@ -435,459 +545,115 @@ article li span {
   }
 }
 
+/* IMAGE STYLES ********************************************************************************************/
+
+.block {
+  border: 2px solid $border;
+  display: block;
+  margin: 2em auto;
+  padding: 7px;
+}
+.inline {
+  border: 2px solid $border;
+  float: left;
+  margin: 0 1em 0 0;
+  padding: 7px;
+}
+
 /* ANCHORS ********************************************************************************************/
 
 a {
-  border-bottom: 1px dashed #aaa;
-  color: $rust;
+  @include transition-duration(0.5s);
+  @include transition-property(all);
+  border-bottom: 1px solid $lightmono;
+  color: $primary;
+  padding-bottom: 0.1em;
   text-decoration: none;
   &:hover {
-    border-bottom: 1px solid $lightgrey;
-    color: $softblack;
+    border-bottom: 1px solid $medmono;
+    color: $darkestmono;
   }
 }
 
 h1 a {
-  @include transition-duration(0.4s);
-  @include transition-property(color);
   border-bottom: none;
-  color: $softblack;
+  color: $darkestmono;
   &:hover {
     border-bottom: none;
-    color: $rust;
+    color: $primary;
   }
 }
 
-h2 a, h4 a, nav a, footer a {
-  @include transition-duration(0.4s);
-  @include transition-property(color);
+h4 a, footer a {
   border-bottom: none;
   color: #474747;
   &:hover {
     border-bottom: none;
-    color: $rust;
+    color: $primary;
   }
 }
 
 h3 a {
-  @include transition-duration(0.4s);
-  @include transition-property(color);
   border-bottom: none;
-  color: $teal;
+  color: $secondary;
   &:hover {
     border-bottom: none;
-    color: $softblack;
+    color: $darkestmono;
   }
   &:after {
-    color: $lightgrey;
+    color: $lightmono;
     content: "→";
     margin-left: 0.2em;
   }
   &:hover:after {
-    color: $teal;
+    color: $secondary;
   }
 }
 
 h5 a {
-  @include transition-duration(0.4s);
-  @include transition-property(color);
   border-bottom: none;
-  color: $medgrey;
+  color: $medmono;
   padding: 1em;
   &:hover {
     border-bottom: none;
-    color: $softblack;
+    color: $darkestmono;
   }
 }
 
 /* MEDIA QUERIES ********************************************************************************************/
 
-@include at-breakpoint($break-01) {
-  nav {
-    font-size: 0.6em;
-    line-height: 130%;
-    padding: 2em 0;
-    .title {
-      margin-bottom: 1em;
-      .name {
-        display: block;
+@include at-breakpoint($less-than-tablet) {
+  body {
+    font-size: 75%;
+  }
+  .home {
+    .item {
+      &.article {
+        @include span-columns(9);
       }
-      @include span-columns(4,4);
-      display: block;
-    }
-    .contents {
-      @include span-columns(4,4);
-      display: block;
-      text-align: left;
-      li {
-        margin-left: 0;
-        margin-right: 0.6em;
+      &.talk {
+        @include span-columns(9);
+      }
+      &.project {
+        @include span-columns(9);
+      }
+      h4, h6 {
+        line-height: 120%;
+        margin: 0;
       }
     }
   }
-  .page { 
-    padding-bottom: 0px;
-    padding-top: 0px;
-    section { padding-top: 1.5em; }
-    article {
-      @include span-columns(4,4);
-      margin-bottom: 3em;
-      p {
-        font-size: 0.8em;
-      }
-      .block {
-        margin: 1em auto;
-        width: 90%;
-      }
-      .inline {
-        margin: 0 0.5em 0.2em 0;
-        width: 30%;
-      }
-      .license {
-        margin-top: 1em;
-        text-align: right;
-      }
-    }
-    aside { @include span-columns(4,4);
-      h4 {
-        font-size: 0.8em;
-        margin-bottom: 1em;
-      }
-    }
-    h1 { font-size: 1.4em; }
-    h2 { font-size: 1.2em; }
-    h3 { font-size: 1em; }
-    h3.top { margin-top: 1em; }
-    h5 { font-size: 0.8em; }
-    p {
-      font-size: 0.7em;
-      line-height: 125%;
-    }
-    ul.links {
-      li {
-        font-size: 0.7em;
-        line-height: 125%;
-      }
-    }
+  .inline {
+    width: 35%;
   }
   footer {
-    padding-bottom: 70px;
-    ul.social {
-      @include span-columns(4,4);
-      display: block;
-      margin-bottom: 0.8em;
-      margin-right: 0;
+    padding: 50px 0 70px 0;
+    .social, .contact {
+      @include span-columns(9);
       text-align: center;
-      li { font-size: 42px; }
     }
-    .logo {
-      @include span-columns(4,4);
-      display: block;
-      font-size: 1em;
-      text-align: right;
-      img {
-        float: right;
-        margin-right: 0.6em;
-      }
+    .contact {
+      margin-top: 2em;
     }
-  }
-  blockquote {
-    font-size: 0.7em;
-    line-height: 140%;
-    margin: 1em;
-    padding: 1em;
-  }
-}
-
-@include at-breakpoint($break-02) {
-  nav {
-    font-size: 0.9em;
-    line-height: 130%;
-    padding: 3em 0 2em 1em;
-    li {
-      font-size: 0.8em;
-    }
-    .title {
-      display: block;
-      float: none;
-      margin-bottom: 1.5em;
-      margin-right: 0;
-      width: auto;
-    }
-    .contents {
-      display: block;
-      float: none;
-      margin-right: 0;
-      text-align: left;
-      width: auto;
-      li {
-        margin-left: 0;
-        margin-right: 0.6em;
-      }
-    }
-  }
-  .page {
-    padding-bottom: 0px;
-    padding-top: 0px;
-    section { padding-top: 1.5em; }
-    article {
-      @include span-columns(6,6);
-      margin-bottom: 3em;
-      p {
-        font-size: 0.9em;
-        line-height: 150%;
-      }
-      .cc {
-        margin-top: 0;
-      }
-      .block {
-        margin: 1em auto;
-        width: 90%;
-      }
-      .inline {
-        margin: 0 0.5em 0.2em 0;
-        width: 30%;
-      }
-    }
-    aside { @include span-columns(6,6);
-      h4 {
-        font-size: 1em;
-      }
-      .summary {
-        margin-bottom: 3em;
-      }
-    }
-    h1 { font-size: 2em; }
-    h2 { font-size: 1.1em; }
-    h3 { font-size: 1.1em; }
-    h3.top { margin-top: 1em; }
-    h4 { font-size: 0.8em; }
-    h5 { font-size: 0.9em; }
-    p {
-      font-size: 0.9em;
-      line-height: 130%;
-    }
-    ul.links {
-      li {
-        font-size: 0.9em;
-        line-height: 130%;
-      }
-    }
-  }
-  footer {
-    padding-bottom: 70px;
-    ul.social {
-      @include span-columns(6,6);
-      display: block;
-      margin-bottom: 0.8em;
-      margin-right: 0;
-      text-align: center;
-      li { font-size: 52px; }
-    }
-    .logo {
-      @include span-columns(6,6);
-      display: block;
-      font-size: 1em;
-      text-align: right;
-      img {
-        float: right;
-        margin-right: 0.5em;
-      }
-    }
-  }
-  blockquote {
-    font-size: 0.7em;
-    line-height: 140%;
-    margin: 1em;
-    padding: 1em;
-  }
-}
-
-@include at-breakpoint($break-03) {
-  nav {
-    font-size: 1em;
-    line-height: 130%;
-    padding: 3em 0 2em 1em;
-    .title {
-      display: block;
-      float: none;
-      margin-bottom: 2em;
-      margin-right: 0;
-      width: auto;
-    }
-    .contents {
-      display: block;
-      float: none;
-      margin-right: 0;
-      text-align: left;
-      width: auto;
-      li {
-        margin-left: 0;
-        margin-right: 0.6em;
-      }
-    }
-  }
-  .page {
-    padding-bottom: 0px;
-    padding-top: 20px;
-    section { padding-top: 1.5em; }
-    article {
-      @include span-columns(8,8);
-      margin-bottom: 3em;
-      p {
-        font-size: 0.9em;
-      }
-      .block {
-        margin: 1em auto;
-        width: 90%;
-      }
-      .inline {
-        margin: 0 0.5em 0.2em 0;
-        width: 25%;
-      }
-      .cc {
-        margin-top: 0;
-      }
-    }
-    aside { @include span-columns(8,8);
-      h4 {
-        font-size: 1.2em;
-      }
-      .summary {
-        margin-bottom: 3em;
-      }
-    }
-    h1 { font-size: 2.6em; }
-    h2 { font-size: 1.2em; }
-    h3 { font-size: 1.4em; }
-    h3.top { margin-top: 1em; }
-    h5 { font-size: 1em; }
-    p {
-      font-size: 1em;
-      line-height: 150%;
-    }
-    ul.links {
-      li {
-        font-size: 0.9em;
-        line-height: 130%;
-      }
-    }
-  }
-  footer {
-    padding-bottom: 70px;
-    ul.social {
-      @include span-columns(8,8);
-      display: block;
-      margin-bottom: 0.8em;
-      margin-left: 1em;
-      margin-right: 0;
-      li { font-size: 52px; }
-    }
-    .logo {
-      @include span-columns(8,8);
-      display: block;
-      font-size: 1em;
-      text-align: right;
-      img {
-        float: right;
-        margin-right: 0.5em;
-      }
-    }
-  }
-  blockquote {
-    font-size: 0.9em;
-    line-height: 140%;
-    margin: 1em;
-    padding: 1em;
-  }
-}
-
-@include at-breakpoint($break-04) {
-  nav {
-    font-size: 1em;
-    line-height: 130%;
-    padding: 3em 0 2em 1em;
-    .title {
-      display: block;
-      float: none;
-      margin-bottom: 2em;
-      margin-right: 0;
-      width: auto;
-    }
-    .contents {
-      display: block;
-      float: none;
-      margin-right: 0;
-      text-align: left;
-      width: auto;
-      li {
-        margin-left: 0;
-        margin-right: 0.6em;
-      }
-    }
-  }
-  .page { 
-    padding-bottom: 0px;
-    padding-top: 20px;
-    section { padding-top: 1.5em; }
-    article {
-      @include span-columns(10,10);
-      margin-bottom: 3em;
-      .block {
-        margin: 1em auto;
-        width: 90%;
-      }
-      .inline {
-        margin: 0 0.5em 0.2em 0;
-        width: 20%;
-      }
-      .cc {
-        margin-top: 0;
-      }
-    }
-    aside { @include span-columns(10,10);
-      h4 {
-        font-size: 1.2em;
-      }
-      .summary {
-        margin-bottom: 3em;
-      }
-    }
-    h1 {
-      font-size: 4em;
-      margin-bottom: 0.2em;
-    }
-    h2 { font-size: 1.2em; }
-    h3 { font-size: 1.7em; }
-    h3.top { margin-top: 1em; }
-    h5 { font-size: 1em; }
-  }
-  footer {
-    padding-bottom: 70px;
-    ul.social {
-      @include span-columns(7,10);
-      display: block;
-      margin-bottom: 0.8em;
-      margin-left: 1em;
-      margin-right: 0;
-      li { font-size: 62px; }
-    }
-    .logo {
-      @include span-columns(2,10);
-      display: block;
-      float: right;
-      font-size: 1em;
-      text-align: right;
-      img {
-        float: right;
-        margin-right: 0.5em;
-      }
-    }
-  }
-  blockquote {
-    font-size: 1em;
-    line-height: 160%;
-    margin: 1em;
-    padding: 1em;
   }
 }
