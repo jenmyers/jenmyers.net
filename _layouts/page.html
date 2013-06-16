@@ -1,10 +1,13 @@
 {% include header.html %}
+{% include top-nav.html %}
 
+<div class="page">
   <section>
-    <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
     <article>
       {{ page.content }}
     </article>
+    {% include page-links.html %}
   </section>
 
+{% include bot-nav.html %}
 {% include footer.html %}

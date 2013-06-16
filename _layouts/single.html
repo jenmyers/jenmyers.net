@@ -1,16 +1,17 @@
 {% include header.html %}
+{% include top-nav.html %}
 
+<div class="page">
   <section>
     <h1><a href="{{ post.url }}">{{ page.title }}</a></h1>
     <aside>
       <h4>{{ page.date | date_to_long_string }}</h4>
-      <p class="summary">{{ page.summary }}</p>
     </aside>
     <article>
       {{ content }}
-      <a aria-hidden="true" class="icon cc" data-icon="&#128325;" href="http://creativecommons.org/licenses/by-sa/3.0/"></a>
-      <h5><a href="../writing">All articles &#8594;</a></h5>
     </article>
+    {% include page-links.html %}
   </section>
 
+{% include bot-nav.html %}
 {% include footer.html %}
