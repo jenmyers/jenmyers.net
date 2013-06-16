@@ -15,3 +15,8 @@ The personal website of Jen Myers and her official repository of articles, talks
 ## Tasks
 
 - Refactor CSS for more awesomeness.
+
+## Versions
+
+- Rosie (June 2013)
+- Marvin (2012)
