@@ -1,0 +1,256 @@
+/* $TITLE **********************************************************************
+
+	Style rules for Jenmyers.net
+	Jump to individual sections by searching for "$SECTION TITLE"
+
+*******************************************************************************/
+
+/* $CONTENTS *******************************************************************
+
+	* Imports
+	* Mixins
+	* Fonts
+	* Variables
+	* Grid
+	* Breakpoints
+	* Base
+	* Layout
+	* Modules
+	* Media Queries
+
+*******************************************************************************/
+
+
+
+/* $IMPORTS *******************************************************************/
+
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/layout";
+@import "compass/typography/";
+@import "compass/utilities/general/clearfix";
+@import "susy";
+
+/* $MIXINS ********************************************************************/
+
+/* $FONTS *********************************************************************/
+
+@include font-face("entypo", font-files("entypo.woff", "entypo.ttf", "entypo.svg"), "entypo.eot");
+@include font-face("entypo-social", font-files("entypo-social.ttf", "entypo-social.woff", "entypo-social.svg"), "entypo-social.eot");
+
+/* $VARIABLES *****************************************************************/
+
+$base: #ffffff;
+$home: #fdf6e3;
+$writing: #cc5c5c;
+$speaking: #41c3c3;
+$projects: #cece64;
+$about: #7777D4;
+$primary: #333333;
+$secondary: #666666;
+$tertiary: #999999;
+$quaternary: #cccccc;
+
+/* $GRID **********************************************************************/
+
+$total-columns  : 8;
+$column-width   : 4em;
+$gutter-width   : 1em;
+$grid-padding   : $gutter-width;
+
+/* $BREAKPOINTS ***************************************************************/
+
+/* $BASE **********************************************************************/
+
+html, body {
+	height: 100%;
+}
+
+body:before {
+	background-color: $home;
+  content: "";
+  height: 2em;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+body {
+	background-color: $base;
+	color: $primary;
+	font-family: "republic-web", serif;
+	font-size: 1em;
+	margin: 0;
+  &.home {
+  	border-left: 2em solid $home;
+  }
+  &.writing {
+
+  }
+  &.speaking {
+
+  }
+  &.projects {
+
+  }
+  &.about {
+
+  }
+  &.mentoring {
+
+  }
+}
+
+// TYPOGRAPHY
+
+header {
+	font-family: "proxima-nova", sans-serif;
+	text-transform: uppercase;
+	ul {
+		li {
+			display: inline-block;
+			list-style: none;
+			margin-left: 1.2em;
+			&:first-child {
+				margin-left: 0;
+			}
+		}
+	}
+	a {
+		color: $tertiary;
+		&:hover {
+			color: $primary;
+		}
+	}
+}
+
+.featured {
+	border-bottom: 5px dashed #eee;
+	padding-bottom: 2em;
+	text-transform: uppercase;
+	h2 {
+		font-family: "proxima-nova", sans-serif;
+		font-size: 3.2em;
+		font-weight: 300;
+		padding: 0.2em 0;
+		text-transform: none;
+		&.writing a {
+	  	color: $writing;
+	  }
+	  &.speaking a {
+	  	color: $speaking;
+	  }
+	  &.projects a {
+	  	color: $projects;
+	  }
+	  &.writing a:after, &.speaking a:after, &.projects a:after {
+    	color: #fff;
+     	content: "→";
+    	margin-left: 0.2em;
+	  }
+	  &.writing a:hover, &.speaking a:hover, &.projects a:hover {
+	  	color: $primary;
+	  	&:after {
+	  		@include transition-property(all);
+	  		@include transition-duration(1s);
+      	color: $quaternary;
+      }
+	  }
+	}
+	h3 {
+		font-family: "proxima-nova-alt-ext-cond", sans-serif;
+		font-size: 1.5em;
+		& a {
+			color: $tertiary;
+			&:after {
+				color: #fff;
+	      content: "→";
+	      margin-left: 0.2em;
+			}
+		}
+		& a:hover {
+	  	color: $primary;
+	  	&:after {
+	  		@include transition-property(all);
+	  		@include transition-duration(1s);
+      	color: $tertiary;
+      }
+		}
+	}
+	h4 {
+		color: $secondary;
+		font-family: "proxima-nova", sans-serif;
+		font-size: 1.4em;
+		margin-bottom: 0.6em;
+		text-transform: none;
+	}
+	.icon {
+		font-size: 5em;
+		vertical-align: top;
+	}
+}
+
+// ANCHORS
+
+a {
+	@include transition-property(color);
+  @include transition-duration(0.8s);
+	text-decoration: none;
+}
+
+// ICONS
+
+.icon {
+	font-weight: normal;
+  &:before {
+  	content: attr(data-icon);
+    font-family: "entypo";
+    font-size: 1.5em;
+    speak: none;
+  }
+  &.writing {
+  	color: $writing;
+  }
+  &.speaking {
+  	color: $speaking;
+  }
+  &.projects {
+  	color: $projects;
+  }
+}
+
+/* $LAYOUT ********************************************************************/
+
+header, section, footer {
+	@include container;
+}
+
+header {
+	padding: 2em 0;
+	h1 {
+		@include span-columns(2 alpha,8);
+	}
+	ul {
+		@include span-columns(6 omega,8);
+		text-align: right;
+	}
+}
+
+section {
+	margin-top: 5em;
+}
+
+.featured {
+	@include container;
+	margin-bottom: 4em;
+	span {
+		@include span-columns(1 alpha, 8);
+	}
+	.featured-text {
+		@include span-columns(7 omega, 8);
+	}
+}
+
+/* $MODULES *******************************************************************/
+
+/* $MEDIA QUERIES *************************************************************/
