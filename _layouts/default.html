@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ page.title }}</title>
+    <title>{{ site.title }} • {{ page.title }}</title>
     <meta name="viewport" content="width=device-width">
     <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <link href="/css/print.css" media="print" rel="stylesheet" type="text/css" />
@@ -15,57 +15,20 @@
   </head>
   <body class="home">
 
-    <div class="page">
+    <header>
+      <ul>
+        <li class="current"><a href="/" class="about"><span aria-hidden="true" class="icon" data-icon="&#128640;"></span> {{ site.name }}</a></li>
+        <li><a href="/" class="writing"><span aria-hidden="true" class="icon" data-icon="&#10002;"></span> Writing</a></li>
+        <li><a href="/" class="speaking"><span aria-hidden="true" class="icon" data-icon="&#59160;"></span> Speaking</a></li>
+        <li><a href="/" class="projects"><span aria-hidden="true" class="icon" data-icon="&#128188;"></span> Projects</a></li>
+      </ul>
+    </header>
 
-      <div class="header-wrapper">
-        <header>
-          <h1 class="title"><a href="/" class="about"><span aria-hidden="true" class="icon" data-icon="&#128640;"></span> {{ site.name }}</a></h1>
-          <ul>
-            <li><a href="/" class="writing"><span aria-hidden="true" class="icon" data-icon="&#10002;"></span> Writing</a></li>
-            <li><a href="/" class="speaking"><span aria-hidden="true" class="icon" data-icon="&#59160;"></span> Speaking</a></li>
-            <li><a href="/" class="projects"><span aria-hidden="true" class="icon" data-icon="&#128188;"></span> Projects</a></li>
-          </ul>
-        </header>
-      </div>
+    <div class="page">
 
       <section>
 
-        <!--{{ content }}-->
-
-        <div class="featured">
-          <span aria-hidden="true" class="icon writing" data-icon="&#10002;"></span>
-          <div class="featured-text">
-            <h3>Latest Article</h3>
-            <h2 class="writing">
-              <a href="{{ post.url }}">
-                {% assign first_post = site.posts.first %}
-                {% for post in site.posts limit: 1 %}
-                  {{ post.title }}
-                {% endfor %}
-              </a>
-            </h2>
-            <h3><a href="/">Read all articles</a></h3>
-          </div>
-        </div><!-- /featured -->
-
-        <div class="featured">
-          <span aria-hidden="true" class="icon speaking" data-icon="&#59160;"></span>
-          <div class="featured-text">
-            <h3>Next Talk</h3>
-            <h2 class="speaking"><a href="/">Prototype Camp</a></h2>
-            <h4>24 Aug 2013 • Chicago, IL</h4>
-            <h3><a href="/">See all talks</a></h3>
-          </div>
-        </div><!-- /featured -->
-
-        <div class="featured">
-          <span aria-hidden="true" class="icon projects" data-icon="&#128188;"></span>
-          <div class="featured-text">
-            <h3>Current Project</h3>
-            <h2 class="projects"><a href="/">High Visbility Project</a></h2>
-            <h3><a href="/">See all projects</a></h3>
-          </div>
-        </div><!-- /featured -->
+        {{ content }}
 
       </section>
 

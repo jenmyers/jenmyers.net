@@ -41,7 +41,7 @@
 /* $VARIABLES *****************************************************************/
 
 $base: #ffffff;
-$home: #fdf6e3;
+$home: #eeeeee;
 $writing: #cc5c5c;
 $speaking: #41c3c3;
 $projects: #cece64;
@@ -108,11 +108,19 @@ header {
 	text-transform: uppercase;
 	ul {
 		li {
-			display: inline-block;
 			list-style: none;
-			margin-left: 1.2em;
+			margin-bottom: 1em;
+			padding: 1em 1.5em 1em 1em;
 			&:first-child {
-				margin-left: 0;
+				margin-top: 2em;
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+			&.current {
+				@include border-top-right-radius(5px);
+				@include border-bottom-right-radius(5px);
+				background-color: #eee;
 			}
 		}
 	}
@@ -125,8 +133,8 @@ header {
 }
 
 .featured {
-	border-bottom: 5px dashed #eee;
-	padding-bottom: 2em;
+	border-bottom: 2px solid #eee;
+	padding-bottom: 3em;
 	text-transform: uppercase;
 	h2 {
 		font-family: "proxima-nova", sans-serif;
@@ -185,7 +193,7 @@ header {
 		text-transform: none;
 	}
 	.icon {
-		font-size: 5em;
+		font-size: 3.6em;
 		vertical-align: top;
 	}
 }
@@ -205,7 +213,7 @@ a {
   &:before {
   	content: attr(data-icon);
     font-family: "entypo";
-    font-size: 1.5em;
+    font-size: 2em;
     speak: none;
   }
   &.writing {
@@ -221,28 +229,21 @@ a {
 
 /* $LAYOUT ********************************************************************/
 
-header, section, footer {
+section, footer {
 	@include container;
 }
 
 header {
-	padding: 2em 0;
-	h1 {
-		@include span-columns(2 alpha,8);
-	}
-	ul {
-		@include span-columns(6 omega,8);
-		text-align: right;
-	}
+	position: fixed;
 }
 
 section {
-	margin-top: 5em;
+
 }
 
 .featured {
 	@include container;
-	margin-bottom: 4em;
+	margin-bottom: 3em;
 	span {
 		@include span-columns(1 alpha, 8);
 	}
