@@ -1,42 +1,9 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>{{ site.title }} • {{ page.title }}</title>
-    <meta name="viewport" content="width=device-width">
-    <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href="/css/print.css" media="print" rel="stylesheet" type="text/css" />
-    <!--[if IE]>
-      <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <![endif]-->
-    <script type="text/javascript" src="//use.typekit.net/omn1lkj.js"></script>
-    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-  </head>
-  <body class="home">
+{% include header.html %}
 
-    <header>
-      <ul>
-        <li class="current"><a href="/" class="about"><span aria-hidden="true" class="icon" data-icon="&#128640;"></span> {{ site.name }}</a></li>
-        <li><a href="/" class="writing"><span aria-hidden="true" class="icon" data-icon="&#10002;"></span> Writing</a></li>
-        <li><a href="/" class="speaking"><span aria-hidden="true" class="icon" data-icon="&#59160;"></span> Speaking</a></li>
-        <li><a href="/" class="projects"><span aria-hidden="true" class="icon" data-icon="&#128188;"></span> Projects</a></li>
-      </ul>
-    </header>
+  <section>
 
-    <div class="page">
+    {{ content }}
 
-      <section>
+  </section>
 
-        {{ content }}
-
-      </section>
-
-      <footer>
-        <p>Jen Myers is a web designer/developer, speaker and teacher in Chicago. <a href="/">More</a></p> 
-      </footer>
-
-    </div><!-- /page -->
-
-  </body>
-</html>
+{% include footer.html %}
