@@ -1,7 +1,11 @@
 # TASKS
 
+
+- build out speaking page
+- build out projects page
+- build out about page
+- remove underlines on all non-paragraph links
+- add JS file
+- adjust h3 styles within posts
 - add roles to element tags
-- break out partials
-- create alternate layouts
-- import new fonts (plus icons)
-- add sticky footer
+- add special pages: mentoring, training

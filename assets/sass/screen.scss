@@ -1,0 +1,398 @@
+/* $TITLE **********************************************************************
+
+  Style rules for Jenmyers.net
+  Jump to individual sections by searching for "$SECTION TITLE"
+
+*******************************************************************************/
+
+/* $CONTENTS *******************************************************************
+
+  * Imports
+  * Mixins
+  * Fonts
+  * Variables
+  * Grid
+  * Breakpoints
+  * Base
+  * Layout
+  * Media Queries
+
+*******************************************************************************/
+
+/* $IMPORTS *******************************************************************/
+
+@import "compass/reset";
+@import "compass/css3";
+@import "compass/layout";
+@import "compass/typography/";
+@import "compass/utilities/general/clearfix";
+@import "susy";
+
+/* $MIXINS ********************************************************************/
+
+/* $FONTS *********************************************************************/
+
+@include font-face("entypo", font-files("entypo.woff", "entypo.ttf", "entypo.svg"), "entypo.eot");
+@include font-face("entypo-social", font-files("entypo-social.ttf", "entypo-social.woff", "entypo-social.svg"), "entypo-social.eot");
+
+/* $VARIABLES *****************************************************************/
+
+$base:        #fff;
+$home:        #eeeeee;
+$writing:     #19B3B3;
+$speaking:    #CA3F3F;
+$projects:    #CCC61E;
+$about:       #C91D73;
+$primary:     #444444;
+$secondary:   #666666;
+
+/* $GRID **********************************************************************/
+
+$total-columns: 12;
+$column-width:  4em;
+$gutter-width:  1em;
+$grid-padding:  $gutter-width;
+
+/* $BREAKPOINTS ***************************************************************/
+
+/* $BASE **********************************************************************/
+
+html, body {
+  height: 100%;
+}
+
+body {
+  background-color: $base;
+  color: $primary;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1em;
+  margin: 0;
+}
+
+// TYPOGRAPHY
+
+h1 {
+  font-size: 4em;
+  font-weight: 600;
+  margin: 1em 0;
+}
+
+h2 {
+  font-size: 1.8em;
+  line-height: 120%;
+}
+
+h3 {
+  font-size: 2em;
+  font-weight: 600;
+  margin: 2em 0;
+  text-transform: uppercase;
+}
+
+h4 {
+  border-top: 2px solid #eee;
+  color: #999;
+  font-size: 1.2em;
+  font-weight: 100;
+  margin-top: 1em;
+  padding-top: 0.5em;
+  text-transform: uppercase;
+}
+
+aside h4 {
+  border-top: none;
+  margin-top: 0;
+  padding-top: 0;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 160%;
+  margin: 1em 0;
+}
+
+article p:first-child {
+  font-size: 1.6em;
+  line-height: 140%;
+  margin: 0 0 1em 0;
+}
+
+ol li {
+  font-size: 1.4em;
+  line-height: 150%;
+  list-style-type: decimal;
+  margin: 1em 0 1em 2em;
+  overflow: visible;
+}
+
+strong {
+  font-weight: 600;
+}
+
+header {
+  font-family: "proxima-nova", sans-serif;
+  letter-spacing: 1px;
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+  text-transform: uppercase;
+  h1 {
+    font-size: 1em;
+    font-weight: 500;
+    margin: 0;
+  }
+}
+
+.site-title {
+  font-size: 1em;
+}
+
+.social {
+  li {
+    display: inline;
+  }
+}
+
+.contact {
+  color: #999;
+  font-size: 1em;
+  margin-top: 1.5em;
+  text-align: right;
+  text-transform: uppercase;
+}
+
+p.home {
+  color: #999;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 2.8em;
+  font-weight: 300;
+  line-height: 140%;
+  margin: 1.5em 0 1em 0;
+}
+
+.writing {
+  color: $writing;
+}
+
+.speaking {
+  color: $speaking;
+}
+
+.projects {
+  color: $projects;
+}
+
+.about {
+  color: $about;
+}
+
+// ANCHORS
+
+a {
+  @include transition-duration(0.8s);
+  @include transition-property(all);
+  border-bottom: 2px solid #ddd;
+  color: #000;
+  text-decoration: none;
+  &:hover {
+    border-bottom: 2px solid #999;
+  }
+  &.writing {
+    color: $writing;
+  }
+
+  &.speaking {
+    color: $speaking;
+  }
+
+  &.projects {
+    color: $projects;
+  }
+  &.about {
+    color: $about;
+  }
+}
+
+p.home a {
+  border-bottom: 2px solid #ddd;
+  font-weight: 600;
+  &:hover {
+    border-bottom: 2px solid #999;
+    color: #555;
+  }
+}
+
+header a {
+  color: #999;
+  padding: 1em;
+  &:hover {
+    color: #000;
+  }
+}
+
+a article {
+  @include transition-duration(0.8s);
+  @include transition-property(all);
+  border-top: 2px solid #eee;
+  color: #666;
+  &:hover {
+    @include transition-duration(0.8s);
+    @include transition-property(all);
+    color: #333;
+    h2:after {
+      color: #ccc;
+      content: "→";
+      margin-left: 0.2em;
+    }
+  }
+}
+
+.writing a:hover article {
+  border-top: 2px solid $writing;
+}
+
+.speaking a:hover article {
+  border-top: 2px solid $speaking;
+}
+
+.projects a:hover article {
+  border-top: 2px solid $projects;
+}
+
+.about a:hover article {
+  border-top: 2px solid $about;
+}
+
+.social a {
+  color: #ccc;
+  padding: 0; 
+  &:hover {
+    color: #333;
+  }
+}
+
+.contact a {
+  @include border-radius(3px);
+  background-color: #ccc;
+  color: #fff;
+  margin-right: 1em;
+  padding: 0.75em 1em;
+  &:hover {
+    background-color: #333;
+  }
+}
+
+header a, h1 a, nav a, footer a, header a:hover, h1 a:hover, nav a:hover, footer a:hover {
+  border-bottom: none;
+}
+
+.single h1 a {
+  color: $writing;
+  &:hover {
+    color: $primary;
+  }
+}
+
+a.back {
+  @include border-radius(3px);
+  border: 2px solid #ddd;
+  color: #666;
+  float: right;
+  margin: 2em 1em 2em 0;
+  padding: 0.75em 1em;
+  text-transform: uppercase;
+  &:hover {
+    border: 2px solid $writing;
+    color: $primary;
+  }
+}
+
+// ICONS
+
+.icon {
+  font-weight: normal;
+  &:before {
+    content: attr(data-icon);
+    font-family: "entypo";
+    font-size: 2em;
+    speak: none;
+  }
+}
+
+.social {
+  .icon {
+    font-size: 2em;
+    padding: 0.8em;
+    &.twitter:before, &.tumblr:before, &.github:before, &.dribbble:before, &.instagram:before, &.pinterest:before {
+      font-family: "entypo-social";
+      content: attr(data-icon);
+    }
+    &.rss:before {
+      font-family: "entypo";
+      content: attr(data-icon);
+    }
+  }
+}
+
+/* $LAYOUT ********************************************************************/
+
+header, section, footer {
+  @include container;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.header-wrapper {
+  border-bottom: 2px solid #eee;
+}
+
+.site-title {
+  @include span-columns(4 alpha, 12);
+}
+
+nav {
+  @include span-columns(8 omega, 12);
+  text-align: right;
+}
+
+aside {
+  @include span-columns(4 alpha, 12);
+  border-top: 2px solid #ddd;
+  min-height: 5em;
+  padding-top: 1em;
+}
+
+article {
+  @include span-columns(8 omega, 12);
+  margin-bottom: 1em;
+  padding-top: 1em;
+}
+
+section.single article {
+  padding-top: 0;
+}
+
+li {
+  @include clearfix;
+}
+
+.footer-wrapper {
+  border-top: 2px solid #eee;
+  margin-top: 2em;
+}
+
+footer {
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+}
+
+.social {
+  @include span-columns(10 alpha,12);
+}
+
+.contact {
+  @include span-columns(2 omega,12);
+}
+
+/* $MODULES *******************************************************************/
+
+/* $MEDIA QUERIES *************************************************************/

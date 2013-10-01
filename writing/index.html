@@ -3,14 +3,64 @@ layout: default
 title: Writing
 ---  
 
-<h3>Articles</h3>
+<section class="writing">
+  <h3 class="writing">Articles</h3>
   <ul>
     {% for post in site.posts %}
-      <a href="{{ post.url }}">
-      <li class="row">
-        <h2>{{ post.title }}</h2> 
+    <li>
+      <aside>
         <h4>{{ post.date | date_to_long_string }}</h4>
-      </li>
+      </aside>
+      <a href="{{ post.url }}">
+        <article>
+          <h2>{{ post.title }}</h2>
+          <p>{{ post.summary }}</p>
+        </article>
       </a>
+    </li>
     {% endfor %}
   </ul>
+  <h3 class="writing">Essays</h3>
+  <ul>
+    <li>
+      <aside>
+        <h4>14 March 2013</h4>
+      </aside>
+      <a href="promises.html">
+        <article>
+          <h2>Promises</h2>
+        </article>
+      </a>
+    </li>
+    <li>
+      <aside>
+        <h4>14 February 2011</h4>
+      </aside>
+      <a href="chandler.html">
+        <article>
+          <h2>The White Knight</h2>
+        </article>
+      </a> 
+    </li>
+    <li>
+      <aside>
+        <h4>17 January 2011</h4>
+      </aside>
+      <a href="girls.html">
+        <article>
+          <h2>Girls, Violence and Dragon Tattoos</h2>
+        </article>
+      </a>
+    </li>
+    <li>
+      <aside>
+        <h4>26 August 2010</h4>
+      </aside>
+      <a href="kerouac.html">
+        <article>
+          <h2>So in America When the Sun Goes Down</h2>
+        </article>
+      </a> 
+    </li>
+  </ul>
+  </section>

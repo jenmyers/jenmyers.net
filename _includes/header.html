@@ -4,12 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>{{ site.title }} • {{ page.title }}</title>
-    <meta name="viewport" content="width=device-width">
-    <link href="/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <link href="/css/print.css" media="print" rel="stylesheet" type="text/css" />
-    <!--[if IE]>
-      <link href="/css/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-    <![endif]-->
+    <link href="{{ site.baseurl }}/assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="//use.typekit.net/omn1lkj.js"></script>
     <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   </head>
@@ -17,14 +12,14 @@
 
     <div class="header-wrapper">
       <header>
-        <h1>
-          <a href="/">{{ site.title }}</a>
-        </h1>
+        <div class="site-title">
+          <h1><a href="/">{{ site.title }}</a></h1>
+        </div>
         <nav>
-          <a href="../writing/">Writing</a>
-          <a href="../speaking/">Speaking</a>
-          <a href="../projects/">Projects</a>
-          <a href="../about/">About</a>
+          <a href="{{ site.baseurl }}/writing/">Writing</a>
+          <a href="{{ site.baseurl }}/speaking/">Speaking</a>
+          <a href="{{ site.baseurl }}/projects/">Projects</a>
+          <a href="{{ site.baseurl }}/about/">About</a>
         </nav>
       </header>
     </div>
