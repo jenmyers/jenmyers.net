@@ -824,22 +824,27 @@ a h6 {
   /* line 603, ../sass/screen.scss */
   .inline {
     float: none;
+    margin: 0;
     width: 25%;
   }
 
-  /* line 607, ../sass/screen.scss */
+  /* line 608, ../sass/screen.scss */
   footer {
     padding: 2em 0 4em 0;
   }
-  /* line 609, ../sass/screen.scss */
+  /* line 610, ../sass/screen.scss */
   footer .social, footer .contact {
     width: 100%;
     float: left;
     margin-right: 2.27273%;
     text-align: center;
   }
-  /* line 613, ../sass/screen.scss */
+  /* line 614, ../sass/screen.scss */
   footer .contact {
     margin-top: 2em;
+  }
+  /* line 616, ../sass/screen.scss */
+  footer .contact a {
+    margin-right: 0;
   }
 }
