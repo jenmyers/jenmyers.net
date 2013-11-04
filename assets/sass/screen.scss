@@ -74,7 +74,7 @@ body {
   font-family: "proxima-nova", sans-serif;
   font-size: 1em;
   margin: 0;
-} 
+}
 
 /* $LAYOUT ********************************************************************/
 
@@ -420,12 +420,9 @@ a article {
 }
 
 a .icon {
-  color: $darkborder;
-}
-
-a:hover .icon {
   @include transition-duration(0.6s);
   @include transition-property(all);
+  color: $darkborder;
 }
 
 .page-speaking a:hover .icon {
@@ -467,7 +464,7 @@ a.presentation {
 
 .social a {
   color: $darkborder;
-  padding: 0; 
+  padding: 0;
   &:hover {
     color: $emphasis;
   }
