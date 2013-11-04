@@ -1,6 +1,6 @@
 /* $TITLE **********************************************************************
 
-  Style rules for Jenmyers.net
+  Style rules for jenmyers.net
   Jump to individual sections by searching for "$SECTION TITLE"
 
 *******************************************************************************/
@@ -15,6 +15,7 @@
   * Breakpoints
   * Base
   * Layout
+  * Typography
   * Media Queries
 
 *******************************************************************************/
@@ -37,23 +38,29 @@
 
 /* $VARIABLES *****************************************************************/
 
-$base:        #fff;
-$home:        #eeeeee;
-$writing:     #19B3B3;
-$speaking:    #CA3F3F;
-$projects:    #CCC61E;
-$about:       #C91D73;
-$primary:     #444444;
-$secondary:   #666666;
+$base:            #ffffff;
+$writing:         #58b6a9;
+$speaking:        #ee5c5c;
+$projects:        #f7be7a;
+$about:           #c95b92;
+$primary:         #666666;
+$secondary:       #999999;
+$emphasis:        #333333;
+$lightborder:     #eeeeee;
+$medborder:       #dddddd;
+$darkborder:      #cccccc;
+$blockquote:      #f6f6f6;
 
 /* $GRID **********************************************************************/
 
-$total-columns: 12;
-$column-width:  4em;
-$gutter-width:  1em;
-$grid-padding:  $gutter-width;
+$total-columns:   12;
+$column-width:    4em;
+$gutter-width:    1em;
+$grid-padding:    $gutter-width;
 
 /* $BREAKPOINTS ***************************************************************/
+
+$less-than-tablet: 0px 9 767px;
 
 /* $BASE **********************************************************************/
 
@@ -67,35 +74,117 @@ body {
   font-family: "proxima-nova", sans-serif;
   font-size: 1em;
   margin: 0;
+} 
+
+/* $LAYOUT ********************************************************************/
+
+header, section, footer {
+  @include container;
+  padding-left: 0;
+  padding-right: 0;
 }
 
-// TYPOGRAPHY
+.header-wrapper {
+  border-bottom: 2px solid $lightborder;
+}
+
+.site-title {
+  @include span-columns(4 alpha, 12);
+}
+
+nav {
+  @include span-columns(8 omega, 12);
+  text-align: right;
+}
+
+aside {
+  @include span-columns(4 alpha, 12);
+  border-top: 2px solid $medborder;
+  min-height: 5em;
+  padding-top: 1em;
+}
+
+article {
+  @include span-columns(8 omega, 12);
+  border-top: 2px solid $lightborder;
+  margin-bottom: 3em;
+  padding-top: 1em;
+}
+
+section.single article {
+  padding-top: 0;
+}
+
+li {
+  @include clearfix;
+}
+
+.footer-wrapper {
+  border-top: 2px solid $lightborder;
+  margin-top: 2em;
+}
+
+footer {
+  padding-bottom: 2.5em;
+  padding-top: 2.5em;
+}
+
+.social {
+  @include span-columns(8 alpha,12);
+}
+
+.contact {
+  @include span-columns(4 omega,12);
+}
+
+hr {
+  border: 1px solid $lightborder;
+}
+
+/* $TYPOGRAPHY ****************************************************************/
 
 h1 {
   font-size: 4em;
-  font-weight: 600;
+  font-weight: 500;
   margin: 1em 0;
 }
 
 h2 {
-  font-size: 1.8em;
+  font-family: "republic-web", serif;
+  font-size: 2em;
+  font-style: italic;
+  font-weight: 300;
   line-height: 120%;
 }
 
 h3 {
-  font-size: 2em;
-  font-weight: 600;
-  margin: 2em 0;
+  font-size: 1.6em;
+  font-weight: 500;
+  line-height: 140%;
+  margin: 2em 0 1em 0;
   text-transform: uppercase;
 }
 
 h4 {
-  border-top: 2px solid #eee;
-  color: #999;
-  font-size: 1.2em;
+  border-top: 2px solid $lightborder;
+  color: $secondary;
+  font-size: 1.4em;
   font-weight: 100;
   margin-top: 1em;
   padding-top: 0.5em;
+  text-transform: uppercase;
+}
+
+h5 {
+  font-size: 1.2em;
+  display: inline-block;
+  margin-bottom: 0.5em;
+}
+
+h6 {
+  font-size: 0.8em;
+  line-height: 130%;
+  margin-left: 1em;
   text-transform: uppercase;
 }
 
@@ -103,26 +192,69 @@ aside h4 {
   border-top: none;
   margin-top: 0;
   padding-top: 0;
+  &:nth-of-type(2) {
+    margin-top: 3em;
+  }
 }
 
-p {
+article h4 {
+  border-top: none;
+  margin-top: 2em;
+}
+
+article h4:nth-of-type(1) {
+  margin-top: 0;
+}
+
+p, blockquote {
+  font-family: "republic-web", serif;
   font-size: 1.2em;
   line-height: 160%;
   margin: 1em 0;
 }
 
+blockquote {
+  @include border-radius(3px);
+  background-color: $blockquote;
+  font-style: italic;
+  padding: 0.75em 1em;
+}
+
 article p:first-child {
-  font-size: 1.6em;
-  line-height: 140%;
-  margin: 0 0 1em 0;
+  font-size: 1.5em;
+  font-style: italic;
+  line-height: 150%;
+}
+
+h2 + p {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1em;
+}
+
+p.caption {
+  color: $secondary;
+  font-family: "proxima-nova", sans-serif;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+
+em {
+  font-style: italic;
 }
 
 ol li {
-  font-size: 1.4em;
-  line-height: 150%;
+  font-family: "republic-web", serif;
+  font-size: 1.2em;
+  line-height: 160%;
   list-style-type: decimal;
-  margin: 1em 0 1em 2em;
+  margin: 1em 0 1em 1em;
   overflow: visible;
+}
+
+.links li {
+  font-size: 1.1em;
+  line-height: 130%;
+  margin: 2em 0;
 }
 
 strong {
@@ -130,7 +262,6 @@ strong {
 }
 
 header {
-  font-family: "proxima-nova", sans-serif;
   letter-spacing: 1px;
   padding-bottom: 2.5em;
   padding-top: 2.5em;
@@ -153,7 +284,7 @@ header {
 }
 
 .contact {
-  color: #999;
+  color: $secondary;
   font-size: 1em;
   margin-top: 1.5em;
   text-align: right;
@@ -161,9 +292,10 @@ header {
 }
 
 p.home {
-  color: #999;
-  font-family: "proxima-nova", sans-serif;
+  color: $secondary;
+  font-family: "republic-web", serif;
   font-size: 2.8em;
+  font-style: italic;
   font-weight: 300;
   line-height: 140%;
   margin: 1.5em 0 1em 0;
@@ -185,131 +317,11 @@ p.home {
   color: $about;
 }
 
-// ANCHORS
-
-a {
-  @include transition-duration(0.8s);
-  @include transition-property(all);
-  border-bottom: 2px solid #ddd;
-  color: #000;
-  text-decoration: none;
-  &:hover {
-    border-bottom: 2px solid #999;
-  }
-  &.writing {
-    color: $writing;
-  }
-
-  &.speaking {
-    color: $speaking;
-  }
-
-  &.projects {
-    color: $projects;
-  }
-  &.about {
-    color: $about;
-  }
-}
-
-p.home a {
-  border-bottom: 2px solid #ddd;
-  font-weight: 600;
-  &:hover {
-    border-bottom: 2px solid #999;
-    color: #555;
-  }
-}
-
-header a {
-  color: #999;
-  padding: 1em;
-  &:hover {
-    color: #000;
-  }
-}
-
-a article {
-  @include transition-duration(0.8s);
-  @include transition-property(all);
-  border-top: 2px solid #eee;
-  color: #666;
-  &:hover {
-    @include transition-duration(0.8s);
-    @include transition-property(all);
-    color: #333;
-    h2:after {
-      color: #ccc;
-      content: "→";
-      margin-left: 0.2em;
-    }
-  }
-}
-
-.writing a:hover article {
-  border-top: 2px solid $writing;
-}
-
-.speaking a:hover article {
-  border-top: 2px solid $speaking;
-}
-
-.projects a:hover article {
-  border-top: 2px solid $projects;
-}
-
-.about a:hover article {
-  border-top: 2px solid $about;
-}
-
-.social a {
-  color: #ccc;
-  padding: 0; 
-  &:hover {
-    color: #333;
-  }
-}
-
-.contact a {
-  @include border-radius(3px);
-  background-color: #ccc;
-  color: #fff;
-  margin-right: 1em;
-  padding: 0.75em 1em;
-  &:hover {
-    background-color: #333;
-  }
-}
-
-header a, h1 a, nav a, footer a, header a:hover, h1 a:hover, nav a:hover, footer a:hover {
-  border-bottom: none;
-}
-
-.single h1 a {
-  color: $writing;
-  &:hover {
-    color: $primary;
-  }
-}
-
-a.back {
-  @include border-radius(3px);
-  border: 2px solid #ddd;
-  color: #666;
-  float: right;
-  margin: 2em 1em 2em 0;
-  padding: 0.75em 1em;
-  text-transform: uppercase;
-  &:hover {
-    border: 2px solid $writing;
-    color: $primary;
-  }
-}
-
 // ICONS
 
 .icon {
   font-weight: normal;
+  vertical-align: middle;
   &:before {
     content: attr(data-icon);
     font-family: "entypo";
@@ -333,66 +345,273 @@ a.back {
   }
 }
 
-/* $LAYOUT ********************************************************************/
-
-header, section, footer {
-  @include container;
-  padding-left: 0;
-  padding-right: 0;
+.presentation .icon {
+  font-size: 1.5em;
+  vertical-align: text-top;
 }
 
-.header-wrapper {
-  border-bottom: 2px solid #eee;
+/* $ANCHORS *******************************************************************/
+
+a {
+  @include transition-duration(0.6s);
+  @include transition-property(all);
+  border-bottom: 2px solid $medborder;
+  color: $emphasis;
+  padding-bottom: 2px;
+  text-decoration: none;
+  &:hover {
+    border-bottom: 2px solid $secondary;
+  }
+  &.writing {
+    color: $writing;
+  }
+  &.speaking {
+    color: $speaking;
+  }
+  &.projects {
+    color: $projects;
+  }
+  &.about {
+    color: $about;
+  }
 }
 
-.site-title {
-  @include span-columns(4 alpha, 12);
+p.home a {
+  border-bottom: 2px solid $medborder;
+  font-weight: 600;
+  &:hover {
+    border-bottom: 2px solid $secondary;
+    color: #555;
+  }
 }
 
-nav {
-  @include span-columns(8 omega, 12);
-  text-align: right;
+header a {
+  color: $secondary;
+  padding: 1em;
+  &:hover {
+    color: $emphasis;
+  }
 }
 
-aside {
-  @include span-columns(4 alpha, 12);
-  border-top: 2px solid #ddd;
-  min-height: 5em;
-  padding-top: 1em;
+a article {
+  @include transition-duration(0.6s);
+  @include transition-property(all);
+  border-top: 2px solid $lightborder;
+  color: $primary;
+  &:hover {
+    @include transition-duration(0.6s);
+    @include transition-property(all);
+    color: $emphasis;
+    h2:after {
+      color: $darkborder;
+      content: "→";
+      margin-left: 0.2em;
+    }
+  }
 }
 
-article {
-  @include span-columns(8 omega, 12);
-  margin-bottom: 1em;
-  padding-top: 1em;
+.links li a {
+  border-bottom: none;
+  color: $primary;
+  &:hover {
+    color: $emphasis;
+    border-bottom: none;
+  }
 }
 
-section.single article {
-  padding-top: 0;
+a .icon {
+  color: $darkborder;
 }
 
-li {
-  @include clearfix;
+a:hover .icon {
+  @include transition-duration(0.6s);
+  @include transition-property(all);
 }
 
-.footer-wrapper {
-  border-top: 2px solid #eee;
-  margin-top: 2em;
+.page-speaking a:hover .icon {
+  color: $speaking;
 }
 
-footer {
-  padding-bottom: 2.5em;
-  padding-top: 2.5em;
+.page-about a:hover .icon {
+  color: $about;
 }
 
-.social {
-  @include span-columns(10 alpha,12);
+.page-writing a:hover article {
+  border-top: 2px solid $writing;
 }
 
-.contact {
-  @include span-columns(2 omega,12);
+.page-speaking a:hover article {
+  border-top: 2px solid $speaking;
 }
 
-/* $MODULES *******************************************************************/
+.page-projects a:hover article {
+  border-top: 2px solid $projects;
+}
 
-/* $MEDIA QUERIES *************************************************************/
+.page-about a:hover article {
+  border-top: 2px solid $about;
+}
+
+a.presentation {
+  border-bottom: none;
+  @include border-radius(3px);
+  border: 2px solid $lightborder;
+  padding: 0 0.5em;
+  display: inline-block;
+  margin: 0 1em 0.5em 0;
+  text-transform: uppercase;
+  &:hover {
+    color: $speaking;
+  }
+}
+
+.social a {
+  color: $darkborder;
+  padding: 0; 
+  &:hover {
+    color: $emphasis;
+  }
+}
+
+.contact a {
+  @include border-radius(3px);
+  background-color: $darkborder;
+  color: $base;
+  margin-right: 1em;
+  padding: 0.75em 1em 0.6em 1em;
+  &:hover {
+    background-color: $emphasis;
+  }
+}
+
+header a, h1 a, nav a, footer a, header a:hover, h1 a:hover, nav a:hover, footer a:hover {
+  border-bottom: none;
+}
+
+.single h1 a {
+  color: $writing;
+  &:hover {
+    color: $primary;
+  }
+}
+
+a.back {
+  @include border-radius(3px);
+  border: 2px solid $medborder;
+  color: $primary;
+  float: right;
+  margin: 2em 1em 2em 0;
+  padding: 0.75em 1em 0.6em 1em;
+  text-transform: uppercase;
+  &:hover {
+    border: 2px solid $writing;
+    color: $primary;
+  }
+}
+
+.page-about a.back:hover {
+  border: 2px solid $about;
+}
+
+a h6 {
+  color: $secondary;
+}
+
+/* $IMAGES ********************************************************************/
+
+.inline {
+  border: 2px solid $lightborder;
+  float: left;
+  margin-right: 1.2em;
+  padding: 1em;
+}
+
+/* MEDIA QUERIES ********************************************************************************************/
+
+@include at-breakpoint($less-than-tablet) {
+  body {
+    font-size: 85%;
+    padding: 0 1em;
+  }
+  .site-title {
+    @include span-columns(12,12);
+    margin-bottom: 1em;
+    text-align: center;
+  }
+  header {
+    padding-bottom: 1em;
+    padding-top: 2em;
+    h1 {
+      font-size: 1.4em;
+      font-weight: 700;
+    }
+  }
+  nav {
+    @include span-columns(12,12);
+    text-align: center;
+    a {
+      @include border-radius(3px);
+      border: 2px solid $lightborder;
+      display: block;
+      margin: 0.5em 0;
+      padding: 0.5em 1em;
+    }
+  }
+  p.home {
+    font-size: 1.8em;
+    margin: 1em 0 0 0;
+    text-align: center;
+  }
+  aside {
+    @include span-columns(12,12);
+    min-height: 2em;
+    text-align: center;
+  }
+  article {
+    @include span-columns(12,12);
+    margin-bottom: 1em;
+    text-align: center;
+    p, li {
+      text-align: left;
+    }
+    p:first-child {
+      font-size: 1.2em;
+      margin-top: 1em;
+    }
+  }
+  h1, h3, {
+    text-align: center;
+  }
+  h1 {
+    font-size: 2.5em;
+  }
+  h4 {
+    font-size: 1.2em;
+  }
+  h2 + p {
+    text-align: center;
+  }
+  a article, a:hover article {
+    border-top: none;
+  }
+  a.back {
+    margin: 1em 0;
+    padding: 1em 0;
+    text-align: center;
+    width: 100%;
+  }
+  .inline {
+    float: none;
+    width: 25%;
+  }
+  footer {
+    padding: 2em 0 4em 0;
+    .social, .contact {
+      @include span-columns(9);
+      text-align: center;
+    }
+    .contact {
+      margin-top: 2em;
+    }
+  }
+}
