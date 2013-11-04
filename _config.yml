@@ -1,8 +1,6 @@
-safe:        false
-auto:        false
-base-url:    /
-permalink:   none
+title: Jen Myers
+markdown: redcarpet
+pygments: true
 
-source:      .
-destination: _site
-plugins:     _plugins
+baseurl: "http://jenmyers.net"
+permalink: none

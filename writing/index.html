@@ -4,53 +4,79 @@ title: Writing
 tagline: I write things on the internet.
 ---
 
-<div class="page">
-  <section>
-    <article>
-      <h3>Articles</h3>
-      <ul>
-    	  {% for post in site.posts %}
-          <a href="{{ post.url }}">
-          <li class="row">
-    		    <h2>{{ post.title }}</h2> 
-    		    <h4>{{ post.date | date_to_long_string }}</h4>
-          </li>
-          </a>
-    		{% endfor %}
-      </ul>
-  	  <h3>Essays</h3>
-      <ul>
-        <a href="little-bastard.html">
-          <li class="row">
-            <h2>Little Bastard</h2>
-            <h4>30 September 2013</h4>
-          </li>
-        </a>
-        <a href="promises.html">
-          <li class="row">
-            <h2>Promises</h2>
-            <h4>14 March 2013</h4>
-          </li>
-        </a>
-        <a href="chandler.html">
-          <li class="row">
-            <h2>The White Knight</h2>
-            <h4>14 February 2011</h4>
-          </li>
-        </a>
-        <a href="girls.html">
-          <li class="row">
-            <h2>Girls, Violence and Dragon Tattoos</h2>
-            <h4>17 January 2011</h4>
-          </li>
-        </a>
-        <a href="kerouac.html">
-          <li class="row">
-            <h2>So in America When the Sun Goes Down</h2>
-            <h4>26 August 2010</h4>
-          </li>
-        </a>
-      </ul>
-    </article>
-    {% include page-links.html %}
-  </section>
+<section class="page-writing">
+  <h3 class="writing">Articles</h3>
+  <ul>
+    {% for post in site.posts %}
+    <li>
+      <aside>
+        <h4>{{ post.date | date_to_long_string }}</h4>
+      </aside>
+      <a href="{{ post.url }}">
+        <article>
+          <h2>{{ post.title }}</h2>
+          <p>{{ post.summary }}</p>
+        </article>
+      </a>
+    </li>
+    {% endfor %}
+  </ul>
+  <h3 class="writing">Essays</h3>
+  <ul>
+    <li>
+      <aside>
+        <h4>30 September 2013</h4>
+      </aside>
+      <a href="little-bastard.html">
+        <article>
+          <h2>Little Bastard</h2>
+          <p>Growing up is far more difficult than dying young - on James Dean.</p>
+        </article>
+      </a>
+    </li>
+    <li>
+      <aside>
+        <h4>14 March 2013</h4>
+      </aside>
+      <a href="promises.html">
+        <article>
+          <h2>Promises</h2>
+          <p>About Springsteen, stories and how to tell my own.</p>
+        </article>
+      </a>
+    </li>
+    <li>
+      <aside>
+        <h4>14 February 2011</h4>
+      </aside>
+      <a href="chandler.html">
+        <article>
+          <h2>The White Knight</h2>
+          <p>Thinking about Raymond Chandler, Philip Marlowe and the tragedy of trying to do what's right.</p>
+        </article>
+      </a> 
+    </li>
+    <li>
+      <aside>
+        <h4>17 January 2011</h4>
+      </aside>
+      <a href="girls.html">
+        <article>
+          <h2>Girls, Violence and Dragon Tattoos</h2>
+          <p>Condemning violent stories featuring women as exploitative is only scratching the surface of the story.</p>
+        </article>
+      </a>
+    </li>
+    <li>
+      <aside>
+        <h4>26 August 2010</h4>
+      </aside>
+      <a href="kerouac.html">
+        <article>
+          <h2>So in America When the Sun Goes Down</h2>
+          <p>Why I still love Jack Kerouac.</p>
+        </article>
+      </a> 
+    </li>
+  </ul>
+</section>

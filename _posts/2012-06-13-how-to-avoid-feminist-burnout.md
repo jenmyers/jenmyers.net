@@ -8,21 +8,21 @@ summary: I've been an activist, online and off, for feminist causes for some tim
 
 <p>Right now I'm in a phase where I'm figuring out how you personally sustain a fight for years at a time while staying true to principles and without getting burned out. I've come up with a few guidelines that make sense to me. Your mileage may vary. But every one of these I've done the opposite of at some phase in my life, and I say everything here not as an expression of naive idealism but hard-earned experience.</p>
 
-<h3 class="post">Pay attention to the good</h3>
+<h3>Pay attention to the good</h3>
 
 <p>Value and preserve the passion, joy and happiness of the community in which you're working. Not only does this attract more valuable, passionate and joyful new people to the community, but it reminds those already there why the community is important in the first place. Take care of the people who have been by your side. They're more important than the detractors and should get the accordingly larger share of time and energy. Actively reach out to those who want to learn and take part. Their own energy and enthusiasm will encourage yours.</p>
 
 <p>This doesn't mean you simply ignore or dismiss anything negative. Address problems. But balance and put in perspective the significance of them. Running around playing whack-a-mole with assholes is simply not as effective in the end as staying the course of promoting and building something good. And the latter will make you and the people around you feel a hell of a lot better. Happy people make stronger futures.</p>
 
-<h3 class="post">Take action</h3>
+<h3>Take action</h3>
 
 <p>Discussing and informing are essential activities. But it's also easy to get caught in a loop of doing nothing else, and that can breed feelings of frustration and powerlessness. Do something about it. Anything. Volunteer, teach, mentor, learn. If the system isn't in place for you to do so, then build a new system.</p>
 
-<h3 class="post">Control anger</h3>
+<h3>Control anger</h3>
 
 <p>Like the Hulk, my secret is I'm always angry. It's not about trying to be not angry. It's about learning how to control the anger, rather than the other way around. If you're always angry and you let the anger drive you, you're just smashing everything in your path without direction or strategy. That means you're going to end up smashing up the good, too. It's inevitable. Anger allowed to run rampant will take everything it can get from you — your concentration, your energy, your passion. It will leave you empty and it will hurt people around you who don't deserve it. Anger can be an useful tool in identifying problems and focusing a response to them. You shouldn't deny it. But you do have to learn to how control it. Otherwise, you'll destroy the very thing you think you're fighting for. At the risk of sounding comic-book cheesy (although that risk has hardly managed to stop me before) — the Hulk isn't a hero because he's strong enough to smash things. He's a hero because he's strong enough to strive for discipline, focus, protecting others and doing what's right.</p>
 
-<h3 class="post">Practice compassion and respect</h3>
+<h3>Practice compassion and respect</h3>
 
 <p>It takes a lot of courage to tell people in a position of power and privilege they are doing something wrong, and even more courage to withstand the abuse you will take as a result of that. In order to do it, you have to grow a thick skin and learn how to stand your ground. But, when making sure they don't get away with their bullshit, it's equally important not let their bullshit dictate the rules of the game. Remember the saying? "Never wrestle with a pig — you get dirty and the pig likes it."</p>
 
@@ -30,13 +30,13 @@ summary: I've been an activist, online and off, for feminist causes for some tim
 
 <p>In addition, be compassionate to your friends — and be compassionate to yourself. Recently, developer Nicole Sullivan gave an <a href="http://www.stubbornella.org/content/2012/05/31/dont-feed-the-trolls/">amazing keynote</a> at a tech conference about web culture and "not feeding the trolls." She clarified for me an important point — some people thrive on conflict. It energizes and sustains them. I am not one of these people. I thrive on collaboration and communication. Conflict drains me. I once I spent a long period of time in a community acknowledging that people thrive on different activities, and the obsession with conflict in the people around me was something I should respect as the way they worked in the community. Eventually, however, I realized I wasn't receiving the same respect in return for how I worked. The focus on conflict drained me completely, not to mention the effort expended in trying to be supportive of others' natures without being supported in my nature myself. Have compassion for other perspectives and talents, and remember that you deserve the same in return.</p>
 
-<h3 class="post">Leave</h3>
+<h3>Leave</h3>
 
 <p>Leaving doesn't mean giving up. It can, but it doesn't have to. Sometimes the only way not to give up is to remove yourself from a situation so that you can do something without burden or distraction. Do it temporarily or do it permanently. Perspective is essential. Stepping away and getting a sense of the larger picture can help you identify and understand the problem, and come up with a solution that you might not have been able to see when mired in frustration, stress and pressure. Leaving can be taken to whatever degree you need. Maybe it's simply opting out of certain communication channels. Maybe it's dropping certain activities that are becoming hinderances. Maybe it's turning away from negativity in favor of positivity for a time. Maybe it's removing yourself from a job or community entirely. Do whatever you need to do.</p>
 
 <p>However, don't fall into the trap of using community problems as a scapegoat as to why you personally failed to push forward change. Leaving is not an end to the fight but an opportunity to try something new, and you should take the responsibility to try.</p>
 
-<h3 class="post">Be the change you want to see</h3>
+<h3>Be the change you want to see</h3>
 
 <p>I know that's terribly overused and cliched, but sometimes overuse and cliche happens because the sentiment is just too true not to be overused and cliched. At some point the yelling and the statements and the stances just don't have potency of the example of an individual being strong enough to fight with grace, restraint, respect and kindness. I think about this a lot in parenting. It's very obvious my daughter pays much more attention to what I do than what I say, and what I do has much more effect on what she does. If I say something that contradicts my behavior, she picks up on it, and then that hypocrisy becomes part of the example she learns to follow. Loss of the joy of working for something better, directionless anger, frustration, bitterness and burnout - this is not what I want her to be. It's not what I want anyone to be, and, more to the point, it's not what I want to be.</p>
 

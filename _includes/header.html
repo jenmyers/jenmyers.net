@@ -1,20 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Jen Myers • {{ page.title }}</title>
-  <meta name="description" content="">
-  <!-- Mobile viewport optimized: h5bp.com/viewport -->
-  <meta name="viewport" content="width=device-width">
-  <link rel="alternate" type="application/rss+xml" title="RSS Feed for jenmyers.net" href="http://feeds.feedburner.com/jenmyers" /> 
-  <link href="../stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <link href="../stylesheets/print.css" media="print" rel="stylesheet" type="text/css" />
-  <!--[if IE]>
-      <link href="/stylesheets/ie.css" media="screen, projection" rel="stylesheet" type="text/css" />
-  <![endif]-->
-  <!-- <script src="js/vendor/modernizr-2.5.3.min.js"></script> -->
-  <script type="text/javascript" src="http://use.typekit.com/omn1lkj.js"></script>
-  <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-</head>
-<body>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>{{ site.title }} • {{ page.title }}</title>
+    <link href="{{ site.baseurl }}/assets/css/screen.css" media="screen, projection" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="//use.typekit.net/omn1lkj.js"></script>
+    <script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  </head>
+  <body class="home">
+
+    <div class="header-wrapper">
+      <header>
+        <div class="site-title">
+          <h1><a href="/">{{ site.title }}</a></h1>
+        </div>
+        <nav>
+          <a href="{{ site.baseurl }}/writing/">Writing</a>
+          <a href="{{ site.baseurl }}/speaking/">Speaking</a>
+          <a href="{{ site.baseurl }}/projects/">Projects</a>
+          <a href="{{ site.baseurl }}/about/">About</a>
+        </nav>
+      </header>
+    </div>
+
+    <div class="page">
