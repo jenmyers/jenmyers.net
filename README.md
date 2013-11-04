@@ -14,10 +14,11 @@ The personal website of Jen Myers and her official repository of articles, talks
 
 ## Tasks
 
-
+- improve navigation for single articles
+- test more fully across browsers
 
 ## Versions
 
-- Wall-E (September 2013)
+- Wall-E (November 2013)
 - Rosie (June 2013)
 - Marvin (2012)
