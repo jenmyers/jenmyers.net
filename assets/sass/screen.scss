@@ -602,6 +602,7 @@ a h6 {
   }
   .inline {
     float: none;
+    margin: 0;
     width: 25%;
   }
   footer {
@@ -612,6 +613,9 @@ a h6 {
     }
     .contact {
       margin-top: 2em;
+      a {
+        margin-right: 0;
+      }
     }
   }
 }
