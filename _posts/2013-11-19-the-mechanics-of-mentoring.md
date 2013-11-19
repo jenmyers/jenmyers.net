@@ -24,7 +24,7 @@ Which, really, speaks to my overall point - mentoring is far more than teaching 
 
 No matter what you do or what skill level you possess, you can mentor someone else. Somewhere, someone could benefit from your perspective. Don't claim to know anything you don't, but examine yourself and figure out what it is that you can offer. And then offer that. Are you a developer? A designer? A UXer, a strategist, a project manager? What was it like getting into the industry? What tool or language is your favorite? What are the best books and resources in your field? What are the things you wish someone had told you when you started? If you think you're too inexperienced to offer advice, remember that you're closer to a beginner perspective than those who have been working for years and maybe sympathy is the most effective thing you can give. Maybe someone in a different domain would like to learn about what you do. Maybe you can learn what they do. Maybe you have process tips or working strategies that someone at an equivalent skill set could use. There are a million ways what you have to say is valuable.
 
-Which is exactly why I choose to help people learn how to speak up and say them.
+Which is exactly why I choose to help people learn how to speak up and say it.
 
 ___
 
