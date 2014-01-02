@@ -158,17 +158,17 @@ h2 {
 }
 
 h3 {
-  font-size: 1.6em;
+  font-size: 2em;
   font-weight: 500;
   line-height: 140%;
-  margin: 2em 0 1em 0;
+  margin: 1em 0 1em 0;
   text-transform: uppercase;
 }
 
 h4 {
   border-top: 2px solid $lightborder;
   color: $secondary;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: 100;
   margin-top: 1em;
   padding-top: 0.5em;
@@ -221,14 +221,13 @@ blockquote {
 }
 
 article p:first-child {
-  font-size: 1.5em;
   font-style: italic;
-  line-height: 150%;
 }
 
 h2 + p {
   font-family: "proxima-nova", sans-serif;
   font-size: 1em;
+  margin: 0.5em 0;
 }
 
 p.caption {
