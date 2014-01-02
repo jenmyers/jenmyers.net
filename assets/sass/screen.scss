@@ -457,6 +457,7 @@ a.presentation {
   margin: 0 1em 0.5em 0;
   text-transform: uppercase;
   &:hover {
+    border: 2px solid $speaking;
     color: $speaking;
   }
 }
@@ -501,7 +502,7 @@ a.back {
   text-transform: uppercase;
   &:hover {
     border: 2px solid $writing;
-    color: $primary;
+    color: $writing;
   }
 }
 
