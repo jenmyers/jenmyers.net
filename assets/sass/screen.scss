@@ -346,6 +346,9 @@ p.home {
 
 .presentation .icon {
   font-size: 1.5em;
+}
+
+.presentation .icon-label {
   vertical-align: text-top;
 }
 
@@ -495,7 +498,6 @@ header a, h1 a, nav a, footer a, header a:hover, h1 a:hover, nav a:hover, footer
 a.back {
   @include border-radius(3px);
   border: 2px solid $medborder;
-  color: $primary;
   float: right;
   margin: 2em 1em 2em 0;
   padding: 0.75em 1em 0.6em 1em;
