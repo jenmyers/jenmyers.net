@@ -38,7 +38,7 @@
 
 /* $VARIABLES *****************************************************************/
 
-$base:            #ffffff;
+$base:            #f5f5f5;
 $writing:         #58b6a9;
 $speaking:        #ee5c5c;
 $projects:        #f7be7a;
@@ -168,7 +168,7 @@ h3 {
 h4 {
   border-top: 2px solid $lightborder;
   color: $secondary;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-weight: 100;
   margin-top: 1em;
   padding-top: 0.5em;
@@ -190,6 +190,7 @@ h6 {
 
 aside h4 {
   border-top: none;
+  font-size: 1.2em;
   margin-top: 0;
   padding-top: 0;
   &:nth-of-type(2) {
@@ -520,8 +521,8 @@ a h6 {
 
 .inline {
   border: 2px solid $lightborder;
-  float: left;
-  margin-right: 1.2em;
+  float: right;
+  margin-left: 1em;
   padding: 1em;
 }
 
