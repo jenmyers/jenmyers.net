@@ -27,7 +27,7 @@
 @import "compass/layout";
 @import "compass/typography/";
 @import "compass/utilities/general/clearfix";
-@import "susy";
+@import "susyone";
 
 /* $MIXINS ********************************************************************/
 
@@ -144,7 +144,8 @@ hr {
 /* $TYPOGRAPHY ****************************************************************/
 
 h1 {
-  font-size: 4em;
+  font-family: "republic-web", serif;
+  font-size: 3.5em;
   font-weight: 500;
   margin: 1em 0;
 }
@@ -168,7 +169,7 @@ h3 {
 h4 {
   border-top: 2px solid $lightborder;
   color: $secondary;
-  font-size: 1.4em;
+  font-size: 1.8em;
   font-weight: 100;
   margin-top: 1em;
   padding-top: 0.5em;
@@ -190,7 +191,7 @@ h6 {
 
 aside h4 {
   border-top: none;
-  font-size: 1.2em;
+  font-size: 1.1em;
   margin-top: 0;
   padding-top: 0;
   &:nth-of-type(2) {
@@ -267,6 +268,7 @@ header {
   padding-top: 2.5em;
   text-transform: uppercase;
   h1 {
+    font-family: "proxima-nova", sans-serif;
     font-size: 1em;
     font-weight: 500;
     margin: 0;
@@ -292,13 +294,14 @@ header {
 }
 
 p.home {
-  color: $secondary;
+  color: #666666;
   font-family: "republic-web", serif;
   font-size: 3em;
   font-style: italic;
   font-weight: 300;
-  line-height: 140%;
-  margin: 1.5em 0.5em 1em 0.5em;
+  line-height: 135%;
+  margin: 1.5em auto 1em auto;
+  width: 85%;
 }
 
 .writing {
@@ -490,9 +493,9 @@ header a, h1 a, nav a, footer a, header a:hover, h1 a:hover, nav a:hover, footer
 }
 
 .single h1 a {
-  color: $writing;
+  color: $primary;
   &:hover {
-    color: $primary;
+    color: $writing;
   }
 }
 
