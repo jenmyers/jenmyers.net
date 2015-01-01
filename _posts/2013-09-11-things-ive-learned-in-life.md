@@ -1,7 +1,8 @@
 ---
-layout: single
+layout: post
 title: 34 Things I've Learned in Life that I Want to Tell My Daughter
 summary: A list.
+category: articles
 ---
 
 A couple of weeks ago, I traveled across Chicago to pick my eight-year-old daughter up from the airport. She hadn't been gone that long and I don't remember, at the time, feeling particularly poetic about her growth. But, on the way there, I found myself composing a list on my phone of all the things I wanted her to know when she grew up. The things that I had learned after a long period of making mistakes, hurting and trying again.

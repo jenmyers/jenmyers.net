@@ -1,7 +1,8 @@
 ---
-layout: single
+layout: post
 title: The Mechanics of Mentoring
 summary: Why and how I do beginner tech speaker mentoring.
+category: articles
 ---
 
 For maybe a year or so, I've been mentoring aspiring tech speakers, primarily women, and helping them bring their perspectives to the tech conference landscape. I'm not an expert in presenting, but during the two years I've been doing it, I've picked up a few tricks that I can now pass along to others. So I do. I answer questions about finding talk topics, creating abstracts, submitting to conferences and dealing with criticism, and it's been successful enough that I intend to continue doing it regularly.

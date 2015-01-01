@@ -1,7 +1,8 @@
 ---
-layout: single
+layout: post
 title: Why I Want You To Copy My Writing
 summary: People have asked me why I make my writing so freely available on the internet. Mostly, I think an open culture of ideas and creativity is neat.
+category: articles
 ---
 
 The first website I ever created was a writing portfolio. I made it on AOL Hometown in 2000. It had a pre-made Pre-Raphaelite background and button theme and about half a dozen of my short stories on it. At the time, I knew a couple of writers who completely freaked out that I was putting my writing up on the internet, for anyone to see and therefore steal.

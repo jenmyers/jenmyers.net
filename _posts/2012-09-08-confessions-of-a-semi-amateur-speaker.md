@@ -1,7 +1,8 @@
 ---
-layout: single
+layout: post
 title: Confessions of a Semi-Amateur Speaker
 summary: How to be a successful speaker ... I think.
+category: articles
 ---
 
 Very often these days, I receive questions about how to give an effective speaking presentation, or how to start on the tech speaking circuit, and I'm never loathe to tell the truth – even though I know I run the risk of sounding overly flippant or rude telling it, because the truth is: "I don't have a fucking clue." I honestly don't feel confident that I have figured it out yet enough to explain it. Despite the decent number of past speaking gigs on my list, the facts remain that, at this point, I haven't even been doing it for a full year and that I began doing it at the invitation of others, not my own initiative. It went something along the lines of the opportunity being suggested to me and my response being, "Well, why not?"

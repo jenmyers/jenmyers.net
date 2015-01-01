@@ -1,7 +1,8 @@
 ---
-layout: single
+layout: post
 title: Books for Girls
 summary: A list of my favorite books I think all girls should read.
+category: articles
 ---
 
 I grew up a loner tomboy with a father and brother &#8212; which meant pretty much everything I learned in my early years about being a girl I learned from reading books. Sometimes this resulted in the adoption of ideals and values either too outdated or impractical for me to put into use; but, overall, I managed to craft from my reading a solid and yet multi-faceted set of guidelines and inspiration that I used to deal with a world which, even more than twenty years after the fact, still sends confusing and disappointing messages to its girls about how they are expected to behave.

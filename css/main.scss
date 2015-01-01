@@ -1,0 +1,103 @@
+---
+---
+
+@charset "utf-8";
+
+
+// Variables
+
+$color-background:      #f6f3ef;
+$color-primary:         #333;
+$color-secondary:       #8c8c8c;
+$color-emphasis:        #bdedee;
+$color-heading:         #d4f1ee;
+$color-border:          #fff;
+$color-underline:       #ccc;
+$color-link-inline:     #111;
+
+$font-base:             "freight-text-pro", "Georgia", serif;
+$font-accent:           "brandon-grotesque", "Futura", sans-serif;
+
+$spacing-wide:          0.1em;
+$spacing-wider:         1em;
+
+$width-border-hairline: 1px;
+$width-border-thick:    10px;  
+
+
+// Mixins
+
+@mixin transition-link {
+  transition-duration: 0.5s;
+  transition-property: border-bottom, color;
+  transition-timing-function: ease-out;
+}
+
+@mixin transition-icon {
+  transition-duration: 0.5s;
+  transition-property: fill;
+  transition-timing-function: ease-out;
+}
+
+@mixin transition-button-hairline {
+  transition-duration: 0.5s;
+  transition-property: border, color;
+  transition-timing-function: ease-out;
+}
+
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote(".wrapper"), $container-selector: unquote(".container"), $footer-selector: unquote("footer")) {
+  html, body {
+    height: 100%;
+  }
+  body {
+    margin: 0px;
+    padding: 0px;
+  }
+  #{$wrapper-selector} {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin-bottom: -$footer-height;
+    #{$container-selector} {
+      padding: 0 0 $footer-height 0;
+    } 
+  }
+  #{$footer-selector} {
+    height: $footer-height; 
+  }
+}
+
+
+// Body Border
+
+html, body {
+  height: 100%;
+  margin: 0;
+  overflow: auto;
+  width: 100%;
+}
+
+body:before, body:after {
+  background-color: $color-emphasis;
+  content: "";
+  height: $width-border-thick;
+  position: fixed;
+  left: 0;
+  right: 0;
+}
+body:before {
+  top: 0;
+}
+body:after {
+  bottom: 0;
+}
+
+
+// Imports
+
+@import
+  "bourbon/bourbon",
+  "neat/neat",
+  "meyer-reset",
+  "base"
+;

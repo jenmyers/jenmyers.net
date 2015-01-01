@@ -1,9 +1,23 @@
-{% include header.html %}
+<!DOCTYPE html>
+<html>
 
-  <section>
+  {% include head.html %}
 
-    {{ content }}
+  <body>
+    {% include svg-defs.svg %}
 
-  </section>
+    {% include header.html %}
 
-{% include footer.html %}
+    <div class="wrapper">
+      <div class="container">
+        <div class="page">
+          {{ content }}
+        </div>
+      </div>
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

@@ -1,7 +1,8 @@
 ---
-layout: single
+layout: post
 title: The Antiheroine
 summary: What my Twitter username really means.
+category: articles
 ---
 
 Way back in 2007, I created an account on a website called Twitter, because I basically created accounts on every website that popped into existence. Possessed of a name not overburdened with uniqueness, I accepted the fact that I would never be able to secure my real name as an username and instead grabbed unthinkingly for one I had used on another site previously simply because I liked the sound of it - [antiheroine](http://twitter.com/antiheroine).

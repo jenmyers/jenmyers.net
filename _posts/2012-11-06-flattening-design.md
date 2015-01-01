@@ -1,7 +1,8 @@
 ---
-layout: single
+layout: post
 title: Flattening Design
 summary: What the debate behind the debate of skeuomorphism is really about.
+category: articles
 ---
 
 My first reaction to the recent flurry of [discussion around skeuomorphic design elements](http://www.nytimes.com/2012/11/01/technology/apple-shake-up-could-mean-end-to-real-world-images-in-software.html?_r=1&&pagewanted=all), particularly as used in Apple software, was startled relief. It suggested to me that my own reliance on flat, minimal websites and interfaces might actually have a foundation in justified theory rather than simply indicating I was a bad designer. Which, frankly, is what I had always assumed. I'm what I like to call a "digital native designer" – I have no formal design background and was "designing" with HTML and CSS years before I knew Photoshop existed. I cut my teeth learning more about web standards than visual design. This has resulted in me being not all that enamored with bells and whistles, textures and gloss, gradients and drop shadows, and not much of a fan of rich, skeuomorphic-based design.

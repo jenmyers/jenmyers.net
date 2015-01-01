@@ -1,7 +1,8 @@
 ---
-layout: single
+layout: post
 title: Comic Books for Girls
 summary: A list of my favorite comic books I think all girls should read.
+category: articles
 ---
 
 A couple of months ago, I posted [Books for Girls](books-for-girls.html), a list of my favorite books that I recommend to girls and the people who love them. It only made sense that I follow it up with a recommended list of my other favorite reading medium: comic books.

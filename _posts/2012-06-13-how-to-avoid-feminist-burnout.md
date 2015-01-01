@@ -1,7 +1,8 @@
 ---
-layout: single
+layout: post
 title: How to Avoid Feminist Burnout
 summary: I've been an activist, online and off, for feminist causes for some time now. I've learned a thing or two about how to stay in it for the long run without losing your spirit.
+category: articles
 ---
 
 <p>My interest in creating and supporting strong female role models in communities I love, and where they have not traditionally existed, has meant I've found myself engaging in the subsequent fight to address inequality, correct injustice and jumpstart more favorable conditions for innovation and progress. You know, the thing we usually call feminism. It's been an interesting journey. I've been in it for several years, and, during that span, I've gone through several or more phases of defining what it is or what I should do with it.</p>
