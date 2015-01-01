@@ -5,7 +5,7 @@ summary: Another list.
 category: articles
 ---
 
-Last year, I wrote a list-poem of [things I wanted to tell my daughter](http://localhost:4000/2013/09/11/things-ive-learned-in-life.html). As I noted then, I meant it not as much literally as I meant it a poetic reminder to myself of the lessons I've learned. Turns out, I'm always learning. So I made another list.
+Last year, I wrote a list-poem of [things I wanted to tell my daughter](http://jenmyers.net/2013/09/11/things-ive-learned-in-life.html). As I noted then, I meant it not as much literally as I meant it a poetic reminder to myself of the lessons I've learned. Turns out, I'm always learning. So I made another list.
 
 1. It is difficult is to create habits of having deep empathy with others while also making sure you don’t automatically put their needs before yours. Empathy is a tool to make more informed decisions, not a method with which to practice codependent self-gratification. I mention this first so that you can start thinking about it early.
 2. Be selfish—but as a deliberate, mindful decision you make to take proper care of yourself, not a reflexive, thoughtless default.
