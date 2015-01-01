@@ -7,7 +7,7 @@ category: articles
 
 Last year, I wrote a list-poem of [things I wanted to tell my daughter](http://jenmyers.net/things-ive-learned-in-life/). As I noted then, I meant it not as much literally as I meant it a poetic reminder to myself of the lessons I've learned. Turns out, I'm always learning. So I made another list.
 
-1. It is difficult is to create habits of having deep empathy with others while also making sure you don’t automatically put their needs before yours. Empathy is a tool to make more informed decisions, not a method with which to practice codependent self-gratification. I mention this first so that you can start thinking about it early.
+1. It is difficult to create habits of having deep empathy with others while also making sure you don’t automatically put their needs before yours. Empathy is a tool to make more informed decisions, not a method with which to practice codependent self-gratification. I mention this first so that you can start thinking about it early.
 2. Be selfish—but as a deliberate, mindful decision you make to take proper care of yourself, not a reflexive, thoughtless default.
 3. Don’t worry so much. I know you do this. I know exactly where you learned the habit. I’m trying to set a better example.
 4. There really is no need to worry. We’ve already been to hell and back and we’re still here. It’s amazing what people can survive, and even use to thrive. It’s okay if things go wrong or you make a mistake. Don’t be scared because something might go wrong. Just know you can handle it.
