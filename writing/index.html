@@ -6,7 +6,7 @@ title: Writing
 {% for post in site.posts %}
   {% capture currentyear %}{{post.date | date: "%Y"}}{% endcapture %}
   {% capture postcategory %}{{post.category}}{% endcapture %}
-  {% if currentyear != year %}
+  {% if currentyear != year and postcategory contains 'articles' %}
     {% unless forloop.first %}</ul>{% endunless %}
     <h2 class="year-heading">{{ currentyear }}</h2>
     <ul>
