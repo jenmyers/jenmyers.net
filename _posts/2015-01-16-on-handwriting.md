@@ -1,0 +1,17 @@
+---
+layout: post
+title: On Handwriting
+category: notes
+---
+
+My mother had beautiful handwriting. It’s the clearest thing I remember about her. The grocery lists on the kitchen counter, the addresses and phone numbers pinned to the bulletin board, her name at the bottom of her checks. Clean, elegant, flowing script, with its deliberate, exaggerated loops and sweeps. It was always precise. It was always particular. I always knew I would never write so neatly.
+ 
+People tell me I have beautiful handwriting. Without too glibly discounting others’ taste or kindness, I believe the compliments come mostly because I simply have handwriting. I may spend my days working in a digital world, but I was raised in an analog one, and I’ve been writing as a pastime and purpose since I was nine years old. It’s bound to slip out sometimes. Signing my name on receipts or documents takes me a few seconds while I form every letter distinctly. I’ve started to feel foolish for this, because it seems everyone else spends only a split second to scribble. But, at thirty-three, it’s likely too late to change my habits. Even if I really wanted to.
+ 
+I love my handwriting. I still write by hand, in cursive, every day. I keep paper planners, journals and notebooks. When I was young, it was an easy, natural refuge. It still is. For nineteen years I’ve kept a regular diary, in a succession of college-ruled composition books. I write in the early morning when I need to shake my thoughts out and I write in the evenings when I have something to say and I write in between whenever I need a moment to ground myself by putting pen to paper. The act of writing, that’s the important thing. The physical motion, the strange hyper-focus of personal expression that blurs the rest of the world into the background. The marks left on the paper are merely artifacts: interesting, pretty, but not the point.
+ 
+I don’t write as neatly as my mother did. Over the past few years especially, my handwriting has grown sloppy, rushed, scattered. My letters get spaced out in my hurry to get to the next ones. My thoughts come out not in an orderly line but in a messy jumble, like upending a wastebasket to sort through the trash for something mistakenly cast aside. As much as I like my writing, sometimes, the triggered memories of my mother’s handwriting stings. I wish my writing were as nice as hers. I wish I could write neatly, beautifully, all the time.
+ 
+My mother’s handwriting was not an indication of a calm, peaceful mind. If anything, it masked deep anxieties, insecurities and shame. The same reasons she, who couldn’t afford medical insurance, rationalized the cancer symptoms until it was too late to do anything about it. Maybe it’s better that I embrace the messiness, that I write as quickly as I can, to pull everything out and examine it and sort it through. Maybe it’s better that I don’t write, and live, neatly.
+ 
+My daughter doesn’t know how to write in cursive. They don’t teach it in schools anymore. I downloaded an iPad app she can use to learn, and she plays with it occasionally—but she has an iPad, and a Macbook Pro, and Nintendo DS and a cell phone. In her world, she doesn’t need to write neatly. She does write, though. She has watched me. She keeps a journal and she tapes together illustrated story pages. While I hope she can learn to read the way I write best, she doesn’t have to learn to write in the same way. She has her own style. And it’s beautiful.
