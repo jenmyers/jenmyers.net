@@ -191,6 +191,11 @@ h3 {
   }
 }
 
+.post-content h3 {
+  font-family: $font-accent;
+  font-size: 2em;
+}
+
 h6 {
   color: #666;
   font-family: $font-accent;
@@ -333,6 +338,11 @@ blockquote {
     margin-left: 0em;
     font-size: 1em;
   }
+}
+
+.post-content blockquote {
+  font-size: 1.4em;
+  margin-top: 1em;
 }
 
 .caption {
