@@ -116,6 +116,7 @@ footer.site-footer {
 
 .events {
   @include span-columns(6);
+  padding-top: 1em;
   p {
     font-style: italic;
   }
@@ -127,6 +128,7 @@ footer.site-footer {
 }
 
 .talks {
+  padding-top: 1em;
   @media only screen and (max-width: 480px) {
     @include span-columns(8);
     @include shift(2);
@@ -176,7 +178,7 @@ h2 {
     font-size: 1.2em;
   }
   &:first-child {
-    margin-top: 1em;
+    margin-top: 0;
   }
 }
 
