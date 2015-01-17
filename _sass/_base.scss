@@ -358,8 +358,13 @@ a {
 }
 
 .home ul li a {
+  @include transition-link;
   border-bottom: none;
   box-shadow: none;
+  color: $color-link-home;
+  &:hover {
+    color: $color-primary;
+  }
 }
 
 h1 a {
