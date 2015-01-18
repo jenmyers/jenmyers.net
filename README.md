@@ -12,13 +12,6 @@ The personal website of Jen Myers and her official repository of articles, talks
 - [Typekit](http://typekit.com/)
 - [Entypo](http://entypo.com), via [Icomoon](https://icomoon.io/)
 
-## Tasks
-
-1. clean up and optimize CSS
-2. link RSS feed
-3. improve navigation for single articles
-4. test more fully across browsers
-
 ## Versions
 
 - Servo (January 2015)
