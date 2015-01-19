@@ -1,6 +1,7 @@
 # Site settings
 title: Jen Myers
 email: jen@jenmyers.net
+name: Jen Myers
 description: The personal website of Jen Myers and her official repository of articles, talks, speaking events and other associated information.
 baseurl: ""
 url: "http://jenmyers.net"
