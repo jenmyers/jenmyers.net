@@ -115,19 +115,24 @@ footer.site-footer {
 // Speaking page columns
 
 .events {
-  @include span-columns(6);
+  @include span-columns(5);
+  border-right: 1px solid #fff;
   padding-top: 1em;
+  padding-right: 2em;
   p {
     font-style: italic;
   }
   @media only screen and (max-width: 480px) {
     @include span-columns(8);
     @include shift(2);
+    border-right: none;
     text-align: center;
   }
 }
 
 .talks {
+  @include span-columns(6);
+  @include shift(1);
   padding-top: 1em;
   @media only screen and (max-width: 480px) {
     @include span-columns(8);
