@@ -1,19 +1,116 @@
 ---
-layout: home
+layout: default
 title: Home
 ---
 
-<h1>Jen Myers</h1>
+<div class="container">
 
-<ul>
-  <li><a href="{{ site.baseurl }}/writing/">Writing</a></li>
-  <li><a href="{{ site.baseurl }}/speaking/">Speaking</a></li>
-  <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
-  <li><a href="http://tinyletter.com/jenmyers/">Newsletter</a></li>
-  <li><a href="http://mettlechicago.bigcartel.com">Store</a></li>
-  <li><a href="{{ site.baseurl }}/about/">About</a></li>
-  <li><a href="{{ site.baseurl }}/contact/">Contact</a></li>
-</ul>
+  <div class="intro">
 
-<a href="mailto:hello@jenmyers.net" class="button-hairline">Email</a>
+    <img src="{{ site.baseurl }}/images/desk.png" alt="desk with computer and pencils" />
 
+    <h1 class="site-title">Jen Myers</h1>
+
+    <h2 class="site-description">technologist &amp; writer</h2>
+
+    <ul class="site-navigation">
+      <li><a href="{{ site.baseurl }}/writing/">Writing</a></li>
+      <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
+      <li><a href="{{ site.baseurl }}/about/">About</a></li>
+    </ul>
+
+  </div>
+
+</div>
+
+<div class="latest-article-wrapper">
+
+  <div class="container">
+
+    <div class="latest-article">
+
+      <div class="circle-bottom icon-article-bg">
+        
+        <i class="icon icon-newspaper-o icon-3x icon-article"></i>
+
+      </div>
+
+      <h2 class="section-heading">Most recent article</h2>
+
+      {% for post in site.posts limit: 1 %}
+        {% if forloop.last %}
+          <h3 class="section-title">
+            <a href="{{ post.url }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <p class="section-summary">{{ post.summary }}</p>
+
+          <a class="button-hairline button-article" href="{{ post.url }}">read more</a>
+        {% endif %}
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="newsletter-wrapper">
+
+  <div class="container">
+
+    <div class="newsletter">
+
+      <div class="circle-bottom icon-newsletter-bg">
+        
+        <i class="icon icon-paper-plane icon-3x icon-newsletter"></i>
+
+      </div>
+
+        <h2 class="section-heading">Newsletter</h2>
+
+        <h3 class="section-title"><a href="http://tinyletter.com/jenmyers">Modern Adventuress</a></h3>
+
+        <p class="section-summary">Every week, I send out an email letter full of recommended reading, original essays and animated gifs. Readers have things to say about it!</p>
+
+        <!-- <p class="section-summary">"What I love about Jen's newsletter is how considered it all is. There's no wasted space each week. Every link's inclusion is well thought-out and often fits within an overall narrative. I trust Jen's recommendations implicitly. And her essays always force me to take a second look at something (or within myself)."</p> -->
+
+        <p class="section-summary">"Jen's newsletter is a weekly delight, and not just for the requisite adorable otter gifs. There's always at least one link, one recommendation, or one piece of writing I wouldn't otherwise have encountered that inspires, educates, or amuses. And it's all filtered through Jen's unique personality and experiences such that it feels like it's beamed straight from her heart to our inboxes. Also, did I mention adorable otter gifs?"</p>
+
+        <a class="button-hairline button-newsletter" href="http://tinyletter.com/jenmyers">subscribe</a>
+
+    </div>
+
+  </div>
+
+</div>
+
+<div class="contact-wrapper">
+
+  <div class="container">
+
+    <div class="contact">
+
+      <div class="circle-bottom icon-contact-bg">
+      
+        <i class="icon icon-envelope icon-3x icon-contact"></i>
+
+      </div>
+
+      <h2 class="section-heading">Connect</h2>
+
+      <ul class="contact-links">
+        <li><a href="http://twitter.com/antiheroine" title="Twitter"><i class="icon icon-twitter icon-2x"></i></a></li>
+        <li><a href="http://facebook.com/jenmyerswriting" title="Facebook"><i class="icon icon-facebook-official icon-2x"></i></a></li>
+        <li><a href="http://jenmyers.tumblr.com" title="Tumblr"><i class="icon icon-tumblr icon-2x"></i></a></li>
+        <li><a href="https://www.goodreads.com/jenmyers" title="Goodreads"><i class="icon icon-book icon-2x"></i></a></li>
+        <li><a href="http://letterboxd.com/jenmyers/" title="Letterboxd"><i class="icon icon-film icon-2x"></i></a></li>
+        <li><a href="https://mettlechicago.bigcartel.com/" title="Store"><i class="icon icon-shopping-basket icon-2x"></i></a></li>
+      </ul>
+
+      <a class="button-hairline button-contact" href="mailto:hello@jenmyers.net">send email</a>
+
+    </div>
+
+  </div>
+
+</div>

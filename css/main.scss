@@ -1,42 +1,28 @@
 ---
+# Only the main Sass file needs front matter (the dashes are enough)
 ---
-
 @charset "utf-8";
 
+// VARIABLES
 
-// Variables
+$background-color:    #eff3f4;
+$font-text:           "fira-sans";
+$font-heading:        "brandon-grotesque";
+$font-accent:         "freight-text-pro";
+$text-color:          #5a5e5f;
+$primary-color:       #8adadb;
+$secondary-color:     #bde2e8;
+$grayscale-light:     #c7cdce;
 
-$color-background:      #f6f3ef;
-$color-primary:         #444;
-$color-secondary:       #8c8c8c;
-$color-emphasis:        #bdedee;
-$color-heading:         #d4f1ee;
-$color-border:          #fff;
-$color-underline:       #ccc;
-$color-link-inline:     #111;
-$color-link-home:       #666;
-
-$font-base:             "freight-text-pro", "Georgia", serif;
-$font-accent:           "brandon-grotesque", "Futura", sans-serif;
-
-$spacing-wide:          0.1em;
-$spacing-wider:         1em;
-
-$width-border-hairline: 1px;
+$width-border-hairline: 2px;
 $width-border-thick:    10px;  
 
 
-// Mixins
+// MIXINS
 
 @mixin transition-link {
   transition-duration: 0.5s;
   transition-property: border-bottom, color;
-  transition-timing-function: ease-out;
-}
-
-@mixin transition-icon {
-  transition-duration: 0.5s;
-  transition-property: fill;
   transition-timing-function: ease-out;
 }
 
@@ -46,21 +32,14 @@ $width-border-thick:    10px;
   transition-timing-function: ease-out;
 }
 
-@mixin sticky-footer($footer-height, $wrapper-selector: unquote(".wrapper"), $container-selector: unquote(".container"), $footer-selector: unquote("footer")) {
-  html, body {
-    height: 100%;
-  }
-  body {
-    margin: 0px;
-    padding: 0px;
-  }
+@mixin sticky-footer($footer-height, $wrapper-selector: unquote(".page-wrapper"), $container-selector: unquote(".page-container"), $footer-selector: unquote(".site-footer")) {
   #{$wrapper-selector} {
     min-height: 100%;
     height: auto !important;
     height: 100%;
     margin-bottom: -$footer-height;
     #{$container-selector} {
-      padding: 0 0 $footer-height 0;
+      padding: 0 0 0 0;
     } 
   }
   #{$footer-selector} {
@@ -69,33 +48,7 @@ $width-border-thick:    10px;
 }
 
 
-// Body Border
-
-html, body {
-  height: 100%;
-  margin: 0;
-  overflow: auto;
-  width: 100%;
-}
-
-body:before, body:after {
-  background-color: $color-emphasis;
-  content: "";
-  height: $width-border-thick;
-  position: fixed;
-  left: 0;
-  right: 0;
-}
-body:before {
-  top: 0;
-}
-body:after {
-  bottom: 0;
-}
-
-
-// Imports
-
+// Import partials from `sass_dir` (defaults to `_sass`)
 @import
   "bourbon/bourbon",
   "neat/neat",

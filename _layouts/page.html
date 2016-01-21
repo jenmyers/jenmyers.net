@@ -1,7 +1,47 @@
----
-layout: default
----
+<!DOCTYPE html>
+<html>
 
-<h1>{{ page.title }}</h1>
+  {% include head.html %}
 
-{{ content }}
+  <body>
+
+    <div class="page-wrapper">
+
+      <div class="page-container">
+
+        <header class="page-header">
+
+          {% if page.title == "Writing" %}
+            {% include header-writing.html %}
+            {% elsif page.title == "Projects" %}
+            {% include header-projects.html %}
+            {% else %}
+            {% include header-about.html %}
+          {% endif %}
+
+        </header>
+
+        <div class="container">
+
+          <div class="page">
+
+            <article class="page-content">
+              {{ content }}
+            </article>
+
+          </div>
+
+        </div>
+
+        {% include footer.html %}
+
+      </div>
+
+    </div>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/app.js"></script>
+
+  </body>
+
+</html>

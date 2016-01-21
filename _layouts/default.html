@@ -4,19 +4,13 @@
   {% include head.html %}
 
   <body>
-    {% include svg-defs.svg %}
 
     {% include header.html %}
 
-    <div class="wrapper">
-      <div class="container">
-        <div class="page">
-          {{ content }}
-        </div>
-      </div>
-    </div>
+    {{ content }}
 
-    {% include footer.html %}
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="{{ site.baseurl }}/js/app.js"></script>
 
   </body>
 

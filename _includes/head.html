@@ -1,10 +1,10 @@
 <head>
   <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width initial-scale=1" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ site.description }}">
 
-  <title>
+ <title>
     {% if page.title == "Home" %}
       {{ site.title }}
     {% else %}
@@ -14,9 +14,11 @@
 
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="RSS"
-      href="http://feeds.feedburner.com/jenmyers">
 
-  <script src="//use.typekit.net/omn1lkj.js"></script>
-  <script>try{Typekit.load();}catch(e){}</script>
+  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <script src="https://use.typekit.net/omn1lkj.js"></script>
+  <script>try{Typekit.load({ async: true });}catch(e){}</script>
+
+  <script src="https://use.fonticons.com/6d09b4c6.js"></script>
 </head>
