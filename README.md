@@ -10,10 +10,11 @@ The personal website of Jen Myers and her official repository of articles, talks
 - [Neat](http://neat.bourbon.io/)
 - [Fitvid.js](http://fitvidsjs.com/)
 - [Typekit](http://typekit.com/)
-- [Entypo](http://entypo.com), via [Icomoon](https://icomoon.io/)
+- [Fort Awesome](https://fortawesome.com/)
 
 ## Versions
 
+- Artoo (January 2016)
 - Servo (January 2015)
 - Wall-E (November 2013)
 - Rosie (June 2013)
