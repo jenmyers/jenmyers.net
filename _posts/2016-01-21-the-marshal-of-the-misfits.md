@@ -82,3 +82,11 @@ __Bibliography__
 - Rotman, Michael. “Cuyahoga River Fire.” _Cleveland Historical_, accessed January 12, 2016, [http://clevelandhistorical.org/items/show/63](http://clevelandhistorical.org/items/show/63).
 - Thomas, David. “Ghoulardi: Lessons in Mayhem.” Lecture at EMP Pop Conference, 2005. [http://www.ubuprojex.com/archives/mayhem.html](http://www.ubuprojex.com/archives/mayhem.html).
 - Urycki, Mark. “50 Years Later, Ghoulardi Lives—in Punk Rock.” _National Public Radio_, December 28, 2013. [http://www.npr.org/2013/12/28/256115656/50-years-later-tvs-ghoulardi-lives-in-punk-rock](http://www.npr.org/2013/12/28/256115656/50-years-later-tvs-ghoulardi-lives-in-punk-rock).
+
+<hr />
+
+__Playlist__
+
+<div class="playlist">
+  <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aguinevereann%3Aplaylist%3A7xfce2LF3xHjJ6NTrZztz3" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</div>
