@@ -87,6 +87,8 @@ __Bibliography__
 
 __Playlist__
 
+This article's <a id="playlist">playlist</a> is a collection of music originally played on the Ghoulardi show—a fun mix of 50s blues and progressive rock— plus music from some of the punk bands influenced by Ghoulardi, and, just to round it out, Randy Newman singing about the burning river. To read with a soundtrack, hit play to start the playlist on [Spotify](https://www.spotify.com/download/), then go <a href="#top">back to the top</a>.
+
 <div class="playlist">
-  <iframe src="https://embed.spotify.com/?uri=spotify%3Auser%3Aguinevereann%3Aplaylist%3A7xfce2LF3xHjJ6NTrZztz3" width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+  <div class='embed-container'><iframe src='https://embed.spotify.com/?uri=spotify%3Auser%3Aguinevereann%3Aplaylist%3A7xfce2LF3xHjJ6NTrZztz3' frameborder='0' allowtransparency='true'></iframe></div>
 </div>

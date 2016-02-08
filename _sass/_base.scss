@@ -130,7 +130,6 @@ h2.post-meta {
   font-family: $font-heading;
   font-size: 1.1em;
   letter-spacing: 0.1em;
-  margin: 0 0 4em 0;
   text-transform: uppercase;
   a {
     color: darken($grayscale-light, 50%);
@@ -255,7 +254,22 @@ a {
 }
 
 .post-header {
+  margin: 0 0 5em 0;
+  position: relative;
   text-align: center;
+}
+
+.toggle-bg {
+  background-color: darken($background-color, 10%);
+  border-radius: 1.6em;
+  height: 3.2em;
+  width: 3.2em;
+  position: absolute;
+  right: 0;
+}
+
+.toggle-playlist {
+  padding: 18%;
 }
 
 .latest-article-wrapper {
@@ -445,4 +459,19 @@ sup {
 
 .playlist {
   text-align: center;
+}
+
+.embed-container { 
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0; overflow:
+  hidden; max-width: 100%;
+}
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
