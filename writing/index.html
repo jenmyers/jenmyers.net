@@ -3,4 +3,26 @@ layout: page
 title: Writing
 ---
 
-<p>Coming soon!</p>
+<h2 class="section-heading">Longform</h2>
+
+{% for post in site.posts %}
+  {% if post.type contains "feature" %}  
+  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="post-date">{{ post.date | date: "%e %B %Y" }}</p>
+  <p class="post-description">{{ post.summary }}</p>
+  {% endif %}
+{% endfor %}
+
+<h2 class="section-heading">Newsletter Essays</h2>
+
+<p class="post-description"><em>In each of my weekly email newsletters, I write a short essay about whatever's on my mind that week. I collect them at their own website, <a href="http://thereportmargins.com">the Report Margins</a>.</em></p>
+
+<h2 class="section-heading">Other Essays</h2>
+
+{% for post in site.posts %}
+  {% if post.type != "feature" %}
+  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="post-date">{{ post.date | date: "%e %B %Y" }}</p>
+  <p class="post-description">{{ post.summary }}</p>
+  {% endif %}
+{% endfor %}

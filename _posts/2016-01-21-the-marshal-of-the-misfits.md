@@ -4,6 +4,8 @@ title:      The Marshal of the Misfits
 date:       2016-01-21
 author:     Jen Myers
 summary:    From 1963-1966, television horror host Ghoulardi ruled Cleveland. Years later, his influence still runs strong in the city and those who came from it. This is how it happened.
+type:       feature
+bgimage:    ghoulardi.png
 ---
 
 The Cuyahoga River is a river that winds its way around Cleveland, Ohio, and, on June 22, 1969, it caught fire. While undeniably an unusual thing for a river to do, the incident didn’t cause much of a stir on that June day. It wasn’t even the first time it had happened, and, although the fire burned for three straight days, no photographs of it exist, because no one made it out in time to take one. Soon after, the burning river would be taken up by _Time_ magazine and environmentalists as evidence of an industrial pollution crisis and used symbolically as a catalyst for green reform. As fate would have it, the incident had another far-reaching result. The fire on the Cuyahoga also clinched Cleveland’s bad reputation, and provided an indelible, inescapable metaphor for the city that always seemed to end up on the losing side.
