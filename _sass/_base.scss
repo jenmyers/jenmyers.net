@@ -17,7 +17,7 @@ body {
   @include sticky-footer(280px);
 }
 
-p, li {
+p, li, td {
   font-size: 1.3em;
   font-weight: 300;
   line-height: 160%;
@@ -54,7 +54,7 @@ address {
 }
 
 .site-footer {
-  // background-color: darken($background-color, 10%);
+  background-color: darken($background-color, 10%);
   padding: 3em 0;
   text-align: center;
 }
@@ -82,17 +82,20 @@ h2.site-description, {
 
 h2.section-heading {
   font-family: $font-heading;
-  font-size: 1.2em;
+  font-size: 1.4em;
   letter-spacing: 0.1em;
   margin: 4em 0 2em 0;
   text-transform: uppercase;
+  &:first-of-type {
+    margin: 2em 0 2em 0;
+  }
 }
 
 h1.site-title {
   font-family: $font-heading;
-  font-size: 1.2em;
+  font-size: 1.6em;
   letter-spacing: 0.15em;
-  margin: 2em 0 0 0;
+  margin: 2.5em 0 0 0;
   text-transform: uppercase;
   a {
     border-bottom: none;
@@ -125,6 +128,13 @@ h2.page-title {
   margin: 0.5em 0 1em 0;
 }
 
+h2.post-title {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 120%;
+  margin-bottom: 0.5em;
+}
+
 h2.post-meta {
   color: darken($grayscale-light, 25%);
   font-family: $font-heading;
@@ -136,10 +146,21 @@ h2.post-meta {
   }
 }
 
-p.post-summary, p.post-conclusion {
+p.post-date {
+  margin-top: 0.5em;
+}
+
+p.post-description {
+  border-bottom: $width-border-hairline solid darken($background-color, 3%);
   font-family: $font-accent;
   font-size: 1.2em;
   font-style: italic;
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+}
+
+p.post-summary, p.post-conclusion {
+  @extend .post-description;
   margin: 1em auto;
   padding: 0.5em;
   width: 80%;
@@ -183,7 +204,7 @@ ul.site-navigation {
     font-size: 1.1em;
     font-weight: 400;
     letter-spacing: 0.1em;
-    margin: 0 1em;
+    margin: 0 0.6em;
     text-transform: uppercase;
   }
   a {
@@ -269,7 +290,12 @@ a {
 }
 
 .toggle-playlist {
+  color: darken($background-color, 35%);
   padding: 18%;
+  &:hover {
+    @include transition-link;
+    color: darken($background-color, 45%);
+  }
 }
 
 .latest-article-wrapper {
@@ -400,11 +426,14 @@ a {
 }
 
 .post-page-header {
-  background-image: url("../images/articles/ghoulardi.png");
   background-size: cover;
+  background-color: $primary-color;
   height: 420px;
   text-align: center;
   position: relative;
+  &.ghoulardi {
+    background-image: url("../images/articles/ghoulardi.png");
+  }
 }
 
 .post-info {
@@ -474,4 +503,84 @@ sup {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.button-center {
+  display: block;
+  margin: 2em auto;
+  text-align: center;
+  width: 30%;
+}
+
+// table styles
+
+table {
+  margin: 4em 0;
+  a {
+    border-bottom: none;
+    box-shadow: none;
+    font-weight: 400;
+  }
+}
+
+thead {
+  text-transform: uppercase;
+}
+
+tr {
+  border-bottom: $width-border-hairline solid darken($background-color, 3%);
+}
+
+td {
+  padding: 0.5em 2em 0.5em 0;
+  &.event-title {
+    width: 42%;
+  }
+}
+
+// speaking - talk materials
+
+div.talk-materials {
+  display: table;
+  div.talk {
+    display: table-row;
+    padding: 2em 0;
+    div.talk-img {
+      border-bottom: $width-border-hairline solid darken($background-color, 3%);
+      display: table-cell;
+      padding: 2em 0;
+      img {
+        border: $width-border-thick solid lighten($background-color, 3%);
+      }
+    }
+    div.talk-details {
+      border-bottom: $width-border-hairline solid darken($background-color, 3%);
+      display: table-cell;
+      padding: 2em 0 2em 2em;
+      vertical-align: top;
+    }
+  }
+}
+
+h3.talk-title {
+  font-size: 1.8em;
+  font-weight: 300;
+  margin-bottom: 0.5em 0 1em 0;
+}
+
+p.talk-summary {
+  font-family: $font-accent;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+ul.talk-links {
+  li {
+    border-bottom: none;
+    display: block;
+    font-size: 1em;
+    margin: 0em 1em 0.5em 0;
+    padding: 0;
+    width: 100%;
+  }
 }
