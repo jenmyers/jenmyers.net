@@ -532,10 +532,14 @@ tr {
 }
 
 td {
-  padding: 0.5em 2em 0.5em 0;
+  padding: 0.5em 2em 0.5em 0.5em;
   &.event-title {
-    width: 42%;
+    width: 46%;
   }
+}
+
+.upcoming {
+  background-color: lighten($background-color, 3%);
 }
 
 // speaking - talk materials
