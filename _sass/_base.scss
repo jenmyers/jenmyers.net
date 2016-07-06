@@ -1,3 +1,4 @@
+// MAIN
 
 html, body {
   height: 100%;
@@ -13,23 +14,11 @@ body {
 
 // Sticky footer for all pages
 
-body {
-  @include sticky-footer(280px);
-}
+// body {
+//   @include sticky-footer(280px);
+// }
 
-p, li, td {
-  font-size: 1.3em;
-  font-weight: 300;
-  line-height: 160%;
-  margin: 1em 0;
-}
-
-address {
-  @extend p;
-  border-left: $width-border-hairline solid lighten($text-color, 52%);
-  margin: 2em 0 2em 2em;
-  padding-left: 1em;
-}
+// LAYOUT
 
 .container {
   @include outer-container;
@@ -59,215 +48,6 @@ address {
   text-align: center;
 }
 
-h1.site-title {
-  font-family: $font-heading;
-  font-size: 2.5em;
-  letter-spacing: 0.1em;
-  margin-top: 1.2em;
-  text-transform: uppercase;
-}
-
-h2.site-description, {
-  border-bottom: 2px solid lighten($text-color, 52%);
-  border-top: 2px solid lighten($text-color, 52%);
-  display: inline-block;
-  font-family: $font-accent;
-  font-size: 1.4em;
-  font-style: italic;
-  margin: 1em 0;
-  padding: 0.5em 0;
-  text-align: center;
-  width: 20%;
-}
-
-h2.section-heading {
-  font-family: $font-heading;
-  font-size: 1.4em;
-  letter-spacing: 0.1em;
-  margin: 4em 0 2em 0;
-  text-transform: uppercase;
-  &:first-of-type {
-    margin: 2em 0 2em 0;
-  }
-}
-
-h1.site-title {
-  font-family: $font-heading;
-  font-size: 1.6em;
-  letter-spacing: 0.15em;
-  margin: 2.5em 0 0 0;
-  text-transform: uppercase;
-  a {
-    border-bottom: none;
-    box-shadow: none;
-    color: darken($primary-color, 25%);
-    &:hover {
-      color: darken($primary-color, 45%);
-    }
-  }
-}
-
-h1.post-title {
-  font-size: 3.8em;
-  font-weight: bold;
-  margin: 1em 0 0.25em 0;
-  a {
-    border-bottom: none;
-    box-shadow: none;
-    color: darken($background-color, 50%);
-    font-weight: 700;
-    &:hover {
-      color: darken($background-color, 75%);
-    }
-  }
-}
-
-h2.page-title {
-  font-size: 3em;
-  font-weight: bold;
-  margin: 0.5em 0 1em 0;
-}
-
-h2.post-title {
-  font-size: 2em;
-  font-weight: 300;
-  line-height: 120%;
-  margin-bottom: 0.5em;
-}
-
-h2.post-meta {
-  color: darken($grayscale-light, 25%);
-  font-family: $font-heading;
-  font-size: 1.1em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  a {
-    color: darken($grayscale-light, 50%);
-  }
-}
-
-p.post-date {
-  margin-top: 0.5em;
-}
-
-p.post-description {
-  border-bottom: $width-border-hairline solid darken($background-color, 3%);
-  font-family: $font-accent;
-  font-size: 1.2em;
-  font-style: italic;
-  margin-bottom: 3em;
-  padding-bottom: 1em;
-}
-
-p.post-summary, p.post-conclusion {
-  @extend .post-description;
-  margin: 1em auto;
-  padding: 0.5em;
-  width: 80%;
-}
-
-h3.section-title {
-  font-size: 2.4em;
-  margin: 1em 0;
-  a {
-    border-bottom: none;
-    box-shadow: none;
-    color: darken($primary-color, 35%);
-    font-weight: 700;
-    &:hover {
-      color: darken($primary-color, 45%);
-    }
-  }
-}
-
-h4.content-heading {
-  color: darken($background-color, 50%);
-  text-transform: uppercase;
-  font-size: 1.3em;
-  letter-spacing: 0.1em;
-  margin: 3em 0 2em 0;
-}
-
-p.section-summary {
-  font-family: $font-accent;
-  font-size: 1.2em;
-  font-style: italic;
-  margin: 1em auto 2em auto;
-  line-height: 140%;
-  width: 50%;
-}
-
-ul.site-navigation {
-  margin: 0.5em 0 2em 0;
-  li {
-    display: inline-block;
-    font-size: 1.1em;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    margin: 0 0.6em;
-    text-transform: uppercase;
-  }
-  a {
-    border-bottom: none;
-    box-shadow: none;
-    color: darken($primary-color, 25%);
-    &:hover {
-      color: darken($primary-color, 35%);
-    }
-  }
-}
-
-ul.contact-links {
-  margin: 1em 0 2em 0;
-  li {
-    display: inline-block;
-    font-size: 1em;
-    letter-spacing: 0.1em;
-    margin: 1em;
-  }
-  a {
-    border-bottom: none;
-    box-shadow: none;
-    color: darken($primary-color, 15%);
-    &:hover {
-      color: lighten($primary-color, 10%);
-    }
-  }
-}
-
-.post-content ul {
-  list-style-type: disc;
-  li {
-    margin: 1em 0 1em 1.2em;
-    &:last-child {
-      margin: 1em 0 0 1.2em;
-    }
-  }
-}
-
-.post-content ul:first-of-type {
-  list-style-type: none;
-}
-
-a {
-  @include transition-link;
-  border-bottom-color: lighten($primary-color, 16%);
-  border-bottom-style: solid;
-  border-bottom-width: $width-border-hairline;
-  box-shadow: inset 0 -4px 0 lighten($primary-color, 16%);
-  color: darken($primary-color, 45%);
-  text-decoration: none;
-  &:hover {
-    color: #000;
-  }
-}
-
-.about-img {
-  display: inline-block;
-  float: right;
-  margin: 0 0 1em 2em;
-}
-
 .page-header {
   border-top: $width-border-thick solid darken($background-color, 10%);
   margin-bottom: 2em;
@@ -278,24 +58,6 @@ a {
   margin: 0 0 5em 0;
   position: relative;
   text-align: center;
-}
-
-.toggle-bg {
-  background-color: darken($background-color, 10%);
-  border-radius: 1.6em;
-  height: 3.2em;
-  width: 3.2em;
-  position: absolute;
-  right: 0;
-}
-
-.toggle-playlist {
-  color: darken($background-color, 35%);
-  padding: 18%;
-  &:hover {
-    @include transition-link;
-    color: darken($background-color, 45%);
-  }
 }
 
 .latest-article-wrapper {
@@ -380,6 +142,361 @@ a {
   right: 0;
 }
 
+.post-page-header {
+  background-size: cover;
+  background-color: $primary-color;
+  height: 420px;
+  text-align: center;
+  position: relative;
+  &.ghoulardi {
+    background-image: url("../images/articles/ghoulardi.png");
+  }
+}
+
+.post-info {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 2em 0;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+hr {
+  border: $width-border-hairline solid darken($background-color, 5%);
+  margin: 3em auto;
+  width: 80%
+}
+
+// TYPOGRAPHY
+
+p, li, td {
+  font-size: 1.3em;
+  font-weight: 300;
+  line-height: 160%;
+  margin: 1em 0;
+    @media only screen and (max-width : 420px) {
+    font-size: 1.1em;
+  }
+}
+
+address {
+  @extend p;
+  border-left: $width-border-hairline solid lighten($text-color, 52%);
+  margin: 2em 0 2em 2em;
+  padding-left: 1em;
+}
+
+strong {
+  font-weight: 500;
+}
+
+em {
+  font-style: italic;
+}
+
+blockquote {
+  font-family: $font-accent;
+  font-size: 2em;
+  font-style: italic;
+  line-height: 125%;
+  width: 10em;
+  span {
+    background-color: lighten($primary-color, 20%);
+    box-decoration-break: clone;
+    display: inline;
+  }
+  &.right {
+    float: right;
+    margin: 1em 1em 1em 1.4em;
+  }
+  &.left {
+    float: left;
+    margin: 1em 1.4em 1em 1em;
+  }
+  @media only screen and (max-width : 420px) {
+    font-size: 1.4em;
+  }
+}
+
+sup {
+  font-size: 75%;
+  font-weight: 400;
+  line-height: 100%;
+  vertical-align: super;
+}
+
+h1.site-title {
+  font-family: $font-heading;
+  font-size: 1.6em;
+  letter-spacing: 0.15em;
+  margin: 2.5em 0 0 0;
+  text-transform: uppercase;
+  a {
+    border-bottom: none;
+    box-shadow: none;
+    color: darken($primary-color, 25%);
+    &:hover {
+      color: darken($primary-color, 45%);
+    }
+  }
+  @media only screen and (max-width : 420px) {
+    font-size: 1.4em;
+  }
+}
+
+h1.post-title {
+  font-size: 3.8em;
+  font-weight: bold;
+  margin: 1em 0 0.25em 0;
+  a {
+    border-bottom: none;
+    box-shadow: none;
+    color: darken($background-color, 50%);
+    font-weight: 700;
+    &:hover {
+      color: darken($background-color, 75%);
+    }
+  }
+  @media only screen and (max-width : 420px) {
+    font-size: 2.4em;
+  }
+}
+
+h2.site-description, {
+  border-bottom: 2px solid lighten($text-color, 52%);
+  border-top: 2px solid lighten($text-color, 52%);
+  display: inline-block;
+  font-family: $font-accent;
+  font-size: 1.4em;
+  font-style: italic;
+  margin: 1em 0;
+  padding: 0.5em 0;
+  text-align: center;
+  width: 20%;
+  @media only screen and (max-width : 420px) {
+    font-size: 1.2em;
+    width: 40%;
+  }
+}
+
+h2.section-heading {
+  font-family: $font-heading;
+  font-size: 1.4em;
+  letter-spacing: 0.1em;
+  margin: 4em 0 2em 0;
+  text-transform: uppercase;
+  &:first-of-type {
+    margin: 2em 0 2em 0;
+  }
+  @media only screen and (max-width : 420px) {
+    font-size: 1em;
+  }
+}
+
+h2.page-title {
+  font-size: 3em;
+  font-weight: bold;
+  margin: 0.5em 0 1em 0;
+}
+
+h2.post-title {
+  font-size: 2em;
+  font-weight: 300;
+  line-height: 120%;
+  margin-bottom: 0.5em;
+}
+
+h2.post-meta {
+  color: darken($grayscale-light, 25%);
+  font-family: $font-heading;
+  font-size: 1.1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  a {
+    color: darken($grayscale-light, 50%);
+  }
+  @media only screen and (max-width : 420px) {
+    font-size: 1em;
+    line-height: 160%;
+  }
+}
+
+p.post-date {
+  margin-top: 0.5em;
+}
+
+p.post-description {
+  border-bottom: $width-border-hairline solid darken($background-color, 3%);
+  font-family: $font-accent;
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 3em;
+  padding-bottom: 1em;
+}
+
+p.post-summary, p.post-conclusion {
+  @extend .post-description;
+  margin: 1em auto;
+  padding: 0.5em;
+  width: 80%;
+  @media only screen and (max-width : 420px) {
+    font-size: 1em;
+  }
+}
+
+h3.section-title {
+  font-size: 2.4em;
+  margin: 1em 0;
+  a {
+    border-bottom: none;
+    box-shadow: none;
+    color: darken($primary-color, 35%);
+    font-weight: 700;
+    &:hover {
+      color: darken($primary-color, 45%);
+    }
+  }
+  @media only screen and (max-width : 420px) {
+    font-size: 1.8em;
+  }
+}
+
+h4.content-heading {
+  color: darken($background-color, 50%);
+  text-transform: uppercase;
+  font-size: 1.3em;
+  letter-spacing: 0.1em;
+  margin: 3em 0 2em 0;
+}
+
+p.section-summary {
+  font-family: $font-accent;
+  font-size: 1.2em;
+  font-style: italic;
+  margin: 1em auto 2em auto;
+  line-height: 140%;
+  width: 50%;
+  @media only screen and (max-width : 420px) {
+    font-size: 1em;
+  }
+}
+
+ul.site-navigation {
+  margin: 0.5em 0 2em 0;
+  li {
+    display: inline-block;
+    font-size: 1.1em;
+    font-weight: 400;
+    letter-spacing: 0.1em;
+    margin: 0 0.6em;
+    text-transform: uppercase;
+  }
+  a {
+    border-bottom: none;
+    box-shadow: none;
+    color: darken($primary-color, 25%);
+    &:hover {
+      color: darken($primary-color, 35%);
+    }
+  }
+}
+
+ul.contact-links {
+  margin: 1em 0 2em 0;
+  li {
+    display: inline-block;
+    font-size: 1em;
+    letter-spacing: 0.1em;
+    margin: 1em;
+  }
+  a {
+    border-bottom: none;
+    box-shadow: none;
+    color: darken($primary-color, 15%);
+    &:hover {
+      color: lighten($primary-color, 10%);
+    }
+  }
+}
+
+.post-content ul {
+  list-style-type: disc;
+  li {
+    margin: 1em 0 1em 1.2em;
+    &:last-child {
+      margin: 1em 0 0 1.2em;
+    }
+  }
+}
+
+.post-content ul:first-of-type {
+  list-style-type: none;
+}
+
+// SPEAKING - TALK MATERIALS
+
+div.talk-materials {
+  display: table;
+  div.talk {
+    display: table-row;
+    padding: 2em 0;
+    div.talk-img {
+      border-bottom: $width-border-hairline solid darken($background-color, 3%);
+      display: table-cell;
+      padding: 2em 0;
+      img {
+        border: $width-border-thick solid lighten($background-color, 3%);
+      }
+    }
+    div.talk-details {
+      border-bottom: $width-border-hairline solid darken($background-color, 3%);
+      display: table-cell;
+      padding: 2em 0 2em 2em;
+      vertical-align: top;
+    }
+  }
+}
+
+h3.talk-title {
+  font-size: 1.8em;
+  font-weight: 300;
+  margin-bottom: 0.5em 0 1em 0;
+}
+
+p.talk-summary {
+  font-family: $font-accent;
+  font-size: 1.2em;
+  font-style: italic;
+}
+
+ul.talk-links {
+  li {
+    border-bottom: none;
+    display: block;
+    font-size: 1em;
+    margin: 0em 1em 0.5em 0;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+// ANCHORS 
+
+a {
+  @include transition-link;
+  border-bottom-color: lighten($primary-color, 16%);
+  border-bottom-style: solid;
+  border-bottom-width: $width-border-hairline;
+  box-shadow: inset 0 -4px 0 lighten($primary-color, 16%);
+  color: darken($primary-color, 45%);
+  text-decoration: none;
+  &:hover {
+    color: #000;
+  }
+}
+
+// BUTTONS
+
 .button-hairline {
   @include transition-button-hairline;
   border-bottom: none;
@@ -425,65 +542,51 @@ a {
   }
 }
 
-.post-page-header {
-  background-size: cover;
-  background-color: $primary-color;
-  height: 420px;
+.button-center {
+  display: block;
+  margin: 2em auto;
   text-align: center;
-  position: relative;
-  &.ghoulardi {
-    background-image: url("../images/articles/ghoulardi.png");
+  width: 30%;
+}
+
+// IMAGES
+
+.primary-img {
+  @media only screen and (max-width : 420px) {
+    width: 60%;
   }
 }
 
-.post-info {
-  background-color: rgba(255, 255, 255, 0.15);
-  padding: 2em 0;
+.about-img {
+  display: inline-block;
+  float: right;
+  margin: 0 0 1em 2em;
+   @media only screen and (max-width : 420px) {
+    display: block;
+    float: none;
+    margin: 0 auto 2em auto;
+    width: 60%;
+  }
+}
+
+// PLAYLIST TOGGLE
+
+.toggle-bg {
+  background-color: darken($background-color, 10%);
+  border-radius: 1.6em;
+  height: 3.2em;
+  width: 3.2em;
   position: absolute;
-  bottom: 0;
-  width: 100%;
+  right: 0;
 }
 
-hr {
-  border: $width-border-hairline solid darken($background-color, 5%);
-  margin: 3em auto;
-  width: 80%
-}
-
-strong {
-  font-weight: 500;
-}
-
-em {
-  font-style: italic;
-}
-
-blockquote {
-  font-family: $font-accent;
-  font-size: 2em;
-  font-style: italic;
-  line-height: 125%;
-  width: 10em;
-  span {
-    background-color: lighten($primary-color, 20%);
-    box-decoration-break: clone;
-    display: inline;
+.toggle-playlist {
+  color: darken($background-color, 35%);
+  padding: 18%;
+  &:hover {
+    @include transition-link;
+    color: darken($background-color, 45%);
   }
-  &.right {
-    float: right;
-    margin: 1em 1em 1em 1.4em;
-  }
-  &.left {
-    float: left;
-    margin: 1em 1.4em 1em 1em;
-  }
-}
-
-sup {
-  font-size: 75%;
-  font-weight: 400;
-  line-height: 100%;
-  vertical-align: super;
 }
 
 .playlist {
@@ -505,14 +608,7 @@ sup {
   height: 100%;
 }
 
-.button-center {
-  display: block;
-  margin: 2em auto;
-  text-align: center;
-  width: 30%;
-}
-
-// table styles
+// TABLE
 
 table {
   margin: 4em 0;
@@ -540,51 +636,4 @@ td {
 
 .upcoming {
   background-color: lighten($background-color, 3%);
-}
-
-// speaking - talk materials
-
-div.talk-materials {
-  display: table;
-  div.talk {
-    display: table-row;
-    padding: 2em 0;
-    div.talk-img {
-      border-bottom: $width-border-hairline solid darken($background-color, 3%);
-      display: table-cell;
-      padding: 2em 0;
-      img {
-        border: $width-border-thick solid lighten($background-color, 3%);
-      }
-    }
-    div.talk-details {
-      border-bottom: $width-border-hairline solid darken($background-color, 3%);
-      display: table-cell;
-      padding: 2em 0 2em 2em;
-      vertical-align: top;
-    }
-  }
-}
-
-h3.talk-title {
-  font-size: 1.8em;
-  font-weight: 300;
-  margin-bottom: 0.5em 0 1em 0;
-}
-
-p.talk-summary {
-  font-family: $font-accent;
-  font-size: 1.2em;
-  font-style: italic;
-}
-
-ul.talk-links {
-  li {
-    border-bottom: none;
-    display: block;
-    font-size: 1em;
-    margin: 0em 1em 0.5em 0;
-    padding: 0;
-    width: 100%;
-  }
 }
