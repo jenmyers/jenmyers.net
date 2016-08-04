@@ -179,6 +179,15 @@ p, li, td {
   }
 }
 
+ol {
+  list-style-type: decimal;
+  margin: 3em 0;
+  li {
+    margin: 0 0 2em 2em;
+    padding-left: 0.5em;
+  }
+}
+
 address {
   @extend p;
   border-left: $width-border-hairline solid lighten($text-color, 52%);
