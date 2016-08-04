@@ -272,8 +272,8 @@ h1.post-title {
 }
 
 h2.site-description, {
-  border-bottom: 2px solid lighten($text-color, 52%);
-  border-top: 2px solid lighten($text-color, 52%);
+  border-bottom: 2px solid darken($background-color, 10%);
+  border-top: 2px solid darken($background-color, 10%);
   display: inline-block;
   font-family: $font-accent;
   font-size: 1.4em;
