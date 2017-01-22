@@ -236,7 +236,7 @@ sup {
 
 h1.site-title {
   font-family: $font-heading;
-  font-size: 1.6em;
+  font-size: 1.8em;
   letter-spacing: 0.15em;
   margin: 2.5em 0 0 0;
   text-transform: uppercase;
@@ -274,6 +274,7 @@ h1.post-title {
 h2.site-description, {
   border-bottom: 2px solid darken($background-color, 10%);
   border-top: 2px solid darken($background-color, 10%);
+  color: lighten($text-color, 20%);
   display: inline-block;
   font-family: $font-accent;
   font-size: 1.4em;
@@ -379,8 +380,9 @@ h4.content-heading {
 }
 
 p.section-summary {
+  color: lighten($text-color, 15%);
   font-family: $font-accent;
-  font-size: 1.2em;
+  font-size: 1.3em;
   font-style: italic;
   margin: 1em auto 2em auto;
   line-height: 140%;
@@ -394,11 +396,14 @@ ul.site-navigation {
   margin: 0.5em 0 2em 0;
   li {
     display: inline-block;
-    font-size: 1.1em;
+    font-size: 1.2em;
     font-weight: 400;
     letter-spacing: 0.1em;
-    margin: 0 0.6em;
+    margin: 0 0.5em;
     text-transform: uppercase;
+    @media only screen and (max-width : 420px) {
+      font-size: 1em;
+    }
   }
   a {
     border-bottom: none;
@@ -421,7 +426,7 @@ ul.contact-links {
   a {
     border-bottom: none;
     box-shadow: none;
-    color: darken($primary-color, 15%);
+    color: darken($primary-color, 25%);
     &:hover {
       color: lighten($primary-color, 10%);
     }
@@ -561,7 +566,7 @@ a {
 // IMAGES
 
 .primary-img {
-  @media only screen and (max-width : 420px) {
+  @media only screen and (max-width : 620px) {
     width: 60%;
   }
 }
@@ -570,7 +575,7 @@ a {
   display: inline-block;
   float: right;
   margin: 0 0 1em 2em;
-   @media only screen and (max-width : 420px) {
+   @media only screen and (max-width : 620px) {
     display: block;
     float: none;
     margin: 0 auto 2em auto;
