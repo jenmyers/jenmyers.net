@@ -3,7 +3,7 @@ layout:   post
 title:    The Chuck Jones School of Creativity
 author:   Jen Myers
 summary:  Inspiration sometimes comes from unlikely sources. Mine comes from a guy who drew talking animals.
-type:     essay
+type:     archive
 bgimage:  typist.png
 ---
 

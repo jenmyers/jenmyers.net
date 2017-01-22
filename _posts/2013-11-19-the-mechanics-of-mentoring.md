@@ -3,7 +3,7 @@ layout:   post
 title:    The Mechanics of Mentoring
 author:   Jen Myers
 summary:  Why and how I do beginner tech speaker mentoring.
-type:     essay
+type:     archive
 bgimage:  typist.png
 ---
 

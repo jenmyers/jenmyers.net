@@ -3,7 +3,7 @@ layout:   post
 title:    Why I Want You To Copy My Writing
 author:   Jen Myers
 summary:  People have asked me why I make my writing so freely available on the internet. Mostly, I think an open culture of ideas and creativity is neat.
-type:     essay
+type:     archive
 bgimage:  typist.png
 ---
 

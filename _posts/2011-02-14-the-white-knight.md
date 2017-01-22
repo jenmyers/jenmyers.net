@@ -3,7 +3,7 @@ layout:   post
 title:    The White Knight
 author:   Jen Myers
 summary:  Thinking about Raymond Chandler, Philip Marlowe and the tragedy of trying to do what's right.
-type:     essay
+type:     archive
 bgimage:  typist.png
 ---
 

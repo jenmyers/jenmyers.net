@@ -3,7 +3,7 @@ layout:   post
 title:    Confessions of a Semi-Amateur Speaker
 author:   Jen Myers
 summary:  How to be a successful speaker ... I think.
-type:     essay
+type:     archive
 bgimage:  typist.png
 ---
 

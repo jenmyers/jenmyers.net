@@ -3,7 +3,7 @@ layout:   post
 title:    So in America When the Sun Goes Down
 author:   Jen Myers
 summary:  Why I still love Jack Kerouac.
-type:     essay
+type:     archive
 bgimage:  typist.png
 ---
 

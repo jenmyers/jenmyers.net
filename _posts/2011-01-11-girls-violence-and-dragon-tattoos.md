@@ -2,7 +2,7 @@
 layout:   post
 title:    Girls, Violence and Dragon Tattoos
 summary:  Condemning violent stories featuring women as exploitative is only scratching the surface of the story.
-type:     essay
+type:     archive
 bgimage:  typist.png
 ---
 

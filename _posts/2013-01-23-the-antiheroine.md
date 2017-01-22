@@ -2,7 +2,7 @@
 layout:   post
 title:    The Antiheroine
 summary:  What my Twitter username really means.
-type:     essay
+type:     archive
 bgimage:  typist.png
 ---
 

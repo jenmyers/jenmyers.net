@@ -3,7 +3,7 @@ layout:   post
 title:    Flattening Design
 author:   Jen Myers
 summary:  What the debate behind the debate of skeuomorphism is really about.
-type:     essay
+type:     archive
 bgimage:  typist.png
 ---
 

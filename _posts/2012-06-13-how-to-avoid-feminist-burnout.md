@@ -3,7 +3,7 @@ layout:   post
 title:    How to Avoid Feminist Burnout
 author:   Jen Myers
 summary:  I've been an activist, online and off, for feminist causes for some time now. I've learned a thing or two about how to stay in it for the long run without losing your spirit.
-type:     essay
+type:     archive
 bgimage:  typist.png
 ---
 

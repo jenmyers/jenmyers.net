@@ -3,7 +3,7 @@ layout:   post
 title:    34 Things I've Learned in Life that I Want to Tell My Daughter
 author:   Jen Myers
 summary:  A list.
-type:     essay
+type:     archive
 bgimage:  typist.png
 ---
 

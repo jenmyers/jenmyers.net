@@ -3,7 +3,7 @@ layout:   post
 title:    Books for Girls
 author:   Jen Myers
 summary:  A list of my favorite books I think all girls should read.
-type:     essay
+type:     archive
 bgimage:  typist.png
 ---
 
