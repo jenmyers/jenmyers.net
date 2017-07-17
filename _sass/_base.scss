@@ -30,7 +30,7 @@ body {
   margin-bottom: 4em;
 }
 
-.intro, .latest-article, .newsletter, .contact, .footer {
+.intro, .primary, .secondary, .tertiary, .contact, .footer {
   text-align: center;
 }
 
@@ -38,7 +38,7 @@ body {
   padding: 5em 0;
 }
 
-.latest-article, .newsletter, .contact {
+.primary, .secondary, .tertiary, .contact {
   padding: 0 0 6em 0;
 }
 
@@ -60,12 +60,16 @@ body {
   text-align: center;
 }
 
-.latest-article-wrapper {
+.primary-wrapper {
   background-color: $primary-color;
 }
 
-.newsletter-wrapper {
+.secondary-wrapper {
   background-color: darken($background-color, 10%);
+}
+
+.tertiary-wrapper {
+  background-color: lighten($secondary-color, 10%);
 }
 
 .contact-wrapper {
@@ -77,12 +81,16 @@ body {
   background-color: darken($background-color, 10%);
 }
 
-.icon-article {
+.icon-primary {
   color: $primary-color;
 }
 
-.icon-newsletter {
+.icon-secondary {
   color: darken($background-color, 10%);
+}
+
+.icon-tertiary {
+  color: lighten($secondary-color, 10%);
 }
 
 .icon-contact {
@@ -110,11 +118,14 @@ body {
   margin: 0 auto;
   padding-top: 0.65em;
   text-align: center;
-  &.icon-article-bg {
+  &.icon-primary-bg {
     background-color: darken($primary-color, 10%);
   }
-  &.icon-newsletter-bg {
+  &.icon-secondary-bg {
     background-color: darken($background-color, 16%);
+  }
+  &.icon-tertiary-bg {
+    background-color: $secondary-color;
   }
   &.icon-contact-bg {
     background-color: darken($text-color, 10%);
@@ -415,6 +426,10 @@ ul.site-navigation {
   }
 }
 
+.site-footer ul.site-navigation li {
+  font-size: 1em;
+}
+
 ul.contact-links {
   margin: 1em 0 2em 0;
   li {
@@ -522,7 +537,7 @@ a {
   color: darken($primary-color, 25%);
   display: inline-block;
   font-family: $font-heading;
-  font-size: 1em;
+  font-size: 1.2em;
   letter-spacing: 1px;
   padding: 0.6em 1em 0.5em 1em;
   text-transform: uppercase;
@@ -549,6 +564,9 @@ a {
       border-color: darken($primary-color, 45%);
       color: darken($primary-color, 45%);
     }
+  }
+  &.button-contact {
+    font-size: 1em;
   }
   &.button-contact:hover {
     border-color: lighten($primary-color, 10%);
