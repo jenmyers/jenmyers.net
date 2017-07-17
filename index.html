@@ -11,7 +11,7 @@ title: Home
 
     <h1 class="site-title">Jen Myers</h1>
 
-    <h2 class="site-description">technologist &amp; writer</h2>
+    <h2 class="site-description">technologist &amp; storyteller</h2>
 
     <ul class="site-navigation">
       <li><a href="{{ site.baseurl }}/writing/">Writing</a></li>
@@ -23,30 +23,25 @@ title: Home
 
 </div>
 
-<div class="latest-article-wrapper">
+<div class="primary-wrapper">
 
   <div class="container">
 
-    <div class="latest-article">
+    <div class="primary">
 
-      <div class="circle-bottom icon-article-bg">
+      <div class="circle-bottom icon-primary-bg">
         
-        <i class="icon icon-newspaper-o icon-3x icon-article"></i>
+        <i class="icon icon-headphones icon-3x icon-primary"></i>
 
       </div>
 
-      <h2 class="section-heading">Current article</h2>
+      <h2 class="section-heading">Podcast</h2>
 
-      {% for post in site.posts limit: 1 %}
-        {% if forloop.last %}
-          <h3 class="section-title">
-            <a href="{{ post.url }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h3>
-          <p class="section-summary">{{ post.summary }}</p>
+      <h3 class="section-title"><a href="http://antiheroinepodcast.com">Antiheroine</a></h3>
 
-          <a class="button-hairline button-article" href="{{ post.url }}">read more</a>
-        {% endif %}
-      {% endfor %}
+      <p class="section-summary">A podcast about scandalous women in history. Six episodes every season, each featuring the story of a new historical antiheroine, written, produced and told by me.</p>
+
+      <a class="button-hairline button-newsletter" href="http://antiheroinepodcast.com">Listen</a>
 
     </div>
 
@@ -54,15 +49,15 @@ title: Home
 
 </div>
 
-<div class="newsletter-wrapper">
+<div class="secondary-wrapper">
 
   <div class="container">
 
-    <div class="newsletter">
+    <div class="secondary">
 
-      <div class="circle-bottom icon-newsletter-bg">
+      <div class="circle-bottom icon-secondary-bg">
         
-        <i class="icon icon-paper-plane icon-3x icon-newsletter"></i>
+        <i class="icon icon-paper-plane icon-3x icon-secondary"></i>
 
       </div>
 
@@ -83,6 +78,38 @@ title: Home
   </div>
 
 </div>
+
+<div class="tertiary-wrapper">
+
+  <div class="container">
+
+    <div class="tertiary">
+
+      <div class="circle-bottom icon-tertiary-bg">
+      
+        <i class="icon icon-pencil icon-3x icon-tertiary"></i>
+
+      </div>
+
+      <h2 class="section-heading">Writing</h2>
+
+      {% for post in site.posts limit: 1 %}
+        {% if forloop.last %}
+          <h3 class="section-title">
+            <a href="{{ post.url }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <p class="section-summary">{{ post.summary }}</p>
+
+          <a class="button-hairline button-article" href="{{ post.url }}">Read</a>
+        {% endif %}
+      {% endfor %}
+
+    </div>
+
+  </div>
+
+</div>
+
 
 <div class="contact-wrapper">
 
@@ -107,7 +134,7 @@ title: Home
         <li><a href="http://tinyletter.com/jenmyers" title="Newsletter"><i class="icon icon-paper-plane icon-2x"></i></a></li>
       </ul>
 
-      <a class="button-hairline button-contact" href="mailto:hello@jenmyers.net">send email</a>
+      <a class="button-hairline button-contact" href="mailto:hello@jenmyers.net">Email</a>
 
     </div>
 
