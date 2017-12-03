@@ -13,7 +13,7 @@
 
           {% if page.title == "Writing" %}
             {% include header-writing.html %}
-            {% elsif page.title == "Log" %}
+            {% elsif page.title contains "Log" %}
             {% include header-log.html %}
             {% else %}
             {% include header-about.html %}
