@@ -669,3 +669,22 @@ td {
 .upcoming {
   background-color: lighten($background-color, 3%);
 }
+
+// LOG LISTS
+
+ul.log {
+  li.log-month {
+    color: darken($background-color, 50%);
+    text-transform: uppercase;
+    font-size: 1.3em;
+    letter-spacing: 0.1em;
+    margin: 2em 0 0 0;
+  }
+  li.log-day {
+    border-top: $width-border-hairline solid darken($background-color, 3%);
+    font-weight: bold;
+  }
+  li.log-item {
+    margin: 0.25em 0;
+  }
+}
