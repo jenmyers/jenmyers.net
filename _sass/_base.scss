@@ -321,10 +321,9 @@ h2.page-title {
 }
 
 h2.post-title {
-  font-size: 2em;
+  font-size: 1.8em;
   font-weight: 300;
-  line-height: 120%;
-  margin-bottom: 0.5em;
+  line-height: 140%;
 }
 
 h2.post-meta {
@@ -343,13 +342,12 @@ h2.post-meta {
 }
 
 p.post-date {
-  margin-top: 0.5em;
+  margin-top: 1em;
 }
 
 p.post-description {
   border-bottom: $width-border-hairline solid darken($background-color, 3%);
   font-family: $font-accent;
-  font-size: 1.2em;
   font-style: italic;
   margin-bottom: 3em;
   padding-bottom: 1em;
