@@ -2,13 +2,15 @@
 title: Jen Myers
 email: hello@jenmyers.net
 
+# Paths
 baseurl: ""
 url: "http://jenmyers.net"
-twitter_username: antiheroine
-github_username:  jenmyers
 sass:
   sass_dir: _sass
 
 # Build settings
 markdown: kramdown
 permalink: none
+
+# Post settings
+future: false
