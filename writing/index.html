@@ -3,7 +3,48 @@ layout: page
 title: Writing
 ---
 
-<h2 class="section-heading">Published</h2>
+<div class="writing-col">
+
+<h2 class="section-heading writing">Storytelling School</h2>
+
+<p class="category-description">A series of essay documenting my self-guided studies in storytelling, writing and filmmaking. (Coming June 2018.)</p>
+
+{% for post in site.posts %}
+  {% if post.category contains "storytelling" %}  
+  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="post-date">{{ post.date | date: "%e %B %Y" }}</p>
+  {% endif %}
+{% endfor %}
+
+<h2 class="section-heading writing">Noir Wednesday</h2>
+
+<p class="category-description">A monthly look at a classic film noir. (Coming June 2018.)</p>
+
+{% for post in site.posts %}
+  {% if post.category contains "noir" %}  
+  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="post-date">{{ post.date | date: "%e %B %Y" }}</p>
+  {% endif %}
+{% endfor %}
+
+<h2 class="section-heading writing">Replay</h2>
+
+<p class="category-description">Reconsidering a television series, one episode at a time. (Coming June 2018.)</p>
+
+{% for post in site.posts %}
+  {% if post.category contains "replay" %}  
+  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="post-date">{{ post.date | date: "%e %B %Y" }}</p>
+  {% endif %}
+{% endfor %}
+
+</div>
+
+<div class="writing-col">
+
+<h2 class="section-heading writing">Published</h2>
+
+<p class="category-description">Pieces published externally.</p>
 
 <h2 class="post-title"><a href="http://www.brightwalldarkroom.com/2018/01/26/the-names-we-choose-for-ourselves/">The Names We Choose for Ourselves: Mothers, Daughters and <em>Lady Bird</em></a></h2>
 <p class="post-date">26 January 2018</p>
@@ -13,19 +54,9 @@ title: Writing
 <p class="post-date">31 January 2017</p>
 <p class="post-description">The Human in the Machine project</p>
 
+<h2 class="section-heading writing">Articles</h2>
 
-<!-- <h2 class="section-heading">Essays</h2>
-
-{% for post in site.posts %}
-  {% if post.type contains "essay" %}  
-  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-  <p class="post-date">{{ post.date | date: "%e %B %Y" }}</p>
-  <p class="post-description">{{ post.summary }}</p>
-  {% endif %}
-{% endfor %} -->
-
-
-<h2 class="section-heading">Articles</h2>
+<p class="category-description">Longform features published on my own website.</p>
 
 {% for post in site.posts %}
   {% if post.type contains "feature" %}  
@@ -35,7 +66,7 @@ title: Writing
   {% endif %}
 {% endfor %}
 
-<h2 class="section-heading">Tutorials</h2>
+<!-- <h2 class="section-heading">Tutorials</h2>
 
 {% for post in site.posts %}
   {% if post.type contains "tutorial" %}  
@@ -43,8 +74,10 @@ title: Writing
   <p class="post-date">{{ post.date | date: "%e %B %Y" }}</p>
   <p class="post-description">{{ post.summary }}</p>
   {% endif %}
-{% endfor %}
+{% endfor %} -->
 
-<h2 class="section-heading">Newsletters</h2>
+<h2 class="section-heading writing">Newsletters</h2>
 
-<p class="post-description"><em>In each of my weekly email newsletters, I write a short essay about whatever's on my mind that week. I collect them at their own website, <a href="http://modernadventuress.com">Modern Adventuress</a>.</em></p>
+<p class="post-description"><em>From 2014 to 2017, I wrote a brief essay every week in my email newsletter, Modern Adventuress, and made it freely available. All of the essays are collected at the <a href="http://modernadventuress.com/archive/">Modern Adventuress archive</a>.</em> At the beginning of 2018, I moved the weekly essays to the <a href="https://modernadventuress.com/premium/">premium edition</a> of the newsletter and that archive is available to premium subscribers.</p>
+
+</div>
