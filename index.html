@@ -31,17 +31,25 @@ title: Home
 
       <div class="circle-bottom icon-primary-bg">
         
-        <i class="icon icon-headphones icon-3x icon-primary"></i>
+        <svg class="icon icon-header icon-pencil icon-primary">
+          <use xlink:href="{{ site.baseurl }}/defs.svg#icon-pencil"></use>
+        </svg>
 
       </div>
 
-      <h2 class="section-heading">Podcast</h2>
+      <h2 class="section-heading">Most Recent Essay</h2>
 
-      <h3 class="section-title"><a href="http://antiheroinepodcast.com">Antiheroine</a></h3>
+      <p>Coming soon</p>
 
-      <p class="section-summary">A podcast about scandalous women in history. Six episodes every season, each featuring the story of a new historical antiheroine, written, produced and told by me.</p>
-
-      <a class="button-hairline button-newsletter" href="http://antiheroinepodcast.com">Listen</a>
+      {% for post in site.posts limit: 1 %}
+        {% if post.type contains "essay" %}
+          <h3 class="section-title">
+            <a href="{{ post.url }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <p class="section-summary">{{ post.summary }}</p>
+          <a class="button-hairline button-article" href="{{ post.url }}">Read</a>
+        {% endif %}
+      {% endfor %}
 
     </div>
 
@@ -57,21 +65,23 @@ title: Home
 
       <div class="circle-bottom icon-secondary-bg">
         
-        <i class="icon icon-paper-plane icon-3x icon-secondary"></i>
+        <svg class="icon icon-header icon-diamond icon-secondary">
+          <use xlink:href="{{ site.baseurl }}/defs.svg#icon-diamond"></use>
+        </svg>
 
       </div>
 
-        <h2 class="section-heading">Newsletter</h2>
+        <h2 class="section-heading">Most Recent Feature</h2>
 
-        <h3 class="section-title"><a href="https://modernadventuress.com">Modern Adventuress</a></h3>
-
-        <p class="section-summary">Every week, I send out an email letter full of interesting links, recommended reading and watching, original essays and animated gifs. All of the essentials.</p>
-
-        <!-- <p class="section-summary">"What I love about Jen's newsletter is how considered it all is. There's no wasted space each week. Every link's inclusion is well thought-out and often fits within an overall narrative. I trust Jen's recommendations implicitly. And her essays always force me to take a second look at something (or within myself)."</p> -->
-
-        <!-- <p class="section-summary">"Jen's newsletter is a weekly delight, and not just for the requisite adorable otter gifs. There's always at least one link, one recommendation, or one piece of writing I wouldn't otherwise have encountered that inspires, educates, or amuses. And it's all filtered through Jen's unique personality and experiences such that it feels like it's beamed straight from her heart to our inboxes. Also, did I mention adorable otter gifs?"</p> -->
-
-        <a class="button-hairline button-newsletter" href="https://modernadventuress.com">subscribe</a>
+        {% for post in site.posts %}
+          {% if post.type contains "feature" %}
+            <h3 class="section-title">
+              <a href="{{ post.url }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+            </h3>
+            <p class="section-summary">{{ post.summary }}</p>
+            <a class="button-hairline button-article" href="{{ post.url }}">Read</a>
+          {% endif %}
+        {% endfor %}
 
     </div>
 
@@ -87,22 +97,23 @@ title: Home
 
       <div class="circle-bottom icon-tertiary-bg">
       
-        <i class="icon icon-pencil icon-3x icon-tertiary"></i>
+        <svg class="icon icon-header icon-newspaper-o icon-tertiary">
+          <use xlink:href="{{ site.baseurl }}/defs.svg#icon-newspaper-o"></use>
+        </svg>
 
       </div>
 
-      <h2 class="section-heading">Writing</h2>
+      <h2 class="section-heading">Weekly Newsletter</h2>
 
-      {% for post in site.posts limit: 1 %}
-        {% if forloop.last %}
-          <h3 class="section-title">
-            <a href="{{ post.url }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h3>
-          <p class="section-summary">{{ post.summary }}</p>
+      <h3 class="section-title"><a href="https://modernadventuress.com">Modern Adventuress</a></h3>
 
-          <a class="button-hairline button-article" href="{{ post.url }}">Read</a>
-        {% endif %}
-      {% endfor %}
+      <p class="section-summary">Every week, I send out an email letter full of interesting links, recommended reading and watching, original essays and animated gifs. All of the essentials.</p>
+
+      <!-- <p class="section-summary">"What I love about Jen's newsletter is how considered it all is. There's no wasted space each week. Every link's inclusion is well thought-out and often fits within an overall narrative. I trust Jen's recommendations implicitly. And her essays always force me to take a second look at something (or within myself)."</p> -->
+
+      <!-- <p class="section-summary">"Jen's newsletter is a weekly delight, and not just for the requisite adorable otter gifs. There's always at least one link, one recommendation, or one piece of writing I wouldn't otherwise have encountered that inspires, educates, or amuses. And it's all filtered through Jen's unique personality and experiences such that it feels like it's beamed straight from her heart to our inboxes. Also, did I mention adorable otter gifs?"</p> -->
+
+      <a class="button-hairline button-newsletter" href="https://modernadventuress.com">subscribe</a>
 
     </div>
 
@@ -119,22 +130,46 @@ title: Home
 
       <div class="circle-bottom icon-contact-bg">
       
-        <i class="icon icon-envelope icon-3x icon-contact"></i>
+        <svg class="icon icon-header icon-envelope-o icon-contact">
+          <use xlink:href="{{ site.baseurl }}/defs.svg#icon-envelope-o"></use>
+        </svg>
 
       </div>
 
       <h2 class="section-heading">Connect</h2>
 
       <ul class="contact-links">
-        <li><a href="http://twitter.com/antiheroine" title="Twitter"><i class="icon icon-twitter icon-2x"></i></a></li>
-<!--         <li><a href="http://facebook.com/jenmyerswriting" title="Facebook"><i class="icon icon-facebook-official icon-2x"></i></a></li> -->
-<!--         <li><a href="http://jenmyers.tumblr.com" title="Tumblr"><i class="icon icon-tumblr icon-2x"></i></a></li> -->
-        <li><a href="https://mettlechicago.bigcartel.com/" title="Store"><i class="icon icon-shopping-basket icon-2x"></i></a></li>
-        <li><a href="https://www.patreon.com/jenmyers" title="Patreon"><i class="icon icon-gift icon-2x"></i></a></li>
-        <li><a href="https://modernadventuress.com" title="Newsletter"><i class="icon icon-paper-plane icon-2x"></i></a></li>
+        <li>
+          <a href="http://twitter.com/antiheroine" title="Twitter">
+            <svg class="icon icon-footer-home icon-twitter">
+              <use xlink:href="{{ site.baseurl }}/defs.svg#icon-twitter"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com/antiheroine/" title="Instagram">
+            <svg class="icon icon-footer-home icon-instagram">
+              <use xlink:href="{{ site.baseurl }}/defs.svg#icon-instagram"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.patreon.com/jenmyers" title="Patreon">
+            <svg class="icon icon-footer-home icon-patreon">
+              <use xlink:href="{{ site.baseurl }}/defs.svg#icon-patreon"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="http://eepurl.com/dvnBrz" title="Mailing List">
+            <svg class="icon icon-footer-home icon-paper-plane">
+              <use xlink:href="{{ site.baseurl }}/defs.svg#icon-paper-plane"></use>
+            </svg>
+          </a>
+        </li>
       </ul>
 
-      <a class="button-hairline button-contact" href="mailto:hello@jenmyers.net">Email</a>
+      <a class="button-hairline button-contact-home" href="mailto:hello@jenmyers.net">Email</a>
 
     </div>
 
