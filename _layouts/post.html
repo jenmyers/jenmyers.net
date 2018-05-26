@@ -11,7 +11,9 @@
 
       <div class="circle-bottom icon-post-bg">
 
-        <i class="icon icon-newspaper-o icon-3x icon-post"></i>
+        <svg class="icon icon-header icon-pencil icon-post">
+          <use xlink:href="{{ site.baseurl }}/defs.svg#icon-pencil"></use>
+        </svg>
 
       </div>
 
@@ -26,7 +28,9 @@
           {% if page.type contains "feature" %}
           <a href="#playlist">
             <div class="toggle-bg">
-              <i class="icon icon-music icon-2x toggle-playlist"></i>
+              <svg class="icon icon-music toggle-playlist">
+                <use xlink:href="{{ site.baseurl }}/defs.svg#icon-music"></use>
+              </svg>
             </div>
           </a>
           {% endif %}
