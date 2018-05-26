@@ -1,6 +1,7 @@
 # Jenmyers.net
 
-The personal website of Jen Myers and her official repository of articles, talks, speaking events and other associated information.
+The personal website of Jen Myers, a real swell gal. Includes writing, about info, speaking history, mentoring signup and yearly media log.
+
 
 ## Tools
 
@@ -10,10 +11,10 @@ The personal website of Jen Myers and her official repository of articles, talks
 - [Neat](http://neat.bourbon.io/)
 - [Fitvid.js](http://fitvidsjs.com/)
 - [Typekit](http://typekit.com/)
-- [Fort Awesome](https://fortawesome.com/)
 
 ## Versions
 
+- Artoo refresh (May 2018)
 - Artoo (January 2016)
 - Servo (January 2015)
 - Wall-E (November 2013)
