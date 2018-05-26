@@ -5,24 +5,26 @@
 
 // VARIABLES
 
-$background-color:    #fafafa;
-$font-text:           "fira-sans";
-$font-heading:        "brandon-grotesque";
-$font-accent:         "freight-text-pro";
-$text-color:          #383a3a;
-$primary-color:       #8adadb;
-$secondary-color:     #bde2e8;
-$grayscale-light:     #c7cdce;
+$background-color:        #fafafa;
+$font-text:               "freight-text-pro";
+$font-heading-primary:    "fira-sans";
+$font-heading-secondary:  "brandon-grotesque";
+$font-accent:             "freight-text-pro";
+$font-text-data:          "fira-sans";
+$text-color:              #383a3a;
+$primary-color:           #8adadb;
+$secondary-color:         #bde2e8;
+$grayscale-light:         #c7cdce;
 
-$width-border-hairline: 2px;
-$width-border-thick:    10px;  
+$width-border-hairline:   2px;
+$width-border-thick:      10px;  
 
 
 // MIXINS
 
 @mixin transition-link {
   transition-duration: 0.5s;
-  transition-property: border-bottom, color;
+  transition-property: border-bottom, color, background-color;
   transition-timing-function: ease-out;
 }
 
