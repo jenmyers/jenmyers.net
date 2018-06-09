@@ -331,17 +331,19 @@ h2.post-title {
 h2.post-meta {
   color: darken($grayscale-light, 25%);
   font-family: $font-heading-secondary;
-  font-size: 1.1em;
+  font-size: 1.2em;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  a {
-    color: darken($grayscale-light, 50%);
-  }
   @media only screen and (max-width : 420px) {
     font-size: 1em;
     line-height: 160%;
   }
+  &.post-category {
+    margin-bottom: 1.5em;
+  }
 }
+
+
 
 p.post-date {
   font-family: $font-heading-secondary;
