@@ -38,8 +38,6 @@ title: Home
 
       <h2 class="section-heading">Most Recent Essay</h2>
 
-      <p>Coming soon</p>
-
       {% for post in site.posts limit: 1 %}
         {% if post.type contains "essay" %}
           <h3 class="section-title">
