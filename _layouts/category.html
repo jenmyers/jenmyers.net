@@ -1,0 +1,10 @@
+---
+layout: page
+---
+
+{% for post in site.categories[page.category] %}
+  <h2 class="post-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
+  <p class="post-date">{{ post.date | date: "%e %B %Y" }}</p>
+{% endfor %}
+
+<a class="button-hairline button-center" href="{{ site.baseurl }}/writing/">All writing</a>
