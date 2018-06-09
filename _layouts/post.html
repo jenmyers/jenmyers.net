@@ -34,7 +34,9 @@
             </div>
           </a>
           {% endif %}
+
           <p class="post-summary">{{ page.summary }}</p>
+          <h2 class="post-meta post-category"><a href="{{ site.baseurl }}/category/{{ page.category }}.html">Storytelling School</a></h2>
           <h2 class="post-meta">By {{ page.author }} • {{ page.date | date: "%-d %B %Y" }}</h2>
         </header>
 
@@ -43,11 +45,8 @@
           <hr />
         </article>
 
-<!--    <footer class="post-footer">
-          <hr />
-          <p class="post-conclusion">{{ page.conclusion }}</p>
-        </footer> -->
-
+        <a class="button-hairline button-center" href="{{ site.baseurl }}/writing/">All writing</a>
+        
       </div>
 
     </div>
