@@ -48,6 +48,8 @@ Yet another note: I’ve been referring specifically to books here, because I’
 
 <h2 class='section-heading'>Creativity/Process</h2>
 
+- [_Chuck Amuck: The Life and Times of an Animated Cartoonist_](https://www.worldcat.org/title/chuck-amuck-the-life-and-times-of-an-animated-cartoonist/oclc/664363346), Chuck Jones
+- [_Chuck Reducks: Drawing from the Fun Side of Life_](https://www.worldcat.org/title/chuck-reducks/oclc/60190215), Chuck Jones
 - [_The Creative Tarot: A Modern Guide to an Inspired Life_](https://www.worldcat.org/title/creative-tarot-a-modern-guide-to-an-inspired-life/oclc/991440591), Jessa Crispin
 - [_Your Art Will Save Your Life_](https://www.worldcat.org/title/your-art-will-save-your-life/oclc/1006315881), Beth Pickens
 - [_Big Magic: Creative Living Beyond Fear_](https://www.worldcat.org/title/big-magic-creative-living-beyond-fear/oclc/952547025), Elizabeth Gilbert
