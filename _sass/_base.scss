@@ -321,7 +321,7 @@ h2.page-title {
   margin: 0.5em 0 1em 0;
 }
 
-h2.post-title {
+h2.post-title, h2.input-title {
   font-family: $font-heading-primary;
   font-size: 1.5em;
   font-weight: 300;
@@ -343,9 +343,7 @@ h2.post-meta {
   }
 }
 
-
-
-p.post-date {
+p.post-date, p.input-date {
   font-family: $font-heading-secondary;
   font-size: 1.2em;
   margin-top: 0.5em;
@@ -358,6 +356,15 @@ p.post-description, p.category-description {
   font-style: italic;
   margin-bottom: 2em;
   margin-top: 0em;
+}
+
+p.input-description {
+  border-bottom: $width-border-hairline solid darken($background-color, 5%); 
+  font-family: $font-accent;
+  font-size: 1.2em;
+  font-style: italic;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
 }
 
 p.post-summary, p.post-conclusion {
@@ -623,6 +630,12 @@ h2.post-title a:hover {
   }
 }
 
+.input-img {
+  border: $width-border-thick solid darken($background-color, 5%);
+  margin-bottom: 1em;
+  width: 40%
+}
+
 // PLAYLIST TOGGLE
 
 .toggle-bg {
@@ -735,3 +748,5 @@ ul.log {
   width: 2em;
   height: 2em;
 }
+
+
