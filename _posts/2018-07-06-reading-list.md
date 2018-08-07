@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Reading List 
+title:      The Reading List 
 date:       2018-07-06
 author:     Jen Myers
 summary:    An ongoing list of recommended books about writing, filmmaking and storytelling
