@@ -631,8 +631,9 @@ h2.post-title a:hover {
 }
 
 .input-img {
-  border: $width-border-thick solid darken($background-color, 5%);
+  border: $width-border-hairline solid darken($background-color, 2%);
   margin-bottom: 1em;
+  padding: 0.5em;
   width: 40%
 }
 
@@ -748,5 +749,3 @@ ul.log {
   width: 2em;
   height: 2em;
 }
-
-
