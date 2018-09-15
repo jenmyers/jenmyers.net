@@ -3,7 +3,7 @@ layout:     post
 title:      The Watching List 
 date:       2018-09-14
 author:     Jen Myers
-summary:    How I'm filling in my film knowledge gaps
+summary:    How I'm filling in my film knowledge gaps.
 type:       essay
 category:   storytelling
 bgimage:    typist.png
