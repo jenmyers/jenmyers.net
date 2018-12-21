@@ -1,0 +1,17 @@
+---
+layout: daily
+title: Daily
+category: daily
+---
+
+{% for post in site.posts limit: 10 %}
+  {% if post.category contains "daily" %}
+    {% if post.content contains "<!-- more -->" %}
+      {% include post-daily-excerpt.html %}
+    {% else %}
+      {% include post-daily.html %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
+
+<a class="button-hairline button-center" href="{{ site.baseurl }}/category/{{ page.category }}.html">Daily Archive</a>
