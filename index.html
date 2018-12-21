@@ -15,7 +15,7 @@ title: Home
 
     <ul class="site-navigation">
       <li><a href="{{ site.baseurl }}/writing/">Writing</a></li>
-      <li><a href="{{ site.baseurl }}/projects/">Projects</a></li>
+      <li><a href="{{ site.baseurl }}/daily/">Daily</a></li>
       <li><a href="{{ site.baseurl }}/about/">About</a></li>
     </ul>
 
@@ -37,16 +37,14 @@ title: Home
 
       </div>
 
-      <h2 class="section-heading">Most Recent Essay</h2>
+      <h2 class="section-heading">Most Recent Post</h2>
 
       {% for post in site.posts limit: 1 %}
-        {% if post.type contains "essay" %}
-          <h3 class="section-title">
-            <a href="{{ post.url }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-          </h3>
-          <p class="section-summary">{{ post.summary }}</p>
-          <a class="button-hairline button-article" href="{{ post.url }}">Read</a>
-        {% endif %}
+        <h3 class="section-title">
+          <a href="{{ post.url }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h3>
+        <p class="section-summary">{{ post.summary }}</p>
+        <a class="button-hairline button-article" href="{{ post.url }}">Read</a>
       {% endfor %}
 
     </div>
@@ -137,14 +135,14 @@ title: Home
       <h2 class="section-heading">Connect</h2>
 
       <ul class="contact-links">
-        <li>
+        <!-- <li>
           <a href="http://twitter.com/antiheroine" title="Twitter">
             <svg class="icon icon-footer-home icon-twitter">
               <use xlink:href="{{ site.baseurl }}/defs.svg#icon-twitter"></use>
             </svg>
           </a>
         </li>
-<!--         <li>
+        <li>
           <a href="https://www.goodreads.com/jenmyers" title="Goodreads">
             <svg class="icon icon-footer-home icon-goodreads">
               <use xlink:href="{{ site.baseurl }}/defs.svg#icon-goodreads"></use>
@@ -157,18 +155,25 @@ title: Home
               <use xlink:href="{{ site.baseurl }}/defs.svg#icon-letterboxd"></use>
             </svg>
           </a>
-        </li> -->
+        </li>
         <li>
           <a href="https://www.instagram.com/antiheroine/" title="Instagram">
             <svg class="icon icon-footer-home icon-instagram">
               <use xlink:href="{{ site.baseurl }}/defs.svg#icon-instagram"></use>
             </svg>
           </a>
-        </li>
+        </li> -->
         <li>
           <a href="https://www.patreon.com/jenmyers" title="Patreon">
             <svg class="icon icon-footer-home icon-patreon">
               <use xlink:href="{{ site.baseurl }}/defs.svg#icon-patreon"></use>
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="http://feeds.feedburner.com/jenmyers" title="RSS">
+            <svg class="icon icon-footer-home icon-rss">
+              <use xlink:href="{{ site.baseurl }}/defs.svg#icon-rss"></use>
             </svg>
           </a>
         </li>
