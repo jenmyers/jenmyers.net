@@ -9,4 +9,15 @@ layout: page
 
 <hr />
 
-<a class="button-hairline button-center" href="{{ site.baseurl }}/writing/">All writing</a>
+{% if page.title == "Daily" %}
+  <a class="button-hairline button-center" href="{{ site.baseurl }}/daily/">Daily home</a>
+{% else %}
+  <a class="button-hairline button-center" href="{{ site.baseurl }}/writing/">All writing</a>
+{% endif %}
+
+
+
+
+
+
+
