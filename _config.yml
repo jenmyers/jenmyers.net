@@ -14,3 +14,4 @@ permalink: none
 
 # Post settings
 future: false
+excerpt_separator: <!--more-->
