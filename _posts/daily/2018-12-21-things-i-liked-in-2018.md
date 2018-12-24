@@ -13,6 +13,7 @@ I don't keep up with enough brand-new books, films, etc. to make comprehensive b
 <!-- more -->
 
 - I saw a lot of great films this year, but [_The Favourite_](https://letterboxd.com/film/the-favourite/) was ... well, you can figure it out.
+- Other new films I loved: [_Can You Ever Forgive Me?_](https://letterboxd.com/film/can-you-ever-forgive-me/), [_First Reformed_](https://letterboxd.com/film/first-reformed/), [_The Rider_](https://letterboxd.com/film/the-rider/) and [_Burning_](https://letterboxd.com/film/burning-2018/).
 - Orson Welles's unfinished final film had been in post-production purgatory for years, to the point most people assumed it would never be completed and released. And yet this year it was, thanks to... *checks notes* Netflix? I got to see this in a theater and beyond the basic thrill of seeing something I thought I'd never see, [_The Other Side of the Wind_](https://letterboxd.com/film/the-other-side-of-the-wind/) was complex and sly and bewildering and brilliant.
 - If you're among the few left to whom I have not yet recommened Madeline Miller's mythological retelling [_Circe_](https://www.goodreads.com/book/show/35959740-circe), consider it recommended.
 - A fun and smart story with a young, spirited protagonist, Maureen Johnson's [_Truly Devious_](https://www.goodreads.com/book/show/29589074-truly-devious) reads like a love letter to all of us who love to read mysteries.
