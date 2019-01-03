@@ -350,7 +350,7 @@ h2.post-title {
 }
 
 h2.post-daily-title {
-  @extend h2.post-title;
+  @extend h2, .post-title;
   font-size: 2em;
   text-align: center;
 }
@@ -378,7 +378,7 @@ p.post-date {
 }
 
 p.post-daily-date {
-  @extend p.post-date;
+  @extend p, .post-date;
   border-bottom: $width-border-hairline solid darken($background-color, 3%);
   margin-bottom: 2em;
   padding-bottom: 0.5em;
