@@ -24,7 +24,7 @@ I keep my logs on my website at: [jenmyers.net/log/](https://jenmyers.net/log/)
 
 If you’re interested in a similar experiment, I put up the [media log template](https://github.com/jenmyers/media-log-template) I use on my own website. You can grab the HTML and put it in your own. Swap in or out any media types you do/don’t take in.
 
-Here’s the thing to remember about keeping a media log—it’s not just about list making and it’s not about reducing art to a number consumed. I suppose if either are those things are things you’re into, you can make it about that. But, for me, logging what I take in serves more purposes. It makes me think more deliberately about what I’m taking in. It makes me want to be well-rounded in what I choose to take in. And it reminds me that taking in art makes me happier. When I elevate it to a documented priority, I end up happier. Which is a valid enough of an output for me.
+Here’s the thing to remember about keeping a media log—it’s not just about list making and it’s not about reducing art to a number consumed. I suppose if either of those things are things you’re into, you can make it about that. But, for me, logging what I take in serves more purposes. It makes me think more deliberately about what I’m taking in. It makes me want to be well-rounded in what I choose to take in. And it reminds me that taking in art makes me happier. When I elevate it to a documented priority, I end up happier. Which is a valid enough of an output for me.
 
 <meta name="twitter:card" content="summary_large_image" />
 <meta name="twitter:site" content="@antiheroine" />
