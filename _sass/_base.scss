@@ -425,6 +425,12 @@ h3.section-title {
   }
 }
 
+h3.post-subheading {
+  font-family: $font-heading-primary;
+  font-size: 1.8em;
+  margin: 1.5em 0 1em 0;
+}
+
 h4.content-heading {
   color: darken($background-color, 50%);
   font-family: $font-heading-secondary;
