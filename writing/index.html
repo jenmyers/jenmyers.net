@@ -5,6 +5,17 @@ title: Writing
 
 <div class="writing-col">
 
+<h2 class="section-heading writing">Daily</h2>
+
+<p class="category-description">Regular postings of text, images, videos and other interesting things.</p>
+
+{% for post in site.posts %}
+  {% if post.category contains "daily" %}  
+  <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p class="post-date">{{ post.date | date: "%e %B %Y" }}</p>
+  {% endif %}
+{% endfor %}
+
 <h2 class="section-heading writing">Storytelling School</h2>
 
 <p class="category-description">A series of essay documenting my self-guided studies in storytelling, writing and filmmaking.</p>
@@ -16,7 +27,7 @@ title: Writing
   {% endif %}
 {% endfor %}
 
-<h2 class="section-heading writing">Noir Friday</h2>
+<!-- <h2 class="section-heading writing">Noir Friday</h2>
 
 <p class="category-description">A monthly look at a classic film noir. (Coming soon.)</p>
 
@@ -36,7 +47,7 @@ title: Writing
   <h2 class="post-title"><a href="{{ post.url }}">{{ post.title }}</a></h2>
   <p class="post-date">{{ post.date | date: "%e %B %Y" }}</p>
   {% endif %}
-{% endfor %}
+{% endfor %} -->
 
 </div>
 
