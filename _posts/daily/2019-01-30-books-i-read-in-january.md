@@ -21,3 +21,10 @@ This month I read:
 - __[_Frankenstein_](https://www.goodreads.com/book/show/20898091-frankenstein), Mary Shelley__: I’m not entirely finished with this one, but I think it’s safe for me to say this is a book that merits its mention. I have never read it before, and it's been an interesting experiment to strip away the layers of expectations and take in the original story.
 
 To keep up on my running list of books read, you can follow my [Goodreads](https://www.goodreads.com/jenmyers) profile.
+
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:site" content="@antiheroine" />
+<meta name="twitter:title" content="Books I Read in January" />
+<meta name="twitter:description" content="Thoughts and opinions on my latest reads." />
+<meta name="twitter:image" content="https://jenmyers.net/images/daily/books-jan-2019.jpg" />
+<meta name="twitter:image:alt" content="Stack of books with spines displaying the titles listed in the text" />
