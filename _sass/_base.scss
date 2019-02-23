@@ -186,7 +186,7 @@ hr {
 }
 
 .post-daily {
-  border-bottom: $width-border-hairline solid darken($background-color, 3%);
+  border-bottom: $width-border-medium solid darken($background-color, 3%);
   padding-bottom: 1em;
   margin-bottom: 6em;
 }
@@ -350,9 +350,20 @@ h2.post-title {
 }
 
 h2.post-daily-title {
-  @extend h2, .post-title;
-  font-size: 2em;
+  font-family: $font-heading-primary;
+  font-size: 2.8em;
+  font-weight: 300;
+  line-height: 140%;
   text-align: center;
+  a {
+    background-color: none;
+    border-bottom: none;
+    box-shadow: none;
+    color: darken($primary-color, 45%);
+    &:hover {
+      color: darken($primary-color, 35%);
+    }
+  }
 }
 
 h2.post-meta {
@@ -569,7 +580,7 @@ a {
   border-bottom-color: lighten($primary-color, 16%);
   border-bottom-style: solid;
   border-bottom-width: $width-border-hairline;
-  box-shadow: inset 0 -4px 0 lighten($primary-color, 16%);
+  box-shadow: inset 0 -3px 0 lighten($primary-color, 16%);
   color: #333;
   font-weight: 600;
   text-decoration: none;
@@ -579,6 +590,7 @@ a {
 .page-content li a:hover,
 .post-content p a:hover,
 .post-content li a:hover,
+.daily-content p a:hover,
 h2.post-title a:hover {
   background-color: lighten($primary-color, 16%);
 }
@@ -672,6 +684,12 @@ h2.post-title a:hover {
   padding: 0.5em;
   width: 40%
 }
+
+.daily-thumb {
+  display: inline-block;
+  margin: 0 0 2em 0;
+}
+
 
 // PLAYLIST TOGGLE
 

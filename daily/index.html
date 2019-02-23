@@ -6,6 +6,7 @@ category: daily
 
 {% for post in site.posts limit: 10 %}
   {% if post.category contains "daily" %}
+    <img class="daily-thumb" src="{{ site.baseurl }}/images/{{ post.bgimage }}">
     {% if post.content contains "<!-- more -->" %}
       {% include post-daily-excerpt.html %}
     {% else %}
