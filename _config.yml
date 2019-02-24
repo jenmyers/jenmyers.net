@@ -4,7 +4,7 @@ email: hello@jenmyers.net
 
 # Paths
 baseurl: ""
-url: "http://jenmyers.net"
+url: "https://jenmyers.net"
 sass:
   sass_dir: _sass
 
