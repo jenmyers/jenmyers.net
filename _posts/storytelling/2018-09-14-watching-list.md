@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      The Watching List 
-date:       2018-09-14
-author:     Jen Myers
-summary:    How I'm filling in my film knowledge gaps.
-type:       essay
-category:   storytelling
-bgimage:    typist.png
+layout:       post
+title:        The Watching List 
+date:         2018-09-14
+author:       Jen Myers
+description:  How I'm filling in my film knowledge gaps.
+type:         essay
+category:     storytelling
+image:        typist.png
+image-alt:    Vintage female writer smiling from her typewriter
 ---
 
 Like many people who like movies, I have long had a long list of “Movies I Haven’t Seen But Should.” They are the gaps that formed when movies came to me mostly by circumstance. Who can say why your parents owned this VHS cassette and not another? Why did your cousin take you to see that one movie in the theater and not another? It’s not something you always have control over. For the most part, you see the movies you see. When I did grow to exercise a certain measure of control, I still had only limited access to the film canon as a whole. I watched what I could find in my public library, on Turner Classic Movies or the Independent Film Channel, and the mainstream offerings that reached my small-town Ohio mall theater. The rest were left as blind spots that, as I got older, busier and more distracted, I simply accepted.

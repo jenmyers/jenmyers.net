@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      The Reading List 
-date:       2018-07-06
-author:     Jen Myers
-summary:    An ongoing list of recommended books about writing, filmmaking and storytelling
-type:       essay
-category:   storytelling
-bgimage:    typist.png
+layout:       post
+title:        The Reading List 
+date:         2018-07-06
+author:       Jen Myers
+description:  An ongoing list of recommended books about writing, filmmaking and storytelling
+type:         essay
+category:     storytelling
+image:        typist.png
+image-alt:    Vintage female writer smiling from her typewriter
 ---
 
 _When in doubt, go to the library._ Hermione Granger’s attributed life philosophy has lodged itself into my brain less because of the original _Harry Potter_ text it came from and more because of its evolution into endless internet graphics and t-shirts, but lodged itself it has—not in the least, presumably, because it aligns so closely to my own established reflex. Need to find an answer? To figure something out? To understand something? Go to the library.

@@ -7,7 +7,7 @@
 
     {% include header.html %}
 
-    <header class="post-page-header" {% if page.bgimage %} style="background-image: url(../images/{{ page.bgimage }})" {% endif %} >
+    <header class="post-page-header" {% if page.image %} style="background-image: url(../images/{{ page.image }})" {% endif %} >
 
       <div class="circle-bottom icon-post-bg">
 
@@ -26,7 +26,7 @@
         <header class="post-header">
           <h1 class="post-title"><a href="{{ page.url }}" id="title">{{ page.title }}</a></h1>
 
-          <p class="post-summary">{{ page.summary }}</p>
+          <p class="post-summary">{{ page.description }}</p>
           <h2 class="post-meta post-category"><a href="{{ site.baseurl }}/category/{{ page.category }}.html">{{ page.category }}</a></h2>
           <h2 class="post-meta">By {{ page.author }} • {{ page.date | date: "%-d %B %Y" }}</h2>
         </header>

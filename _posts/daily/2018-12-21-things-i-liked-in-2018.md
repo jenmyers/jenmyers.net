@@ -1,11 +1,12 @@
 ---
-title:      Things I Liked in 2018
-date:       2018-12-21
-author:     Jen Myers
-category:   daily
-layout:     post-daily
-bgimage:    daily/favourite.png
-summary:    Favorite books, films, podcasts, articles and whatever else I encountered in the past year.
+title:        Things I Liked in 2018
+date:         2018-12-21
+author:       Jen Myers
+category:     daily
+layout:       post-daily
+image:        daily/favourite.png
+image-alt:    Rachel Weisz and Emma Stone in THE FAVOURITE
+description:  Favorite books, films, podcasts, articles and whatever else I encountered in the past year.
 ---
 
 I don't keep up with enough brand-new books, films, etc. to make comprehensive best-of lists at the end of the year. But here's a list of various things from 2018 that I liked. Some of these I've mentioned in my newsletter or on Twitter, but I tried specifically to highlight things I might not have talked about much. So maybe you'll find some hidden gems in the bunch.
@@ -32,10 +33,3 @@ I don't keep up with enough brand-new books, films, etc. to make comprehensive b
 - And [Zach Baron's profile of Brendan Fraser for _GQ_](https://www.gq.com/story/what-ever-happened-to-brendan-fraser) stuck in my mind after reading it for a long time.
 - In 2018 I started studying tarot as a storytelling/reflection tool. I've found that [Jessica Dore’s Twitter account and daily tarot card interpretations](https://twitter.com/thejessicadore) to be lovely source of insight.
 - I've mentioned before that in 2018 I deliberately started working my way through a [“greatest films” list](https://letterboxd.com/jenmyers/list/1000-greatest-films-tsfdt-ranking/) as a way to fill in some cinematic knowledge gaps. I watched twenty-eight films I hadn't previously seen from the first hundred of that list and not only did I learn that a lot of those films are really good (who knew), it reactivated my love of watching films in a way I hadn't known since I was much younger. And that is a good thing.
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@antiheroine" />
-<meta name="twitter:title" content="Things I Liked in 2018" />
-<meta name="twitter:description" content="Favorite books, films, podcasts, articles and whatever else I encountered in the past year." />
-<meta name="twitter:image" content="https://jenmyers.net/images/daily/favourite.png" />
-<meta name="twitter:image:alt" content="Rachel Weisz and Emma Stone in THE FAVOURITE" />

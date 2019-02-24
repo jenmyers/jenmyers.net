@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      The Process
-date:       2019-01-25
-author:     Jen Myers
-summary:    Figuring out the how of making things.
-type:       essay
-category:   storytelling
-bgimage:    muses.png
+layout:       post
+title:        The Process
+date:         2019-01-25
+author:       Jen Myers
+description:  Figuring out the how of making things.
+type:         essay
+category:     storytelling
+image:        muses.png
+image-alt:    Greek stone relief depicting the Muses
 ---
 
 When I was a young scribbler, I wrote when the spirit moved me, and that worked out just fine. I had plenty of time: time when I was supposed to be doing homework, time after I had conceivably done homework but probably hadn’t, time where few other responsibilities crowded. I could let an idea set a fire and give it the freedom to rage and burn until the ash had settled and the spark was gone, and then I either had a complete creation or I had moved onto the next.
@@ -38,10 +39,3 @@ If you struggle to find inspiration and ideas, I’m afraid I don’t know how t
 The process can be regulated, encouraged and adjusted, but it can’t be pushed. It can’t be any smaller or faster than it is. It needs space and it needs time. There’s no way around it. Moving slowly and spending time is not a sign of failure or dysfunction. It’s necessary. It’s hard to figure out how much of either you need. You just kind of have to … let it go. Until it’s done.
 
 There is a lot of overlap among the guidelines I came up with, which didn’t really become clear to me until I wrote them out. They’re all slightly different aspects of the themes of flexibility, openness and gentle commitment. I can’t say for sure that I got the right ones or the correct interpretations. I’m not sure that the sort-of system I’ve worked out will work. But it seems an usable compass. So I’ll try walking with it for a while and see where I end up.
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@antiheroine" />
-<meta name="twitter:title" content="The Process" />
-<meta name="twitter:description" content="Figuring out the how of making things." />
-<meta name="twitter:image" content="https://jenmyers.net/images/muses.png" />
-<meta name="twitter:image:alt" content="Ancient stone relief of Greek muses" />

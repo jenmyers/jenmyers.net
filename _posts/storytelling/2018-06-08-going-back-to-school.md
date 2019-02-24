@@ -1,12 +1,13 @@
 ---
-layout:     post
-title:      Going Back to School
-date:       2018-06-08
-author:     Jen Myers
-summary:    At the beginning of this year, I resolved to spend more time focusing on what I really wanted to do—tell stories.
-type:       essay
-category:   storytelling
-bgimage:    typist.png
+layout:       post
+title:        Going Back to School
+date:         2018-06-08
+author:       Jen Myers
+description:  At the beginning of this year, I resolved to spend more time focusing on what I really wanted to do—tell stories.
+type:         essay
+category:     storytelling
+image:        typist.png
+image-alt:    Vintage female writer smiling from her typewriter
 ---
 
 At the beginning of this year, I resolved to spend more time focusing on what I really wanted to do: tell stories. Specifically, tell stories as written fiction and as film. I have always wanted to do this, but after I got discouraged out of pursuing it as a young person, it faded from a bright, burning need into a vague, “maybe someday” desire. But what is the addition of another year on top of the pile you’ve already accumulated if not an occasion to reactivate an old, neglected desire and give it one more shot.

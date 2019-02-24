@@ -1,6 +1,7 @@
 ---
-layout: default
-title: Home
+layout:       default
+title:        Home
+description:  Website of technologist and writer Jen Myers
 ---
 
 <div class="container">
@@ -43,7 +44,7 @@ title: Home
         <h3 class="section-title">
           <a href="{{ post.url }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h3>
-        <p class="section-summary">{{ post.summary }}</p>
+        <p class="section-summary">{{ post.description }}</p>
         <a class="button-hairline button-article" href="{{ post.url }}">Read</a>
       {% endfor %}
 
@@ -74,7 +75,7 @@ title: Home
             <h3 class="section-title">
               <a href="{{ post.url }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
             </h3>
-            <p class="section-summary">{{ post.summary }}</p>
+            <p class="section-summary">{{ post.description }}</p>
             <a class="button-hairline button-article" href="{{ post.url }}">Read</a>
           {% endif %}
         {% endfor %}

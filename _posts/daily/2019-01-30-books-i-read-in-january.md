@@ -1,11 +1,12 @@
 ---
-title:      Books I Read in January
-date:       2019-01-30
-author:     Jen Myers
-category:   daily
-layout:     post-daily
-bgimage:    daily/books-jan-2019.jpg
-summary:    Thoughts and opinions on my latest reads.
+title:        Books I Read in January
+date:         2019-01-30
+author:       Jen Myers
+category:     daily
+layout:       post-daily
+image:        daily/books-jan-2019.jpg
+image-alt:    Stack of books with spines displaying the titles listed in the text
+description:  Thoughts and opinions on my latest reads.
 ---
 
 Every week in my [newsletter](https://tinyletter.com/jenmyers/) I include a list of books I’m reading. I used to include longform recommendations, but that got tedious, plus often I read books I don’t particularly want to recommend. I cast a wide net, and sometimes what I read is mostly worthwhile as part of a large, diverse whole rather than outstanding individual items. However, I missed having a place to say things about single books. So here we are.
@@ -21,10 +22,3 @@ This month I read:
 - __[_Frankenstein_](https://www.goodreads.com/book/show/20898091-frankenstein), Mary Shelley__: I’m not entirely finished with this one, but I think it’s safe for me to say this is a book that merits its mention. I have never read it before, and it's been an interesting experiment to strip away the layers of expectations and take in the original story.
 
 To keep up on my running list of books read, you can follow my [Goodreads](https://www.goodreads.com/jenmyers) profile.
-
-<meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:site" content="@antiheroine" />
-<meta name="twitter:title" content="Books I Read in January" />
-<meta name="twitter:description" content="Thoughts and opinions on my latest reads." />
-<meta name="twitter:image" content="https://jenmyers.net/images/daily/books-jan-2019.jpg" />
-<meta name="twitter:image:alt" content="Stack of books with spines displaying the titles listed in the text" />
