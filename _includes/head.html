@@ -32,20 +32,16 @@
   <meta name="twitter:title" content="{{ page.title }}">
 
   {% if page.description %}
-    <meta name="twitter:description"
-      content="{{ page.description }}">
+    <meta name="twitter:description" content="{{ page.description }}">
   {% else %}
-    <meta name="twitter:description"
-      content="{{ page.description }}">
+    <meta name="twitter:description" content="{{ page.description }}">
   {% endif %}
 
   {% if page.image %}
-    <meta name="twitter:image"
-      content="{{ site.url }}/images/{{ page.image }}">
+    <meta name="twitter:image" content="{{ site.url }}/images/{{ page.image }}">
     <meta name="twitter:image:alt" content="{{ page.image-alt }}" />
   {% else %}
-    <meta name="twitter:image"
-      content="{{ site.url }}/images/typist.png">
+    <meta name="twitter:image" content="{{ site.url }}/images/typist.png">
     <meta name="twitter:image:alt" content="Vintage female writer smiling from her typewriter" />
   {% endif %}
 
