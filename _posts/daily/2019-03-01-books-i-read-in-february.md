@@ -4,7 +4,8 @@ date:         2019-03-01
 author:       Jen Myers
 category:     daily
 layout:       post-daily
-image:        typist.png
+image:        books.png
+image-alt:    Pages of books lying open
 description:  Thoughts and opinions on my latest reads.
 ---
 

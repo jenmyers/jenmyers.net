@@ -4,8 +4,8 @@ date:         2019-01-30
 author:       Jen Myers
 category:     daily
 layout:       post-daily
-image:        daily/books-jan-2019.jpg
-image-alt:    Stack of books with spines displaying the titles listed in the text
+image:        books.png
+image-alt:    Pages of books lying open
 description:  Thoughts and opinions on my latest reads.
 ---
 
