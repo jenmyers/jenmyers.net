@@ -5,6 +5,7 @@ date:         2016-01-21
 author:       Jen Myers
 description:  From 1963-1966, television horror host Ghoulardi ruled Cleveland. Years later, his influence still runs strong in the city and those who came from it. This is how it happened.
 type:         feature
+category:     feature
 image:        ghoulardi.png
 image-alt:    TV horror host Ghoulardi
 ---

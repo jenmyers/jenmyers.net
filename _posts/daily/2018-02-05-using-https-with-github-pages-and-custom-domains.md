@@ -1,10 +1,11 @@
 ---
-layout:   post
-title:    Using HTTPS with GitHub Pages + Custom Domains
-author:   Jen Myers
-summary:  How to set up HTTPS with an existing GitHub Pages website using a custom domain
-type:     tutorial
-bgimage:  typist.png
+layout:     post
+title:      Using HTTPS with GitHub Pages + Custom Domains
+author:     Jen Myers
+summary:    How to set up HTTPS with an existing GitHub Pages website using a custom domain
+type:       essay
+category:   daily
+bgimage:    typist.png
 ---
 
 Languishing on my to-to list for a while now has been migrating my GitHub Pages websites with custom domains to HTTPS. In principle, I know this is A Good Thing To Do. HTTPS is faster and more secure than HTTP, and if you want to run any sensitive information through your site at all, you need a secure protocol. To drive the point home, [Google recently announced that in summer of 2018 they will start labeling any site _not_ using HTTPS as “not secure,”](https://gizmodo.com/google-will-soon-start-shaming-all-sites-that-don-t-use-1822842705) thus shaming said sites in Google search results until they’re brought into compliance. So it’s clearly time for us all to get on board.
