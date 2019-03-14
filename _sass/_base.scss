@@ -186,7 +186,6 @@ hr {
 }
 
 .post-daily {
-  border-bottom: $width-border-medium solid darken($background-color, 3%);
   padding-bottom: 1em;
   margin-bottom: 6em;
 }
@@ -200,12 +199,19 @@ hr {
 // TYPOGRAPHY
 
 p, li, td {
-  font-size: 1.5em;
+  font-size: 1.6em;
   font-weight: 300;
   line-height: 160%;
   margin: 1em 0;
     @media only screen and (max-width : 420px) {
     font-size: 1.1em;
+  }
+  span {
+    display: block;
+    font-family: $font-heading-secondary;
+    font-size: 0.8em;
+    margin-top: 0.5em;
+    text-transform: uppercase;
   }
 }
 
