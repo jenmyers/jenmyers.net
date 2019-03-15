@@ -105,4 +105,4 @@ Wanda Dunn has worked for years to keep death at bay. She’s grown old alone in
 
 “Nothing in the Dark” is the counterpart to “The Hitch-Hiker,” where Death comes to lead a woman to what comes next. Here, Death (a young Robert Redford) is gentle and kind. He doesn’t force Wanda to her end but helps her come to terms with it herself. His methods are warmer than the hitch-hiker’s. It’s one of the more profound moments of _The Twilight Zone_’s sweet and light side—which it does have. It's not a side that always makes the strongest impression, but it's always there. Which is another lesson all in itself.
 
-¹ Netflix is missing Season Four, but Hulu has it—a fact I only discovered when I was 98% done with Season Five on Netflix. I’ll have to hop over to Hulu to fill in the gap later. After I’ve done that, I’ll update this post with any newly-found gems.
+<em>¹ Netflix is missing Season Four, but Hulu has it—a fact I only discovered when I was 98% done with Season Five on Netflix. I’ll have to hop over to Hulu to fill in the gap later. After I’ve done that, I’ll update this post with any newly-found gems.</em>
