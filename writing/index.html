@@ -6,17 +6,12 @@ description:  List of website posts and externally published pieces
 
 <ul>
   {% for post in site.posts %}
-
     {% if post.category contains "daily" or post.category contains "storytelling" or post.category contains "external" or post.category contains "feature" %}
-
       {% assign year = post.date | date: "%Y" %}
-
       {% if year != prev_year %}
         <h2 class="section-heading writing" id="{{ this_year }}-ref">{{year}}</h2>
       {% endif %}
-
       <li>
-
         {% if post.external_url %}
           <a href="{{ post.external_url }}">{{ post.title }}</a>
           <span>{{ post.external_site }}</span>
@@ -24,15 +19,10 @@ description:  List of website posts and externally published pieces
           <a href="{{ post.url }}">{{ post.title }}</a>
           <span>{{ post.category }}</span>
         {% endif %}
-
       </li>
-
       {% assign prev_year = year %}
-    
     {% endif %}
-
   {% endfor %}
-
 </ul>
 
 <h2 class="section-heading writing">Newsletters</h2>
