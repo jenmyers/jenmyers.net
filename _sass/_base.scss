@@ -387,16 +387,6 @@ h2.post-meta {
   }
 }
 
-h3 {
-  border-bottom: $width-border-hairline solid darken($background-color, 5%);
-  font-family: $font-heading-secondary;
-  font-size: 1.6em;
-  letter-spacing: 0.1em;
-  margin: 2em 0 0.5em 0;
-  padding-bottom: 0.5em;
-  text-transform: uppercase;
-}
-
 p.post-date {
   font-family: $font-heading-secondary;
   font-size: 1.2em;
@@ -453,9 +443,13 @@ h3.section-title {
 }
 
 h3.post-subheading {
-  font-family: $font-heading-primary;
-  font-size: 1.8em;
-  margin: 1.5em 0 1em 0;
+  border-bottom: $width-border-hairline solid darken($background-color, 5%);
+  font-family: $font-heading-secondary;
+  font-size: 1.6em;
+  letter-spacing: 0.1em;
+  margin: 2em 0 0.5em 0;
+  padding-bottom: 0.5em;
+  text-transform: uppercase;
 }
 
 h4.content-heading {

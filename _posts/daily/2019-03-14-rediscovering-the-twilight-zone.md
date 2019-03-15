@@ -23,7 +23,7 @@ But the several episodes that I had either never seen before or, more likely, ne
 
 (Spoilers ahead. Read accordingly.)
 
-<h3>“The Hitch-Hiker”</h3>
+<h3 class="post-subheading">“The Hitch-Hiker”</h3>
 
 _(Season 1, Episode 16)_
 
@@ -31,7 +31,7 @@ Young professional Nan Adams is on a cross-country road trip when she pulls into
 
 This is one of the more chilling episodes of the series, not in the least because it resonates with the fear most women know from traveling alone and being followed by a man. The fear, however, dissipates into acceptance at the end. It’s not the hitch-hiker’s fault Nan runs and panics. We tend to react to death that way at first. It’s really quite decent of him to give her enough time to comprehend, struggle and finally let go.
 
-<h3>"The After Hours</h3>
+<h3 class="post-subheading">"The After Hours</h3>
 
 _(Season 1, Episode 34)_
 
@@ -39,7 +39,7 @@ Marsha White is shopping at a department store for thimble as a gift for her mot
 
 I am terrified of mannequins, on the same principle that I’m scared of dolls, or anything else designed to approximate a human with some degree of accuracy. So I loved this episode because of its initial creepiness but also because it then turned the perspective completely around. Poor mannequins. Now instead of fearing they’ll come alive to kill me, I can pity them for being trapped in a possibly very boring existence.
 
-<h3>"Nightmare as a Child"</h3>
+<h3 class="post-subheading">"Nightmare as a Child"</h3>
 
 _(Season 1, Episode 29)_
 
@@ -47,7 +47,7 @@ On the steps of her apartment building, schoolteacher Helen Foley encounters a l
 
 At the heart of _The Twilight Zone_ is its ability to manifest a literal situation from a psychological one, and “Nightmare as a Child” is an excellent example of that, and of how the catharsis of a fiction can exorcise a mental demon. It ends with a positive resolution, a punctuation mark on the functional point of telling stories like these in the first place.
 
-<h3>"A Stop at Willoughby"</h3>
+<h3 class="post-subheading">"A Stop at Willoughby"</h3>
 
 _(Season 1, Episode 30)_
 
@@ -55,7 +55,7 @@ Advertising executive Gart Williams is beleaguered everywhere he turns. His boss
 
 This episode is one of the darkest statements the series makes about the downside of imagination and wish fulfillment. It’s not a topic _The Twilight Zone_ ever shies away from, but here it results in not in mere disillusionment or disappointment, but suicide. Just in case we thought maybe he was magically safe and happy elsewhere, we see that the hearse that carries Williams away is printed with “Willoughby and Son.” It was always all in William’s own mind. One of the series’s favorite lessons is that the monsters aren’t always external.
   
-<h3>“A World of Difference”</h3>
+<h3 class="post-subheading">“A World of Difference”</h3>
 
 _(Season 1, Episode 23)_
 
@@ -63,7 +63,7 @@ Arthur Curtis is a successful, happy businessman in the middle of planning a vac
 
 This episode so cleverly plays with the line between screen and reality that it’s essentially a commentary on itself. _The Twilight Zone_ is always self-aware—after all. Mr. Serling faces you  at the beginning of each tale and his voice returns at the end of each tale, bookending your experience so that you have a clear entrance and exit. We wouldn’t want to get stuck there, after all. “A World of Difference” posits that you _can_ get stuck there, and there might not always be a helpful Mr. Serling to show you how to get out. It might seem more attractive sometimes. But, as in “A Stop at Willoughby,” we usually fail to calculate the cost to escape reality.
   
-<h3>“Mirror Image”</h3>
+<h3 class="post-subheading">“Mirror Image”</h3>
 
 _(Season 1, Episode 21)_
 
@@ -71,7 +71,7 @@ Millicent Barnes is waiting in the station for a bus that will carry her to a ne
 
 “Mirror Image” is not one that is often mentioned in lists of the best _The Twilight Zone_ episodes, but it made a strong impression on me. Perhaps because it’s one of the most subtle and most unexplained. There is no moral to draw out here, nothing you can use to say, “Well, I would never do that, so I would be fine.” It’s a sinister and visceral story about what would happen if we lost the one thing we think we possess entirely: our self. Maybe it could just split away from us without our knowledge, through no fault of our own, and take off without us. The episode also hits on the strangeness of transitory places like bus stations, airports and the like. We might begin a trip as one version of ourselves and end as another, but then who are we in between?
 
-<h3>"The Invaders"</h3>
+<h3 class="post-subheading">"The Invaders"</h3>
 
 _(Season 2, Episode 15)_
 
@@ -79,7 +79,7 @@ An older woman is living alone in a rustic cabin, seemingly at some point in the
 
 Agnes Moorehead is the greatest of the under-appreciated screen actors—under-appreciated probably because she was so rarely on screen and her most well-known role (as Endora on _Betwitched_) hardly exposed her talent. But when she gets the chance, she’s electric. She gives this simple story, performed almost entirely without words, epic proportions. No pun intended.
 
-<h3>“Steel”</h3>
+<h3 class="post-subheading">“Steel”</h3>
 
 _(Season 5, Episode 2)_
 
@@ -89,7 +89,7 @@ In an alternate universe 1974, boxing has been outlawed and boxers have been rep
 
 The point of the story is supposed to be that while the replacement of men by machine in boxing was intended to preserve men, it ends up taking at least one of them apart—but he fights valiantly, stubbornly, humanly until the absolute end. But it’s also true that here “men” is very narrowly defined, and arguably to men’s detriment. What was once this man’s identity, livelihood and dignity is also what precludes any other skill, quality or value that might have saved him. I doubt this episode’s writer, Richard Matheson, had any idea that he could be writing a treatise on toxic masculinity and the devilish deals it forces men to make, but, in retrospect from our more enlightened times, that’s essentially what he might have done.
 
-<h3>“Little Girl Lost”</h3>
+<h3 class="post-subheading">“Little Girl Lost”</h3>
 
 _(Season 3, Episode 26)_
 
@@ -97,7 +97,7 @@ A couple is awakened in the middle of the night by their daughter’s crying. Bu
 
 This episode sounds almost silly when recounting its details, but it needs a content warning for parents. The idea that you could hear your child near you but not see or find them anywhere is devastating. It’s a little too pat that the parents here have a physicist friend on call who instantly guesses the little girl is in another dimension, but the emotion is significant enough to keep the story vital and genuinely frightening. This is also another one where there’s no moral lesson to be learned. The universe is inexplicable and unpredictable, and sometimes it swallows us whole. That’s it, that’s all there is. Sweet dreams!
 
-<h3>“Nothing in the Dark”</h3>
+<h3 class="post-subheading">“Nothing in the Dark”</h3>
 
 _(Season 3, Episode 16)_
 
