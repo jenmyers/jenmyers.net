@@ -224,6 +224,10 @@ ol {
   }
 }
 
+ul#writing li {
+  font-size: 1.8em;
+}
+
 address {
   @extend p;
   border-left: $width-border-hairline solid lighten($text-color, 52%);

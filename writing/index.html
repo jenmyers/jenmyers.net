@@ -4,7 +4,7 @@ title:        Writing
 description:  List of website posts and externally published pieces
 ---
 
-<ul>
+<ul id="writing">
   {% for post in site.posts %}
     {% if post.category contains "daily" or post.category contains "storytelling" or post.category contains "external" or post.category contains "feature" %}
       {% assign year = post.date | date: "%Y" %}
