@@ -201,7 +201,7 @@ hr {
 p, li, td {
   font-size: 1.5em;
   font-weight: 300;
-  line-height: 160%;
+  line-height: 150%;
   margin: 1em 0;
     @media only screen and (max-width : 420px) {
     font-size: 1.1em;
@@ -265,6 +265,11 @@ blockquote {
   @media only screen and (max-width : 420px) {
     font-size: 1.4em;
   }
+}
+
+.long-quote {
+  border-left: $width-border-thick solid darken($primary-color, 25%);
+  padding-left: 1em;
 }
 
 sup {
