@@ -11,6 +11,8 @@ description:  On the legacy and power of reinvention.
 
 One of my favorite things ever written about America is by Sarah Vowell in her book [_Layfayette in the Somewhat United States_](https://www.goodreads.com/book/show/24602886-lafayette-in-the-somewhat-united-states). The book as a whole is a modern trip through the history of the Marquis de Layfayette and his odd role in the making of revolutionary mythology, but, about three quarters of the way through the book, there is brief detour to another location of historical significance. Vowell writes:
 
+<!-- more -->
+
 <p class="long-quote">Before Sherm and I drive back to New York, we stop at one more historic site in Freehold, the former home of some twentieth-century relatives of one Private John Springsteen, who volunteered with the Monmouth County militia in 1775. This is the modest clapboard duplex at 39 1/2 Institute Street where Bruce Springsteen was living on September 9, 1956, the night he watched Elvis Presley's first appearance on <em>The Ed Sullivan Show</em>.</p>
 
 <p class="long-quote">After the broadcast, the six-year-old Springsteen talked his mother into renting him a guitar, "inspired," he later recalled, "by the passion in Elvis' pants."</p>
