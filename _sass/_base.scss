@@ -641,11 +641,11 @@ h2.post-title a:hover {
     color: darken($primary-color, 35%);
   }
   &.button-article {
-    border-color: darken($primary-color, 25%);
-    color: darken($primary-color, 25%);
+    border-color: darken($primary-color, 35%);
+    color: darken($primary-color, 35%);
     &:hover {
-      border-color: darken($primary-color, 35%);
-      color: darken($primary-color, 35%);
+      border-color: darken($primary-color, 45%);
+      color: darken($primary-color, 45%);
     }
   }
   &.button-newsletter {
