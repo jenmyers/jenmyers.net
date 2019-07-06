@@ -1,6 +1,6 @@
 # Jenmyers.net
 
-The personal website of Jen Myers, a real swell gal. Includes writing, about info, speaking history, mentoring signup and yearly media log.
+The personal website of Jen Myers, technologist and writer. Includes writing, about info, speaking history, mentoring signup and yearly media log.
 
 
 ## Tools
@@ -14,7 +14,8 @@ The personal website of Jen Myers, a real swell gal. Includes writing, about inf
 
 ## Versions
 
-- Artoo refresh (May 2018)
+- Artoo v3 (June 2019)
+- Artoo v2 (May 2018)
 - Artoo (January 2016)
 - Servo (January 2015)
 - Wall-E (November 2013)
