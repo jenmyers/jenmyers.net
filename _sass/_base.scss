@@ -30,7 +30,7 @@ body {
 }
 
 .intro {
-  padding: 5em 0;
+  padding-bottom: 4em;
 }
 
 .primary, .secondary, .tertiary, .contact {
@@ -413,10 +413,10 @@ p.post-daily-date {
 
 p.post-description, p.category-description {
   font-family: $font-accent;
-  font-size: 1.2em;
+  font-size: 1.4em;
   font-style: italic;
   margin-bottom: 2em;
-  margin-top: 0em;
+  margin-top: 1em;
 }
 
 p.post-summary, p.post-conclusion {
@@ -641,11 +641,11 @@ h2.post-title a:hover {
     color: darken($primary-color, 35%);
   }
   &.button-article {
-    border-color: darken($primary-color, 25%);
-    color: darken($primary-color, 25%);
+    border-color: darken($primary-color, 35%);
+    color: darken($primary-color, 35%);
     &:hover {
-      border-color: darken($primary-color, 35%);
-      color: darken($primary-color, 35%);
+      border-color: darken($primary-color, 45%);
+      color: darken($primary-color, 45%);
     }
   }
   &.button-newsletter {
@@ -680,6 +680,7 @@ h2.post-title a:hover {
 // IMAGES
 
 .primary-img {
+  margin-top: 1em;
   @media only screen and (max-width : 620px) {
     width: 60%;
   }
