@@ -829,3 +829,15 @@ ul.log {
 .calendly-inline-widget {
   margin-top: 80px;
 }
+
+
+// UNDO STYLING FOR GITHUB GIST EMBED
+
+td span {
+  display: inline;
+  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
+  font-size: 1em;
+  font-weight: normal;
+  margin: 0;
+  text-transform: none;
+}
