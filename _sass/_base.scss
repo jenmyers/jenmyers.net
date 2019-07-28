@@ -186,8 +186,9 @@ hr {
 }
 
 .post-daily {
-  padding-bottom: 1em;
   margin-bottom: 3em;
+  padding-bottom: 1em;
+  text-align: center;
 }
 
 .post-content img {
@@ -369,7 +370,6 @@ h2.post-daily-title {
   font-size: 2.8em;
   font-weight: 300;
   line-height: 140%;
-  text-align: center;
   a {
     background-color: none;
     border-bottom: none;
@@ -408,7 +408,6 @@ p.post-daily-date {
   border-bottom: $width-border-hairline solid darken($background-color, 3%);
   margin-bottom: 2em;
   padding-bottom: 0.5em;
-  text-align: center;
 }
 
 p.post-description, p.category-description {
@@ -427,10 +426,6 @@ p.post-summary, p.post-conclusion {
   @media only screen and (max-width : 420px) {
     font-size: 1em;
   }
-}
-
-p.more {
-  text-align: right;
 }
 
 h3.section-title {
