@@ -180,14 +180,14 @@ hr {
   @include span-columns(8);
   @include shift(2);
   padding: 4em 0 2em 0;
-  img {
-    width: 100%;
-  }
+  // img {
+  //   width: 100%;
+  // }
 }
 
 .post-daily {
   padding-bottom: 1em;
-  margin-bottom: 6em;
+  margin-bottom: 3em;
 }
 
 .post-content img {
@@ -705,9 +705,14 @@ h2.post-title a:hover {
   width: 40%
 }
 
-.daily-thumb {
-  display: inline-block;
-  margin: 0 0 2em 0;
+.daily-img-container {
+  text-align: center;
+}
+.daily-img {
+  -webkit-mask-image: radial-gradient(circle at 50% 50%, black 50%, rgba(0, 0, 0, 0) 50%);
+  mask-image: radial-gradient(circle at 50% 50%, black 50%, rgba(0, 0, 0, 0) 50%);
+  width: 60%;
+  margin: 0em auto;
 }
 
 
