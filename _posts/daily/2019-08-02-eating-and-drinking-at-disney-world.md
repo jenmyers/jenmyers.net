@@ -4,7 +4,7 @@ date:         2019-08-02
 author:       Jen Myers
 category:     daily
 layout:       post-daily
-image:        /daily/ears.png
+image:        daily/ears.png
 image-alt:    back of a girl's head with long hair a wearing Minnie Mouse ear headband
 description:  This year's list of snacks, drinks and meals.
 ---
