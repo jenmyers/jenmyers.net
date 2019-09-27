@@ -9,7 +9,7 @@ image-alt:    House on the Rock carousel
 description:  Words and video about a strange, overgrown roadside attraction.
 ---
 
-The first time I heard about the House on the Rock, I thought it wasn’t a real place. In Neil Gaiman’s novel _American Gods_, it fits right in along the other fantastical locations described there, like the land of the dead, the otherworldly dimension called “Backstage,” and Chicago. I read about this ultimate roadside attraction, sprawled around a remote portion of Wisconsin and filled with musical automatons, collections of curiosities and the largest carousel in the world that no one is allowed to ride—the place where the gods, old and new, congregate because it represents the uniquely American fascination with oddities that sprung from the vacuum of a more profound mythology and is therefore a strange kind of sacred—and I just assumed, reasonably, that someone made it all up.
+The first time I heard about the House on the Rock, I thought it wasn’t a real place. In Neil Gaiman’s novel _American Gods_, it fits right in along the other fantastical locations described there, like the land of the dead, the otherworldly dimension called “Backstage,” and Chicago. I read about this ultimate roadside attraction, sprawled around a remote portion of Wisconsin and filled with musical automatons, collections of curiosities and the largest carousel in the world that no one is allowed to ride—the place where the gods congregate because it represents the uniquely American fascination with oddities that sprung from the vacuum of a more profound mythology and is therefore a strange kind of sacred—and I just assumed, reasonably, that someone made it all up.
 
 <!-- more -->
 
