@@ -227,6 +227,7 @@ ol {
 
 ul#writing li {
   font-size: 1.8em;
+  margin: 0.5em 0 0 0;
 }
 
 address {
@@ -338,9 +339,9 @@ h2.site-description, {
 
 h2.section-heading {
   font-family: $font-heading-secondary;
-  font-size: 1.4em;
+  font-size: 1.8em;
   letter-spacing: 0.1em;
-  margin: 4em 0 0.5em 0;
+  margin: 3em 0 0.5em 0;
   text-transform: uppercase;
   &:first-of-type {
     margin: 2em 0 0.5em 0;
