@@ -4,6 +4,8 @@ title:        Writing
 description:  List of website posts and externally published pieces
 ---
 
+<p>★ = <em>external piece</em></p>
+
 <ul id="writing">
   {% for post in site.posts %}
     {% if post.category contains "daily" or post.category contains "storytelling" or post.category contains "external" or post.category contains "feature" %}
@@ -14,7 +16,7 @@ description:  List of website posts and externally published pieces
       <li>
         {% if post.external_url %}
           ★ <a href="{{ post.external_url }}">{{ post.title }}</a>
-          <span>{{ post.external_site }}</span>
+          <span>{{ post.writing_type }} / {{ post.external_site }}</span>
         {% else %}
           <a href="{{ post.url }}">{{ post.title }}</a>
           <span>{{ post.category }}</span>
