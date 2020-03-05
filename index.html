@@ -40,13 +40,13 @@ description:  Website of technologist and writer Jen Myers
 
       <h2 class="section-heading">Most Recent Post</h2>
 
-      {% for post in site.posts limit: 1 %}
-        <h3 class="section-title">
-          <a href="{{ post.url }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h3>
-        <p class="section-summary">{{ post.description }}</p>
-        <a class="button-hairline button-article" href="{{ post.url }}">Read</a>
-      {% endfor %}
+        {% for post in site.categories.daily limit: 1 %}
+          <h3 class="section-title">
+            <a href="{{ post.url }}" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h3>
+          <p class="section-summary">{{ post.description }}</p>
+          <a class="button-hairline button-article" href="{{ post.url }}">Read</a>
+        {% endfor %}
 
     </div>
 
