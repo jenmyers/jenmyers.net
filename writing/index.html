@@ -4,28 +4,50 @@ title:        Writing
 description:  List of website posts and externally published pieces
 ---
 
-<p>★ = <em>external piece</em></p>
+<h2 class="section-heading writing">Fiction</h2>
 
-<ul id="writing">
-  {% for post in site.posts %}
-    {% if post.category contains "daily" or post.category contains "storytelling" or post.category contains "external" or post.category contains "feature" %}
+{% for post in site.posts %}
+  <ul>
+    {% if post.writing_type contains "fiction" or post.writing_type contains "flash fiction" or post.writing_type contains "microfiction" %}
+    <li>
+      <a href="{{ post.external_url }}">{{ post.title }}</a>
+        <span>{{ post.external_site }} / {{ post.writing_type }} </span>
+    </li>
+    {% endif %}
+  </ul>
+{% endfor %}
+
+<h2 class="section-heading writing">Non-Fiction</h2>
+
+{% for post in site.posts %}
+  <ul>
+    {% if post.writing_type contains "essay" %}
+    <li>
+      <a href="{{ post.external_url }}">{{ post.title }}</a>
+        <span>{{ post.external_site }} / {{ post.writing_type }}</span>
+    </li>
+    {% endif %}
+  </ul>
+{% endfor %}
+
+<h2 class="section-heading writing">Website</h2>
+
+{% for post in site.posts %}
+  <ul>
+    {% if post.category contains "daily" or post.category contains "storytelling" or post.category contains "feature" %}
       {% assign year = post.date | date: "%Y" %}
       {% if year != prev_year %}
-        <h2 class="section-heading writing" id="{{ this_year }}-ref">{{year}}</h2>
+        <h2 class="section-heading writing-date" id="{{ this_year }}-ref">{{year}}</h2>
       {% endif %}
       <li>
-        {% if post.external_url %}
-          ★ <a href="{{ post.external_url }}">{{ post.title }}</a>
-          <span>{{ post.writing_type }} / {{ post.external_site }}</span>
-        {% else %}
-          <a href="{{ post.url }}">{{ post.title }}</a>
-          <span>{{ post.category }}</span>
-        {% endif %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span>{{ post.category }}</span>
       </li>
       {% assign prev_year = year %}
     {% endif %}
-  {% endfor %}
-</ul>
+  </ul>
+{% endfor %}
+
 
 <h2 class="section-heading writing">Newsletters</h2>
 
