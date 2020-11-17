@@ -58,7 +58,7 @@ If you’re relatively new to horror films, this might give you some places to s
 - [_Frankenstein_](https://letterboxd.com/film/frankenstein-1931/) (1931) James Whale
 - [_The Invisible Man_](https://letterboxd.com/film/the-invisible-man/) (1933) James Whale
 - [_Mad Love_](https://letterboxd.com/film/mad-love/) (1935) Karl Freund
-- [Invasion of the Body Snatchers](https://letterboxd.com/film/invasion-of-the-body-snatchers/) (1956) Don Siegel
+- [_Invasion of the Body Snatchers_](https://letterboxd.com/film/invasion-of-the-body-snatchers/) (1956) Don Siegel
 - [_Invasion of the Body Snatchers_](https://letterboxd.com/film/invasion-of-the-body-snatchers-1978/) (1978) Philip Kaufman
 - [_Carrie_](https://letterboxd.com/film/carrie-1976/) (1976) Brian De Palma
 - [_Alien_](https://letterboxd.com/film/alien/) (1979) Ridley Scott
@@ -108,7 +108,7 @@ If you’re relatively new to horror films, this might give you some places to s
 - [_The Texas Chain Saw Massacre 2_](https://letterboxd.com/film/the-texas-chainsaw-massacre-2/) (1986) Tobe Hooper
 - [_The Silence of the Lambs_](https://letterboxd.com/film/the-silence-of-the-lambs/) (1991) Jonathan Demme
 - [_The People Under the Stairs_](https://letterboxd.com/film/the-people-under-the-stairs/) (1991) Wes Craven
-- [_The Invitation_](https://letterboxd.com/film/red-eye/) (2015) Karyn Kusama [https://letterboxd.com/film/the-invitation-2015/]
+- [_The Invitation_](https://letterboxd.com/film/red-eye/) (2015) Karyn Kusama
 - [_Get Out_](https://letterboxd.com/film/get-out-2017/) (2017) Jordan Peele
 - [_Revenge_](https://letterboxd.com/film/revenge-2017-1/) (2017) Coralie Fargeat
 - [_Ready or Not_](https://letterboxd.com/film/ready-or-not-2019/) (2019) Matt Bettinelli-Olpin & Tyler Gillett
