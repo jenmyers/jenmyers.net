@@ -1,0 +1,39 @@
+<aside>
+
+  <h3>Connect</h3>
+
+  <ul>
+    <li><a href="https://twitter.com/antiheroine">Twitter</a></li>
+    <li><a href="https://letterboxd.com/jenmyers/">Letterboxd</a></li>
+    <li><a href=" https://www.goodreads.com/jenmyers">Goodreads</a></li>
+  </ul>
+
+  <h3>Media Logs</h3>
+
+  <p>Yearly lists of books read, films and television series watched, podcasts listened to, theater/music performances attended and so forth.</p>
+
+  <ul>
+    <li><a href="{{ site.baseurl }}/log/2020">2020</a></li>
+    <li><a href="{{ site.baseurl }}/log/2019">2019</a></li>
+    <li><a href="{{ site.baseurl }}/log/2018">2018</a></li>
+    <li><a href="{{ site.baseurl }}/log/2017">2017</a></li>
+    <li><a href="{{ site.baseurl }}/log/">Archive</a></li>
+  </ul>
+
+  <h3>Recent Notes</h3>
+
+  <ul>
+  {% for post in site.categories.notes limit: 5 %}
+    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+  </ul>
+
+   <p class="forward"><a href="{{ site.baseurl }}/category/notes.html">All Notes</a></p>
+
+   <h3>Podcast</h3>
+
+   <p>I co-host <strong>Quiet Little Horrors</strong>, a monthly podcast about psychological horror films. Join us to talk about scary stuff.</p>
+
+   <p class="forward"><a href="https://quietlittlehorrors.com">Listen →</a></p>
+
+</aside>

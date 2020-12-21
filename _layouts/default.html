@@ -7,10 +7,21 @@
 
     {% include header.html %}
 
-    {{ content }}
+    {% for post in site.categories.notes limit: 1 %}
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}/js/app.js"></script>
+      <div class="post-header" {% if post.image %} style="background-image: url({{ site.baseurl }}/images/{{ post.image }}); background-position: center; background-size: cover;" {% endif %}></div>
+
+    {% endfor %}
+
+    <div class="container">
+
+      {% include article.html %}
+
+      {% include aside.html %}
+
+    </div>
+
+    {% include footer.html %}
 
   </body>
 

@@ -1,0 +1,9 @@
+<article>
+
+  <h2><a href="{{ page.url }}" id="title">{{ page.title }}</a></h2>
+
+  <p class="post-summary">{{ page.description }}</p>
+  <p class="post-date">{{ page.date | date: "%-d %B %Y" }}</p>
+  {{ content }}
+
+</article>

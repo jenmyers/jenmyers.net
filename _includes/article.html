@@ -1,0 +1,17 @@
+<article>
+
+{% if page.title == "Home" %}
+
+  {{ content }}
+
+  {% elsif page.title %}
+
+    <h2>{{ page.title }}</h2>
+
+     {{ content }}
+
+  {% else %}
+
+{% endif %}
+
+</article>

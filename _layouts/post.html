@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
   {% include head.html %}
 
@@ -7,54 +7,17 @@
 
     {% include header.html %}
 
-    <header class="post-page-header" {% if page.image %} style="background-image: url(../images/{{ page.image }})" {% endif %} >
-
-      <div class="circle-bottom icon-post-bg">
-
-        <svg class="icon icon-header icon-pencil icon-post">
-          <use xlink:href="{{ site.baseurl }}/defs.svg#icon-pencil"></use>
-        </svg>
-
-      </div>
-
-    </header>
+    {% include post-header.html %}
 
     <div class="container">
 
-      <div class="page">
+      {% include post.html %}
 
-        <header class="post-header">
-          <h1 class="post-title"><a href="{{ page.url }}" id="title">{{ page.title }}</a></h1>
-          {% if page.type contains "feature" %}
-          <a href="#playlist">
-            <div class="toggle-bg">
-              <svg class="icon icon-music toggle-playlist">
-                <use xlink:href="{{ site.baseurl }}/defs.svg#icon-music"></use>
-              </svg>
-            </div>
-          </a>
-          {% endif %}
-
-          <p class="post-summary">{{ page.description }}</p>
-          <h2 class="post-meta post-category"><a href="{{ site.baseurl }}/category/{{ page.category }}.html">{{ page.category }}</a></h2>
-          <h2 class="post-meta">By {{ page.author }} • {{ page.date | date: "%-d %B %Y" }}</h2>
-        </header>
-
-        <article class="post-content">
-          {{ content }}
-          <hr />
-        </article>
-
-        <a class="button-hairline button-center" href="{{ site.baseurl }}/writing/">All writing</a>
-        
-      </div>
+      {% include aside.html %}
 
     </div>
 
     {% include footer.html %}
-
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="{{ site.baseurl }}/js/app.js"></script>
 
   </body>
 

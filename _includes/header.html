@@ -1,5 +1,33 @@
-<header class="site-header">
+<header>
 
-  
+  <div class="header-title">
+
+  {% if page.title == "Writing" %}
+    {% include title-writing.html %}
+    {% elsif page.title contains "Newsletter" %}
+    {% include title-newsletter.html %}
+    {% elsif page.title contains "About" %}
+    {% include title-about.html %}
+    {% elsif page.title contains "Not Found" %}
+    {% include title-catchall.html %}
+    {% elsif page.title %}
+    {% include title-default.html %}
+    {% else %}
+  {% endif %}
+
+  <h1><a href="{{ site.baseurl }}/">Jen Myers</a></h1>
+
+  </div>
+
+  <div class="header-nav">
+
+    <ul>
+      <li><a href="{{ site.baseurl }}/category/notes/">Notes</a></li>
+      <li><a href="{{ site.baseurl }}/writing/">Writing</a></li>
+      <li><a href="{{ site.baseurl }}/newsletter/">Newsletter</a></li>
+      <li><a href="{{ site.baseurl }}/about/">About</a></li>
+    </ul>
+
+  </div>
 
 </header>

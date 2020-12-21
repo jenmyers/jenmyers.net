@@ -1,23 +1,35 @@
----
-layout: page
----
+<!DOCTYPE html>
+<html lang="en">
 
-{% for post in site.categories[page.category] %}
-  <h2 class="post-title"><a href="{{ post.url | absolute_url }}">{{ post.title }}</a></h2>
-  <p class="post-date">{{ post.date | date: "%e %B %Y" }}</p>
-{% endfor %}
+  {% include head.html %}
 
-<hr />
+  <body>
 
-{% if page.title == "Daily" %}
-  <a class="button-hairline button-center" href="{{ site.baseurl }}/daily/">Daily home</a>
-{% else %}
-  <a class="button-hairline button-center" href="{{ site.baseurl }}/writing/">All writing</a>
-{% endif %}
+    {% include header.html %}
 
+    <div class="container">
 
+      <article>
 
+        <h2>Notes</h2>
 
+        <ul class="index-list">
+        {% for post in site.categories[page.category] %}
+          <li>
+            <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
+            <span>{{ post.date | date: "%e %B %Y" }}</span>
+          </li>
+        {% endfor %}
+      </ul>
 
+      </article>
 
+      {% include aside.html %}
 
+    </div>
+
+    {% include footer.html %}
+
+  </body>
+
+</html>

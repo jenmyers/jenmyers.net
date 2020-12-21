@@ -1,54 +1,34 @@
 ---
-layout:       page
-title:        Writing
-description:  List of website posts and externally published pieces
+title: Writing
+layout: page
 ---
 
-<h2 class="section-heading writing">Fiction</h2>
+<h3>Fiction</h3>
 
+<ul class="index-list">
 {% for post in site.posts %}
-  <ul>
-    {% if post.writing_type contains "fiction" or post.writing_type contains "flash fiction" or post.writing_type contains "microfiction" %}
-    <li>
-      <a href="{{ post.external_url }}">{{ post.title }}</a>
-        <span>{{ post.external_site }} / {{ post.writing_type }} </span>
-    </li>
-    {% endif %}
-  </ul>
+  {% if post.writing_type contains "fiction" or post.writing_type contains "flash fiction" or post.writing_type contains "microfiction" %}
+  <li>
+    <a href="{{ post.external_url }}">{{ post.title }} →</a>
+      <span><strong>{{ post.external_site }}</strong> • {{ post.writing_type }}</span>
+  </li>
+  {% endif %}
 {% endfor %}
+</ul>
 
-<h2 class="section-heading writing">Non-Fiction</h2>
+<h3>Non-Fiction</h3>
 
+<ul class="index-list">
 {% for post in site.posts %}
-  <ul>
-    {% if post.writing_type contains "essay" %}
-    <li>
-      <a href="{{ post.external_url }}">{{ post.title }}</a>
-        <span>{{ post.external_site }} / {{ post.writing_type }}</span>
-    </li>
-    {% endif %}
-  </ul>
+  {% if post.writing_type contains "essay" %}
+  <li>
+    <a href="{{ post.external_url }}">{{ post.title }} →</a>
+      <span><strong>{{ post.external_site }}</strong> • {{ post.writing_type }}</span>
+  </li>
+  {% endif %}
 {% endfor %}
+</ul>
 
-<h2 class="section-heading writing">Website</h2>
+<!-- <h3>Newsletters</h3>
 
-{% for post in site.posts %}
-  <ul>
-    {% if post.category contains "daily" or post.category contains "storytelling" or post.category contains "feature" %}
-      {% assign year = post.date | date: "%Y" %}
-      {% if year != prev_year %}
-        <h2 class="section-heading writing-date" id="{{ this_year }}-ref">{{year}}</h2>
-      {% endif %}
-      <li>
-        <a href="{{ post.url }}">{{ post.title }}</a>
-        <span>{{ post.category }}</span>
-      </li>
-      {% assign prev_year = year %}
-    {% endif %}
-  </ul>
-{% endfor %}
-
-
-<h2 class="section-heading writing">Newsletters</h2>
-
-<p class="post-description"><em>From 2014 to 2017, I wrote a brief essay every week in my email newsletter, Modern Adventuress, and made it freely available. All of those essays are collected at the <a href="http://modernadventuress.com/archive/">Modern Adventuress archive</a>.</em> As of the beginning of 2018, essays are available to <a href="https://jenmyers.substack.com">paid subscribers</a> of the newsletter.</p>
+<p><em>From 2014 to 2017, I wrote a brief essay every week in my email newsletter, Modern Adventuress. You can read all of those essays at the <a href="http://modernadventuress.com/archive/">Modern Adventuress archive</a>. As of the beginning of 2018, essays are available to <a href="https://jenmyers.substack.com">paid subscribers</a> of the newsletter.</em></p> -->

@@ -1,844 +1,294 @@
-// MAIN
-
-html, body {
-  height: 100%;
-}
+// GLOBAL
 
 body {
-  background-color: $background-color;
-  color: $text-color;
-  font-family: $font-text;
-  margin: 0px;
-  padding: 0px;
+  background-color: #fff;
+  color: #333;
+  font-family: "freight-text-pro", serif;
+  font-size: 1.4em;
+  line-height: 140%;
+  margin: 0;
 }
-
 
 // LAYOUT
 
 .container {
-  @include outer-container;
+  justify-content: center;
+  margin: 0em auto;
+  text-align: center;
+  width: 85%;
 }
 
-.page {
-  @include span-columns(10);
-  @include shift(1);
-  margin-bottom: 4em;
-}
-
-.intro, .primary, .secondary, .tertiary, .contact, .footer {
+header {
+  background-color: #000;
+  padding: 1em 2em;
   text-align: center;
 }
 
-.intro {
-  padding-bottom: 4em;
+aside {
+  padding-left: 1em;
 }
 
-.primary, .secondary, .tertiary, .contact {
-  padding: 0 0 6em 0;
-}
-
-.site-footer {
-  background-color: darken($background-color, 10%);
-  padding: 3em 0;
-  text-align: center;
-}
-
-.page-header {
-  border-top: $width-border-thick solid darken($background-color, 10%);
-  margin-bottom: 2em;
-  text-align: center;
+footer {
+  background-color: #000;
+  grid-area: footer;
+  padding: 1em 2em 0.5em 2em;
 }
 
 .post-header {
-  margin: 0 0 5em 0;
-  position: relative;
-  text-align: center;
+  height: 400px;
 }
 
-.primary-wrapper {
-  background-color: $primary-color;
-}
+// DESKTOP LAYOUT
 
-.secondary-wrapper {
-  background-color: darken($background-color, 10%);
-}
-
-.tertiary-wrapper {
-  background-color: lighten($secondary-color, 10%);
-}
-
-.contact-wrapper {
-  background-color: $text-color;
-  color: $background-color;
-}
-
-.footer-wrapper {
-  background-color: darken($background-color, 10%);
-}
-
-.icon-primary {
-  color: $primary-color;
-}
-
-.icon-secondary {
-  color: darken($background-color, 10%);
-}
-
-.icon-tertiary {
-  color: lighten($secondary-color, 10%);
-}
-
-.icon-contact {
-  color: lighten($text-color, 10%);
-}
-
-.icon-page {
-  color: darken($background-color, 20%);
-}
-
-.icon-post {
-  color: darken($background-color, 10%);
-}
-
-.circle-bottom {
-  height: 5em;
-  width: 10em;
-  border-radius: 0 0 5em 5em;
-  -moz-border-radius: 0 0 5em 5em;
-  -webkit-border-radius: 0 0 5em 5em;
-  margin: 0 auto;
-  padding-top: 0.65em;
-  text-align: center;
-  &.icon-primary-bg {
-    background-color: darken($primary-color, 10%);
+@media only screen and (min-width: 1025px){
+  .container {
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-areas:
+    "header header header"
+    "article article aside"
+    "footer footer footer";
+    justify-content: center;
+    margin: 0em auto;
+    text-align: left;
+    width: 85%;
   }
-  &.icon-secondary-bg {
-    background-color: darken($background-color, 16%);
+  header {
+    background-color: #000;
+    display: grid;
+    grid-area: header;
+    grid-template-columns: 2;
+    grid-template-areas:
+    "header-title header-nav";
+    text-align: left;
   }
-  &.icon-tertiary-bg {
-    background-color: $secondary-color;
+  .header-title {
+    grid-area: header-title;
   }
-  &.icon-contact-bg {
-    background-color: darken($text-color, 10%);
+  .header-nav {
+    grid-area: header-nav;
+    text-align: right;
   }
-  &.icon-page-bg {
-    background-color: darken($background-color, 10%);
+  article {
+    grid-area: article;
   }
-  &.icon-post-bg {
-    background-color: $background-color;
+  aside {
+    grid-area: aside;
   }
-}
-
-.circle-top {
-  height: 5em;
-  width: 10em;
-  border-radius: 5em 5em 0 0;
-  -moz-border-radius: 5em 5em 0 0;
-  -webkit-border-radius: 5em 5em 0 0;
-  margin: 0 auto;
-  padding-top: 1.2em;
-  background-color: darken($background-color, 10%);
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.post-page-header {
-  background-size: cover;
-  background-color: $primary-color;
-  height: 420px;
-  text-align: center;
-  position: relative;
-  &.ghoulardi {
-    background-image: url("../images/articles/ghoulardi.png");
+  header li {
+    margin: 1.2em 0 0 0;
   }
-}
-
-.post-info {
-  background-color: rgba(255, 255, 255, 0.15);
-  padding: 2em 0;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-
-hr {
-  border: $width-border-hairline solid darken($background-color, 5%);
-  margin: 4em auto;
-  width: 80%
-}
-
-.writing-col {
-  @include span-columns(6);
-  @media only screen and (max-width : 620px) {
-    @include span-columns(12);
+  h2 {
+    margin: 0;
   }
-}
-
-.daily-content {
-  @include span-columns(8);
-  @include shift(2);
-  padding: 4em 0 2em 0;
-  // img {
-  //   width: 100%;
-  // }
-}
-
-.post-daily {
-  margin-bottom: 3em;
-  padding-bottom: 1em;
-  text-align: center;
-}
-
-.post-content img {
-  width: 50%;
-  display: block;
-  margin: 0 auto;
 }
 
 // TYPOGRAPHY
 
-p, li, td {
-  font-size: 1.5em;
+h1, h2, h3, h4, h5, h6 {
+  font-family: "brandon-grotesque", sans-serif;
   font-weight: 300;
-  line-height: 150%;
-  margin: 1em 0;
-    @media only screen and (max-width : 420px) {
-    font-size: 1.1em;
-  }
-  span {
-    display: block;
-    font-family: $font-heading-secondary;
-    font-size: 0.8em;
-    margin-top: 0.5em;
-    text-transform: uppercase;
-  }
-}
-
-ol {
-  list-style-type: decimal;
-  margin: 3em 0;
-  li {
-    margin: 0 0 2em 2em;
-    padding-left: 0.5em;
-  }
-}
-
-ul#writing li {
-  font-size: 1.8em;
-  margin: 0.5em 0 0 0;
-}
-
-address {
-  @extend p;
-  border-left: $width-border-hairline solid lighten($text-color, 52%);
-  margin: 2em 0 2em 2em;
-  padding-left: 1em;
-}
-
-strong {
-  font-weight: 600;
-}
-
-em {
-  font-style: italic;
-}
-
-blockquote {
-  font-family: $font-accent;
-  font-size: 2em;
-  font-style: italic;
-  line-height: 125%;
-  width: 10em;
-  span {
-    background-color: lighten($primary-color, 20%);
-    box-decoration-break: clone;
-    display: inline;
-  }
-  &.right {
-    float: right;
-    margin: 1em 1em 1em 1.4em;
-  }
-  &.left {
-    float: left;
-    margin: 1em 1.4em 1em 1em;
-  }
-  @media only screen and (max-width : 420px) {
-    font-size: 1.4em;
-  }
-}
-
-.long-quote {
-  border-left: $width-border-thick solid darken($primary-color, 25%);
-  padding-left: 1em;
-}
-
-sup {
-  font-size: 85%;
-  font-weight: 600;
-  line-height: 100%;
-  vertical-align: super;
-}
-
-h1.site-title {
-  font-family: $font-heading-secondary;
-  font-size: 1.8em;
-  letter-spacing: 0.15em;
-  margin: 2.5em 0 0 0;
   text-transform: uppercase;
-  a {
-    border-bottom: none;
-    box-shadow: none;
-    color: darken($primary-color, 25%);
-    font-weight: 500;
-    &:hover {
-      color: darken($primary-color, 45%);
-    }
-  }
-  @media only screen and (max-width : 420px) {
-    font-size: 1.4em;
-  }
 }
 
-h1.post-title {
-  font-family: $font-heading-primary;
-  font-size: 4em;
-  font-weight: bold;
-  margin: 1em 0 0.25em 0;
-  a {
-    border-bottom: none;
-    box-shadow: none;
-    color: darken($primary-color, 40%);
-    font-weight: 700;
-    &:hover {
-      color: darken($primary-color, 50%);
-    }
-  }
-  @media only screen and (max-width : 420px) {
-    font-size: 2.4em;
-  }
-}
-
-h2.site-description, {
-  border-bottom: 2px solid darken($background-color, 10%);
-  border-top: 2px solid darken($background-color, 10%);
-  color: lighten($text-color, 20%);
+h1 {
+  color: #0F9587;
   display: inline-block;
-  font-size: 1.4em;
-  font-style: italic;
-  margin: 1em 0;
-  padding: 0.5em 0;
-  text-align: center;
-  width: 20%;
-  @media only screen and (max-width : 420px) {
-    font-size: 1.2em;
-    width: 40%;
-  }
-}
-
-h2.section-heading {
-  font-family: $font-heading-secondary;
-  font-size: 1.8em;
-  letter-spacing: 0.1em;
-  margin: 3em 0 0.5em 0;
-  text-transform: uppercase;
-  &:first-of-type {
-    margin: 2em 0 0.5em 0;
-  }
-  &.writing {
-    border-bottom: $width-border-hairline solid darken($background-color, 5%);
-    padding-bottom: 0.5em;
-  }
-}
-
-h2.page-title {
-  font-family: $font-heading-primary;
-  font-size: 3.5em;
-  font-weight: bold;
-  margin: 0.5em 0 1em 0;
-}
-
-h2.post-title {
-  font-family: $font-heading-primary;
-  font-size: 1.8em;
-  font-weight: 300;
-  line-height: 140%;
-}
-
-h2.post-daily-title {
-  font-family: $font-heading-primary;
-  font-size: 2.8em;
-  font-weight: 300;
-  line-height: 140%;
-  a {
-    background-color: none;
-    border-bottom: none;
-    box-shadow: none;
-    color: darken($primary-color, 45%);
-    &:hover {
-      color: darken($primary-color, 35%);
-    }
-  }
-}
-
-h2.post-meta {
-  color: darken($grayscale-light, 25%);
-  font-family: $font-heading-secondary;
-  font-size: 1.2em;
-  letter-spacing: 0.1em;
-  text-transform: uppercase;
-  @media only screen and (max-width : 420px) {
-    font-size: 1em;
-    line-height: 160%;
-  }
-  &.post-category {
-    margin-bottom: 1.5em;
-  }
-}
-
-p.post-date {
-  font-family: $font-heading-secondary;
-  font-size: 1.2em;
-  margin-top: 0.5em;
-  text-transform: uppercase;
-}
-
-p.post-daily-date {
-  @extend p, .post-date;
-  border-bottom: $width-border-hairline solid darken($background-color, 3%);
-  margin-bottom: 2em;
-  padding-bottom: 0.5em;
-}
-
-p.post-description, p.category-description {
-  font-family: $font-accent;
-  font-size: 1.4em;
-  font-style: italic;
-  margin-bottom: 2em;
-  margin-top: 1em;
-}
-
-p.post-summary, p.post-conclusion {
-  @extend .post-description;
-  margin: 1em auto;
-  padding: 0.5em;
-  width: 80%;
-  @media only screen and (max-width : 420px) {
-    font-size: 1em;
-  }
-}
-
-h3.section-title {
-  font-family: $font-heading-primary;
-  font-size: 2.4em;
-  margin: 1em 0;
-  a {
-    border-bottom: none;
-    box-shadow: none;
-    color: darken($primary-color, 35%);
-    font-weight: 700;
-    &:hover {
-      color: darken($primary-color, 45%);
-    }
-  }
-  @media only screen and (max-width : 420px) {
-    font-size: 1.8em;
-  }
-}
-
-h3.post-subheading {
-  border-bottom: $width-border-hairline solid darken($background-color, 5%);
-  font-family: $font-heading-secondary;
   font-size: 1.6em;
-  letter-spacing: 0.1em;
-  margin: 2em 0 0.5em 0;
-  padding-bottom: 0.5em;
-  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  padding-left: 0.4em;
+  vertical-align: bottom;
 }
 
-h4.content-heading {
-  color: darken($background-color, 50%);
-  font-family: $font-heading-secondary;
-  font-size: 1.4em;
-  letter-spacing: 0.1em;
-  margin: 3em 0 2em 0;
-  text-transform: uppercase;
+h2 {
+  font-family: "freight-text-pro", serif;
+  font-size: 2.4em;
+  font-weight: bold;
+  line-height: 120%;
+  text-transform: none;
 }
 
-p.section-summary {
-  color: lighten($text-color, 15%);
-  font-family: $font-accent;
+h3 {
+  border-bottom: 1px solid #eee;
   font-size: 1.3em;
-  font-style: italic;
-  margin: 1em auto 2em auto;
+  letter-spacing: 0.05em;
+  margin: 2em 0 1em 0;
+  padding-bottom: 0.5em;
+}
+
+aside h3 {
+  font-size: 1.2em;
+  &:first-of-type {
+    margin-top: 0em;
+  }
+}
+
+aside p {
+  font-size: 0.8em;
   line-height: 140%;
-  width: 50%;
-  @media only screen and (max-width : 420px) {
-    font-size: 1em;
-  }
 }
 
-ul.site-navigation {
-  margin: 0 0 2em 0;
-  li {
-    display: inline-block;
-    font-family: $font-heading-secondary;
-    font-size: 1.2em;
-    font-weight: 400;
-    letter-spacing: 0.1em;
-    margin: 0 0.5em;
-    text-transform: uppercase;
-    @media only screen and (max-width : 420px) {
-      font-size: 1em;
-    }
-  }
-  a {
-    border-bottom: none;
-    box-shadow: none;
-    color: darken($primary-color, 25%);
-    font-weight: 500;
-    &:hover {
-      color: darken($primary-color, 35%);
-    }
-  }
-}
-
-.site-footer ul.site-navigation li {
-  font-size: 1.2em;
-}
-
-ul.contact-links {
-  margin: 1em 0 2em 0;
-  li {
-    display: inline-block;
-    font-size: 1em;
-    letter-spacing: 0.1em;
-    margin: 1em;
-  }
-  a {
-    border-bottom: none;
-    box-shadow: none;
-    color: darken($primary-color, 25%);
-    &:hover {
-      color: lighten($primary-color, 10%);
-    }
-  }
-}
-
-.post-content ul {
-  list-style-type: disc;
-  li {
-    margin: 1em 0 1em 2em;
-    // &:last-child {
-    //   margin: 1em 0 0 1.2em;
-    // }
-  }
-}
-
-// .post-content ul:first-of-type {
-//   list-style-type: none;
-// }
-
-// SPEAKING - TALK MATERIALS
-
-div.talk-materials {
-  display: table;
-  div.talk {
-    display: table-row;
-    padding: 2em 0;
-    div.talk-img {
-      border-bottom: $width-border-hairline solid darken($background-color, 3%);
-      display: table-cell;
-      padding: 2em 0;
-      img {
-        border: $width-border-thick solid lighten($background-color, 3%);
-      }
-    }
-    div.talk-details {
-      border-bottom: $width-border-hairline solid darken($background-color, 3%);
-      display: table-cell;
-      padding: 2em 0 2em 2em;
-      vertical-align: top;
-    }
-  }
-}
-
-h3.talk-title {
-  font-size: 1.8em;
-  font-weight: 300;
-  margin-bottom: 0.5em 0 1em 0;
-}
-
-p.talk-summary {
-  font-family: $font-accent;
-  font-size: 1.2em;
-  font-style: italic;
-}
-
-ul.talk-links {
-  li {
-    border-bottom: none;
-    display: block;
-    font-family: $font-text-data;
-    font-size: 1em;
-    margin: 0em 1em 0.5em 0;
-    padding: 0;
-    width: 100%;
-  }
-}
-
-// ANCHORS 
-
-a {
-  @include transition-link;
-  border-bottom-color: lighten($primary-color, 16%);
-  border-bottom-style: solid;
-  border-bottom-width: $width-border-hairline;
-  box-shadow: inset 0 -3px 0 lighten($primary-color, 16%);
-  color: #333;
-  font-weight: 600;
-  text-decoration: none;
-}
-
-.page-content p a:hover,
-.page-content li a:hover,
-.post-content p a:hover,
-.post-content li a:hover,
-.daily-content p a:hover,
-h2.post-title a:hover {
-  background-color: lighten($primary-color, 16%);
-}
-
-// BUTTONS
-
-.button-hairline {
-  @include transition-button-hairline;
-  border-bottom: none;
-  border-color: darken($primary-color, 15%);
-  border-style: solid;
-  border-width: $width-border-hairline;
-  border-radius: 3px;
-  box-shadow: none;
-  color: darken($primary-color, 25%);
-  display: inline-block;
-  font-family: $font-heading-secondary;
-  font-size: 1.2em;
-  font-weight: 500;
-  letter-spacing: 1px;
-  padding: 0.6em 1em 0.5em 1em;
-  text-transform: uppercase;
-  &:hover {
-    @include transition-button-hairline;
-    border-bottom: none;
-    border-color: darken($primary-color, 35%);
-    border-style: solid;
-    border-width: $width-border-hairline;
-    color: darken($primary-color, 35%);
-  }
-  &.button-article {
-    border-color: darken($primary-color, 35%);
-    color: darken($primary-color, 35%);
-    &:hover {
-      border-color: darken($primary-color, 45%);
-      color: darken($primary-color, 45%);
-    }
-  }
-  &.button-newsletter {
-    border-color: darken($primary-color, 30%);
-    color: darken($primary-color, 30%);
-    &:hover {
-      border-color: darken($primary-color, 45%);
-      color: darken($primary-color, 45%);
-    }
-  }
-  &.button-contact {
-    &:hover {
-      border-color: darken($primary-color, 30%);
-      color: darken($primary-color, 30%);
-    }
-  }
-  &.button-contact-home {
-    &:hover {
-      border-color: lighten($primary-color, 10%);
-      color: lighten($primary-color, 10%);
-    }
-  }
-}
-
-.button-center {
+span {
   display: block;
-  margin: 2em auto;
-  text-align: center;
-  width: 30%;
+  font-family: "brandon-grotesque";
+  font-weight: 100;
+  margin-bottom: 1em;
+  padding-top: 0.5em;
+  text-transform: uppercase;
+}
+
+footer {
+  border-top: 2px solid #e6e2dc;
+  font-size: 0.8em;
+}
+
+.post-date {
+  @extend span;
+  border-bottom: 1px solid #e6e2dc;
+  margin-bottom: 2em;
+  padding-top: 0;
+}
+
+.post-summary {
+  font-size: 0.9em;
+  font-style: italic;
+  line-height: 130%;
+}
+
+.forward {
+  text-align: right;
+}
+
+.newsletter {
+  font-size: 0.5em;
+}
+
+.key {
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
+  font-size: 0.8em;
+  margin-top: 2em;
+  padding: 2em 0;
+}
+
+// LISTS
+
+li {
+  line-height: 140%;
+  margin: 1em;
+}
+
+header ul {
+  padding-left: 0;
+  margin: 1em 0 0 0;
+}
+
+header li {
+  display: inline-block;
+  font-family: "brandon-grotesque";
+  font-size: 0.9em;
+  font-weight: 100;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+header li:not(:first-of-type) {
+  margin-left: 1em;
+}
+
+aside ul {
+  padding-left: 0;
+}
+
+aside li {
+  font-size: 0.9em;
+  list-style-type: none;
+  margin: 0.5em 0;
+}
+
+ul.index-list {
+  margin-top: 2em;
+  li {
+    font-size: 1.4em;
+  }
+  span {
+    font-size: 0.7em;
+  }
 }
 
 // IMAGES
 
-.primary-img {
+.icon {
+  height: 80px;
+  width: 80px;
+}
+
+.page-image {
+  border-bottom: 1px solid #eee;
+  border-top: 1px solid #eee;
   margin-top: 1em;
-  @media only screen and (max-width : 620px) {
-    width: 60%;
-  }
-}
-
-.about-img {
-  display: inline-block;
-  float: right;
-  margin: 0 0 1em 2em;
-   @media only screen and (max-width : 620px) {
-    display: block;
-    float: none;
-    margin: 0 auto 2em auto;
-    width: 60%;
-  }
-}
-
-.input-img {
-  border: $width-border-hairline solid darken($background-color, 2%);
-  margin-bottom: 1em;
-  padding: 0.5em;
-  width: 40%
-}
-
-.daily-img-container {
-  text-align: center;
-}
-.daily-img {
-  -webkit-mask-image: radial-gradient(circle at 50% 50%, black 50%, rgba(0, 0, 0, 0) 50%);
-  mask-image: radial-gradient(circle at 50% 50%, black 50%, rgba(0, 0, 0, 0) 50%);
-  width: 60%;
-  margin: 0em auto;
-}
-
-
-// PLAYLIST TOGGLE
-
-.toggle-bg {
-  background-color: darken($background-color, 10%);
-  border-radius: 1.6em;
-  height: 3.2em;
-  width: 3.2em;
-  position: absolute;
-  right: 0;
-}
-
-.toggle-playlist {
-  color: darken($background-color, 35%);
-  padding: 19%;
-  width: 3em;
-  height: 3em;
-  &:hover {
-    @include transition-link;
-    color: darken($background-color, 45%);
-  }
-}
-
-.playlist {
-  text-align: center;
-}
-
-.embed-container { 
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0; overflow:
-  hidden; max-width: 100%;
-}
-
-.embed-container iframe, .embed-container object, .embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
+  padding: 0.5em 0;
   width: 100%;
-  height: 100%;
 }
 
-// TABLE
+// ANCHORS
 
-table {
-  font-family: $font-text-data;
-  font-size: 0.9em;
-  margin: 4em 0;
+a {
+  border-bottom: 1px solid #999;
+  color: #0c776d;
+  text-decoration: none;
+  &:hover {
+    border-bottom: 1px solid #333;
+    color: #333;
+  }
+}
+
+h1, h2, h3, h4, h5, h6, header li, footer {
   a {
     border-bottom: none;
-    box-shadow: none;
-    font-weight: 400;
+    &:hover {
+      border-bottom: none;
+    }
   }
 }
 
-thead {
-  text-transform: uppercase;
+h2 a {
+  color: #333;
 }
 
-tr {
-  border-bottom: $width-border-hairline solid darken($background-color, 3%);
-}
-
-td {
-  padding: 0.5em 2em 0.5em 0.5em;
-  &.event-title {
-    width: 46%;
+h1 a, header li a, footer a {
+  color: #0F9587;
+  &:hover {
+    color: #14CCBA;
   }
-}
-
-.upcoming {
-  background-color: lighten($background-color, 3%);
 }
 
 // LOG LISTS
 
 ul.log {
-  margin-bottom: 6em;
+  padding-left: 0;
+  ul {
+    padding-left: 0;
+  }
+  li {
+    list-style-type: none;
+    padding-left: 0;
+  }
   li.log-month {
-    color: darken($background-color, 50%);
+    color: #333;
     text-transform: uppercase;
-    font-family: $font-heading-secondary;
+    font-family: "brandon-grotesque";
     font-size: 1.5em;
     letter-spacing: 0.1em;
-    margin: 3em 0 0 0;
+    margin: 2em 0 0 0;
   }
   li.log-day {
-    border-top: $width-border-hairline solid darken($background-color, 3%);
+    border-top: 1px solid #eee;
     font-weight: bold;
+    margin: 1em 0 0 0;
   }
   li.log-item {
     margin: 0.25em 0;
   }
-}
-
-// ICONS
-
-.icon {
-  display: inline-block;
-  stroke-width: 0;
-  stroke: currentColor;
-  fill: currentColor;
-}
-
-.icon-header {
-  width: 3em;
-  height: 3em;
-}
-
-.icon-footer, .icon-footer-home {
-  width: 2em;
-  height: 2em;
-}
-
-// MENTORING
-
-.calendly-inline-widget {
-  margin-top: 80px;
-}
-
-
-// UNDO STYLING FOR GITHUB GIST EMBED
-
-td span {
-  display: inline;
-  font-family: SFMono-Regular,Consolas,Liberation Mono,Menlo,Courier,monospace;
-  font-size: 1em;
-  font-weight: normal;
-  margin: 0;
-  text-transform: none;
 }
