@@ -9,7 +9,7 @@ email: hello@jenmyers.net
 description: Personal website of writer and technologist Jen Myers.
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://jenmyers.net" # the base hostname & protocol for your site, e.g. http://example.com
 sass:
   sass_dir: _sass
 
