@@ -1,6 +1,6 @@
 ---
 title:        Quiet Little Horrors Season One
-date:         2020-12-18
+date:         2020-12-22
 author:       Jen Myers
 category:     notes
 layout:       post
