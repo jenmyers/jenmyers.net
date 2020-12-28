@@ -4,6 +4,8 @@ date:         2019-01-06
 author:       Jen Myers
 category:     notes
 layout:       post
+image:        writing.jpg
+image-alt:    Man Writing a Letter by Gabriël Metsu in 1665
 description:  The nuts and bolts of how I keep track of the art I take in.
 redirect_from: /daily/2019-01-06-keeping-a-media-log.html
 ---
