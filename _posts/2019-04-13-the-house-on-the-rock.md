@@ -4,7 +4,7 @@ date:         2019-04-13
 author:       Jen Myers
 category:     notes
 layout:       post
-image:        notes/carousel.png
+image:        notes/carousel.jpg
 image-alt:    House on the Rock carousel
 description:  Words and video about a strange, overgrown roadside attraction.
 redirect_from: /daily/2019-04-13-the-house-on-the-rock.html

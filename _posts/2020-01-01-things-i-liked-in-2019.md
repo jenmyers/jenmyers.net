@@ -4,7 +4,7 @@ date:         2020-01-01
 author:       Jen Myers
 category:     notes
 layout:       post
-image:        notes/baby-yoda.png
+image:        notes/baby-yoda.jpg
 image-alt:    Baby Yoda in The Mandalorian television show
 description:  Favorite books, films, television series, music, websites and whatever else of note I encountered in the past year.
 redirect_from: /daily/2020-01-01-things-i-liked-in-2019.html
