@@ -4,7 +4,7 @@ date:         2018-12-21
 author:       Jen Myers
 category:     notes
 layout:       post
-image:        notes/favourite.png
+image:        notes/favourite.jpg
 image-alt:    Rachel Weisz and Emma Stone in THE FAVOURITE
 description:  Favorite books, films, podcasts, articles and whatever else I encountered in the past year.
 redirect_from: /daily/2018-12-21-things-i-liked-in-2018.html
