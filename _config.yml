@@ -6,7 +6,7 @@
 
 title: Jen Myers
 email: hello@jenmyers.net
-description: Personal website of writer and technologist Jen Myers.
+description: Personal website of technologist and writer Jen Myers.
 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://jenmyers.net" # the base hostname & protocol for your site, e.g. http://example.com
@@ -19,7 +19,7 @@ twitter_username: antiheroine
 permalink: none
 
 # Post settings
-future: true
+future: false
 excerpt_separator: <!--more-->
 
 # Plugins
