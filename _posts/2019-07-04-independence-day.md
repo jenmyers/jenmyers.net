@@ -32,4 +32,6 @@ Vowell's passage continues with a coda from her trip companion:
 
 <p class="long-quote">"Not only was stopping at one of Springsteen's childhood homes appropriate," Sherm replies, "it was an important part of the day for me as a Jersey boy, since it served as a great reminder that not all important fights take place on battlefields. Some take place in tiny house, or half-houses, whether with family members or within oneself, and involve changing your course, convincing your mother to rent you a guitar (or my father to buy me a typewriter), and getting the hell out of that house, that town, that state. It's a different kind of independence, personal instead of political, but one of the many things we won in that war fought over two centuries ago turned out to be the freedom of expression that let a dude from Jersey write a song like 'Thunder Road.'"</p>
 
-<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; margin-top: 4em; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.youtube.com/embed/hf61K6ZKu_4' frameborder='0' allowfullscreen></iframe></div>
+<div class="youtube-video-container">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/6O3MO2y30fU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
