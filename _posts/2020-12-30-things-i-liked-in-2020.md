@@ -24,7 +24,7 @@ A couple of years ago, I adopted the policy of eschewing any sort of "best" end-
 - I liked giving some more attention to hobbies, most notably miniatures. I've always been fascinated by miniatures and this fall I finally bought myself a miniature room kit and started putting it together. Pursuing an activity for no other reason but that it interests you is refreshing and feels like a solid blow to the addiction of productivity.
 - I liked taking many, many walks by Lake Michigan. I made the habit of capturing a moment from most of them (more at <a href="https://www.instagram.com/antiheroine/">Instagram</a>).
 
-<div><img src="{{ site.baseurl }}/images/notes/lakes.jpg" /></div>
+<div><img alt="two tall columns of snapshots of a lakefront taped to a white brick wall" src="{{ site.baseurl }}/images/notes/lakes.jpg" /></div>
 
 - I did not initially like the necessity of straining to meet difficult circumstances, spending more time with myself and seeking out small ways to get through—but, with the acknowledged and appreciated luxury of reflection, I learned to like it all.
 - And I liked being introduced to Jackie Daytona, Regular Human Bartender.

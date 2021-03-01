@@ -17,7 +17,7 @@ We released six episodes this year, each episode centered on a different film. I
 
 <h4>The Witch</h4>
 
-<div><img src="{{ site.baseurl }}/images/notes/the-witch.jpg" /></div>
+<div><img alt="Screenshot from THE WITCH of a white young girl in 1600s clothes standing dazed and bloodied outside of a rustic house" src="{{ site.baseurl }}/images/notes/the-witch.jpg" /></div>
 
 Part of the reason we decided to focus on psychological horror was just because we're interested in it, but another part was that the subgenre is enjoying something of a moment right now—and much of that is likely due to the success of <a href="https://letterboxd.com/film/the-witch-2015/"><em>The Witch</em></a>. Humble opinion: it deserves it! Well-crafted around themes only more powerful in their ambiguity, the film also neatly describes the theme of the podcast: venturing into the dark forest only to find the dangerous reflections of what we brought with us.
 
@@ -27,7 +27,7 @@ Part of the reason we decided to focus on psychological horror was just because 
 
 <h4>Carnival of Souls</h4>
 
-<div><img src="{{ site.baseurl }}/images/notes/carnival-of-souls.jpg" /></div>
+<div><img alt="Medium close shot of a young, blond white woman in a damp, muddy midcentury-style dress stagger out of a lake" src="{{ site.baseurl }}/images/notes/carnival-of-souls.jpg" /></div>
 
 I first saw <a href="https://letterboxd.com/film/carnival-of-souls/"><em>Carnival of Souls</em></a> before I was prepared to process what was happening in its layers, but it stayed with me nonetheless and I was glad to be able to revisit it for this episode. How could you ever exorcise the imagery of the abandoned carnival pavilion lurking at the edge of a disappeared salt lake or of the grinning, white-faced stalker emerging from impossible places again and again? Whether you interpret the story as an allegory for mental illness, struggle within a patriarchy, trauma recovery or a simple, low-budget ghost story—it haunts. It haunts.
 
@@ -37,7 +37,7 @@ I first saw <a href="https://letterboxd.com/film/carnival-of-souls/"><em>Carniva
 
 <h4>Hereditary</h4>
 
-<div><img src="{{ site.baseurl }}/images/notes/hereditary.jpg" /></div>
+<div><img alt="A white preteen girl in an oversized orange hoodie considering something in the distance" src="{{ site.baseurl }}/images/notes/hereditary.jpg" /></div>
 
 The other recent giant of the "horror/psychosis" variety is, of course, <a href="https://letterboxd.com/film/hereditary/"><em>Hereditary</em></a>. While possibly less ambiguous than <em>The Witch</em> (although I can and do argue this point), this film digs deeper into the horrific bonds of family and does not spare the gory results. It also serves up an almost endless list of themes to discuss.
 
@@ -47,7 +47,7 @@ The other recent giant of the "horror/psychosis" variety is, of course, <a href=
 
 <h4>The Others</h4>
 
-<div><img src="{{ site.baseurl }}/images/notes/the-others.jpg" /></div>
+<div><img alt="A little white girl in a white veil looking concerned next to her mother, a young white woman with a sleek 1940s blond hairstyle" src="{{ site.baseurl }}/images/notes/the-others.jpg" /></div>
 
 A terrific but somewhat overlooked ghost tale from the aughts, <a href="https://letterboxd.com/film/the-others/"><em>The Others</em></a> is one of the rare films that offers much more substance than its (significant!) plot twist and considerably rewards multiple viewings. For us, it opens the door to discussing the traditions of gothic horror and how well they lend themselves to exploring the psychological stories of women, even in more modern settings and incarnations.
 
@@ -57,7 +57,7 @@ A terrific but somewhat overlooked ghost tale from the aughts, <a href="https://
 
 <h4>The Wicker Man</h4>
 
-<div><img src="{{ site.baseurl }}/images/notes/the-wicker-man.jpg" /></div>
+<div><img alt="A middle-aged white man in a tweed jacket and yellow turtleneck, his hair blowing wildly in the wind, raise his arms in front of a large man made of wood" src="{{ site.baseurl }}/images/notes/the-wicker-man.jpg" /></div>
 
 What is a treatment of psychological horror without the granddaddy of cinematic folk horror, <a href="https://letterboxd.com/film/the-wicker-man/"><em>The Wicker Man</em></a>? This film is such a unique beast, incorporating experimental seventies' film elements, a not particularly sympathetic protagonist and a stealth ramp up to the actual horror that packs quite a punch at the moment of its revelation.
 
@@ -67,7 +67,7 @@ What is a treatment of psychological horror without the granddaddy of cinematic 
 
 <h4>The Lighthouse</h4>
 
-<div><img src="{{ site.baseurl }}/images/notes/the-lighthouse.jpg" /></div>
+<div><img alt="Two white men, one young with a mustache and one old with a beard, wear dark uniforms and stare straight ahead" src="{{ site.baseurl }}/images/notes/the-lighthouse.jpg" /></div>
 
 We decided to bookend our first season with the second film from <em>The Witch</em>'s director Robert Eggers, <a href="https://letterboxd.com/film/the-lighthouse-2019/"><em>The Lighthouse</em></a>, a claustrophobic nightmare shot through with mythological meaning. Also featuring Willem Dafoe's beard.
 
