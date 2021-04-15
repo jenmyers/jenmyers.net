@@ -5,7 +5,7 @@ body {
   color: #333;
   font-family: "freight-text-pro", serif;
   font-size: 1.4em;
-  line-height: 140%;
+  line-height: 145%;
   margin: 0;
 }
 
@@ -190,8 +190,12 @@ footer {
 blockquote .twitter-tweet {
   background-color: #eee;
   border-radius: 5px;
-  margin: 2em 0;
-  padding: 1em;
+  font-weight: bold;
+  margin: 2em;
+  padding: 1em 2em 2em 2em;
+  p {
+    font-style: italic;
+  }
 }
 
 // LISTS
