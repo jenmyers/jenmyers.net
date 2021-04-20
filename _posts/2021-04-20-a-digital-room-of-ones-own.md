@@ -1,0 +1,28 @@
+---
+title:        A Digital Room of One's Own
+date:         2021-04-20
+author:       Jen Myers
+category:     notes
+layout:       post
+image:        typist.png
+image-alt:    Vintage young white woman smiling with hands on typewriter keys
+description:  On newsletters, publishing tools, media platforms and how to write on the internet.
+---
+
+In August of 2014, I started my weekly email newsletter on [TinyLetter](https://tinyletter.com/jenmyers/). I wanted to send newsletters because it seemed like a healthy devolution from the pace and brevity of social media and I liked TinyLetter because it was an unpretentious, straightforward tool that made it easy for me to send newsletters. Three years later, I developed newsletter ambitions and set up a paid tier that included essays; to make that happen technically, I cobbled together a separate mailing list and a third-party payment gate, but it was difficult to manage. And so when the new newsletter hotness became a platform called Substack, which had paid subscription options built in, I decided to switch.
+
+Now my newsletter has been on [Substack](https://jenmyers.substack.com/) for almost two full years. It works pretty well. I chafed a bit at things like no support for Markdown, which I use to draft my newsletters in Ulysses, but the resulting simplicity made it worthwhile. But, as those two years went on, I grew increasingly uneasy with how the word “Substack” started to become shorthand for something I didn’t quite understand or feel like I was a part of.
+
+See, I’m not a “real” writer. I wish I were, but I’m not. Maybe someday. But, right now, I’m just a regular working-and-single-parenting stiff, and I have to write around the edges, whenever and wherever I can. I need tools that help me do that. I need a place where I can do that, where I’m centered and legitimate and more or less free. This is essentially the promise of the internet. Ideally, the internet democratizes. It provides opportunities for voices that don’t have other mediums made available to them. I’m not a real writer, but I’ve been writing on the internet in some form for twenty years, because the only barrier to entry was to decide to do it. That’s still my favorite thing about the internet, and I still stubbornly believe in it.
+
+But this means that I have different expectations from a publishing tool than I do from a media platform. Because they _are_ different things. While the former treats everyone equally from the start, a media platform bakes in at least some of the biases of an existing system. A publishing tool is for anyone. A media platform is for professionals. There is nothing necessarily wrong with that in itself. I love professional writers. It would be wonderful to join their ranks someday and media platforms are essential in making sure professional writers can sustain their work. But I also think it’s important we recognize the difference between tools and platforms in this context. Which is how we come back around to the topic of Substack.
+
+There has lately been a lot of discourse recently around Substack’s strategies as a media company, particularly their decisions to extend not only their services but hefty advances to writers with reprehensible views and histories, as well as keep these decisions largely opaque. I’m neither equipped nor interested in covering the whole deal, so I recommend that if you’re looking for more background, you read [Annalee Newitz’s excellent take on the Substack situation](https://thehypothesis.substack.com/p/heres-why-substacks-scam-worked-so). Newitz’s take is also valuable because it surfaces the point that the issue here is not solely an objection to platforming and paying objectionable writers but an objection to the way a media company is masquerading as a publishing tool. Those of us who just wanted a tool, who didn’t already have the professional success that would give us protected status, now must reckon with being beholden to a platform that is not transparent with us about what they are doing, how they are doing it and why they are doing it.
+
+Many writers have moved their own publications off of Substack. Many others have stayed. I’m not in a position to judge the merits of either decision, nor do I want to be, but I am joining the ranks of those moving. The whole affair has led me to reconsider how I want to put words into the world and I’ve come back to the same lesson I learned at the beginning: only a few people get given places, and the rest of us have to build our places ourselves—but, in many ways, that’s better anyway.
+
+So that’s what I did. My newsletter, Modern Adventuress, is now running on a self-hosted Ghost instance at modernadventuress.com. Not a whole lot will change for my readers. It’s still me, still the same content, still the same voice. But I will feel more comfortable in a digital room of my own making.
+
+To be clear, I don’t think that I can extrapolate my own lesson to others. What I chose to do is not the best option for everyone, for many reasons. If there’s any larger lessons here, it’s that we need better support for creators, in tools and platforms and everything else. We need more transparency, so that we can make informed individual decisions about how to best navigate an uneven playing field. We need viable paths to professions that are not in the business of producing product but producing the immaterial: the ideas, impressions and reflections that sustain us on a level we don’t always appreciate.
+
+In the meantime, I’ve made my room and I’m staying in it, and you’re welcome to hang out as long as you like. Since I built it myself, I know it’s not going anywhere.
