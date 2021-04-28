@@ -9,8 +9,13 @@ layout: page
 {% for post in site.posts %}
   {% if post.writing_type contains "fiction" or post.writing_type contains "flash fiction" or post.writing_type contains "microfiction" %}
   <li>
-    <a href="{{ post.external_url }}">{{ post.title }} →</a>
-      <span><strong>{{ post.external_site }}</strong> • {{ post.writing_type }}</span>
+    {% if post.external_url %}
+      <a href="{{ post.external_url }}">{{ post.title }} →</a>
+      <span>{{ post.writing_type }} • <strong>{{ post.external_site }}</strong> • {{ post.date | date: "%e %b %Y" }}</span>
+    {% else %}
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span>{{ post.writing_type }} • <strong>jenmyers.net</strong> • {{ post.date | date: "%e %b %Y" }}</span>
+    {% endif %}
   </li>
   {% endif %}
 {% endfor %}
@@ -23,7 +28,7 @@ layout: page
   {% if post.writing_type contains "essay" %}
   <li>
     <a href="{{ post.external_url }}">{{ post.title }} →</a>
-      <span><strong>{{ post.external_site }}</strong> • {{ post.writing_type }}</span>
+      <span>{{ post.writing_type }} • <strong>{{ post.external_site }}</strong> • {{ post.date | date: "%e %b %Y" }}</span>
   </li>
   {% endif %}
 {% endfor %}
