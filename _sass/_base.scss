@@ -290,6 +290,17 @@ h1 a, header li a, footer a {
   }
 }
 
+.button {
+  background-color: #0c776d;
+  color: #eee;
+  padding: 10px;
+  border-radius: 3px;
+  &:hover {
+    background-color: lighten(#0c776d, 5%);
+    color: #eee;
+  }
+}
+
 // LOG LISTS
 
 ul.log {

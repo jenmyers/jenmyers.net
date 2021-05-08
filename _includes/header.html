@@ -4,8 +4,8 @@
 
   {% if page.title == "Writing" %}
     {% include title-writing.html %}
-    {% elsif page.title contains "Newsletter" %}
-    {% include title-newsletter.html %}
+    <!-- {% elsif page.title contains "Projects" %}
+    {% include title-projects.html %} -->
     {% elsif page.title contains "About" %}
     {% include title-about.html %}
     {% elsif page.title contains "Not Found" %}
@@ -24,8 +24,11 @@
     <ul>
       <li><a href="{{ site.baseurl }}/category/notes.html">Notes</a></li>
       <li><a href="{{ site.baseurl }}/writing/">Writing</a></li>
-      <li><a href="{{ site.baseurl }}/newsletter/">Newsletter</a></li>
+      <!-- <li><a href="{{ site.baseurl }}/projects/">Projects</a></li> -->
       <li><a href="{{ site.baseurl }}/about/">About</a></li>
+      <li>
+        <a href="https://modernadventuress.com/" class="button">Newsletter</a>
+      </li>
     </ul>
 
   </div>
