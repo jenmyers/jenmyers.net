@@ -1,7 +1,7 @@
 // GLOBAL
 
 body {
-  background-color: #fff;
+  background-color: #eee;
   color: #333;
   font-family: "freight-text-pro", serif;
   font-size: 1.4em;
@@ -19,17 +19,16 @@ body {
 }
 
 header {
-  background-color: #000;
   padding: 1em 2em;
   text-align: center;
 }
 
 aside {
   padding-left: 1em;
+  padding-top: 3em;
 }
 
 footer {
-  background-color: #000;
   grid-area: footer;
   padding: 1em 2em 0.5em 2em;
 }
@@ -55,7 +54,6 @@ footer {
     width: 85%;
   }
   header {
-    background-color: #000;
     display: grid;
     grid-area: header;
     grid-template-columns: 2;
@@ -149,7 +147,12 @@ span {
 
 footer {
   border-top: 2px solid #e6e2dc;
-  font-size: 0.8em;
+  color: darken(#e6e2dc, 15%);
+  font-family: "brandon-grotesque", sans-serif;
+  font-size: 0.9em;
+  font-weight: 300;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 }
 
 .post-date {
@@ -227,12 +230,6 @@ aside ul {
   padding-left: 0;
 }
 
-aside li {
-  font-size: 0.9em;
-  list-style-type: none;
-  margin: 0.5em 0;
-}
-
 ul.index-list {
   margin-top: 2em;
   li {
@@ -284,19 +281,21 @@ h2 a {
 }
 
 h1 a, header li a, footer a {
-  color: #0F9587;
+  color: #333;
   &:hover {
-    color: #14CCBA;
+    color: #0c776d;
   }
 }
 
 .button {
-  background-color: #0c776d;
-  color: #eee;
-  padding: 10px;
-  border-radius: 3px;
+  // background-color: #0c776d;
+  // color: #eee;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
   &:hover {
     background-color: lighten(#0c776d, 5%);
+    border: 1px solid lighten(#0c776d, 5%);
     color: #eee;
   }
 }
@@ -304,6 +303,7 @@ h1 a, header li a, footer a {
 // LOG LISTS
 
 ul.log {
+  margin: 1em 0 3em 0;
   padding-left: 0;
   ul {
     padding-left: 0;
@@ -317,7 +317,11 @@ ul.log {
     text-transform: uppercase;
     font-family: "brandon-grotesque";
     font-size: 1.5em;
+    font-weight: 100;
     letter-spacing: 0.1em;
+    margin: 0;
+  }
+  li.log-month:not(:first-child) {
     margin: 2em 0 0 0;
   }
   li.log-day {
