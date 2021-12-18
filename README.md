@@ -4,6 +4,7 @@ Personal website of Jen Myers since 2012.
 
 ## Versions
 
+- Baymax v2 (December 2021)
 - Baymax (December 2020)
 - Artoo v3 (June 2019)
 - Artoo v2 (May 2018)
