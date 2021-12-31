@@ -124,6 +124,14 @@ h4 {
   text-transform: none;
 }
 
+h4.list-heading {
+  font-family: "freight-text-pro", serif;
+  font-size: 1.2em;
+  font-style: italic;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
 aside h3 {
   font-size: 1.2em;
   &:first-of-type {
