@@ -1,5 +1,5 @@
 ---
-title:        Things I Liked in 2022
+title:        Things I Liked in 2021
 date:         2022-01-01
 author:       Jen Myers
 category:     notes
