@@ -23,6 +23,11 @@ header {
   text-align: center;
 }
 
+article {
+  padding-right: 1em;
+  padding-top: 1em;
+}
+
 aside {
   padding-left: 1em;
   padding-top: 3em;
@@ -133,14 +138,14 @@ h4.list-heading {
 }
 
 aside h3 {
-  font-size: 1.2em;
+  font-size: 1em;
   &:first-of-type {
     margin-top: 0em;
   }
 }
 
-aside p {
-  font-size: 0.8em;
+aside p, aside li, aside span {
+  font-size: 0.9em;
   line-height: 140%;
 }
 
@@ -177,6 +182,8 @@ footer {
 }
 
 .forward {
+  font-style: italic;
+  padding-top: 0.5em;
   text-align: right;
 }
 

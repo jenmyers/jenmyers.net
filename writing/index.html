@@ -7,7 +7,7 @@ layout: page
 
 <ul class="index-list">
 {% for post in site.posts %}
-  {% if post.writing_type contains "fiction" or post.writing_type contains "flash fiction" or post.writing_type contains "microfiction" %}
+  {% if post.writing_type contains "short fiction" or post.writing_type contains "flash fiction" or post.writing_type contains "microfiction" %}
   <li>
     {% if post.external_url %}
       <a href="{{ post.external_url }}">{{ post.title }} →</a>

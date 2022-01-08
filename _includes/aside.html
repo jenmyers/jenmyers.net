@@ -1,53 +1,41 @@
 <aside>
 
-  <ul>
-    <li><a href="https://modernadventuress.com">Newsletter</li>
-    <li><a href="https://quietlittlehorrors.com">Podcast</a></li>
-    <li><a href="https://twitter.com/antiheroine">Twitter</a></li>
-  </ul>
-
-  <!-- <h3>Connect</h3>
-
-  <ul>
-    <li><a href="http://feeds.feedburner.com/jenmyers">RSS</a></li>
-    <li><a href="https://twitter.com/antiheroine">Twitter</a></li>
-    <li><a href="https://letterboxd.com/jenmyers/">Letterboxd</a></li>
-    <li><a href=" https://www.goodreads.com/jenmyers">Goodreads</a></li>
-  </ul>
-
-  <h3>Newsletter</h3>
-
-  <p>I send a free, fortnightly email newsletter, <strong>Modern Adventuress</strong>, full of curated links about culture, media, art and all other stories overlooked, unusual and/or offbeat—plus regular reading/watching/listening recommendations, updates on my projects/writing and the very finest in animated gifs.</p>
-
-  <p class="forward"><a href="https://modernadventuress.com/">Subscribe →</a></p>
-
   <h3>Recent Notes</h3>
 
   <ul>
-  {% for post in site.categories.notes limit: 5 %}
+  {% for post in site.categories.notes limit: 3 %}
     <li><a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
   </ul>
 
-   <p class="forward"><a href="{{ site.baseurl }}/category/notes.html">All Notes</a></p>
+  <p class="forward"><a href="{{ site.baseurl }}/category/notes.html">Read all notes</a></p>
 
-   <h3>Media Logs</h3>
+  <h3>Featured Writing</h3>
 
-   <p>Yearly lists of books read, films and television series watched, podcasts listened to, theater/music performances attended and so forth.</p>
+  <ul>
+    {% for post in site.posts %}
+      {% if post.writing_type contains "short fiction" or post.writing_type contains "flash fiction" %}
+      <li>
+        {% if post.external_url %}
+          <a href="{{ post.external_url }}">{{ post.title }} →</a>
+          <span><strong>{{ post.external_site }}</strong> • {{ post.date | date: "%e %b %Y" }}</span>
+        {% else %}
+        <a href="{{ post.url }}">{{ post.title }}</a>
+        <span><strong>jenmyers.net</strong> • {{ post.date | date: "%e %b %Y" }}</span>
+        {% endif %}
+      </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <p class="forward"><a href="{{ site.baseurl }}/writing/">Read all writing</a></p>
+
+   <h3>Connect</h3>
 
    <ul>
-     <li><a href="{{ site.baseurl }}/log/2021">2021</a></li>
-     <li><a href="{{ site.baseurl }}/log/2020">2020</a></li>
-     <li><a href="{{ site.baseurl }}/log/2019">2019</a></li>
-     <li><a href="{{ site.baseurl }}/log/2018">2018</a></li>
-     <li><a href="{{ site.baseurl }}/log/2017">2017</a></li>
-     <li><a href="{{ site.baseurl }}/log/">Archive</a></li>
+     <li><a href="http://feeds.feedburner.com/jenmyers">RSS</a></li>
+     <li><a href="https://twitter.com/antiheroine">Twitter</a></li>
+     <li><a href="mailto:hello@jenmyers.net">Email</a></li>
    </ul>
-
-   <h3>Podcast</h3>
-
-   <p>I co-host <strong>Quiet Little Horrors</strong>, a podcast about psychological horror films. New episodes twice a month.</p>
-
-   <p class="forward"><a href="https://quietlittlehorrors.com">Listen →</a></p> -->
 
 </aside>
