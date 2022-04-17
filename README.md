@@ -4,6 +4,7 @@ Personal website of Jen Myers since 2012.
 
 ## Versions
 
+- Data (April 2022)
 - Baymax v2 (December 2021)
 - Baymax (December 2020)
 - Artoo v3 (June 2019)
@@ -18,5 +19,4 @@ Personal website of Jen Myers since 2012.
 
 - [Jekyll](http://jekyllrb.com/)
 - [GitHub Pages](http://pages.github.com/)
-- [Flaticon](https://www.flaticon.com/)
-- Hand-rolled HTML & CSS
+- Handmade HTML & CSS
