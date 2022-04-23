@@ -5,25 +5,13 @@
 
   <body>
 
-    {% for post in site.categories.notes limit: 1 %}
-
-      {% include header.html %}
-
-      <div class="post-header" {% if post.image %} style="background-image: url({{ site.baseurl }}/images/{{ post.image }}); background-position: center; background-size: cover;" {% endif %}>
-
-      </div>
-
-    {% endfor %}
-
     <div class="container">
-
-      {% include article.html %}
 
       {% include aside.html %}
 
-    </div>
+      {% include article.html %}
 
-    {% include footer.html %}
+    </div>
 
   </body>
 

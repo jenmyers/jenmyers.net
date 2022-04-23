@@ -5,13 +5,13 @@
 
   <body>
 
-    {% include header.html %}
-
     <div class="container">
+
+      {% include aside.html %}
 
       <article>
 
-        <h2>Notes</h2>
+        <h2>{{ page.title }}</h2>
 
         <ul class="index-list">
         {% for post in site.categories[page.category] %}
@@ -24,11 +24,7 @@
 
       </article>
 
-      {% include aside.html %}
-
     </div>
-
-    {% include footer.html %}
 
   </body>
 
