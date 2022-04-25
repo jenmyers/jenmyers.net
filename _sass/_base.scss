@@ -14,13 +14,7 @@ body {
 .container {
   justify-content: center;
   margin: 2em auto;
-  text-align: center;
   width: 85%;
-}
-
-header {
-  padding: 1em 2em;
-  text-align: center;
 }
 
 article {
@@ -28,16 +22,10 @@ article {
 }
 
 aside {
-
-}
-
-footer {
-  grid-area: footer;
-  padding: 1em 2em 0.5em 2em;
-}
-
-.post-header {
-  height: 400px;
+  margin-bottom: 2em;
+  li {
+    display: inline-block;
+  }
 }
 
 // DESKTOP LAYOUT
@@ -48,36 +36,21 @@ footer {
     grid-gap: 2em;
     grid-template-columns: repeat(3, 1fr);
     grid-template-areas:
-    "header header header"
-    "aside article article"
-    "footer footer footer";
+    "aside article article";
     justify-content: center;
+    margin: 4em auto;
     text-align: left;
-    width: 85%;
-  }
-  header {
-    display: grid;
-    grid-area: header;
-    grid-template-columns: 2;
-    grid-template-areas:
-    "header-title header-nav";
-    text-align: left;
-  }
-  .header-title {
-    grid-area: header-title;
-  }
-  .header-nav {
-    grid-area: header-nav;
-    text-align: right;
+    width: 75%;
   }
   article {
     grid-area: article;
   }
   aside {
     grid-area: aside;
-  }
-  header li {
-    margin: 1.2em 0 0 0;
+    margin-bottom: 0;
+    li {
+      display: block;
+    }
   }
   h2 {
     margin: 0;
