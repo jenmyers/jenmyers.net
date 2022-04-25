@@ -4,6 +4,8 @@ date:         2022-04-23
 author:       Jen Myers
 category:     notes
 layout:       post
+image:        typist.png
+image-alt:    Vintage young white woman smiling with hands on typewriter keys
 ---
 
 In August of 2014, I started a weekly email newsletter. Newsletters were just beginning to become the new thing then, and I was, consciously or not, looking for a way to revive the sort of publishing I had done on my previous website: lists of interesting links, updates on what I was reading/watching/listening to and short essays on whatever was caught in my mind at the moment. Few people regularly visit websites or read web content via RSS anymore, so I put it all into email.
