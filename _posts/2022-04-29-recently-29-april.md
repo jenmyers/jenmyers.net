@@ -4,8 +4,8 @@ date:         2022-04-29
 author:       Jen Myers
 category:     notes
 layout:       post
-image:        Impressionist painting of a white woman in a white gown reading a book while walking down a garden path surrounded by green bushes and yellow flowers
-image-alt:    notes/recently-29-april.jpg
+image:        notes/recently-29-april.jpg
+image-alt:    Impressionist painting of a white woman in a white gown reading a book while walking down a garden path surrounded by green bushes and yellow flowers
 description:  Regular round-up of links and media recommendations
 ---
 
