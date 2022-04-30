@@ -4,6 +4,9 @@ date:         2022-04-18
 author:       Jen Myers
 category:     photos
 layout:       photo
+image:        photos/nola04.jpg
+image-alt:    A path lined with trees through a cemetery full of weathered crypts
+description:  Views of New Orleans
 ---
 
 <div><img alt="Top two balcony floors of a French Quarter house, edged with dark blue ironwork and lined with bunches of green plants and red flowers, clear blue sky in the background" src="{{ site.baseurl }}/images/photos/nola01.jpg" /></div>
