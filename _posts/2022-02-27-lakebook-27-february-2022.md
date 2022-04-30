@@ -1,5 +1,5 @@
 ---
-title:        Lakebook 27 February 2022
+title:        "Lakebook: 27 February 2022"
 date:         2022-02-27
 author:       Jen Myers
 category:     photos
