@@ -6,7 +6,7 @@ category:     photos
 layout:       photo
 image:        photos/arcade-03.jpg
 image-alt:    A girl walking down an aisle lined with vintage video game cabinets
-description:  Visiting one of the largest video arcades in the world
+description:  Visiting one of the largest video game arcades in the world
 ---
 
 <div><img alt="An empty aisle lined with vintage video game cabinets" src="{{ site.baseurl }}/images/photos/arcade-06.jpg" /></div>
