@@ -15,10 +15,18 @@
 
         <ul class="index-list">
         {% for post in site.categories[page.category] %}
+          {% if page.category contains "photos" %}
+          <li class="photo">
+            <a href="{{ post.url | absolute_url }}">
+              <img src="{{ site.baseurl }}/images/{{ post.image }}" />
+            </a>
+          </li>
+          {% else %}
           <li>
             <a href="{{ post.url | absolute_url }}">{{ post.title }}</a>
             <span>{{ post.date | date: "%e %B %Y" }}</span>
           </li>
+          {% endif %}
         {% endfor %}
       </ul>
 
