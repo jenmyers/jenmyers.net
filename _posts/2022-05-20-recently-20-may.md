@@ -5,11 +5,9 @@ author:       Jen Myers
 category:     notes
 layout:       post
 image:        notes/recently-20-may.jpg
-image-alt:    
+image-alt:    Vincent Van Gogh painting of a stylized white woman with brown hair in a bun reading a book
 description:  Regular round-up of links and media recommendations
 ---
-
-
 
 ### Links
 
