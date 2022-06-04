@@ -2,7 +2,7 @@
 title:        "Recently: 03 June"
 date:         2022-06-03
 author:       Jen Myers
-category:     notes
+category:     [notes, recently]
 layout:       post
 image:        notes/recently-03-june.jpg
 image-alt:    Black and white watercolor sketch of a woman leaning back with a book in her raised hand

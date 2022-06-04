@@ -2,7 +2,7 @@
 title:        Things I Liked in 2019
 date:         2020-01-01
 author:       Jen Myers
-category:     notes
+category:     [notes, things]
 layout:       post
 image:        notes/baby-yoda.jpg
 image-alt:    Baby Yoda in The Mandalorian television show

@@ -2,7 +2,7 @@
 title:        Things I Liked in 2018
 date:         2018-12-21
 author:       Jen Myers
-category:     notes
+category:     [notes, things]
 layout:       post
 image:        notes/favourite.jpg
 image-alt:    Rachel Weisz and Emma Stone in THE FAVOURITE

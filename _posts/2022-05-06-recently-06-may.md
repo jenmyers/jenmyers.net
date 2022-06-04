@@ -2,14 +2,12 @@
 title:        "Recently: 6 May"
 date:         2022-05-06
 author:       Jen Myers
-category:     notes
+category:     [notes, recently]
 layout:       post
 image:        notes/recently-06-may.jpg
 image-alt:    Black and white with one of its front paws on the pages of an open book on the grass
 description:  Regular round-up of links and media recommendations
 ---
-
-
 
 ### Links
 

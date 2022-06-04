@@ -2,7 +2,7 @@
 title:        Things I Liked in 2020
 date:         2020-12-30
 author:       Jen Myers
-category:     notes
+category:     [notes, things]
 layout:       post
 image:        notes/daytona.jpg
 image-alt:    Jackie Daytona, Regular Human Bartender

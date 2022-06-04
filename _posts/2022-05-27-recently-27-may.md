@@ -2,7 +2,7 @@
 title:        "Recently: 27 May"
 date:         2022-05-27
 author:       Jen Myers
-category:     notes
+category:     [notes, recently]
 layout:       post
 image:        notes/recently-27-may.jpg
 image-alt:

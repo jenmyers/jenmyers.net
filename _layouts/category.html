@@ -13,6 +13,8 @@
 
         <h2>{{ page.title }}</h2>
 
+        {{ content }}
+
         <ul class="index-list">
         {% for post in site.categories[page.category] %}
           {% if page.category contains "photos" %}

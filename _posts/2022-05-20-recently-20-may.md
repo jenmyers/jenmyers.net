@@ -2,7 +2,7 @@
 title:        "Recently: 20 May"
 date:         2022-05-20
 author:       Jen Myers
-category:     notes
+category:     [notes, recently]
 layout:       post
 image:        notes/recently-20-may.jpg
 image-alt:    Vincent Van Gogh painting of a stylized white woman with brown hair in a bun reading a book

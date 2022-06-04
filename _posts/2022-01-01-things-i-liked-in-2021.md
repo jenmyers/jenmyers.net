@@ -2,7 +2,7 @@
 title:        Things I Liked in 2021
 date:         2022-01-01
 author:       Jen Myers
-category:     notes
+category:     [notes, things]
 layout:       post
 image:        notes/alley.jpg
 image-alt:    Image from the film Nightmare Alley with a white man in a jacket and fedora stepping through the spiral tunnel of a carnival funhouse

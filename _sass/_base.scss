@@ -198,6 +198,16 @@ ul.index-list {
   }
 }
 
+.notes-nav {
+  padding-left: 0;
+  li {
+    display: inline-block;
+    list-style-type: none;
+    margin-left: 0;
+    padding: 0;
+  }
+}
+
 // IMAGES
 
 .icon {

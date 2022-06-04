@@ -2,7 +2,7 @@
 title:        "Hell Is a Teenage Girl: Jennifer (1978)"
 date:         2022-04-26
 author:       Jen Myers
-category:     notes
+category:     [notes, film]
 layout:       post
 image:        notes/jennifer.jpg
 image-alt:    A young woman in a white gown faces the camera, lit from behind, with a halo of curly red hair and a thin white face, serpents twined around her neck
