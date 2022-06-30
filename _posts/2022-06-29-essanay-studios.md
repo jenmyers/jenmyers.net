@@ -6,7 +6,7 @@ category:     photos
 layout:       photo
 image:        photos/essanay01.jpg
 image-alt:    Detail of an arched entryway to a brick building, a relief of a Native chief to the right and over the door the stylized letters spelling ESSANAY
-description:  Site of the former Essanay Studios, producer of fine motion pictures from 1908 to about 1918
+description:  Site of the former Essanay Studios, producer of fine motion pictures from 1907 to about 1917
 ---
 
 <div><img alt="Detail of an arched entryway to a brick building, a relief of a Native chief to the right and over the door the stylized letters spelling ESSANAY" src="{{ site.baseurl }}/images/photos/essanay01.jpg" /></div>
