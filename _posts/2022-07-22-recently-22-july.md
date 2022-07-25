@@ -5,7 +5,7 @@ author:       Jen Myers
 category:     [notes, recently]
 layout:       post
 image:        notes/recently-22-july.jpg
-image-alt:
+image-alt:    Detail of painting of a white woman with long brown hair in a white robe falling from her shoulders, reading a book
 description:  Regular round-up of links and media recommendations
 ---
 
