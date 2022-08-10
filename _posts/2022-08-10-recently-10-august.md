@@ -15,7 +15,9 @@ I've had a couple of film essays kicking around in my head for a while and I bel
 
 This past summer I took up semi-serious photography (i.e., taking photos with a real camera and not just my phone), so watch for more photos hitting the site as I continue to practice. I even devised a new mobile workflow so I can post photos at my website during my upcoming vacation. (Despite the fact that it sounds like I'm doing extra work over vacation, please rest assured this is a fun thing for me.)
 
-I've neglected the monthly newsletter for the past couple of months, but I will return with that at the end of August, so if you're into getting a digest of things I've posted/done/photographed/mused (including my podcast), [sign up for the newsletter](https://newsletter.jenmyers.net) now.
+You can get all the writings and photos by subscribing to my [RSS feed](https://feeds.feedburner.com/jenmyers), or, if you're old-fashioned, slap up a bookmark to this here website and come back periodically for a stroll. It's the digital equivalent of chasing a wooden hoop around with a stick or whatever. Refreshing.
+
+_Or_ you can subscribe to my newsletter and I'll just send you links to everything. I've neglected the monthly newsletter for the past couple of months, but I will return at the end of August, so if you're into getting a digest of things I've posted/done/photographed/mused (including my podcast), [sign up for the newsletter](https://newsletter.jenmyers.net) now.
 
 Speaking of the [podcast](https://quietlittlehorrors.com), we're also taking a break over there during August. Look for new episodes in September.
 
