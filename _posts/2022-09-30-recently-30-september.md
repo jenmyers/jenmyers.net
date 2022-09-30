@@ -27,7 +27,7 @@ description:  Regular round-up of links and media recommendations
 - I've been reading Laura Purcell's modern gothic novels, my favorite of which is [_The Poison Thread_](https://app.thestorygraph.com/books/a15ab1da-5064-4cb9-9a3a-6d32627a57f8).
 - I loved [_Pearl_](https://letterboxd.com/film/pearl-2022/).
 - The documentary series on the history of Industrial Light and Magic, [_Light & Magic_](https://letterboxd.com/film/light-magic-2022-1/), is very detailed and pretty incredible.
-- Mark Cousins's follow-up to his history of film series, [The Story of Film: A New Generation](https://letterboxd.com/film/the-story-of-film-a-new-generation/), is now available to stream in the US. Its highlighted examples are hit or miss, but he is nothing if not sincere about film and its future.
+- Mark Cousins's follow-up to his history of film series, [_The Story of Film: A New Generation_](https://letterboxd.com/film/the-story-of-film-a-new-generation/), is now available to stream in the US. Its highlighted examples are hit or miss, but he is nothing if not sincere about film and its future.
 - Spin some Lydia Loveless for the last day of September.
 
 <div class="youtube-video-container">
