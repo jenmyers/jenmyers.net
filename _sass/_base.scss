@@ -17,6 +17,11 @@ body {
   width: 85%;
 }
 
+.story {
+  margin: 2em auto;
+  width: 85%;
+}
+
 article {
 
 }
@@ -41,6 +46,13 @@ aside {
     margin: 4em auto;
     text-align: left;
     width: 75%;
+  }
+  .story {
+    margin: 4em auto;
+    width: 75%;
+    h2, .story-author, .story-date {
+      text-align: center;
+    }
   }
   article {
     grid-area: article;
@@ -154,6 +166,21 @@ footer {
   font-weight: bold;
 }
 
+.story-author {
+  margin-top: 0;
+  & a {
+    border-bottom: none;
+  }
+}
+
+.story-date {
+  border-top: 1px solid #e6e2dc;
+  font-size: 0.9em;
+  margin: 0;
+  padding: 1em 0 0 0;
+  text-transform: uppercase;
+}
+
 // LISTS
 
 li {
@@ -215,7 +242,7 @@ ul.index-list {
   width: 80px;
 }
 
-article img {
+article img, .story img {
   aspect-ratio: 3/2;
   width: 100%;
 }
