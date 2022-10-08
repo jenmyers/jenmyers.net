@@ -1,6 +1,6 @@
 ---
 title:          The Artist at Work
-date:           2022-10-09
+date:           2022-10-08
 layout:         story
 writing_type:   short fiction
 image:          images/conservatory.png
