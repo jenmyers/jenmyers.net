@@ -3,7 +3,7 @@ title:          The Artist at Work
 date:           2022-10-08
 layout:         story
 writing_type:   short fiction
-image:          images/conservatory.png
+image:          conservatory.png
 image-alt:      Old linen postcard with an illustration of a conservatory full of green trees and plants, caption at top reads Garfield Park Conservatory Chicago Ill
 description:    From the diary of Miss Lillian Stirling, June 1912
 ---
