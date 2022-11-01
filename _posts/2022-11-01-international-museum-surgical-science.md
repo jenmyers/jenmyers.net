@@ -1,6 +1,6 @@
 ---
 title:        International Museum of Surgical Science
-date:         2022-10-29
+date:         2022-11-01
 author:       Jen Myers
 category:     photos
 layout:       photo
