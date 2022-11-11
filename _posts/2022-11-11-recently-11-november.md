@@ -5,7 +5,7 @@ author:       Jen Myers
 category:     [notes, recently]
 layout:       post
 image:        notes/recently-11-november.jpg
-image-alt:
+image-alt:    Landscape painting of a dim yellow sky at the edge of a pond lined by leafless trees
 description:  Regular round-up of links and media recommendations
 ---
 
