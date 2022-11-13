@@ -5,7 +5,7 @@ author:       Jen Myers
 category:     [notes, recently]
 layout:       post
 image:        notes/recently-28-october.jpg
-image-alt:
+image-alt:    Vintage illustration of three jack-o-lantern-headed figures, the larger one in the middle with its arms around the two smaller ones on each side, sitting cross-legged under the words A Merry Halloween
 description:  Regular round-up of links and media recommendations
 ---
 
