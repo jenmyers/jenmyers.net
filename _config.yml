@@ -22,10 +22,6 @@ excerpt_separator: <!--more-->
 plugins:
   - jekyll-redirect-from
 
-# Tools
-- name: Image Actions
-  uses: calibreapp/image-actions@1.1.0
-
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
