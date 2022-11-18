@@ -1,15 +1,11 @@
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
 
 title: Jen Myers
 email: hello@jenmyers.net
 description: Personal website of technologist and writer Jen Myers.
 
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://jenmyers.net" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: ""
+url: "https://jenmyers.net"
 sass:
   sass_dir: _sass
 
@@ -26,14 +22,10 @@ excerpt_separator: <!--more-->
 plugins:
   - jekyll-redirect-from
 
-# Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
-# Excluded items can be processed by explicitly listing the directories or
-# their entries' file path in the `include:` list.
-#
+# Tools
+- name: Image Optimizer
+  uses: crush-pics/crush-pics-github-action@v1.0
+
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
