@@ -23,8 +23,8 @@ plugins:
   - jekyll-redirect-from
 
 # Tools
-- name: Image Optimizer
-  uses: crush-pics/crush-pics-github-action@v1.0
+- name: Image Actions
+  uses: calibreapp/image-actions@1.1.0
 
 # exclude:
 #   - .sass-cache/
