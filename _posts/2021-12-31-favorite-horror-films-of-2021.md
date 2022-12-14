@@ -2,7 +2,7 @@
 title:        Favorite Horror Films of 2021
 date:         2021-12-30
 author:       Jen Myers
-category:     notes
+category:     [notes, film]
 layout:       post
 image:        notes/park.jpg
 image-alt:    An old white man dressed in a white suit yelling on a roller coaster
