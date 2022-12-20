@@ -8,6 +8,8 @@ image-alt:      Black-and-white image of a pyramid tomb edged with large branchi
 description:    Thoughts about thoughts about death
 ---
 
+<div><img alt="Black-and-white image of a pyramid tomb edged with large branching trees" src="{{ site.baseurl }}/images/photos/graceland09.jpg" /></div>
+
 Last week I went to Graceland Cemetery. It is a historical burying ground and arboretum that has been sprawling quietly on the north side of Chicago for more than one hundred and fifty years, covering well over a hundred acres. Wide paved paths wind around swathes of graves and trees. In its center is a large pond; in its southeast corner is a reclaimed prairie. While you can still be buried in Graceland, it is more typically a hub of active life, circled by walkers, runners, photographers, painters, portrait posers, and dogs, all grounded in the silent conviction that nothing ever really goes away.
 
 I went to Graceland last week to enjoy the unseasonably warm weather and take photographs of its vaults and headstones against the autumn trees. But it probably would be unusual to wander a cemetery and not turn to deeper thoughts, and lately, anyway, I have been thinking about the specter of death. Not in any sort of specific way, but as an element of the world that we rarely confront directly, unless we have to. It’s most accurate to say I have been thinking about thinking about death.
