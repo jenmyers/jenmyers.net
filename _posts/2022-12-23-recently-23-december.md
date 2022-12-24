@@ -35,7 +35,7 @@ I'm in the mad rush to read all the books and see all the movies from this year 
 
 - [_Speak No Evil_](https://letterboxd.com/film/speak-no-evil-2022/) is not fun. I was incredibly stressed out for almost the entire runtime, but its horrific spectacle is hard to turn away from.
 
-- I thought the first season of [_Avenue 5_] maybe didn't quite come together, but it's so full of great performers and characters I that took a swing through the second season, which definitely comes together and is very funny and everyone should be watching it.
+- I thought the first season of _Avenue 5_ maybe didn't quite come together, but it's so full of great performers and characters I that took a swing through the second season, which definitely comes together and is very funny and everyone should be watching it.
 
 - I'm always on the lookout for a new scammer podcast to listen to and [_Sympathy Pains_](https://podcasts.apple.com/us/podcast/sympathy-pains/id1617326066) fits the bill admirably.
 
