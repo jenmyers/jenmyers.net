@@ -5,7 +5,7 @@ layout:         story
 writing_type:   essay
 image:          abandon-all-hope.jpg
 image-alt:      Black and white drawing by Gustave Doré of Dante's Inferno: two small figures stand in front of a black cave opening, the Gates of Hell, amidst dark rolling hills and clouds
-description:    “Midway upon the journey of our life / I found myself within a forest dark, / For the straightforward pathway had been lost.”
+description:    Midway upon the journey of our life, I found myself within a forest dark, For the straightforward pathway had been lost.
 ---
 
 <div><img alt="Black and white drawing by Gustave Doré of Dante's Inferno: two small figures stand in front of a black cave opening, the Gates of Hell, amidst dark rolling hills and clouds" src="{{ site.baseurl }}/images/abandon-all-hope.jpg" /></div>
