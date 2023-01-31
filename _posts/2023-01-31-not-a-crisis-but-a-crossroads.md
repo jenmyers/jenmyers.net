@@ -3,12 +3,12 @@ title:          Not a Crisis but a Crossroads
 date:           2023-01-31
 layout:         story
 writing_type:   essay
-image:          abandon-all-hope.jpg
-image-alt:      Black and white drawing by Gustave Doré of Dante's Inferno: two small figures stand in front of a black cave opening, the Gates of Hell, amidst dark rolling hills and clouds
+image:          abandon.jpg
+image-alt:      Black and white drawing by Gustave Dore of Dante's Inferno: two small figures stand in front of a black cave opening, the Gates of Hell, amidst dark rolling hills and clouds
 description:    Midway upon the journey of our life, I found myself within a forest dark, For the straightforward pathway had been lost.
 ---
 
-<div><img alt="Black and white drawing by Gustave Doré of Dante's Inferno: two small figures stand in front of a black cave opening, the Gates of Hell, amidst dark rolling hills and clouds" src="{{ site.baseurl }}/images/abandon-all-hope.jpg" /></div>
+<div><img alt="Black and white drawing by Gustave Doré of Dante's Inferno: two small figures stand in front of a black cave opening, the Gates of Hell, amidst dark rolling hills and clouds" src="{{ site.baseurl }}/images/abandon.jpg" /></div>
 
 In the middle of a cold, dull January, when the flush of the new year had faded and nothing was left but the stubborn march forward, I picked up the copy of Dante’s _The Inferno_ I had bought years ago but never read. “Midway upon the journey of our life / I found myself within a forest dark, / For the straightforward pathway had been lost.” Make what jokes you will about _The Inferno_ as one of the most dramatic mid-life crises set to words—find yourself at that crossroads and it doesn’t seem that funny.
 
