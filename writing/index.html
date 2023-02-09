@@ -32,7 +32,7 @@ layout: default
       <span>{{ post.writing_type }} • <strong>{{ post.external_site }}</strong> • {{ post.date | date: "%e %b %Y" }}</span>
       {% else %}
       <a href="{{ post.url }}">{{ post.title }}</a>
-      <span>{{ post.writing_type }} • <strong>Newsletter</strong> • {{ post.date | date: "%e %b %Y" }}</span>
+      <span>{{ post.writing_type }} • <strong>jenmyers.net</strong> • {{ post.date | date: "%e %b %Y" }}</span>
     {% endif %}
   </li>
   {% endif %}
@@ -41,6 +41,19 @@ layout: default
 
 <h3>Newsletter Essays</h3>
 
-<p>In each of my monthly email newsletters, I include a new essay. You can read them all in the <a href="https://newsletter.jenmyers.net">newsletter archive</a>.</p>
+<p>In each of my monthly email newsletters, I include a new essay. I post each here for easy reference:</p>
 
-<p>From 2014 to 2021, I sent a weekly email newsletter called Modern Adventuress. Most of those also had essays, which are now all archived for easy reading at the <a href="https://modernadventuress.com/">Modern Adventuress</a> website.</p>
+<ul class="index-list">
+{% for post in site.posts %}
+  {% if post.writing_type contains "newsletter" %}
+  <li>
+    <a href="{{ post.url }}">{{ post.title }}</a>
+    <span>{{ post.writing_type }} • <strong>Newsletter</strong> • {{ post.date | date: "%e %b %Y" }}</span>
+  </li>
+  {% endif %}
+{% endfor %}
+</ul>
+
+<p>You can read all of the full newsletters the <a href="https://newsletter.jenmyers.net">newsletter archive</a>.</p>
+
+<p>From 2014 to 2021, I sent a weekly email newsletter called Modern Adventuress. Most of those also had essays, which are now all archived at the <a href="https://modernadventuress.com/">Modern Adventuress</a> website.</p>

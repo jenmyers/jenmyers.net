@@ -2,7 +2,7 @@
 title:          Memento Mori
 date:           2022-10-31
 layout:         story
-writing_type:   essay
+writing_type:   newsletter
 image:          /photos/graceland09.jpg
 image-alt:      Black-and-white image of a pyramid tomb edged with large branching trees
 description:    Thoughts about thoughts about death
