@@ -1,5 +1,5 @@
 ---
-title:        "Recently: 14 Friday"
+title:        "Recently: 14 January"
 date:         2023-01-14
 author:       Jen Myers
 category:     [notes, recently]
