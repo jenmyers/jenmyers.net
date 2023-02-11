@@ -2,7 +2,7 @@
 title:          List of People Who Disappeared Mysteriously at Sea
 date:           2023-02-11
 layout:         story
-writing_type:   short fiction
+writing_type:   flash fiction
 image:          bus.png
 image-alt:      Black-and-white image of an almost empty city bus interior
 description:    Some of those who wander are in fact lost
@@ -12,7 +12,7 @@ description:    Some of those who wander are in fact lost
 
 Her favorite game isn’t really a game, not a game like the other bus passengers play with zombie armies or crushed jewels. She plays games like that, but not on the bus. In the sight of others, she needs to appear to spend her time more productively. So she plays her own secret game: She opens a browser to an online encyclopedia and clicks the “Random article” link.
 
-_A hockey player named Mike St. Lawrence. “The Skeleton Key,” the synopsis of an episode from a television series she has never seen. Mary Constance Wyndham, Countess of Wemyss and March._ Caladenia longicauda subsp. calcigena_, commonly known as the coastal white spider orchid._
+_A hockey player named Mike St. Lawrence. “The Skeleton Key,” the synopsis of an episode from a television series she has never seen. Mary Constance Wyndham, Countess of Wemyss and March._ Caladenia longicauda subsp. calcigena, _commonly known as the coastal white spider orchid._
 
 She doesn’t always read the article that pops up at the end of the link. She skims to get the idea or passes it up for the next one. Every once in a while, she finds an article she wants to read all the way through. She usually forgets them later. But she can spin away the time from the office to her apartment in something resembling enlightened enrichment that doesn’t require real effort.
 
