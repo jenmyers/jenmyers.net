@@ -53,4 +53,6 @@ Now that it's mid-February, why not get around to talking about my favorite horr
 
 I also enjoyed: [_Hellbender_](https://letterboxd.com/film/hellbender/), [_Sissy_](https://letterboxd.com/film/sissy-2022/), [_Speak No Evil_](https://letterboxd.com/film/speak-no-evil-2022/), [_Mandrake_](https://letterboxd.com/film/mandrake-2022/), [_Bodies Bodies Bodies_](https://letterboxd.com/film/bodies-bodies-bodies/), [_Deadstream_](https://letterboxd.com/film/deadstream/), [_Fresh_](https://letterboxd.com/film/fresh-2022/), and [_She Will_](https://letterboxd.com/film/she-will/).
 
+I also put all [these films into a Letterboxd list](https://letterboxd.com/jenmyers/list/favorite-horror-films-of-2022/), if you're into that sort of thing.
+
 If you'd like to read [last year's horror film favorites](https://jenmyers.net/notes/film/favorite-horror-films-of-2021.html), please do so.
