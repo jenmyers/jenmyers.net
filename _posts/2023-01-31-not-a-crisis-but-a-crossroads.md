@@ -3,6 +3,7 @@ title:          Not a Crisis but a Crossroads
 date:           2023-01-31
 layout:         story
 writing_type:   newsletter
+category:       essay
 image:          abandon.jpg
 image-alt:      Black and white drawing by Gustave Dore of the Inferno by Dante, two small figures stand in front of a black cave opening, the Gates of Hell, amidst dark rolling hills and clouds
 description:    Midway upon the journey of our life, I found myself within a forest dark, For the straightforward pathway had been lost.

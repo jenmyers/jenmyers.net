@@ -3,6 +3,7 @@ title:          The Wind Chimes
 date:           2022-12-10
 layout:         story
 writing_type:   short fiction
+category:       writing
 image:          chimes.jpg
 image-alt:      Black-and-white image of stretched shadows of hanging wind chimes made with old silverware
 description:    Just a faint sound on the wind
