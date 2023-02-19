@@ -3,6 +3,7 @@ title:          List of People Who Disappeared Mysteriously at Sea
 date:           2023-02-11
 layout:         story
 writing_type:   flash fiction
+category:       writing
 image:          bus.png
 image-alt:      Black-and-white image of an almost empty city bus interior
 description:    Some of those who wander are in fact lost

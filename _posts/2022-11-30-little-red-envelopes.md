@@ -3,6 +3,7 @@ title:          Little Red Envelopes
 date:           2022-11-30
 layout:         story
 writing_type:   newsletter
+category:       essay
 image:          envelopes.jpg
 image-alt:      Red DVD.com mailing sleeve with a black and white cartoon illustration of zombies lumbering towards a mailbox filled with DVDs; a speech bubble above their heads says Movieeeees
 description:    On physical media, nostalgia, and those little red envelopes in the mail
