@@ -11,7 +11,6 @@ description:  Regular round-up of recommended links and books/films/music
 
 ### Links
 
-
 - Charlie Jane Anders on [separating the art from the artist](https://buttondown.email/charliejane/archive/jk-rowling-and-separating-the-art-from-the-artist/).
 
 - “We're not here to make older women look cute, we're here to show older women in their whole diverse reality.” [The Unglamourous Project.](https://www.rnz.co.nz/national/programmes/sunday/audio/2018877379/ruth-miller-middle-aged-women-making-punk-music)
@@ -29,3 +28,5 @@ description:  Regular round-up of recommended links and books/films/music
 - [_Orphan: First Kill_](https://letterboxd.com/film/orphan-first-kill/) is a blast.
 
 - I came across [_Last Girl Standing_](https://letterboxd.com/film/last-girl-standing/), a indie film from 2015, and while it's a bit wobbly, I liked its perspective and its commitment to its psychological premise. Worth checking out.
+
+- Y'all are watching _Poker Face_, right? Because you should be watching _Poker Face_.
