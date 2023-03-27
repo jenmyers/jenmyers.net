@@ -2,7 +2,7 @@
 title:        2022 Writing Report
 date:         2022-12-20
 author:       Jen Myers
-category:     notes
+category:     [notes, writing-meta]
 layout:       post
 image:        notes/writing-report.jpg
 image-alt:    Pale pastel painting of a young white woman in a long blue gown sitting at a large table and writing on a sheet of paper
