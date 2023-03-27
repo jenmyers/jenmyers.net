@@ -11,7 +11,19 @@
 
       <article>
 
-        <h2>{{ page.title }}</h2>
+        <h2>Notes</h2>
+
+        {% if page.category == "recently" %}
+          <h3>Recently</h3>
+        {% elsif page.category == "writing-meta" %}
+          <h3>Writing</h3>
+        {% elsif page.category == "writing-markets" %}
+          <h3>Writing Markets</h3>
+        {% elsif page.category == "film" %}
+          <h3>Film</h3>
+        {% elsif page.category == "things" %}
+          <h3>Things</h3>
+        {% endif %}
 
         {{ content }}
 
@@ -31,7 +43,7 @@
           </li>
           {% endif %}
         {% endfor %}
-      </ul>
+        </ul>
 
       </article>
 
