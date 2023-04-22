@@ -5,8 +5,8 @@ author:       Jen Myers
 category:     [notes, recently]
 layout:       post
 image:        notes/recently-22-april.jpg
-image-alt:
-description:
+image-alt:    Old painting of woman lying in bed reading a book by the light of a lamp
+description:  Regular round-up of recommended links and books/films/music
 ---
 
 ### Links
