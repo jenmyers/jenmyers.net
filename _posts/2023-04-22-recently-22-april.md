@@ -13,13 +13,13 @@ description:
 
 - [Netflix's DVD service, to which I have long enthusiastically subscribed, is ending in September](https://www.avclub.com/netflix-is-killing-its-dvds-by-mail-service-1850350666). This is a huge bummer and I hope their massive library of movies finds a good new home.
 
-- [How rural American steal girls' futures.](https://www.theatlantic.com/ideas/archive/2023/04/the-forgotten-girls-monica-potts-book-excerpt/673581/)
+- [How rural America steal girls' futures.](https://www.theatlantic.com/ideas/archive/2023/04/the-forgotten-girls-monica-potts-book-excerpt/673581/)
 
 - [The origin story of Joy Division’s _Unknown Pleasures_ album cover.](https://blogs.scientificamerican.com/sa-visual/pop-culture-pulsar-origin-story-of-joy-division-s-unknown-pleasures-album-cover-video/)
 
 - [John Coltrane's handwritten outline for _A Love Supreme_.](https://www.openculture.com/2023/04/behold-john-coltranes-handwritten-outline-for-his-masterpiece-a-love-supreme.html)
 
-- I've seen a lot of folks flock from Twitter to Substack lately. I get it if that's what works out for them, but I'm not sure if it's going to end up being much of an improvement. Especially given the fact that [the Substack CEO doesn't realize he's just become the Nazi bar](https://www.techdirt.com/2023/04/14/substack-ceo-chris-best-doesnt-realize-hes-just-become-the-nazi-bar/). For what it's worth: a couple of years ago [I wrote about why I moved my newsletter from the Substack platform](https://jenmyers.net/notes/a-digital-room-of-ones-own.html).
+- I've seen a lot of folks flock from Twitter to Substack lately. I get it if that's what works out for them, but I'm not sure if it's going to end up being much of an improvement. Especially given the fact that [the Substack CEO doesn't realize he's just become the Nazi bar](https://www.techdirt.com/2023/04/14/substack-ceo-chris-best-doesnt-realize-hes-just-become-the-nazi-bar/). For what it's worth: a couple of years ago [I wrote about why I moved my newsletter off of the Substack platform](https://jenmyers.net/notes/a-digital-room-of-ones-own.html).
 
 ### Reading/Watching/Listening
 
