@@ -13,7 +13,7 @@ description:  Regular round-up of recommended links and books/films/music
 
 - [Netflix's DVD service, to which I have long enthusiastically subscribed, is ending in September](https://www.avclub.com/netflix-is-killing-its-dvds-by-mail-service-1850350666). This is a huge bummer and I hope their massive library of movies finds a good new home.
 
-- [How rural America steal girls' futures.](https://www.theatlantic.com/ideas/archive/2023/04/the-forgotten-girls-monica-potts-book-excerpt/673581/)
+- [How rural America steals girls' futures.](https://www.theatlantic.com/ideas/archive/2023/04/the-forgotten-girls-monica-potts-book-excerpt/673581/)
 
 - [The origin story of Joy Division’s _Unknown Pleasures_ album cover.](https://blogs.scientificamerican.com/sa-visual/pop-culture-pulsar-origin-story-of-joy-division-s-unknown-pleasures-album-cover-video/)
 
