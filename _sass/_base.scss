@@ -332,6 +332,8 @@ h1 a, header li a, footer li a {
 
 a.intro-photo {
   border-bottom: none;
+  display: inline-block;
+  margin-top: 1em;
   &:hover {
     border-bottom: none;
   }

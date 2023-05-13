@@ -36,7 +36,7 @@
 
       <p>The most recent photo I took is:
         {% for post in site.categories.photos limit:1 %}
-          <a alt="{{ post.image-alt }}" class="intro-photo" href="{{ post.url }}">{{ post.image }}</a>
+          <a alt="{{ post.image-alt }}" class="intro-photo" href="{{ post.url }}"><img alt="{{ post.image-alt }}" class="{{ post.image-class }}" src="images/{{ post.image }}" /></a>
         {% endfor %}
       </p>
 

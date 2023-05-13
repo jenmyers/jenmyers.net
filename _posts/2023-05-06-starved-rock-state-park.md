@@ -4,8 +4,9 @@ date:         2023-05-06
 author:       Jen Myers
 category:     photos
 layout:       photo
-image:        photos/2023-05-06-starved-rock-01.jpg
+image:        photos/starved-rock-01.jpg
 image-alt:    Looking upwards to a narrow canyon with a small stream of water flowing down, spring green tree branches surrounding the top
+image-class:  vert
 description:  Nature and stuff
 ---
 
