@@ -31,6 +31,6 @@ While I like lists, I’m not that interested in best-of lists. Making them, at 
 
 ![Baby Yoda calmly drinking soup][baby-yoda]
 
-(If you really like reading lists, you can also read the [list of things I liked in 2018]({{ site.baseurl }}/notes/things-i-liked-in-2018.html).)
+(If you really like reading lists, you can also read the [list of things I liked in 2018]({{ site.baseurl }}/notes/things/things-i-liked-in-2018.html).)
 
 [baby-yoda]: {{ site.baseurl }}/images/notes/baby-yoda-drink.gif "Baby Yoda drinks soup"

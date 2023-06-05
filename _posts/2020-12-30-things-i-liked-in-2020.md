@@ -33,4 +33,4 @@ A couple of years ago, I adopted the policy of eschewing any sort of "best" end-
   <iframe width="560" height="315" src="https://www.youtube.com/embed/E2eOiqeLH4k" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-(If you really like reading lists, you can also read the list of [list of things I liked in 2019]({{ site.baseurl }}/notes/things-i-liked-in-2019.html).)
+(If you really like reading lists, you can also read the list of [list of things I liked in 2019]({{ site.baseurl }}/notes/things/things-i-liked-in-2019.html).)

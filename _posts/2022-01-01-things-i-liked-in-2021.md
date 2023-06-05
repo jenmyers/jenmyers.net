@@ -37,4 +37,4 @@ A few years ago I tossed out any attempts at "best of" lists at the end of the y
 
 - And I liked, and continue to like, vaccines.
 
-(If you really like lists, you can also read what [things I liked in 2020](https://jenmyers.net/notes/things-i-liked-in-2020.html).)
+(If you really like lists, you can also read what [things I liked in 2020](https://jenmyers.net/notes/things/things-i-liked-in-2020.html).)
