@@ -31,4 +31,4 @@ For context, I gave up any sort of pretension at objective "best of" lists long 
 
 <div><img alt="The image of a white woman with long reddish wavy hair holding a camera to her eye as captured in a tall mirror edged with colorful designs" src="{{ site.baseurl }}/images/photos/disney-12.jpg" /></div>
 
-(If you really like lists, you can also read what [things I liked in 2021](https://jenmyers.net/notes/things-i-liked-in-2021.html) or all of the [things I liked lists](https://jenmyers.net/category/things.html).)
+(If you really like lists, you can also read what [things I liked in 2021](https://jenmyers.net/notes/things/things-i-liked-in-2021.html) or all of the [things I liked lists](https://jenmyers.net/category/things.html).)
