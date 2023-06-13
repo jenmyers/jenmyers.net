@@ -4,7 +4,7 @@ date:         2023-06-03
 author:       Jen Myers
 category:     [notes, recently]
 layout:       post
-image:        notes/recently-12-june.jpg
+image:        notes/recently-13-june.jpg
 image-alt:    Painting of white woman wearing a black gown lying on a lounge and holding up a book to read
 description:  Regular round-up of recommended links and books/films/music
 ---
