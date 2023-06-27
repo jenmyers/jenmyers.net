@@ -76,42 +76,6 @@ footer {
   text-align: right;
 }
 
-// // DESKTOP LAYOUT
-//
-// @media only screen and (min-width: 1025px){
-//   .container {
-//     display: grid;
-//     grid-gap: 2em;
-//     grid-template-columns: repeat(3, 1fr);
-//     grid-template-areas:
-//     "aside article article";
-//     justify-content: center;
-//     margin: 4em auto;
-//     text-align: left;
-//     width: 75%;
-//   }
-//   .story {
-//     margin: 4em auto;
-//     width: 75%;
-//     h2, .story-author, .story-date {
-//       text-align: center;
-//     }
-//   }
-//   article {
-//     grid-area: article;
-//   }
-//   aside {
-//     grid-area: aside;
-//     margin-bottom: 0;
-//     li {
-//       display: block;
-//     }
-//   }
-//   h2 {
-//     margin: 0;
-//   }
-// }
-
 // TYPOGRAPHY
 
 h1 {
@@ -372,7 +336,47 @@ ul.log {
   }
 }
 
-// Responsive Video Embeds
+// MOBILE LAYOUT
+
+@media only screen and (max-width: 768px){
+  .container {
+    justify-content: center;
+    margin: 4em auto;
+    text-align: left;
+    width: 80%;
+  }
+  header {
+    display: block;
+    text-align: center;
+  }
+  h1 {
+    display: block;
+    margin: 0.5em auto;
+  }
+  .header-nav {
+    display: block;
+    margin: 1em auto;
+    text-align: center;
+    width: 80%;
+  }
+  footer {
+    display: block;
+    text-align: center;
+  }
+  .footer-home {
+    text-align: center;
+  }
+  article {
+    ul {
+      padding-left: 0.75em;
+    }
+    li {
+      margin-left: 0;
+    }
+  }
+}
+
+// RESPONSIVE VIDEO EMBEDS
 
 .youtube-video-container {
   position: relative;
