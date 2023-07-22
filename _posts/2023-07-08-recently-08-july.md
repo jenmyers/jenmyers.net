@@ -9,8 +9,6 @@ image-alt:    Detail from Hieronymus Bosch painting of a hooded creature with a 
 description:  Regular round-up of recommended links and books/films/music
 ---
 
-<div><img alt="Detail from Hieronymus Bosch painting of a hooded creature with a long snout and a jagged cloak holding a book in its thin, scaled hands" src="{{ site.baseurl }}/images/notes/recently-08-july.jpg" /></div>
-
 ### Links
 
 - Joan Westenberg on [missing the old internet](https://medium.com/@joan_68303/i-miss-the-internet-c7e41544a8b9). I feel this deeply.
