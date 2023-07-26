@@ -2,7 +2,7 @@
 title:        "Lakebook: 03 September 2022"
 date:         2022-09-03
 author:       Jen Myers
-category:     photos
+category:     [photos, lakebook]
 layout:       photo
 image:        photos/2022-09-03.jpg
 image-alt:    A wide lake horizon with a sweep of dark blue clouds along the water's edge, the lake surface calm and pale blue

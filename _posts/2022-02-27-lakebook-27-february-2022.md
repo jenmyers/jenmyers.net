@@ -2,7 +2,7 @@
 title:        "Lakebook: 27 February 2022"
 date:         2022-02-27
 author:       Jen Myers
-category:     photos
+category:     [photos, lakebook]
 layout:       photo
 image:        photos/2022-02-27.jpg
 image-alt:    Horizon of large Lake Michigan with deep blue sky overhead and floes of ice in the foreground

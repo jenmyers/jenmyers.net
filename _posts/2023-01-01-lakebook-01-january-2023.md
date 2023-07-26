@@ -2,7 +2,7 @@
 title:        "Lakebook: 01 January 2023"
 date:         2023-01-01
 author:       Jen Myers
-category:     photos
+category:     [photos, lakebook]
 layout:       photo
 image:        photos/2023-01-01.jpg
 image-alt:    A wide pale blue lake with a still surface and a soft blue clouded sky above
