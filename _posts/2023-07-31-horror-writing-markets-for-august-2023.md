@@ -20,6 +20,7 @@ Just in time for August, here are some places to send your beautiful and terrify
 ### Open Soon
 
 - [_The Quiet Ones_](https://wearethequietones.com/submission-calls/) opens up for short stories, flash and micro fiction, and narrative poetry on August 13.
+- Beginning August 17, you can submit fiction, nonfiction, art, and video to [Pyre Magazine](https://www.pyremagazine.com/submissions).
 
 ### Anthology Calls
 
