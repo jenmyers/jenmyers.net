@@ -27,5 +27,6 @@ Just in time for August, here are some places to send your beautiful and terrify
 - African and African-diaspora writers can submit to Flame Tree Press's [_African Ghost Short Stories_](https://blog.flametreepublishing.com/fantasy-gothic/african-ghost-submissions-0) until August 27.
 - Send your best horror and dark sci-fi stories about shopping malls to [_Escalators to Hell: Shopping Mall Horrors_](https://frombeyondpress.com/books/escalators-to-hell-shopping-mall-horrors/). Deadline: August 31.
 - [_Two Sentence Horror Stories_](https://www.authorlaurencarter.com/Two-Sentence-Horrors-Sub-Call) is open until August 31.
+- Cursed Morsels Press is open for submissions to their anthology, [_Why Didn't You Just Leave_](https://cursedmorsels.moksha.io/publication/cursed-morsels-press/guidelines) from now until August 31.
 
 For more markets, you can always take a stroll through my [horror markets database]({{ site.baseurl }}/markets/). If you have a current or upcoming market to submit, email me at [hello@jenmyers.net](mailto:hello@jenmyers.net).
