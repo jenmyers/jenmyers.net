@@ -11,18 +11,28 @@
 
       <article>
 
-        <h2>Notes</h2>
-
-        {% if page.category == "recently" %}
+        {% if page.category == "notes" %}
+          <h2>Notes</h2>
+        {% elsif page.category == "recently" %}
+          <h2>Notes</h2>
           <h3>Recently</h3>
         {% elsif page.category == "writing-meta" %}
+          <h2>Notes</h2>
           <h3>Writing</h3>
         {% elsif page.category == "writing-markets" %}
+          <h2>Notes</h2>
           <h3>Writing Markets</h3>
         {% elsif page.category == "film" %}
+          <h2>Notes</h2>
           <h3>Film</h3>
         {% elsif page.category == "things" %}
+          <h2>Notes</h2>
           <h3>Things</h3>
+        {% elsif page.category contains "photos" %}
+            <h2>Photos</h2>
+        {% elsif page.category contains "lakebook" %}
+          <h2>Photos</h2>
+          <h3>Lakebook</h3>
         {% endif %}
 
         {{ content }}
