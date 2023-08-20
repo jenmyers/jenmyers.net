@@ -196,7 +196,7 @@ header ul, footer ul {
   margin: 0;
 }
 
-header li, footer li {
+header li, footer li{
   color: #ccc;
   display: inline-block;
   font-family: "brandon-grotesque", sans-serif;
@@ -237,12 +237,21 @@ ul.index-list {
 }
 
 .notes-nav {
-  padding-left: 0;
+  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ddd;
+  padding: 0.25em 0;
   li {
     display: inline-block;
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 0.8em;
     list-style-type: none;
     margin-left: 0;
     padding: 0;
+    text-transform: uppercase;
+    a {
+      border-bottom: none;
+      font-weight: 100;
+    }
   }
 }
 
