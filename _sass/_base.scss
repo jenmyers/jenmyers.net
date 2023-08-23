@@ -285,6 +285,15 @@ article img, .story img {
   aspect-ratio: 2/3;
 }
 
+.about-image {
+  aspect-ratio: auto;
+  // display: block;
+  // margin: 0 auto;
+  float: left;
+  margin: 1em 2em 1em 0;
+  width: 40%;
+}
+
 // ANCHORS
 
 a {
