@@ -34,3 +34,5 @@ We're beginning the slide into spooky season, this is our time. Start sending yo
 ### Contests
 
 - If you’re a contest sort of person, _The Molotov Cocktail_ is holding their annual [Flash Monster contest](https://themolotovcocktail.com/flash-monster-x/), open for flash fiction about monsters until October 9.
+
+For more markets, you can always take a stroll through my [horror markets database]({{ site.baseurl }}/markets/). If you have a current or upcoming market to submit, email me at [hello@jenmyers.net](mailto:hello@jenmyers.net).
