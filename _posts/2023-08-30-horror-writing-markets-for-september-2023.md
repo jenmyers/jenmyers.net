@@ -21,6 +21,7 @@ We're beginning the slide into spooky season, this is our time. Start sending yo
 
 - [_Hexagon_](https://hexagonmagazine.ca/submit/) opens for speculative fiction on September 1.
 - [_Deadlands_](https://thedeadlands.com/guidelines/) opens up for fiction and poetry submissions on September 1. They are also currently open for nonfiction submissions.
+- From the Great Lakes Association of Horror Writers, [_Ghostlight: The Magazine of Terror_](https://glahw.com/ghostlight-the-magazine-of-terror-is-open-for-submission-3/) is open from September 1 to December 1.
 - On September 2, [_Weird Horror_](https://undertowpublications.com/weird-horror-magazine) opens to submissions for two weeks.
 - [_Tales from Between_](https://talesfrombetween.wordpress.com/submissions/) will be open for your “strange stories” from September 4—17.
 - You can send your short horror, dark fantasy, and sci-fi fiction to [_Shortwave Magazine_](https://shortwavepublishing.com/news/shortwave-magazine-open-submissions-fall-2023-guidelines/) from September 9-15.
