@@ -25,6 +25,8 @@ We're beginning the slide into spooky season, this is our time. Start sending yo
 - On September 2, [_Weird Horror_](https://undertowpublications.com/weird-horror-magazine) opens to submissions for two weeks.
 - [_Tales from Between_](https://talesfrombetween.wordpress.com/submissions/) will be open for your “strange stories” from September 4—17.
 - You can send your short horror, dark fantasy, and sci-fi fiction to [_Shortwave Magazine_](https://shortwavepublishing.com/news/shortwave-magazine-open-submissions-fall-2023-guidelines/) from September 9-15.
+- [_Apex Magazine_'s monthly flash fiction theme for October is "Necromancy" and submissions are open from September 7-30.](https://www.patreon.com/posts/flash-fiction-88897309)
+- The [October theme at _Grim & Gilded_ is "Seep"](https://www.grimandgilded.com/submit) and you can send them short/flash fiction and poetry until October 11.
 
 ### Anthology Calls
 
