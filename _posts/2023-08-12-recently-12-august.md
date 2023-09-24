@@ -9,7 +9,7 @@ image-alt:    Detail from Hieronymus Bosch painting of a hooded creature with a 
 description:  Regular round-up of recommended links and books/films/music
 ---
 
-## Links
+### Links
 
 - What's going on at TCM? [Insiders detail the fight to protect the network — and why it matters.](https://ew.com/tv/tcm-insiders-detail-fight-to-protect-turner-classic-movies-network/)
 - [Why US malls are dying (and European malls aren't).](https://kottke.org/23/08/why-us-malls-are-dying-and-european-malls-arent) (Spoiler: it’s the failures of car-centric planning.)
@@ -19,7 +19,7 @@ description:  Regular round-up of recommended links and books/films/music
 - [_Barbie_ and the cinematic history of weaponized pink.](https://tomandlorenzo.com/2023/07/barbie-and-the-cinematic-history-of-weaponized-pink/)
 - [A beautiful, broken America: what you learn on a 2,800-mile bus ride from Detroit to LA.](https://www.theguardian.com/travel/2023/jul/26/america-roadtrip-greyhound-bus)
 
-## Reading/Watching/Listening
+### Reading/Watching/Listening
 
 - A thoroughly original and psychologically brutal story: [_A Short Stay in Hell_ by Steven L. Peck](https://app.thestorygraph.com/books/8dfa8c4a-8fb1-4288-94b7-ebdfc6f4d042).
 - If you need me to tell you to watch the entirety of the Criterion Channel’s [Roger Corman + Edgar Allan Poe collection](https://www.criterionchannel.com/grindhouse-gothic-roger-corman-directs-edgar-allan-poe), consider yourself told.

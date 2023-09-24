@@ -9,7 +9,7 @@ image-alt:    Detail from Hieronymus Bosch painting of a hooded creature with a 
 description:  Regular round-up of recommended links and books/films/music
 ---
 
-## Links
+### Links
 
 - “The transformation towards a better Internet is a collective responsibility. This responsibility lies not just with governments or corporations but with every individual who uses the Internet. We all have a role to play, whether advocating for greater algorithm transparency, promoting digital literacy, or supporting new business models prioritizing quality over quantity.” [How to build an internet that doesn’t suck.](https://joanwestenberg.medium.com/how-to-build-an-internet-that-doesnt-suck-675f4b4c7039)
 - [To save the planet, should we really be moving slower?](https://www.newyorker.com/news/daily-comment/to-save-the-planet-should-we-really-be-moving-slower)
@@ -17,7 +17,7 @@ description:  Regular round-up of recommended links and books/films/music
 - [The Japanese factory that uses 40-year-old software to design its traditional textiles.](https://boingboing.net/2023/07/10/the-japanese-factory-that-uses-40-year-old-software-to-design-its-traditional-textiles.html)
 - “There is a religious idea that grace is by definition something one has not earned. Grace might include capacities and clarities one hadn’t expected to have access to in a smoky or sharp time. But I think this idea of grace as random and fluke-like overlooks the reality I prefer. Which is that moments of ease and understanding very often have thick histories. Said another way, there are times when the unexpected grace we experience has in fact been paid for. Often many times over.” [Jessica Dore.](https://jessicadore.substack.com/p/offering-july-1-2023)
 
-## Reading/Watching/Listening
+### Reading/Watching/Listening
 
 - I'm reading [_Women Who Run with the Wolves: Myths and Stories of the Wild Woman Archetype_](https://app.thestorygraph.com/books/0cebbfde-b5b4-4ad4-8449-6b81ebf380c5) by Clarissa Pinkola Estés and I am learning that there is a good reason for its long-lasting and wide-reaching reputation. It is an excellent companion for the woman getting older (she types four days before her forty-second birthday) as well as for the storyteller.
 - I was bit skeptical going in, but it turns out I liked [_Oppenheimer_](https://letterboxd.com/film/oppenheimer-2023/) quite a bit.
