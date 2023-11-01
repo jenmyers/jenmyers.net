@@ -15,19 +15,19 @@ Happy Halloween!
 
 No rest for the wicked. Get to submitting.
 
-## Open Now
+### Open Now
 
 - [_The Crow's Quill_](https://www.quillandcrowpublishinghouse.com/cqmagazinesubmissions) is accepting submissions on the theme of “Darkest Endings” until November 10.
 - [_Dusty Attic Publishing_](https://dustyatticpublishing.com/submissions/) wants your spooky/fantastical short stories and poems.
 - Nonfiction writers: You can send essays about pop culture, movies, geekery, and scifi/fantasy related topics to [_Interstellar Flight Magazine_](https://www.interstellarflightpress.com/submissions.html) all year round.
 
-## Open Soon
+### Open Soon
 
 - [_House of Gamut_](https://houseofgamut.moksha.io/publication/house-of-gamut) opens for short fiction and poetry on November 1 and you’ll probably want to hurry because they fill up quickly.
 - [_Hexagon Magazine_](https://hexagonmagazine.ca/submit/) will be open from November 1-7 for short and flash fiction.
 - [_Apparition Lit_](https://apparitionlit.com/submissions/) will open on November 15 and stay open until November 30 for submission on the theme of “Blight.”
 
-## Anthology Calls
+### Anthology Calls
 
 - _House of Gamut_ is also currently collecting short fiction for [_Winter in the City: A Collection of Dark Urban Stories_](https://houseofgamut.moksha.io/publication/house-of-gamut). Deadline: March 31, 2024.
 - [_Nēpenthé Press_](https://twitter.com/nepenthepress/status/1711435864159478134) is open for folk horror stories for a new anthology until December 20.
