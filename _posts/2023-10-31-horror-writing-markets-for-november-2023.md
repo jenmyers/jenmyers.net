@@ -34,4 +34,8 @@ No rest for the wicked. Get to submitting.
 - _House of Gamut_ is also currently collecting short fiction for [_Winter in the City: A Collection of Dark Urban Stories_](https://houseofgamut.moksha.io/publication/house-of-gamut). Deadline: March 31, 2024.
 - [_Nēpenthé Press_](https://twitter.com/nepenthepress/status/1711435864159478134) is open for folk horror stories for a new anthology until December 20.
 
+### Contests
+
+- Crystal Lake's [_Shallow Waters_](https://www.patreon.com/posts/theme-for-is-92105988), a monthly flash fiction contest, is open until midnight at the end of November, whenever that takes place where you are.
+
 For more markets, you can always take a stroll through my [horror markets database]({{ site.baseurl }}/markets/). If you have a current or upcoming market to submit, email me at [hello@jenmyers.net](mailto:hello@jenmyers.net).
