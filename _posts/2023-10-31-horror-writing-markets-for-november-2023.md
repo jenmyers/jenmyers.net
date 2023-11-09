@@ -20,6 +20,8 @@ No rest for the wicked. Get to submitting.
 - [_The Crow's Quill_](https://www.quillandcrowpublishinghouse.com/cqmagazinesubmissions) is accepting submissions on the theme of “Darkest Endings” until November 10.
 - [_Dusty Attic Publishing_](https://dustyatticpublishing.com/submissions/) wants your spooky/fantastical short stories and poems.
 - Nonfiction writers: You can send essays about pop culture, movies, geekery, and scifi/fantasy related topics to [_Interstellar Flight Magazine_](https://www.interstellarflightpress.com/submissions.html) all year round.
+- If you've got "unsettling, disconcerting adult market fiction," [body fluids](https://www.bodyfluids.org/submissions) wants it.
+- [Hearth & Coffin](https://www.hearthandcoffin.com/frequently-asked-questions) is accepting fiction, nonfiction and poetry on the them of "Burn" until November 30.
 
 ### Open Soon
 
