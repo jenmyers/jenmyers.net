@@ -206,7 +206,7 @@ header ul, footer ul {
   margin: 0;
 }
 
-header li, footer li{
+header li, footer li {
   color: #ccc;
   display: inline-block;
   font-family: "brandon-grotesque", sans-serif;
@@ -217,7 +217,7 @@ header li, footer li{
 }
 
 header li, .footer-home li {
-  margin: 0 0 0 0.4em;
+  margin: 0 0 0 0.2em;
   padding-right: 0;
 }
 
@@ -267,7 +267,7 @@ ul.index-list {
 
 // IMAGES
 
-.icon {
+.site-icon {
   height: 80px;
   width: 80px;
 }
@@ -424,4 +424,10 @@ ul.log {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+// GUESTBOOK
+
+hr.bn-gb-divider {
+  width: 100%;
 }
