@@ -28,6 +28,6 @@ It's getting dark and cold out there, just like your writing. Do some winter thr
 - In honor of Steinbeck’s lost werewolf novel, the [_In the Eyes of the Hungry_](https://castaignepublishing.bigcartel.com/in-the-eyes-of-the-hungry-submissions) wants your Steinbeck-style werewolf stories. Open until December 31.
 - Andrew Cull and Gabino Iglesias are putting together a [second anthology of “found footage” horror stories](https://twitter.com/andrewcull/status/1726411913448542270) and are open to submissions now until March 31.
 - [_The Cellar Door: Marshland Horrors_](https://www.darkpeninsulapress.com/the-cellar-door-issue-5---marshland-horrors.html\) is looking for horror/suspense stories that take place in swamps, bayous, and marshlands starting December 1.
-- [The Map of Lost Places](https://apexbookcompany.moksha.io/publication/the-map-of-lost-places) is open to short stories about places where weird things happen until the end of December.
+- [_The Map of Lost Places_](https://apexbookcompany.moksha.io/publication/the-map-of-lost-places) is open to short stories about places where weird things happen until the end of December.
 
 For more markets, you can always take a stroll through my [horror markets database]({{ site.baseurl }}/markets/). If you have a current or upcoming market to submit, email me at [hello@jenmyers.net](mailto:hello@jenmyers.net).
