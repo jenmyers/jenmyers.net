@@ -14,11 +14,13 @@ body {
 .container {
   justify-content: center;
   margin: 4em auto;
-  width: 65%;
+  width: 80%;
 }
 
-article {
+article, div.story {
   clear: both;
+  margin: 0 auto;
+  width: 60%;
 }
 
 hr {
