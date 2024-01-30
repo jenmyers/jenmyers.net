@@ -11,7 +11,7 @@ description:  The ones I liked from the past year.
 
 <h3><a href="https://letterboxd.com/film/enys-men/"><em>Enys Men</em></a></h3>
 
-I didn't see this one coming, but it really bowled me over. It was marketed as something of a straightforward folk horror, which makes sense because even though it is not at all a straightforward folk horror, it's not anything else marketable either. <em>Enys Men</em> reminds me of a musical composition more than anything—an expertly woven collection of melodies, harmonies, counterpoints, and echoes. It's horrific really only in the existential sense of term, but that is one of my favorite sense of the term, so there we are.
+I didn't see this one coming, but it really bowled me over. It was marketed as something of a straightforward folk horror, which makes sense because even though it is not at all a straightforward folk horror, it's not anything else marketable either. <em>Enys Men</em> reminds me of a musical composition more than anything—an expertly woven collection of melodies, harmonies, counterpoints, and echoes. It's horrific really only in the existential sense of term, but that is one of my favorite senses of the term, so there we are.
 
 <h3><a href="https://letterboxd.com/film/skinamarink/"><em>Skinamarink</em></a></h3>
 
