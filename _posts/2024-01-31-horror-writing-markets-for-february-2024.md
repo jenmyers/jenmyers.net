@@ -20,6 +20,7 @@ I skipped a post for January, because reasons, but there are plenty of opportuni
 
 - [_House of Gamut_](https://houseofgamut.moksha.io/publication/house-of-gamut) opens at the beginning of the month to fiction—but move fast, they fill up very quickly.
 - Spindle House Press's [_Tales from the Tarot_](https://www.spindlehousepress.com/submissions/tarot-tales) will be open for flash fiction submissions on the theme of the Ace of Wands tarot card from February 1-15.
+- [_Apparition Lit_](https://apparitionlit.com/submissions/) will accept stories on the theme of "mercurial" from February 15-28. 
 
 ### Anthology Calls
 
