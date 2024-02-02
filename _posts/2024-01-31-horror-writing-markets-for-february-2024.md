@@ -14,7 +14,9 @@ I skipped a post for January, because reasons, but there are plenty of opportuni
 ### Open Now
 
 - [_Bowery Gothic_](https://bowerygothic.submittable.com/submit) is looking for literary stories on the loose theme of "winter ghosts." This one closes on February 2.
+- Ghoulish Books is looking for fun horror short stories and non-fiction about the horror genre for [_Ghoulish Tales Issue #2_](https://ghoulish.rip/reopened-for-short-story-submissions-ghoulish-tales/) until March 29.
 - If you've got a punchy, old-fashioned genre tale, send it over to [_Epic Echoes Magazine_](https://epicechoesmag.wixsite.com/epic-echoes-magazine) until the end of February.
+- [_Corvid Queen_](https://corvidqueen.com/submit) wants "original feminist tales, feminist retellings of traditional tales, and personal essays related to traditional tales" in the realms of short fiction, poetry, and creative non-fiction and is open until March 7.
 
 ### Open Soon
 
