@@ -14,15 +14,17 @@ I skipped a post for January, because reasons, but there are plenty of opportuni
 ### Open Now
 
 - [_Bowery Gothic_](https://bowerygothic.submittable.com/submit) is looking for literary stories on the loose theme of "winter ghosts." This one closes on February 2.
+- [_Sirens Call Zine_](http://www.sirenscallpub.com/) is open for horror and dark fiction short stories, flash fiction, drabbles, and poetry on the theme of "born ravenous" until February 29.
 - Ghoulish Books is looking for fun horror short stories and non-fiction about the horror genre for [_Ghoulish Tales Issue #2_](https://ghoulish.rip/reopened-for-short-story-submissions-ghoulish-tales/) until March 29.
 - If you've got a punchy, old-fashioned genre tale, send it over to [_Epic Echoes Magazine_](https://epicechoesmag.wixsite.com/epic-echoes-magazine) until the end of February.
 - [_Corvid Queen_](https://corvidqueen.com/submit) wants "original feminist tales, feminist retellings of traditional tales, and personal essays related to traditional tales" in the realms of short fiction, poetry, and creative non-fiction and is open until March 7.
+- Women-identified authors can submit speculative short stories to [_Luna Station Quarterly_](https://submissions.lunastationpress.com/submission-guidelines/) until February 15.
 
 ### Open Soon
 
 - [_House of Gamut_](https://houseofgamut.moksha.io/publication/house-of-gamut) opens at the beginning of the month to fiction—but move fast, they fill up very quickly.
-- Spindle House Press's [_Tales from the Tarot_](https://www.spindlehousepress.com/submissions/tarot-tales) will be open for flash fiction submissions on the theme of the Ace of Wands tarot card from February 1-15.
-- [_Apparition Lit_](https://apparitionlit.com/submissions/) will accept stories on the theme of "mercurial" from February 15-28. 
+- [_Apparition Lit_](https://apparitionlit.com/submissions/) will accept stories on the theme of "mercurial" from February 15-28.
+- Spindle House Press's [_Tales from the Tarot_](https://www.spindlehousepress.com/submissions/tarot-tales) will be open for flash fiction submissions on the theme of the Ace of Wands tarot card from March 1-15.
 
 ### Anthology Calls
 
