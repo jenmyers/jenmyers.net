@@ -25,23 +25,22 @@
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" >
 
-  <!-- Twitter cards -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:site" content="@antiheroine">
-  <meta name="twitter:title" content="{{ page.title }}">
+  <!-- Social media card tags -->
+
+  <meta name="title" property="og:title" content="{{ page.title }}">
 
   {% if page.description %}
-    <meta name="twitter:description" content="{{ page.description }}">
+    <meta name="description" property="og:description" content="{{ page.description }}">
   {% else %}
-    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="description" property="og:description" content="{{ site.description }}">
   {% endif %}
 
   {% if page.image %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/{{ page.image }}">
-    <meta name="twitter:image:alt" content="{{ page.image-alt }}" />
+    <meta name="image" property="og:image" content="{{ site.url }}/images/{{ page.image }}">
+    <meta property="og:image:alt" content="{{ page.image-alt }}">
   {% else %}
-    <meta name="twitter:image:src" content="{{ site.url }}/images/jm-swallow-card.png">
-    <meta name="twitter:image:alt" content="Magenta and dark grey graphic of a swallow in traditional American tattoo style" />
+    <meta name="image" property="og:image" content="{{ site.url }}/images/jm-swallow-card.png">
+    <meta property="og:image:alt" content="Magenta and dark grey graphic of a swallow in traditional American tattoo style">
   {% endif %}
 
 </head>
