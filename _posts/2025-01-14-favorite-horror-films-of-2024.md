@@ -2,7 +2,7 @@
 title:        Favorite Horror Films of 2024
 date:         2025-01-14
 author:       Jen Myers
-category:     [notes, things]
+category:     [notes, film]
 layout:       post
 image:        notes/red-rooms.jpg
 image-alt:    Still from film RED ROOMS showing a straight-on close-up of a young white woman's face lit with the dim red light from a computer screen.
