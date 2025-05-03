@@ -2,7 +2,7 @@
 title:        All These Empty Spaces
 date:         2025-05-03
 author:       Jen Myers
-category:     [notes, film]
+category:     notes
 layout:       post
 image:        notes/ceiling-fan.png
 image-alt:    Still from TWIN PEAKS looking up the staircase of the Palmer home with a ceiling fan.
