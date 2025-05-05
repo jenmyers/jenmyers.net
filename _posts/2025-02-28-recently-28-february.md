@@ -22,7 +22,7 @@ description:  Regular round-up of recommended links and books/films/music
 - Historian Matt Lodder recently published a new overview of modern Western tattoo history, [_Tattoos: The Untold History of a Modern Art_](https://app.thestorygraph.com/books/2b8f1902-4004-42da-831e-7b5d245586db), and it's an excellent read.
 - I finally got my hands on a copy of William Lindsay Gresham's [_Monster Midway: An Uninhibited Look at the Glittering World of the Carny_](https://app.thestorygraph.com/books/b6206c26-cf12-439a-8a9e-dbff05dab8e4) and, while a product of its era in some unfortunate ways when it comes to describing some folks, it is also a treasure trove of carnival history and a loving portrait of individuals who lived their lives in that particular colorful margin.
 - [_Monolith_](https://letterboxd.com/film/monolith-2022/) is a lean sci-fi thriller with a strong central performance that I overlooked when it came out a couple of years ago. It's worth seeking out.
-- Even though I liked _The Substance_, I also appreciated how [_Babysitter_](https://letterboxd.com/film/babysitter-2022/), form 2022, covers similar thematic territory of the male gaze and how women see themselves, with more subtlety and quietly comedic drama.
+- Even though I liked _The Substance_, I also appreciated how [_Babysitter_](https://letterboxd.com/film/babysitter-2022/), from 2022, covers similar thematic territory of the male gaze and how women see themselves, with more subtlety and quietly comedic drama.
 - I recently finished a rewatch of _Twin Peaks: The Return_, which inspired many thoughts, but for some reason I hadn't really absorbed The Veils' Roadhouse performance the first time around and turns out it's great.
 
 <div class="youtube-video-container">
