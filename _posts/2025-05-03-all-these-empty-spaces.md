@@ -4,7 +4,7 @@ date:         2025-05-03
 author:       Jen Myers
 category:     notes
 layout:       post
-image:        notes/images/ceiling-fan.png
+image:        images/notes/ceiling-fan.png
 image-alt:    Still from TWIN PEAKS looking up the staircase of the Palmer home with a ceiling fan.
 description:  On David Lynch, empty spaces and the artistic witness.
 ---
