@@ -324,9 +324,16 @@ ul.log {
 // MOBILE LAYOUT
 
 @media only screen and (max-width: 768px){
+  body {
+    font-size: 1.2em;
+    line-height: 140%;
+  }
   .container {
     display: grid;
     grid-template-columns: 1fr;
+  }
+  .counter {
+    text-align: center;
   }
   nav {
     margin-top: 2em;
@@ -341,7 +348,6 @@ ul.log {
   }
   article {
     order: 0;
-    text-align: center;
   }
   p.forward {
     text-align: center;
