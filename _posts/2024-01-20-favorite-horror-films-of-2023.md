@@ -39,7 +39,7 @@ I have always like experimental filmmaker Jennifer Reeder's work, and as she has
 
 <h3><a href="https://letterboxd.com/film/infinity-pool/"><em>Infinity Pool</em></a></h3>
 
-In all honestly, this one didn't come together for me as well as I would have liked, and I liked it less than Brandon Cronenberg's first film, <em>Possessor</em>. But it's bold and strange and unique, and I value that more than perfect coherence.
+In all honestly, this one didn't come together for me as well as I would have liked, and I liked it less than Brandon Cronenberg's earlier film, <em>Possessor</em>. But it's bold and strange and unique, and I value that more than perfect coherence.
 
 <h3><a href="https://letterboxd.com/film/suitable-flesh/"><em>Suitable Flesh</em></a></h3>
 

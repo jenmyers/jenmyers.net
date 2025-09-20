@@ -25,7 +25,7 @@ You can crawl into this film one of two ways: through the meta commentary on hor
 
 <h3><a href="https://letterboxd.com/film/the-night-house/"><em>The Night House</em></a></h3>
 
-I'm not 100% sure what happened in _The Night House_, which is a quality I generally value in a film. It walked the middle path between supernatural conspiracy and hallucinatory grief, and I think it walked it successfully enough that I found it intriguing rather than muddled. Rebecca Hall, always the MVP, brings enough force totie the threads together.
+I'm not 100% sure what happened in _The Night House_, which is a quality I generally value in a film. It walked the middle path between supernatural conspiracy and hallucinatory grief, and I think it walked it successfully enough that I found it intriguing rather than muddled. Rebecca Hall, always the MVP, brings enough force to tie the threads together.
 
 <h3><a href="https://letterboxd.com/film/my-heart-cant-beat-unless-you-tell-it-to/"><em>My Heart Can’t Beat Unless You Tell It To</em></a></h3>
 
