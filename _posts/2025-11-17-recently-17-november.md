@@ -28,7 +28,7 @@ description:  Regular round-up of recommended links and books/films/music
 
 - I just read [_The Tenant_](https://app.thestorygraph.com/books/bd5592c0-1535-4d08-95ee-c84c98bcf300), the book adapted by the Polanski film, and I much prefer the book to the film now. Spiraling surrealism and psychological torment, two of my favorite things.
 
-- As a dedicated _The Americans_ fan like me, I picked up the new history of the Soviet Illegals program, [_The Illegals: Russia's Most Audacious Spies and Their Century-Long Mission to Infiltrate the West_](https://app.thestorygraph.com/books/4123cf4c-d9dc-4bd1-91ac-c631ed211dd8). Unlike the show, it does not feature Keri Russell's amazing hair and has about 95% less sex, but it's still pretty good.
+- As a dedicated _The Americans_ fan, I picked up the new history of the Soviet Illegals program, [_The Illegals: Russia's Most Audacious Spies and Their Century-Long Mission to Infiltrate the West_](https://app.thestorygraph.com/books/4123cf4c-d9dc-4bd1-91ac-c631ed211dd8). Unlike the show, it does not feature Keri Russell's amazing hair and has about 95% less sex, but it's still pretty good.
 
 - [_Spread Me_](https://app.thestorygraph.com/books/3df7a6f3-dd25-49cb-8f98-04beecba548d) by Sarah Gailey is a very strange sort of erotic horror. Complimentary.
 
