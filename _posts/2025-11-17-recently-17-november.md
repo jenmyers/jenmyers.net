@@ -26,9 +26,9 @@ description:  Regular round-up of recommended links and books/films/music
 
 ### Reading/Watching/Listening
 
-- I just read [_The Tenant_](https://app.thestorygraph.com/books/bd5592c0-1535-4d08-95ee-c84c98bcf300), the book adapted by the Polanski film, and even if you like the film you've got to read this book. Spiraling surrealism and psychological torment, two of my favorite things.
+- I just read [_The Tenant_](https://app.thestorygraph.com/books/bd5592c0-1535-4d08-95ee-c84c98bcf300), the book adapted by the Polanski film, and I much prefer the book to the film now. Spiraling surrealism and psychological torment, two of my favorite things.
 
-- If you're an _The Americans_ fan like me, you might be interested in the new history of the Soviet Illegals program, [_The Illegals: Russia's Most Audacious Spies and Their Century-Long Mission to Infiltrate the West_](https://app.thestorygraph.com/books/4123cf4c-d9dc-4bd1-91ac-c631ed211dd8). Unlike the show, it does not feature Keri Russell's amazing hair and has about 95% less sex, but it's still pretty good.
+- As a dedicated _The Americans_ fan like me, I picked up the new history of the Soviet Illegals program, [_The Illegals: Russia's Most Audacious Spies and Their Century-Long Mission to Infiltrate the West_](https://app.thestorygraph.com/books/4123cf4c-d9dc-4bd1-91ac-c631ed211dd8). Unlike the show, it does not feature Keri Russell's amazing hair and has about 95% less sex, but it's still pretty good.
 
 - [_Spread Me_](https://app.thestorygraph.com/books/3df7a6f3-dd25-49cb-8f98-04beecba548d) by Sarah Gailey is a very strange sort of erotic horror. Complimentary.
 
@@ -36,9 +36,9 @@ description:  Regular round-up of recommended links and books/films/music
 
 - At last we've got Tio Guillermo's [_Frankenstein_](https://letterboxd.com/film/frankenstein-2025/). I love the man but I don't always love his films. They either hit right on or just slightly miss the mark, and the latter is worse than completely missing the mark. I haven't decided yet which _Frankenstein_ is for me. It's a terrific characterization of Victor. While not aligned with all of the details of the novel, it definitely got Mary Shelley's thematic intent right. Let us not speak about ending with a Byron quote, shall we?
 
-- I finally sat down with [_Looking for Mr. Goodbar_](https://letterboxd.com/film/looking-for-mr-goodbar/). A difficult and ultimately harrowing film to watch. I imagine it can be easily misread as a morality tale about the deserved punishment of a wayward woman but I think it's a clear-eyed statement about how the women of a modern generation were just as trapped in a web of limited male expectations as the previous ones were.
+- I finally sat down with [_Looking for Mr. Goodbar_](https://letterboxd.com/film/looking-for-mr-goodbar/). A difficult and ultimately harrowing film to watch. I imagine it can be easily misread as a morality tale about the deserved punishment of a wayward woman, but I think it's actually a clear-eyed statement about how the women of a modern generation were just as trapped in a web of limited male expectations as the previous ones were.
 
-- What to do when you find yourself at the mercy of more than one situation that affects you greatly but must be decided without your say? Time to enter your era of the good old-fashioned madwoman and run wild. Maybe take up witchcraft. Find a man to sacrifice to some dark goddess. Fortunately, Flo has a new album for that.
+- What to do when you find yourself at the mercy of situations that affect you greatly but must be decided without your say? Time to enter your era of the good, old-fashioned madwoman and run wild. Maybe take up witchcraft. Find a man to sacrifice to some dark goddess. Fortunately, Flo has a new album for that.
 
 <div class="youtube-video-container">
 	<iframe width="560" height="315" src="https://www.youtube.com/embed/SbPvXYy8tVM?si=onax-TWGxuATW6Pz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
