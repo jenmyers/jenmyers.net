@@ -1,0 +1,26 @@
+<article>
+
+  <h2>Marginalia</h2>
+
+  {% for post in paginator.posts %}
+
+    <div class="marginalia">
+
+      {{ post.content }}
+
+      <p class="marginalia-date"><a href="{{ post.url }}">{{ post.date | date: "%-d %B %Y" }}</a></p>
+
+    </div>
+
+  {% endfor %}
+
+  {% if paginator.total_pages > 1 %}
+    {% if paginator.previous_page %}
+      <p class="forward">/<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a></p>
+    {% endif %}
+    {% if paginator.next_page %}
+      <p class="forward">/<a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a></p>
+    {% endif %}
+  {% endif %}
+
+</article>

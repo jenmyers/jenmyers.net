@@ -1,0 +1,15 @@
+<article>
+
+  <h2>Marginalia</h2>
+
+  <div class="marginalia">
+
+    {{ page.content }}
+
+    <p class="marginalia-date"><a href="{{ page.url }}">{{ page.date | date: "%-d %B %Y" }}</a></p>
+
+  </div>
+
+    <p class="forward">/<a href="{{ site.baseurl }}/marginalia/">All marginalia</a></p>
+
+</article>

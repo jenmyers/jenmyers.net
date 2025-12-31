@@ -41,7 +41,7 @@ h1 {
 h2 {
   font-size: 2em;
   line-height: 1.2em;
-  margin-bottom: 0.5em;
+  margin-bottom: 2em;
 }
 
 h3 {
@@ -153,6 +153,34 @@ article p:first-child, article h2:first-child {
 
 nav ul li {
   color: #999;
+}
+
+.marginalia {
+  border-bottom: 1px solid #e6e2dc;
+  margin-bottom: 4em;
+  padding-bottom: 0.5em;
+  p {
+    font-size: 1em;
+    line-height: 140%;
+  }
+  .marginalia-date {
+    font-family: "brandon-grotesque", sans-serif;
+    font-size: 0.8em;
+    margin-top: 1.5em;
+    margin-bottom: 0;
+    text-align: right;
+    text-transform: uppercase;
+    a {
+      border-bottom: none;
+      font-weight: 300;
+    }
+  }
+  .marginalia-credit {
+    font-size: 0.9em;
+  }
+  .marginalia-link {
+    font-size: 2em;
+  }
 }
 
 // LISTS
