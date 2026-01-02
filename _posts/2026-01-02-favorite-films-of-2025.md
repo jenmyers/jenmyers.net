@@ -50,4 +50,4 @@ Speed round:
 
 Despite the prodigious number of films I apparently watch, there are a lot of new films I haven't got to see yet. However, if I've left off one of your personal favorites from 2025, it's most likely because I specifically hated it and question your taste in general. But I will accept recommendations of films not on this list, should you have any to toss my way, please and thank you.
 
-For further film reference: [my favorite horror films of 2024](http://localhost:4000/notes/film/favorite-horror-films-of-2024.html) and all the [things I liked in 2024](http://localhost:4000/notes/film/favorite-horror-films-of-2024.html).
+For further film reference: [my favorite horror films of 2024](https://jenmyers.net/notes/film/favorite-horror-films-of-2024.html) and all the [things I liked in 2024](https://jenmyers.net/notes/things/things-i-liked-in-2024.html).
