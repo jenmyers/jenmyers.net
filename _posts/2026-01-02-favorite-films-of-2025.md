@@ -4,8 +4,8 @@ date:         2026-01-02
 author:       Jen Myers
 category:     notes
 layout:       post
-image:        notes/
-image-alt:    
+image:        notes/resurrection.jpg
+image-alt:    View of man from behind with his arms outspread from Bi Gan's 2025 film Resurrection
 description:  My favorite films from the past year.
 ---
 
