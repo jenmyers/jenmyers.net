@@ -397,6 +397,8 @@ ul.log {
 // RESPONSIVE VIDEO EMBEDS
 
 .youtube-video-container {
+  display: block;
+  margin: 1em 0;
   position: relative;
   overflow: hidden;
   width: 100%;
