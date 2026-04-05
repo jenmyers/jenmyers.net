@@ -119,6 +119,18 @@ li span {
   }
 }
 
+.marginalia-nav {
+  color: #ccc;
+  float: right;
+  font-family: "brandon-grotesque", sans-serif;
+  margin-left: 1em;
+  text-transform: uppercase;
+  & a {
+    border-bottom: none;
+    font-weight: 300;
+  }
+}
+
 .key {
   font-size: 0.8em;
   margin-top: 2em;
