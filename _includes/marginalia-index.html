@@ -15,11 +15,11 @@
   {% endfor %}
 
   {% if paginator.total_pages > 1 %}
-    {% if paginator.previous_page %}
-      <div class="marginalia-nav">/<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a></div>
-    {% endif %}
     {% if paginator.next_page %}
       <div class="marginalia-nav">/<a href="{{ paginator.next_page_path | prepend: site.baseurl }}">Older</a></div>
+    {% endif %}
+    {% if paginator.previous_page %}
+      <div class="marginalia-nav">/<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}">Newer</a></div>
     {% endif %}
   {% endif %}
 
