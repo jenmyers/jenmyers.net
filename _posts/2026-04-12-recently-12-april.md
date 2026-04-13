@@ -27,7 +27,7 @@ description:  Regular round-up of recommended links and books/films/music
 
 - I just began David Byrne's [_How Music Works_](https://app.thestorygraph.com/books/53c508ed-1225-430c-ac97-e5b94f56b626) but it's already fascinating.
 
-- A month or so ago I randomly came across a book in a St. Louis used bookstore I had never heard of before, by an author I had never heard of before: [_A Phantom Lover_](https://app.thestorygraph.com/books/53c508ed-1225-430c-ac97-e5b94f56b626) by the late Victorian writer Vernon Lee. So I picked it up and found it is an incredible feminist ghost story. A natural pairing with "The Yellow Wallpaper."
+- A month or so ago I randomly came across a book in a St. Louis used bookstore I had never heard of before, by an author I had never heard of before: [_A Phantom Lover_](https://app.thestorygraph.com/books/14d15a34-94e9-4375-9e21-10c04413d22c) by the late Victorian writer Vernon Lee. So I picked it up and found it is an incredible feminist ghost story. A natural pairing with "The Yellow Wallpaper."
 
 - It's been a good season for films from my two favorite working filmmakers. The first is Christian Petzold, whose most recent film [_Miroirs No. 3_](https://letterboxd.com/film/miroirs-no-3/) is now in theaters. No one creates cinematic exteriors from the depths of characters' emotional and mental states quite like he does.
 
