@@ -3,6 +3,9 @@ date:         2026-05-12
 author:       Jen Myers
 category:     marginalia
 layout:       marginalia-post
+image:        marginalia/amsterdam-02.jpg
+image-alt:    Close-up view of a bed of pink tulips
+description:  Photos from Amsterdam in May of 2026
 ---
 
 <div><img alt="" class="vert" src="{{ site.baseurl }}/images/marginalia/amsterdam-01.jpg" /></div>
