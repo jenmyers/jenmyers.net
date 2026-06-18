@@ -19,7 +19,7 @@ description:  Regular round-up of recommended links and books/films/music
 
 - _Crash_ is easily my favorite David Cronenberg film and now that it's enjoying its thirtieth anniversary, there are some pretty good essays out about it. [This one from Travis Woods on Letterboxd is great.](https://letterboxd.com/journal/crash-retrospective-anniversary/)
 
-- [The first straight-to-VHS movie in 20 Years is a deeply human gesture.](https://gizmodo.com/the-first-straight-to-vhs-movie-in-20-years-is-a-deeply-human-gesture-2000767518)
+- [The first straight-to-VHS movie in 20 years is a deeply human gesture.](https://gizmodo.com/the-first-straight-to-vhs-movie-in-20-years-is-a-deeply-human-gesture-2000767518)
 
 - "Whenever I do this mental exercise, something physical happens: Besides the change in what I am actively seeing, I inevitably find that parts of my body—my brow, jaw, neck, and shoulders—relax. I find that I am breathing more slowly, or not at all. I realize that in my habitual way of looking, I have been straining, trying to get at something. Looking can be aggressive. It turns out this might be my default way of looking." [Living in an alive world.](https://longreads.com/2026/06/02/jenny-odell-deep-listening-soft-eyes/)
 
